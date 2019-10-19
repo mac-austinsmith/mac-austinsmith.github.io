@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2009-10-27,Boston Celtics,L,89,95,L 1,0-1,-6
+2,2009-10-28,Toronto Raptors,L,91,101,L 2,0-2,-10
+3,2009-10-30,Minnesota Timberwolves,W,104,87,W 1,1-2,17
+4,2009-10-31,Charlotte Bobcats,W,90,79,W 2,2-2,11
+5,2009-11-03,Washington Wizards,W,102,90,W 3,3-2,12
+6,2009-11-05,Chicago Bulls,L,85,86,L 1,3-3,-1
+7,2009-11-06,New York Knicks,W,100,91,W 1,4-3,9
+8,2009-11-11,Orlando Magic,W,102,93,W 2,5-3,9
+9,2009-11-12,Miami Heat,W,111,104,W 3,6-3,7
+10,2009-11-14,Utah Jazz,W,107,103,W 4,7-3,4
+11,2009-11-17,Golden State Warriors,W,114,108,W 5,8-3,6
+12,2009-11-18,Washington Wizards,L,91,108,L 1,8-4,-17
+13,2009-11-20,Indiana Pacers,W,105,95,W 1,9-4,10
+14,2009-11-21,Philadelphia 76ers,W,97,91,W 2,10-4,6
+15,2009-11-25,Detroit Pistons,W,98,88,W 3,11-4,10
+16,2009-11-27,Charlotte Bobcats,L,87,94,L 1,11-5,-7
+17,2009-11-28,Dallas Mavericks,W,111,95,W 1,12-5,16
+18,2009-12-02,Phoenix Suns,W,107,90,W 2,13-5,17
+19,2009-12-04,Chicago Bulls,W,101,87,W 3,14-5,14
+20,2009-12-06,Milwaukee Bucks,W,101,86,W 4,15-5,15
+21,2009-12-08,Memphis Grizzlies,L,109,111,L 1,15-6,-2
+22,2009-12-09,Houston Rockets,L,85,95,L 2,15-7,-10
+23,2009-12-11,Portland Trail Blazers,W,104,99,W 1,16-7,5
+24,2009-12-13,Oklahoma City Thunder,W,102,89,W 2,17-7,13
+25,2009-12-15,New Jersey Nets,W,99,89,W 3,18-7,10
+26,2009-12-16,Philadelphia 76ers,W,108,101,W 4,19-7,7
+27,2009-12-18,Milwaukee Bucks,W,85,82,W 5,20-7,3
+28,2009-12-20,Dallas Mavericks,L,95,102,L 1,20-8,-7
+29,2009-12-21,Phoenix Suns,W,109,91,W 1,21-8,18
+30,2009-12-23,Sacramento Kings,W,117,104,W 2,22-8,13
+31,2009-12-25,Los Angeles Lakers,W,102,87,W 3,23-8,15
+32,2009-12-27,Houston Rockets,W,108,83,W 4,24-8,25
+33,2009-12-29,Atlanta Hawks,W,95,84,W 5,25-8,11
+34,2009-12-30,Atlanta Hawks,W,106,101,W 6,26-8,5
+35,2010-01-02,New Jersey Nets,W,94,86,W 7,27-8,8
+36,2010-01-03,Charlotte Bobcats,L,88,91,L 1,27-9,-3
+37,2010-01-06,Washington Wizards,W,121,98,W 1,28-9,23
+38,2010-01-08,Denver Nuggets,L,97,99,L 1,28-10,-2
+39,2010-01-10,Portland Trail Blazers,W,106,94,W 1,29-10,12
+40,2010-01-11,Golden State Warriors,W,117,114,W 2,30-10,3
+41,2010-01-14,Utah Jazz,L,96,97,L 1,30-11,-1
+42,2010-01-16,Los Angeles Clippers,W,102,101,W 1,31-11,1
+43,2010-01-19,Toronto Raptors,W,108,100,W 2,32-11,8
+44,2010-01-21,Los Angeles Lakers,W,93,87,W 3,33-11,6
+45,2010-01-23,Oklahoma City Thunder,W,100,99,W 4,34-11,1
+46,2010-01-25,Miami Heat,W,92,91,W 5,35-11,1
+47,2010-01-27,Minnesota Timberwolves,W,109,95,W 6,36-11,14
+48,2010-01-29,Indiana Pacers,W,94,73,W 7,37-11,21
+49,2010-01-31,Los Angeles Clippers,W,114,89,W 8,38-11,25
+50,2010-02-02,Memphis Grizzlies,W,105,89,W 9,39-11,16
+51,2010-02-04,Miami Heat,W,102,86,W 10,40-11,16
+52,2010-02-06,New York Knicks,W,113,106,W 11,41-11,7
+53,2010-02-09,New Jersey Nets,W,104,97,W 12,42-11,7
+54,2010-02-11,Orlando Magic,W,115,106,W 13,43-11,9
+55,2010-02-18,Denver Nuggets,L,116,118,L 1,43-12,-2
+56,2010-02-19,Charlotte Bobcats,L,93,110,L 2,43-13,-17
+57,2010-02-21,Orlando Magic,L,95,101,L 3,43-14,-6
+58,2010-02-23,New Orleans Hornets,W,105,95,W 1,44-14,10
+59,2010-02-25,Boston Celtics,W,108,88,W 2,45-14,20
+60,2010-02-26,Toronto Raptors,W,126,118,W 3,46-14,8
+61,2010-03-01,New York Knicks,W,124,93,W 4,47-14,31
+62,2010-03-03,New Jersey Nets,W,111,92,W 5,48-14,19
+63,2010-03-05,Detroit Pistons,W,99,92,W 6,49-14,7
+64,2010-03-06,Milwaukee Bucks,L,85,92,L 1,49-15,-7
+65,2010-03-08,San Antonio Spurs,W,97,95,W 1,50-15,2
+66,2010-03-12,Philadelphia 76ers,W,100,95,W 2,51-15,5
+67,2010-03-14,Boston Celtics,W,104,93,W 3,52-15,11
+68,2010-03-16,Detroit Pistons,W,113,101,W 4,53-15,12
+69,2010-03-17,Indiana Pacers,W,99,94,W 5,54-15,5
+70,2010-03-19,Chicago Bulls,W,92,85,W 6,55-15,7
+71,2010-03-21,Detroit Pistons,W,104,79,W 7,56-15,25
+72,2010-03-24,New Orleans Hornets,W,105,92,W 8,57-15,13
+73,2010-03-26,San Antonio Spurs,L,97,102,L 1,57-16,-5
+74,2010-03-28,Sacramento Kings,W,97,90,W 1,58-16,7
+75,2010-03-31,Milwaukee Bucks,W,101,98,W 2,59-16,3
+76,2010-04-02,Atlanta Hawks,W,93,88,W 3,60-16,5
+77,2010-04-04,Boston Celtics,L,113,117,L 1,60-17,-4
+78,2010-04-06,Toronto Raptors,W,113,101,W 1,61-17,12
+79,2010-04-08,Chicago Bulls,L,108,109,L 1,61-18,-1
+80,2010-04-09,Indiana Pacers,L,113,116,L 2,61-19,-3
+81,2010-04-11,Orlando Magic,L,92,98,L 3,61-20,-6
+82,2010-04-14,Atlanta Hawks,L,83,99,L 4,61-21,-16

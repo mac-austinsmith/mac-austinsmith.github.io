@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1986-11-01,Washington Bullets,W,113,106,W 1,1-0,7
+2,1986-11-02,Chicago Bulls,L,89,94,L 1,1-1,-5
+3,1986-11-05,Utah Jazz,L,95,111,L 2,1-2,-16
+4,1986-11-07,Golden State Warriors,W,115,114,W 1,2-2,1
+5,1986-11-08,Los Angeles Clippers,W,100,93,W 2,3-2,7
+6,1986-11-11,Sacramento Kings,L,114,119,L 1,3-3,-5
+7,1986-11-13,San Antonio Spurs,L,102,115,L 2,3-4,-13
+8,1986-11-15,Dallas Mavericks,L,96,111,L 3,3-5,-15
+9,1986-11-16,Houston Rockets,L,106,134,L 4,3-6,-28
+10,1986-11-19,Golden State Warriors,L,104,112,L 5,3-7,-8
+11,1986-11-20,Atlanta Hawks,L,89,108,L 6,3-8,-19
+12,1986-11-22,Detroit Pistons,L,84,93,L 7,3-9,-9
+13,1986-11-26,Portland Trail Blazers,W,118,114,W 1,4-9,4
+14,1986-11-29,New York Knicks,W,90,88,W 2,5-9,2
+15,1986-12-02,San Antonio Spurs,W,115,105,W 3,6-9,10
+16,1986-12-04,Detroit Pistons,W,113,105,W 4,7-9,8
+17,1986-12-06,Boston Celtics,W,88,86,W 5,8-9,2
+18,1986-12-09,Atlanta Hawks,L,98,122,L 1,8-10,-24
+19,1986-12-11,Indiana Pacers,L,94,115,L 2,8-11,-21
+20,1986-12-13,Philadelphia 76ers,W,123,120,W 1,9-11,3
+21,1986-12-16,Los Angeles Lakers,L,116,121,L 1,9-12,-5
+22,1986-12-17,Philadelphia 76ers,W,110,107,W 1,10-12,3
+23,1986-12-19,Utah Jazz,L,128,134,L 1,10-13,-6
+24,1986-12-21,Indiana Pacers,W,104,94,W 1,11-13,10
+25,1986-12-23,Chicago Bulls,L,92,108,L 1,11-14,-16
+26,1986-12-26,New Jersey Nets,W,121,112,W 1,12-14,9
+27,1986-12-27,New Jersey Nets,L,111,120,L 1,12-15,-9
+28,1986-12-29,Atlanta Hawks,W,107,106,W 1,13-15,1
+29,1986-12-30,Indiana Pacers,L,99,111,L 1,13-16,-12
+30,1987-01-02,Milwaukee Bucks,L,84,91,L 2,13-17,-7
+31,1987-01-03,Milwaukee Bucks,L,95,104,L 3,13-18,-9
+32,1987-01-06,Chicago Bulls,L,95,99,L 4,13-19,-4
+33,1987-01-08,Los Angeles Clippers,W,103,93,W 1,14-19,10
+34,1987-01-10,Atlanta Hawks,L,104,129,L 1,14-20,-25
+35,1987-01-13,Detroit Pistons,L,101,103,L 2,14-21,-2
+36,1987-01-14,Detroit Pistons,L,87,104,L 3,14-22,-17
+37,1987-01-16,Boston Celtics,L,128,133,L 4,14-23,-5
+38,1987-01-17,New York Knicks,W,116,110,W 1,15-23,6
+39,1987-01-19,Houston Rockets,L,103,127,L 1,15-24,-24
+40,1987-01-21,Milwaukee Bucks,L,107,111,L 2,15-25,-4
+41,1987-01-23,Chicago Bulls,L,96,117,L 3,15-26,-21
+42,1987-01-24,Chicago Bulls,W,114,84,W 1,16-26,30
+43,1987-01-28,Philadelphia 76ers,L,107,109,L 1,16-27,-2
+44,1987-01-29,Atlanta Hawks,W,102,91,W 1,17-27,11
+45,1987-01-31,Indiana Pacers,W,102,100,W 2,18-27,2
+46,1987-02-04,Boston Celtics,L,102,104,L 1,18-28,-2
+47,1987-02-05,Washington Bullets,L,85,94,L 2,18-29,-9
+48,1987-02-10,New York Knicks,W,100,95,W 1,19-29,5
+49,1987-02-12,Detroit Pistons,L,109,113,L 1,19-30,-4
+50,1987-02-15,New Jersey Nets,L,104,120,L 2,19-31,-16
+51,1987-02-16,Seattle SuperSonics,W,105,94,W 1,20-31,11
+52,1987-02-18,Sacramento Kings,W,129,119,W 2,21-31,10
+53,1987-02-19,New York Knicks,L,105,120,L 1,21-32,-15
+54,1987-02-22,Chicago Bulls,L,98,102,L 2,21-33,-4
+55,1987-02-23,Washington Bullets,W,109,105,W 1,22-33,4
+56,1987-02-25,Detroit Pistons,L,105,106,L 1,22-34,-1
+57,1987-02-28,Denver Nuggets,W,119,117,W 1,23-34,2
+58,1987-03-02,Seattle SuperSonics,L,107,123,L 1,23-35,-16
+59,1987-03-03,Portland Trail Blazers,L,122,127,L 2,23-36,-5
+60,1987-03-05,Phoenix Suns,L,102,126,L 3,23-37,-24
+61,1987-03-07,Los Angeles Lakers,L,118,122,L 4,23-38,-4
+62,1987-03-10,Philadelphia 76ers,L,91,100,L 5,23-39,-9
+63,1987-03-12,Phoenix Suns,W,116,109,W 1,24-39,7
+64,1987-03-14,Milwaukee Bucks,L,104,111,L 1,24-40,-7
+65,1987-03-15,Washington Bullets,L,89,97,L 2,24-41,-8
+66,1987-03-17,New Jersey Nets,W,110,91,W 1,25-41,19
+67,1987-03-18,Denver Nuggets,L,100,104,L 1,25-42,-4
+68,1987-03-20,New Jersey Nets,W,106,105,W 1,26-42,1
+69,1987-03-21,Indiana Pacers,L,76,77,L 1,26-43,-1
+70,1987-03-24,Boston Celtics,L,88,111,L 2,26-44,-23
+71,1987-03-27,Milwaukee Bucks,W,116,113,W 1,27-44,3
+72,1987-03-29,Dallas Mavericks,L,98,101,L 1,27-45,-3
+73,1987-03-31,Philadelphia 76ers,L,105,116,L 2,27-46,-11
+74,1987-04-01,Philadelphia 76ers,L,99,108,L 3,27-47,-9
+75,1987-04-04,Washington Bullets,L,111,127,L 4,27-48,-16
+76,1987-04-06,Atlanta Hawks,L,105,110,L 5,27-49,-5
+77,1987-04-07,Boston Celtics,W,107,83,W 1,28-49,24
+78,1987-04-09,Indiana Pacers,W,111,99,W 2,29-49,12
+79,1987-04-11,Milwaukee Bucks,L,93,121,L 1,29-50,-28
+80,1987-04-14,New Jersey Nets,W,113,95,W 1,30-50,18
+81,1987-04-15,Washington Bullets,L,101,110,L 1,30-51,-9
+82,1987-04-18,New York Knicks,W,122,113,W 1,31-51,9

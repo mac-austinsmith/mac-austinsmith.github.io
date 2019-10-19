@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2003-10-29,San Antonio Spurs,W,80,72,W 1,1-0,8
+2,2003-10-30,Houston Rockets,L,85,102,L 1,1-1,-17
+3,2003-11-01,Sacramento Kings,W,109,88,W 1,2-1,21
+4,2003-11-04,Indiana Pacers,L,60,71,L 1,2-2,-11
+5,2003-11-05,Cleveland Cavaliers,W,93,89,W 1,3-2,4
+6,2003-11-07,Los Angeles Clippers,L,102,104,L 1,3-3,-2
+7,2003-11-09,Toronto Raptors,L,76,89,L 2,3-4,-13
+8,2003-11-10,Chicago Bulls,W,105,97,W 1,4-4,8
+9,2003-11-14,Orlando Magic,W,106,101,W 2,5-4,5
+10,2003-11-18,Minnesota Timberwolves,L,76,89,L 1,5-5,-13
+11,2003-11-19,Milwaukee Bucks,W,94,86,W 1,6-5,8
+12,2003-11-21,Washington Wizards,W,108,87,W 2,7-5,21
+13,2003-11-22,Dallas Mavericks,L,101,115,L 1,7-6,-14
+14,2003-11-25,Phoenix Suns,W,110,80,W 1,8-6,30
+15,2003-11-28,Dallas Mavericks,W,113,103,W 2,9-6,10
+16,2003-11-29,Los Angeles Clippers,W,98,86,W 3,10-6,12
+17,2003-12-02,Cleveland Cavaliers,W,115,103,W 4,11-6,12
+18,2003-12-03,Golden State Warriors,W,117,109,W 5,12-6,8
+19,2003-12-05,Golden State Warriors,W,98,91,W 6,13-6,7
+20,2003-12-07,Boston Celtics,L,111,116,L 1,13-7,-5
+21,2003-12-09,Atlanta Hawks,L,98,112,L 2,13-8,-14
+22,2003-12-12,Philadelphia 76ers,W,86,77,W 1,14-8,9
+23,2003-12-13,New York Knicks,L,88,95,L 1,14-9,-7
+24,2003-12-16,New Orleans Hornets,W,116,94,W 1,15-9,22
+25,2003-12-17,Seattle SuperSonics,W,99,98,W 2,16-9,1
+26,2003-12-19,Los Angeles Lakers,L,99,101,L 1,16-10,-2
+27,2003-12-20,Seattle SuperSonics,L,106,115,L 2,16-11,-9
+28,2003-12-22,Memphis Grizzlies,W,106,99,W 1,17-11,7
+29,2003-12-26,Houston Rockets,W,95,94,W 2,18-11,1
+30,2003-12-28,Golden State Warriors,W,103,79,W 3,19-11,24
+31,2003-12-30,Toronto Raptors,L,74,81,L 1,19-12,-7
+32,2003-12-31,Los Angeles Clippers,L,104,120,L 2,19-13,-16
+33,2004-01-02,Portland Trail Blazers,W,106,96,W 1,20-13,10
+34,2004-01-03,Atlanta Hawks,L,76,84,L 1,20-14,-8
+35,2004-01-05,San Antonio Spurs,L,74,98,L 2,20-15,-24
+36,2004-01-07,Los Angeles Lakers,W,113,91,W 1,21-15,22
+37,2004-01-09,Utah Jazz,W,106,96,W 2,22-15,10
+38,2004-01-11,Sacramento Kings,L,106,117,L 1,22-16,-11
+39,2004-01-13,Phoenix Suns,W,105,92,W 1,23-16,13
+40,2004-01-14,Los Angeles Lakers,L,71,97,L 1,23-17,-26
+41,2004-01-16,Dallas Mavericks,L,88,91,L 2,23-18,-3
+42,2004-01-18,Miami Heat,W,88,80,W 1,24-18,8
+43,2004-01-20,Utah Jazz,W,96,75,W 2,25-18,21
+44,2004-01-21,Phoenix Suns,W,97,92,W 3,26-18,5
+45,2004-01-23,New Orleans Hornets,L,91,97,L 1,26-19,-6
+46,2004-01-25,Memphis Grizzlies,L,88,106,L 2,26-20,-18
+47,2004-01-26,Minnesota Timberwolves,L,95,97,L 3,26-21,-2
+48,2004-01-28,Chicago Bulls,W,115,99,W 1,27-21,16
+49,2004-01-31,Dallas Mavericks,W,107,102,W 2,28-21,5
+50,2004-02-02,Portland Trail Blazers,W,116,97,W 3,29-21,19
+51,2004-02-06,Golden State Warriors,L,87,96,L 1,29-22,-9
+52,2004-02-08,Sacramento Kings,L,92,115,L 2,29-23,-23
+53,2004-02-09,Memphis Grizzlies,W,86,83,W 1,30-23,3
+54,2004-02-12,Portland Trail Blazers,W,107,98,W 2,31-23,9
+55,2004-02-17,Philadelphia 76ers,W,106,85,W 3,32-23,21
+56,2004-02-20,Orlando Magic,L,98,102,L 1,32-24,-4
+57,2004-02-21,Miami Heat,L,81,97,L 2,32-25,-16
+58,2004-02-23,Memphis Grizzlies,L,106,109,L 3,32-26,-3
+59,2004-02-25,Los Angeles Lakers,L,111,112,L 4,32-27,-1
+60,2004-02-28,San Antonio Spurs,L,92,117,L 5,32-28,-25
+61,2004-02-29,New York Knicks,W,107,96,W 1,33-28,11
+62,2004-03-02,New Jersey Nets,L,91,95,L 1,33-29,-4
+63,2004-03-06,Detroit Pistons,L,66,97,L 2,33-30,-31
+64,2004-03-07,Indiana Pacers,L,94,103,L 3,33-31,-9
+65,2004-03-09,Washington Wizards,W,117,87,W 1,34-31,30
+66,2004-03-10,New Jersey Nets,L,97,98,L 1,34-32,-1
+67,2004-03-12,Milwaukee Bucks,W,117,111,W 1,35-32,6
+68,2004-03-14,Utah Jazz,W,102,75,W 2,36-32,27
+69,2004-03-17,Boston Celtics,L,100,104,L 1,36-33,-4
+70,2004-03-19,Detroit Pistons,L,75,94,L 2,36-34,-19
+71,2004-03-21,Minnesota Timberwolves,L,77,98,L 3,36-35,-21
+72,2004-03-22,Los Angeles Clippers,W,102,80,W 1,37-35,22
+73,2004-03-24,Minnesota Timberwolves,W,101,92,W 2,38-35,9
+74,2004-03-26,Seattle SuperSonics,L,86,102,L 1,38-36,-16
+75,2004-03-27,Utah Jazz,L,83,85,L 2,38-37,-2
+76,2004-03-30,Seattle SuperSonics,W,124,119,W 1,39-37,5
+77,2004-04-02,Houston Rockets,W,110,100,W 2,40-37,10
+78,2004-04-07,Phoenix Suns,W,111,96,W 3,41-37,15
+79,2004-04-09,Houston Rockets,L,103,106,L 1,41-38,-3
+80,2004-04-10,Portland Trail Blazers,W,110,100,W 1,42-38,10
+81,2004-04-12,Sacramento Kings,W,97,89,W 2,43-38,8
+82,2004-04-14,San Antonio Spurs,L,67,93,L 1,43-39,-26

@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2006-11-01,Atlanta Hawks,W,88,75,W 1,1-0,13
+2,2006-11-03,Orlando Magic,W,105,103,W 2,2-0,2
+3,2006-11-05,Miami Heat,W,107,98,W 3,3-0,9
+4,2006-11-07,Indiana Pacers,L,86,97,L 1,3-1,-11
+5,2006-11-08,Toronto Raptors,L,104,106,L 2,3-2,-2
+6,2006-11-10,Denver Nuggets,L,101,108,L 3,3-3,-7
+7,2006-11-15,Seattle SuperSonics,W,96,90,W 1,4-3,6
+8,2006-11-17,Phoenix Suns,L,94,106,L 1,4-4,-12
+9,2006-11-18,Los Angeles Clippers,L,97,103,L 2,4-5,-6
+10,2006-11-21,Detroit Pistons,L,87,97,L 3,4-6,-10
+11,2006-11-22,Milwaukee Bucks,L,94,98,L 4,4-7,-4
+12,2006-11-24,Chicago Bulls,W,123,108,W 1,5-7,15
+13,2006-11-25,Cleveland Cavaliers,L,95,108,L 1,5-8,-13
+14,2006-11-27,Miami Heat,L,91,103,L 2,5-9,-12
+15,2006-12-02,New Jersey Nets,L,107,112,L 3,5-10,-5
+16,2006-12-03,Minnesota Timberwolves,L,84,95,L 4,5-11,-11
+17,2006-12-06,Chicago Bulls,L,94,121,L 5,5-12,-27
+18,2006-12-08,Washington Wizards,L,98,113,L 6,5-13,-15
+19,2006-12-09,Orlando Magic,L,84,86,L 7,5-14,-2
+20,2006-12-11,Portland Trail Blazers,L,79,81,L 8,5-15,-2
+21,2006-12-13,Boston Celtics,L,81,101,L 9,5-16,-20
+22,2006-12-15,Dallas Mavericks,L,79,93,L 10,5-17,-14
+23,2006-12-16,San Antonio Spurs,L,98,103,L 11,5-18,-5
+24,2006-12-20,Indiana Pacers,L,93,101,L 12,5-19,-8
+25,2006-12-22,Boston Celtics,W,98,83,W 1,6-19,15
+26,2006-12-23,New York Knicks,W,98,77,W 2,7-19,21
+27,2006-12-26,Golden State Warriors,L,97,116,L 1,7-20,-19
+28,2006-12-27,Sacramento Kings,L,76,101,L 2,7-21,-25
+29,2006-12-29,Portland Trail Blazers,W,98,95,W 1,8-21,3
+30,2006-12-31,Los Angeles Lakers,L,94,104,L 1,8-22,-10
+31,2007-01-02,Denver Nuggets,W,108,97,W 1,9-22,11
+32,2007-01-03,Utah Jazz,L,87,98,L 1,9-23,-11
+33,2007-01-05,Minnesota Timberwolves,L,102,104,L 2,9-24,-2
+34,2007-01-09,Detroit Pistons,L,89,98,L 3,9-25,-9
+35,2007-01-10,New York Knicks,L,99,106,L 4,9-26,-7
+36,2007-01-12,Milwaukee Bucks,W,110,97,W 1,10-26,13
+37,2007-01-13,Charlotte Bobcats,L,83,89,L 1,10-27,-6
+38,2007-01-15,Toronto Raptors,L,86,104,L 2,10-28,-18
+39,2007-01-17,Memphis Grizzlies,L,102,118,L 3,10-29,-16
+40,2007-01-19,Miami Heat,W,98,95,W 1,11-29,3
+41,2007-01-21,San Antonio Spurs,L,85,99,L 1,11-30,-14
+42,2007-01-23,New Orleans/Oklahoma City Hornets,W,102,96,W 1,12-30,6
+43,2007-01-24,Cleveland Cavaliers,W,118,115,W 2,13-30,3
+44,2007-01-26,Cleveland Cavaliers,L,97,105,L 1,13-31,-8
+45,2007-01-27,Atlanta Hawks,W,104,89,W 1,14-31,15
+46,2007-01-29,Houston Rockets,L,84,105,L 1,14-32,-21
+47,2007-01-31,New Orleans/Oklahoma City Hornets,W,89,78,W 1,15-32,11
+48,2007-02-02,Golden State Warriors,L,101,102,L 1,15-33,-1
+49,2007-02-05,New Jersey Nets,W,100,98,W 1,16-33,2
+50,2007-02-07,Charlotte Bobcats,W,92,83,W 2,17-33,9
+51,2007-02-09,Los Angeles Clippers,L,89,90,L 1,17-34,-1
+52,2007-02-11,Dallas Mavericks,L,89,106,L 2,17-35,-17
+53,2007-02-14,Washington Wizards,L,85,92,L 3,17-36,-7
+54,2007-02-21,New York Knicks,W,104,84,W 1,18-36,20
+55,2007-02-23,Charlotte Bobcats,L,87,102,L 1,18-37,-15
+56,2007-02-24,Milwaukee Bucks,L,90,109,L 2,18-38,-19
+57,2007-02-26,Sacramento Kings,W,89,82,W 1,19-38,7
+58,2007-02-28,Phoenix Suns,W,99,94,W 2,20-38,5
+59,2007-03-02,Memphis Grizzlies,W,117,112,W 3,21-38,5
+60,2007-03-04,New Jersey Nets,W,99,86,W 4,22-38,13
+61,2007-03-07,Seattle SuperSonics,W,92,89,W 5,23-38,3
+62,2007-03-09,Los Angeles Lakers,W,108,92,W 6,24-38,16
+63,2007-03-10,Indiana Pacers,W,100,96,W 7,25-38,4
+64,2007-03-13,Atlanta Hawks,L,92,104,L 1,25-39,-12
+65,2007-03-14,Chicago Bulls,L,87,88,L 2,25-40,-1
+66,2007-03-16,Utah Jazz,W,89,88,W 1,26-40,1
+67,2007-03-18,Houston Rockets,L,74,124,L 1,26-41,-50
+68,2007-03-20,Detroit Pistons,L,75,96,L 2,26-42,-21
+69,2007-03-23,Charlotte Bobcats,W,106,97,W 1,27-42,9
+70,2007-03-24,Miami Heat,W,93,85,W 2,28-42,8
+71,2007-03-28,Washington Wizards,L,108,111,L 1,28-43,-3
+72,2007-03-30,Boston Celtics,W,88,82,W 1,29-43,6
+73,2007-03-31,New Jersey Nets,L,82,86,L 1,29-44,-4
+74,2007-04-04,New York Knicks,W,92,90,W 1,30-44,2
+75,2007-04-06,Toronto Raptors,L,85,94,L 1,30-45,-9
+76,2007-04-08,Atlanta Hawks,W,109,104,W 1,31-45,5
+77,2007-04-10,Indiana Pacers,W,90,86,W 2,32-45,4
+78,2007-04-11,Boston Celtics,W,102,94,W 3,33-45,8
+79,2007-04-14,Orlando Magic,L,87,104,L 1,33-46,-17
+80,2007-04-15,Detroit Pistons,W,102,91,W 1,34-46,11
+81,2007-04-17,Cleveland Cavaliers,L,92,98,L 1,34-47,-6
+82,2007-04-18,Toronto Raptors,W,122,119,W 1,35-47,3

@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1974-10-19,New Orleans Jazz,W,110,92,W 1,1-0,18
+2,1974-10-22,Kansas City-Omaha Kings,W,123,121,W 2,2-0,2
+3,1974-10-23,Houston Rockets,W,99,95,W 3,3-0,4
+4,1974-10-25,Milwaukee Bucks,W,111,96,W 4,4-0,15
+5,1974-10-26,Milwaukee Bucks,W,101,95,W 5,5-0,6
+6,1974-10-29,Chicago Bulls,W,96,80,W 6,6-0,16
+7,1974-10-30,New York Knicks,W,94,86,W 7,7-0,8
+8,1974-10-31,Houston Rockets,L,92,95,L 1,7-1,-3
+9,1974-11-02,Phoenix Suns,W,108,94,W 1,8-1,14
+10,1974-11-06,Cleveland Cavaliers,L,99,107,L 1,8-2,-8
+11,1974-11-09,Chicago Bulls,W,96,89,W 1,9-2,7
+12,1974-11-13,Kansas City-Omaha Kings,W,118,81,W 2,10-2,37
+13,1974-11-15,New Orleans Jazz,W,104,95,W 3,11-2,9
+14,1974-11-16,Boston Celtics,L,109,124,L 1,11-3,-15
+15,1974-11-19,New York Knicks,L,85,86,L 2,11-4,-1
+16,1974-11-20,Buffalo Braves,L,104,115,L 3,11-5,-11
+17,1974-11-22,Portland Trail Blazers,W,117,99,W 1,12-5,18
+18,1974-11-24,Los Angeles Lakers,W,111,108,W 2,13-5,3
+19,1974-11-26,Atlanta Hawks,L,102,119,L 1,13-6,-17
+20,1974-11-27,Atlanta Hawks,W,114,104,W 1,14-6,10
+21,1974-11-29,Buffalo Braves,W,96,93,W 2,15-6,3
+22,1974-11-30,Seattle SuperSonics,W,122,90,W 3,16-6,32
+23,1974-12-04,Portland Trail Blazers,W,114,87,W 4,17-6,27
+24,1974-12-07,Detroit Pistons,W,94,89,W 5,18-6,5
+25,1974-12-08,Cleveland Cavaliers,W,88,75,W 6,19-6,13
+26,1974-12-11,Detroit Pistons,L,89,103,L 1,19-7,-14
+27,1974-12-13,Boston Celtics,W,108,89,W 1,20-7,19
+28,1974-12-14,Golden State Warriors,W,99,91,W 2,21-7,8
+29,1974-12-17,Atlanta Hawks,L,85,96,L 1,21-8,-11
+30,1974-12-18,New Orleans Jazz,W,113,90,W 1,22-8,23
+31,1974-12-20,Houston Rockets,L,91,116,L 1,22-9,-25
+32,1974-12-21,Philadelphia 76ers,W,117,101,W 1,23-9,16
+33,1974-12-23,Milwaukee Bucks,W,106,103,W 2,24-9,3
+34,1974-12-25,Atlanta Hawks,W,110,92,W 3,25-9,18
+35,1974-12-30,Cleveland Cavaliers,W,103,90,W 4,26-9,13
+36,1975-01-01,Seattle SuperSonics,L,118,123,L 1,26-10,-5
+37,1975-01-04,Golden State Warriors,L,96,104,L 2,26-11,-8
+38,1975-01-05,Los Angeles Lakers,L,109,112,L 3,26-12,-3
+39,1975-01-08,Phoenix Suns,W,102,95,W 1,27-12,7
+40,1975-01-09,Houston Rockets,W,102,94,W 2,28-12,8
+41,1975-01-11,Los Angeles Lakers,W,102,90,W 3,29-12,12
+42,1975-01-16,Atlanta Hawks,L,85,108,L 1,29-13,-23
+43,1975-01-17,Philadelphia 76ers,W,103,92,W 1,30-13,11
+44,1975-01-18,Golden State Warriors,W,125,101,W 2,31-13,24
+45,1975-01-21,Cleveland Cavaliers,W,97,88,W 3,32-13,9
+46,1975-01-22,Kansas City-Omaha Kings,W,97,88,W 4,33-13,9
+47,1975-01-25,Cleveland Cavaliers,W,94,92,W 5,34-13,2
+48,1975-01-26,Houston Rockets,W,118,90,W 6,35-13,28
+49,1975-01-31,New Orleans Jazz,W,106,101,W 7,36-13,5
+50,1975-02-02,Chicago Bulls,L,80,97,L 1,36-14,-17
+51,1975-02-04,Phoenix Suns,L,89,90,L 2,36-15,-1
+52,1975-02-06,Golden State Warriors,W,98,97,W 1,37-15,1
+53,1975-02-07,Seattle SuperSonics,W,99,76,W 2,38-15,23
+54,1975-02-08,Portland Trail Blazers,L,96,100,L 1,38-16,-4
+55,1975-02-12,Milwaukee Bucks,W,112,108,W 1,39-16,4
+56,1975-02-15,New York Knicks,W,108,106,W 2,40-16,2
+57,1975-02-16,New York Knicks,W,125,104,W 3,41-16,21
+58,1975-02-19,Phoenix Suns,W,120,97,W 4,42-16,23
+59,1975-02-20,Cleveland Cavaliers,L,95,106,L 1,42-17,-11
+60,1975-02-21,Detroit Pistons,W,121,96,W 1,43-17,25
+61,1975-02-23,Portland Trail Blazers,W,113,98,W 2,44-17,15
+62,1975-02-25,Buffalo Braves,W,111,93,W 3,45-17,18
+63,1975-02-26,Seattle SuperSonics,W,104,98,W 4,46-17,6
+64,1975-02-28,Detroit Pistons,W,106,95,W 5,47-17,11
+65,1975-03-02,Los Angeles Lakers,W,117,104,W 6,48-17,13
+66,1975-03-05,Atlanta Hawks,W,118,112,W 7,49-17,6
+67,1975-03-08,Philadelphia 76ers,W,113,92,W 8,50-17,21
+68,1975-03-09,Philadelphia 76ers,L,100,113,L 1,50-18,-13
+69,1975-03-11,Atlanta Hawks,W,99,87,W 1,51-18,12
+70,1975-03-12,Houston Rockets,W,117,88,W 2,52-18,29
+71,1975-03-14,Kansas City-Omaha Kings,L,102,103,L 1,52-19,-1
+72,1975-03-18,Cleveland Cavaliers,L,98,112,L 2,52-20,-14
+73,1975-03-19,Boston Celtics,W,97,80,W 1,53-20,17
+74,1975-03-21,New Orleans Jazz,W,122,109,W 2,54-20,13
+75,1975-03-22,Cleveland Cavaliers,W,100,97,W 3,55-20,3
+76,1975-03-26,Buffalo Braves,L,91,94,L 1,55-21,-3
+77,1975-03-30,Chicago Bulls,W,94,82,W 1,56-21,12
+78,1975-04-01,New Orleans Jazz,W,110,101,W 2,57-21,9
+79,1975-04-02,Houston Rockets,W,112,85,W 3,58-21,27
+80,1975-04-04,Boston Celtics,L,94,95,L 1,58-22,-1
+81,1975-04-05,Atlanta Hawks,W,123,115,W 1,59-22,8
+82,1975-04-06,New Orleans Jazz,W,119,103,W 2,60-22,16

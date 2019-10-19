@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1990-11-02,Golden State Warriors,L,158,162,L 1,0-1,-4
+2,1990-11-03,Dallas Mavericks,L,110,140,L 2,0-2,-30
+3,1990-11-06,Houston Rockets,L,135,145,L 3,0-3,-10
+4,1990-11-07,San Antonio Spurs,L,153,161,L 4,0-4,-8
+5,1990-11-09,Seattle SuperSonics,L,129,135,L 5,0-5,-6
+6,1990-11-10,Phoenix Suns,L,143,173,L 6,0-6,-30
+7,1990-11-13,Portland Trail Blazers,L,129,155,L 7,0-7,-26
+8,1990-11-15,Minnesota Timberwolves,W,121,108,W 1,1-7,13
+9,1990-11-17,Portland Trail Blazers,L,112,143,L 1,1-8,-31
+10,1990-11-19,Los Angeles Lakers,L,105,122,L 2,1-9,-17
+11,1990-11-21,Los Angeles Lakers,L,121,141,L 3,1-10,-20
+12,1990-11-24,Chicago Bulls,L,145,151,L 4,1-11,-6
+13,1990-11-27,Orlando Magic,W,124,113,W 1,2-11,11
+14,1990-11-29,Sacramento Kings,W,136,128,W 2,3-11,8
+15,1990-12-01,Los Angeles Clippers,L,121,137,L 1,3-12,-16
+16,1990-12-04,Cleveland Cavaliers,L,117,121,L 2,3-13,-4
+17,1990-12-05,Boston Celtics,L,140,148,L 3,3-14,-8
+18,1990-12-07,Philadelphia 76ers,L,126,135,L 4,3-15,-9
+19,1990-12-08,Charlotte Hornets,W,126,119,W 1,4-15,7
+20,1990-12-11,Washington Bullets,W,128,125,W 2,5-15,3
+21,1990-12-13,Utah Jazz,L,126,141,L 1,5-16,-15
+22,1990-12-15,Phoenix Suns,L,134,142,L 2,5-17,-8
+23,1990-12-19,San Antonio Spurs,L,109,144,L 3,5-18,-35
+24,1990-12-22,Dallas Mavericks,L,110,119,L 4,5-19,-9
+25,1990-12-23,Portland Trail Blazers,L,101,132,L 5,5-20,-31
+26,1990-12-26,Sacramento Kings,W,128,112,W 1,6-20,16
+27,1990-12-27,Miami Heat,L,114,124,L 1,6-21,-10
+28,1990-12-29,Washington Bullets,L,133,161,L 2,6-22,-28
+29,1990-12-30,Orlando Magic,L,116,155,L 3,6-23,-39
+30,1991-01-02,Detroit Pistons,L,107,118,L 4,6-24,-11
+31,1991-01-03,New York Knicks,L,108,135,L 5,6-25,-27
+32,1991-01-05,Philadelphia 76ers,L,104,120,L 6,6-26,-16
+33,1991-01-08,Golden State Warriors,L,125,147,L 7,6-27,-22
+34,1991-01-10,Houston Rockets,L,133,156,L 8,6-28,-23
+35,1991-01-12,Cleveland Cavaliers,W,128,120,W 1,7-28,8
+36,1991-01-15,Seattle SuperSonics,L,99,146,L 1,7-29,-47
+37,1991-01-16,Charlotte Hornets,W,111,104,W 1,8-29,7
+38,1991-01-19,San Antonio Spurs,L,108,117,L 1,8-30,-9
+39,1991-01-21,Minnesota Timberwolves,W,115,110,W 1,9-30,5
+40,1991-01-24,New York Knicks,W,120,117,W 2,10-30,3
+41,1991-01-26,Utah Jazz,W,120,115,W 3,11-30,5
+42,1991-01-29,Milwaukee Bucks,W,126,122,W 4,12-30,4
+43,1991-01-31,New Jersey Nets,W,123,119,W 5,13-30,4
+44,1991-02-02,Atlanta Hawks,W,126,125,W 6,14-30,1
+45,1991-02-05,Phoenix Suns,L,103,126,L 1,14-31,-23
+46,1991-02-12,Orlando Magic,L,122,129,L 2,14-32,-7
+47,1991-02-14,Miami Heat,L,112,141,L 3,14-33,-29
+48,1991-02-15,New Jersey Nets,L,110,138,L 4,14-34,-28
+49,1991-02-17,Boston Celtics,L,108,126,L 5,14-35,-18
+50,1991-02-18,Minnesota Timberwolves,L,114,128,L 6,14-36,-14
+51,1991-02-21,Portland Trail Blazers,L,111,122,L 7,14-37,-11
+52,1991-02-23,Golden State Warriors,W,150,145,W 1,15-37,5
+53,1991-02-24,Los Angeles Clippers,L,112,129,L 1,15-38,-17
+54,1991-02-26,Houston Rockets,L,99,129,L 2,15-39,-30
+55,1991-02-28,Los Angeles Lakers,L,108,121,L 3,15-40,-13
+56,1991-03-02,Orlando Magic,W,126,111,W 1,16-40,15
+57,1991-03-05,Atlanta Hawks,L,127,139,L 1,16-41,-12
+58,1991-03-07,Indiana Pacers,L,125,145,L 2,16-42,-20
+59,1991-03-08,Orlando Magic,L,113,129,L 3,16-43,-16
+60,1991-03-10,Dallas Mavericks,W,124,110,W 1,17-43,14
+61,1991-03-12,Los Angeles Clippers,L,123,126,L 1,17-44,-3
+62,1991-03-14,Minnesota Timberwolves,W,112,105,W 1,18-44,7
+63,1991-03-15,Los Angeles Lakers,L,117,127,L 1,18-45,-10
+64,1991-03-17,Indiana Pacers,L,92,130,L 2,18-46,-38
+65,1991-03-18,Chicago Bulls,L,108,121,L 3,18-47,-13
+66,1991-03-20,Utah Jazz,L,98,106,L 4,18-48,-8
+67,1991-03-21,Golden State Warriors,L,116,136,L 5,18-49,-20
+68,1991-03-23,Milwaukee Bucks,L,136,140,L 6,18-50,-4
+69,1991-03-25,Detroit Pistons,L,94,118,L 7,18-51,-24
+70,1991-03-29,Sacramento Kings,W,140,122,W 1,19-51,18
+71,1991-03-30,San Antonio Spurs,L,116,130,L 1,19-52,-14
+72,1991-04-02,Dallas Mavericks,L,126,133,L 2,19-53,-7
+73,1991-04-04,Minnesota Timberwolves,L,122,134,L 3,19-54,-12
+74,1991-04-05,Houston Rockets,L,120,126,L 4,19-55,-6
+75,1991-04-07,Seattle SuperSonics,L,117,124,L 5,19-56,-7
+76,1991-04-08,Seattle SuperSonics,L,112,118,L 6,19-57,-6
+77,1991-04-12,Los Angeles Clippers,L,130,146,L 7,19-58,-16
+78,1991-04-13,Utah Jazz,L,110,121,L 8,19-59,-11
+79,1991-04-16,Phoenix Suns,L,118,153,L 9,19-60,-35
+80,1991-04-18,Sacramento Kings,L,104,123,L 10,19-61,-19
+81,1991-04-19,San Antonio Spurs,W,125,122,W 1,20-61,3
+82,1991-04-21,Houston Rockets,L,125,131,L 1,20-62,-6

@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2007-11-01,Seattle SuperSonics,W,106,99,W 1,1-0,7
+2,2007-11-02,Los Angeles Lakers,L,98,119,L 1,1-1,-21
+3,2007-11-04,Cleveland Cavaliers,W,103,92,W 1,2-1,11
+4,2007-11-06,Charlotte Bobcats,W,115,83,W 2,3-1,32
+5,2007-11-07,Atlanta Hawks,L,96,105,L 1,3-2,-9
+6,2007-11-09,Miami Heat,W,106,101,W 1,4-2,5
+7,2007-11-10,Orlando Magic,W,106,96,W 2,5-2,10
+8,2007-11-13,New York Knicks,W,113,102,W 3,6-2,11
+9,2007-11-15,Chicago Bulls,W,112,102,W 4,7-2,10
+10,2007-11-17,Houston Rockets,W,115,105,W 5,8-2,10
+11,2007-11-20,Sacramento Kings,W,100,98,W 6,9-2,2
+12,2007-11-21,Sacramento Kings,W,127,111,W 7,10-2,16
+13,2007-11-23,Los Angeles Clippers,W,113,94,W 8,11-2,19
+14,2007-11-26,Golden State Warriors,L,114,129,L 1,11-3,-15
+15,2007-11-28,Houston Rockets,L,94,100,L 2,11-4,-6
+16,2007-11-30,Orlando Magic,W,110,106,W 1,12-4,4
+17,2007-12-02,New York Knicks,W,115,104,W 2,13-4,11
+18,2007-12-04,Indiana Pacers,W,121,117,W 3,14-4,4
+19,2007-12-05,Toronto Raptors,W,136,123,W 4,15-4,13
+20,2007-12-07,Washington Wizards,W,122,107,W 5,16-4,15
+21,2007-12-08,Minnesota Timberwolves,L,93,100,L 1,16-5,-7
+22,2007-12-10,Miami Heat,L,113,117,L 2,16-6,-4
+23,2007-12-12,Utah Jazz,W,103,98,W 1,17-6,5
+24,2007-12-15,New Orleans Hornets,L,98,101,L 1,17-7,-3
+25,2007-12-17,San Antonio Spurs,W,100,95,W 1,18-7,5
+26,2007-12-19,Dallas Mavericks,L,105,108,L 1,18-8,-3
+27,2007-12-22,Toronto Raptors,W,122,103,W 1,19-8,19
+28,2007-12-25,Los Angeles Lakers,L,115,122,L 1,19-9,-7
+29,2007-12-27,Los Angeles Clippers,W,108,88,W 1,20-9,20
+30,2007-12-28,Los Angeles Clippers,W,94,88,W 2,21-9,6
+31,2007-12-30,Sacramento Kings,W,117,102,W 3,22-9,15
+32,2008-01-03,Seattle SuperSonics,W,104,96,W 4,23-9,8
+33,2008-01-05,New Orleans Hornets,L,113,118,L 1,23-10,-5
+34,2008-01-07,Denver Nuggets,W,137,115,W 1,24-10,22
+35,2008-01-09,Indiana Pacers,W,129,122,W 2,25-10,7
+36,2008-01-10,Utah Jazz,L,86,108,L 1,25-11,-22
+37,2008-01-12,Milwaukee Bucks,W,122,114,W 1,26-11,8
+38,2008-01-15,Los Angeles Clippers,L,90,97,L 1,26-12,-7
+39,2008-01-17,Los Angeles Lakers,W,106,98,W 1,27-12,8
+40,2008-01-18,Minnesota Timberwolves,W,115,95,W 2,28-12,20
+41,2008-01-20,New Jersey Nets,W,116,92,W 3,29-12,24
+42,2008-01-22,Milwaukee Bucks,W,114,105,W 4,30-12,9
+43,2008-01-23,Minnesota Timberwolves,L,107,117,L 1,30-13,-10
+44,2008-01-25,Cleveland Cavaliers,W,110,108,W 1,31-13,2
+45,2008-01-27,Chicago Bulls,W,88,77,W 2,32-13,11
+46,2008-01-29,Atlanta Hawks,W,125,92,W 3,33-13,33
+47,2008-01-31,San Antonio Spurs,L,81,84,L 1,33-14,-3
+48,2008-02-04,Charlotte Bobcats,W,118,104,W 1,34-14,14
+49,2008-02-06,New Orleans Hornets,L,130,132,L 1,34-15,-2
+50,2008-02-08,Seattle SuperSonics,W,103,99,W 1,35-15,4
+51,2008-02-10,Washington Wizards,W,108,107,W 2,36-15,1
+52,2008-02-13,Golden State Warriors,L,118,120,L 1,36-16,-2
+53,2008-02-14,Dallas Mavericks,W,109,97,W 1,37-16,12
+54,2008-02-20,Los Angeles Lakers,L,124,130,L 1,37-17,-6
+55,2008-02-22,Boston Celtics,W,85,77,W 1,38-17,8
+56,2008-02-24,Detroit Pistons,L,86,116,L 1,38-18,-30
+57,2008-02-26,Memphis Grizzlies,W,127,113,W 1,39-18,14
+58,2008-02-27,New Orleans Hornets,L,103,120,L 1,39-19,-17
+59,2008-03-01,Philadelphia 76ers,L,114,119,L 2,39-20,-5
+60,2008-03-04,Portland Trail Blazers,W,97,92,W 1,40-20,5
+61,2008-03-05,Denver Nuggets,L,113,126,L 1,40-21,-13
+62,2008-03-07,Utah Jazz,L,118,126,L 2,40-22,-8
+63,2008-03-09,San Antonio Spurs,W,94,87,W 1,41-22,7
+64,2008-03-11,Memphis Grizzlies,W,132,111,W 2,42-22,21
+65,2008-03-13,Golden State Warriors,W,123,115,W 3,43-22,8
+66,2008-03-15,Sacramento Kings,W,127,99,W 4,44-22,28
+67,2008-03-18,Portland Trail Blazers,W,111,98,W 5,45-22,13
+68,2008-03-19,Seattle SuperSonics,W,110,98,W 6,46-22,12
+69,2008-03-22,Houston Rockets,W,122,113,W 7,47-22,9
+70,2008-03-24,Detroit Pistons,L,105,110,L 1,47-23,-5
+71,2008-03-26,Boston Celtics,L,97,117,L 2,47-24,-20
+72,2008-03-28,Philadelphia 76ers,W,107,93,W 1,48-24,14
+73,2008-03-29,New Jersey Nets,W,110,104,W 2,49-24,6
+74,2008-03-31,Denver Nuggets,W,132,117,W 3,50-24,15
+75,2008-04-01,Denver Nuggets,L,120,126,L 1,50-25,-6
+76,2008-04-04,Minnesota Timberwolves,W,117,88,W 1,51-25,29
+77,2008-04-06,Dallas Mavericks,L,98,105,L 1,51-26,-7
+78,2008-04-08,Memphis Grizzlies,W,127,113,W 1,52-26,14
+79,2008-04-09,San Antonio Spurs,W,96,79,W 2,53-26,17
+80,2008-04-11,Houston Rockets,L,90,101,L 1,53-27,-11
+81,2008-04-14,Golden State Warriors,W,122,116,W 1,54-27,6
+82,2008-04-16,Portland Trail Blazers,W,100,91,W 2,55-27,9

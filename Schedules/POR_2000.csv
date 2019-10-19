@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1999-11-02,Vancouver Grizzlies,W,106,86,W 1,1-0,20
+2,1999-11-03,Los Angeles Clippers,W,121,98,W 2,2-0,23
+3,1999-11-05,Denver Nuggets,W,95,83,W 3,3-0,12
+4,1999-11-06,Los Angeles Lakers,W,97,82,W 4,4-0,15
+5,1999-11-09,Utah Jazz,L,87,92,L 1,4-1,-5
+6,1999-11-12,Denver Nuggets,W,93,78,W 1,5-1,15
+7,1999-11-13,Atlanta Hawks,W,131,95,W 2,6-1,36
+8,1999-11-16,Miami Heat,W,101,96,W 3,7-1,5
+9,1999-11-17,Orlando Magic,W,81,79,W 4,8-1,2
+10,1999-11-19,Philadelphia 76ers,W,97,91,W 5,9-1,6
+11,1999-11-20,Charlotte Hornets,W,100,96,W 6,10-1,4
+12,1999-11-23,Cleveland Cavaliers,L,100,103,L 1,10-2,-3
+13,1999-11-24,Minnesota Timberwolves,W,88,81,W 1,11-2,7
+14,1999-11-26,Houston Rockets,W,91,88,W 2,12-2,3
+15,1999-11-27,Los Angeles Clippers,W,88,71,W 3,13-2,17
+16,1999-11-29,Indiana Pacers,L,91,93,L 1,13-3,-2
+17,1999-12-01,Charlotte Hornets,W,94,90,W 1,14-3,4
+18,1999-12-03,Los Angeles Lakers,L,80,93,L 1,14-4,-13
+19,1999-12-05,Phoenix Suns,W,92,90,W 1,15-4,2
+20,1999-12-07,Miami Heat,L,76,86,L 1,15-5,-10
+21,1999-12-09,Minnesota Timberwolves,W,90,86,W 1,16-5,4
+22,1999-12-11,Sacramento Kings,W,101,96,W 2,17-5,5
+23,1999-12-16,Seattle SuperSonics,W,107,81,W 3,18-5,26
+24,1999-12-17,Phoenix Suns,L,102,110,L 1,18-6,-8
+25,1999-12-20,Denver Nuggets,L,88,97,L 2,18-7,-9
+26,1999-12-21,Houston Rockets,W,89,79,W 1,19-7,10
+27,1999-12-23,Golden State Warriors,W,111,91,W 2,20-7,20
+28,1999-12-28,Seattle SuperSonics,W,94,89,W 3,21-7,5
+29,1999-12-30,Philadelphia 76ers,W,108,90,W 4,22-7,18
+30,2000-01-03,Chicago Bulls,W,88,63,W 5,23-7,25
+31,2000-01-04,Toronto Raptors,W,114,90,W 6,24-7,24
+32,2000-01-06,Minnesota Timberwolves,L,96,98,L 1,24-8,-2
+33,2000-01-08,Phoenix Suns,W,96,91,W 1,25-8,5
+34,2000-01-10,Dallas Mavericks,W,107,94,W 2,26-8,13
+35,2000-01-12,Cleveland Cavaliers,W,95,75,W 3,27-8,20
+36,2000-01-14,Phoenix Suns,W,105,83,W 4,28-8,22
+37,2000-01-15,Dallas Mavericks,L,105,113,L 1,28-9,-8
+38,2000-01-18,Houston Rockets,L,89,90,L 2,28-10,-1
+39,2000-01-19,San Antonio Spurs,W,105,95,W 1,29-10,10
+40,2000-01-22,Los Angeles Lakers,W,95,91,W 2,30-10,4
+41,2000-01-24,New Jersey Nets,W,101,87,W 3,31-10,14
+42,2000-01-27,Utah Jazz,W,85,75,W 4,32-10,10
+43,2000-01-29,San Antonio Spurs,W,81,67,W 5,33-10,14
+44,2000-02-01,Chicago Bulls,W,92,81,W 6,34-10,11
+45,2000-02-03,New York Knicks,L,88,98,L 1,34-11,-10
+46,2000-02-04,Atlanta Hawks,W,97,90,W 1,35-11,7
+47,2000-02-06,Boston Celtics,W,100,94,W 2,36-11,6
+48,2000-02-07,Milwaukee Bucks,W,115,111,W 3,37-11,4
+49,2000-02-09,Los Angeles Clippers,W,107,100,W 4,38-11,7
+50,2000-02-15,Golden State Warriors,W,92,83,W 5,39-11,9
+51,2000-02-16,Golden State Warriors,W,99,95,W 6,40-11,4
+52,2000-02-18,Washington Wizards,W,93,85,W 7,41-11,8
+53,2000-02-20,Sacramento Kings,W,108,103,W 8,42-11,5
+54,2000-02-21,Boston Celtics,W,105,92,W 9,43-11,13
+55,2000-02-24,Orlando Magic,W,111,92,W 10,44-11,19
+56,2000-02-27,Utah Jazz,W,101,92,W 11,45-11,9
+57,2000-02-29,Los Angeles Lakers,L,87,90,L 1,45-12,-3
+58,2000-03-03,Vancouver Grizzlies,W,101,91,W 1,46-12,10
+59,2000-03-06,Toronto Raptors,L,90,109,L 1,46-13,-19
+60,2000-03-08,New Jersey Nets,L,103,115,L 2,46-14,-12
+61,2000-03-09,Indiana Pacers,L,119,127,L 3,46-15,-8
+62,2000-03-11,Detroit Pistons,W,99,94,W 1,47-15,5
+63,2000-03-12,Washington Wizards,W,102,86,W 2,48-15,16
+64,2000-03-14,Sacramento Kings,W,96,91,W 3,49-15,5
+65,2000-03-16,Minnesota Timberwolves,L,92,96,L 1,49-16,-4
+66,2000-03-18,Seattle SuperSonics,W,97,96,W 1,50-16,1
+67,2000-03-22,Detroit Pistons,L,95,104,L 1,50-17,-9
+68,2000-03-24,Golden State Warriors,W,96,83,W 1,51-17,13
+69,2000-03-26,New York Knicks,L,89,93,L 1,51-18,-4
+70,2000-03-28,San Antonio Spurs,L,85,89,L 2,51-19,-4
+71,2000-03-30,Dallas Mavericks,W,96,85,W 1,52-19,11
+72,2000-04-01,Milwaukee Bucks,W,113,79,W 2,53-19,34
+73,2000-04-02,Seattle SuperSonics,W,95,82,W 3,54-19,13
+74,2000-04-05,Houston Rockets,L,105,118,L 1,54-20,-13
+75,2000-04-06,Vancouver Grizzlies,L,87,89,L 2,54-21,-2
+76,2000-04-08,Vancouver Grizzlies,W,98,85,W 1,55-21,13
+77,2000-04-10,Utah Jazz,W,90,86,W 2,56-21,4
+78,2000-04-11,Dallas Mavericks,L,81,92,L 1,56-22,-11
+79,2000-04-13,San Antonio Spurs,W,93,77,W 1,57-22,16
+80,2000-04-16,Sacramento Kings,W,102,95,W 2,58-22,7
+81,2000-04-18,Los Angeles Clippers,W,116,100,W 3,59-22,16
+82,2000-04-19,Denver Nuggets,L,95,96,L 1,59-23,-1

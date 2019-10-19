@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1984-10-26,Seattle SuperSonics,L,94,102,L 1,0-1,-8
+2,1984-10-27,Los Angeles Clippers,L,94,103,L 2,0-2,-9
+3,1984-10-30,New York Knicks,W,117,111,W 1,1-2,6
+4,1984-11-02,Seattle SuperSonics,W,107,101,W 2,2-2,6
+5,1984-11-03,Golden State Warriors,L,107,112,L 1,2-3,-5
+6,1984-11-07,San Antonio Spurs,W,136,124,W 1,3-3,12
+7,1984-11-09,Golden State Warriors,W,125,117,W 2,4-3,8
+8,1984-11-10,Denver Nuggets,L,135,147,L 1,4-4,-12
+9,1984-11-12,Dallas Mavericks,W,123,97,W 1,5-4,26
+10,1984-11-15,Portland Trail Blazers,L,120,129,L 1,5-5,-9
+11,1984-11-17,Phoenix Suns,W,108,94,W 1,6-5,14
+12,1984-11-20,Kansas City Kings,L,122,129,L 1,6-6,-7
+13,1984-11-21,Atlanta Hawks,L,90,122,L 2,6-7,-32
+14,1984-11-23,Houston Rockets,W,111,98,W 1,7-7,13
+15,1984-11-24,San Antonio Spurs,W,123,117,W 2,8-7,6
+16,1984-11-27,Phoenix Suns,L,102,115,L 1,8-8,-13
+17,1984-11-28,Los Angeles Lakers,L,109,114,L 2,8-9,-5
+18,1984-11-30,Denver Nuggets,W,116,97,W 1,9-9,19
+19,1984-12-01,Denver Nuggets,L,111,118,L 1,9-10,-7
+20,1984-12-04,Golden State Warriors,W,107,105,W 1,10-10,2
+21,1984-12-06,Seattle SuperSonics,L,99,106,L 1,10-11,-7
+22,1984-12-09,Kansas City Kings,W,123,120,W 1,11-11,3
+23,1984-12-11,Washington Bullets,W,85,82,W 2,12-11,3
+24,1984-12-13,New York Knicks,L,115,119,L 1,12-12,-4
+25,1984-12-14,Boston Celtics,L,106,117,L 2,12-13,-11
+26,1984-12-16,Milwaukee Bucks,L,102,115,L 3,12-14,-13
+27,1984-12-18,Indiana Pacers,L,81,88,L 4,12-15,-7
+28,1984-12-20,Detroit Pistons,W,117,116,W 1,13-15,1
+29,1984-12-22,Dallas Mavericks,L,96,113,L 1,13-16,-17
+30,1984-12-26,Kansas City Kings,W,133,122,W 1,14-16,11
+31,1984-12-28,Philadelphia 76ers,L,111,114,L 1,14-17,-3
+32,1984-12-29,Dallas Mavericks,W,99,97,W 1,15-17,2
+33,1985-01-01,Indiana Pacers,L,117,119,L 1,15-18,-2
+34,1985-01-04,Denver Nuggets,W,118,108,W 1,16-18,10
+35,1985-01-06,Houston Rockets,W,121,92,W 2,17-18,29
+36,1985-01-07,Los Angeles Clippers,L,106,116,L 1,17-19,-10
+37,1985-01-10,Los Angeles Lakers,L,112,120,L 2,17-20,-8
+38,1985-01-12,Phoenix Suns,L,94,109,L 3,17-21,-15
+39,1985-01-15,San Antonio Spurs,L,101,121,L 4,17-22,-20
+40,1985-01-16,Washington Bullets,L,101,103,L 5,17-23,-2
+41,1985-01-18,Portland Trail Blazers,W,127,122,W 1,18-23,5
+42,1985-01-19,Houston Rockets,L,95,120,L 1,18-24,-25
+43,1985-01-22,New Jersey Nets,W,102,99,W 1,19-24,3
+44,1985-01-24,Cleveland Cavaliers,L,109,110,L 1,19-25,-1
+45,1985-01-26,Los Angeles Lakers,W,96,83,W 1,20-25,13
+46,1985-01-28,Denver Nuggets,L,100,104,L 1,20-26,-4
+47,1985-02-01,Dallas Mavericks,W,121,109,W 1,21-26,12
+48,1985-02-02,San Antonio Spurs,W,105,104,W 2,22-26,1
+49,1985-02-05,Portland Trail Blazers,L,106,126,L 1,22-27,-20
+50,1985-02-07,Kansas City Kings,W,114,96,W 1,23-27,18
+51,1985-02-12,Golden State Warriors,W,122,110,W 2,24-27,12
+52,1985-02-13,Atlanta Hawks,L,88,94,L 1,24-28,-6
+53,1985-02-15,Los Angeles Clippers,W,109,100,W 1,25-28,9
+54,1985-02-18,Boston Celtics,L,94,110,L 1,25-29,-16
+55,1985-02-20,New Jersey Nets,W,110,104,W 1,26-29,6
+56,1985-02-22,Cleveland Cavaliers,W,102,98,W 2,27-29,4
+57,1985-02-24,Philadelphia 76ers,L,108,117,L 1,27-30,-9
+58,1985-02-26,Dallas Mavericks,W,103,96,W 1,28-30,7
+59,1985-02-27,Milwaukee Bucks,L,100,119,L 1,28-31,-19
+60,1985-03-01,Houston Rockets,L,115,119,L 2,28-32,-4
+61,1985-03-03,Portland Trail Blazers,L,93,121,L 3,28-33,-28
+62,1985-03-06,Houston Rockets,W,94,90,W 1,29-33,4
+63,1985-03-07,Detroit Pistons,W,122,114,W 2,30-33,8
+64,1985-03-09,Chicago Bulls,W,111,105,W 3,31-33,6
+65,1985-03-12,Los Angeles Lakers,L,108,123,L 1,31-34,-15
+66,1985-03-13,Los Angeles Lakers,L,105,120,L 2,31-35,-15
+67,1985-03-15,Kansas City Kings,W,115,112,W 1,32-35,3
+68,1985-03-17,Kansas City Kings,L,101,107,L 1,32-36,-6
+69,1985-03-18,Golden State Warriors,W,136,125,W 1,33-36,11
+70,1985-03-20,Los Angeles Clippers,L,110,121,L 1,33-37,-11
+71,1985-03-22,Seattle SuperSonics,W,110,85,W 1,34-37,25
+72,1985-03-24,Chicago Bulls,W,110,92,W 2,35-37,18
+73,1985-03-26,Denver Nuggets,L,89,104,L 1,35-38,-15
+74,1985-03-27,Dallas Mavericks,W,116,101,W 1,36-38,15
+75,1985-03-29,San Antonio Spurs,W,114,109,W 2,37-38,5
+76,1985-03-30,Houston Rockets,L,96,106,L 1,37-39,-10
+77,1985-04-04,Seattle SuperSonics,L,118,119,L 2,37-40,-1
+78,1985-04-06,Phoenix Suns,W,105,94,W 1,38-40,11
+79,1985-04-09,Los Angeles Clippers,W,123,104,W 2,39-40,19
+80,1985-04-11,Portland Trail Blazers,W,145,107,W 3,40-40,38
+81,1985-04-12,Phoenix Suns,L,92,96,L 1,40-41,-4
+82,1985-04-14,San Antonio Spurs,W,104,102,W 1,41-41,2

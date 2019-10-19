@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2013-10-30,Detroit Pistons,L,102,113,L 1,0-1,-11
+2,2013-11-01,Philadelphia 76ers,L,102,109,L 2,0-2,-7
+3,2013-11-03,Miami Heat,L,93,103,L 3,0-3,-10
+4,2013-11-06,Philadelphia 76ers,W,116,102,W 1,1-3,14
+5,2013-11-08,Brooklyn Nets,W,112,108,W 2,2-3,4
+6,2013-11-10,Oklahoma City Thunder,L,105,106,L 1,2-4,-1
+7,2013-11-12,Dallas Mavericks,L,95,105,L 2,2-5,-10
+8,2013-11-13,San Antonio Spurs,L,79,92,L 3,2-6,-13
+9,2013-11-16,Cleveland Cavaliers,L,96,103,L 4,2-7,-7
+10,2013-11-19,Minnesota Timberwolves,W,104,100,W 1,3-7,4
+11,2013-11-20,Cleveland Cavaliers,W,98,91,W 2,4-7,7
+12,2013-11-22,Toronto Raptors,L,88,96,L 1,4-8,-8
+13,2013-11-23,New York Knicks,W,98,89,W 1,5-8,9
+14,2013-11-26,Los Angeles Lakers,W,116,111,W 2,6-8,5
+15,2013-11-27,Milwaukee Bucks,W,100,92,W 3,7-8,8
+16,2013-11-29,Indiana Pacers,L,73,93,L 1,7-9,-20
+17,2013-11-30,Atlanta Hawks,W,108,101,W 1,8-9,7
+18,2013-12-02,Orlando Magic,W,98,80,W 2,9-9,18
+19,2013-12-06,Milwaukee Bucks,L,105,109,L 1,9-10,-4
+20,2013-12-09,Denver Nuggets,L,74,75,L 2,9-11,-1
+21,2013-12-13,Atlanta Hawks,L,99,101,L 3,9-12,-2
+22,2013-12-14,Los Angeles Clippers,L,97,113,L 4,9-13,-16
+23,2013-12-16,New York Knicks,W,102,101,W 1,10-13,1
+24,2013-12-18,Brooklyn Nets,W,113,107,W 2,11-13,6
+25,2013-12-21,Boston Celtics,W,106,99,W 3,12-13,7
+26,2013-12-27,Minnesota Timberwolves,L,98,120,L 1,12-14,-22
+27,2013-12-28,Detroit Pistons,W,106,82,W 1,13-14,24
+28,2013-12-30,Detroit Pistons,W,106,99,W 2,14-14,7
+29,2014-01-01,Dallas Mavericks,L,78,87,L 1,14-15,-9
+30,2014-01-03,Toronto Raptors,L,88,101,L 2,14-16,-13
+31,2014-01-05,Golden State Warriors,L,96,112,L 3,14-17,-16
+32,2014-01-07,Charlotte Bobcats,W,97,83,W 1,15-17,14
+33,2014-01-08,New Orleans Pelicans,W,102,96,W 2,16-17,6
+34,2014-01-10,Indiana Pacers,L,66,93,L 1,16-18,-27
+35,2014-01-11,Houston Rockets,L,107,114,L 2,16-19,-7
+36,2014-01-13,Chicago Bulls,W,102,88,W 1,17-19,14
+37,2014-01-15,Miami Heat,W,114,97,W 2,18-19,17
+38,2014-01-17,Chicago Bulls,W,96,93,W 3,19-19,3
+39,2014-01-18,Detroit Pistons,L,98,104,L 1,19-20,-6
+40,2014-01-20,Philadelphia 76ers,W,107,99,W 1,20-20,8
+41,2014-01-22,Boston Celtics,L,111,113,L 1,20-21,-2
+42,2014-01-24,Phoenix Suns,W,101,95,W 1,21-21,6
+43,2014-01-25,Utah Jazz,L,101,104,L 1,21-22,-3
+44,2014-01-28,Golden State Warriors,W,88,85,W 1,22-22,3
+45,2014-01-29,Los Angeles Clippers,L,103,110,L 1,22-23,-7
+46,2014-02-01,Oklahoma City Thunder,W,96,81,W 1,23-23,15
+47,2014-02-03,Portland Trail Blazers,W,100,90,W 2,24-23,10
+48,2014-02-05,San Antonio Spurs,L,118,125,L 1,24-24,-7
+49,2014-02-07,Cleveland Cavaliers,L,113,115,L 2,24-25,-2
+50,2014-02-09,Sacramento Kings,W,93,84,W 1,25-25,9
+51,2014-02-11,Memphis Grizzlies,L,89,92,L 1,25-26,-3
+52,2014-02-12,Houston Rockets,L,112,113,L 2,25-27,-1
+53,2014-02-18,Toronto Raptors,L,93,103,L 3,25-28,-10
+54,2014-02-19,Atlanta Hawks,W,114,97,W 1,26-28,17
+55,2014-02-22,New Orleans Pelicans,W,94,93,W 2,27-28,1
+56,2014-02-23,Cleveland Cavaliers,W,96,83,W 3,28-28,13
+57,2014-02-25,Orlando Magic,W,115,106,W 4,29-28,9
+58,2014-02-27,Toronto Raptors,W,134,129,W 5,30-28,5
+59,2014-03-01,Philadelphia 76ers,W,122,103,W 6,31-28,19
+60,2014-03-03,Memphis Grizzlies,L,104,110,L 1,31-29,-6
+61,2014-03-05,Utah Jazz,W,104,91,W 1,32-29,13
+62,2014-03-08,Milwaukee Bucks,W,114,107,W 2,33-29,7
+63,2014-03-10,Miami Heat,L,90,99,L 1,33-30,-9
+64,2014-03-12,Charlotte Bobcats,L,85,98,L 2,33-31,-13
+65,2014-03-14,Orlando Magic,W,105,101,W 1,34-31,4
+66,2014-03-15,Brooklyn Nets,W,101,94,W 2,35-31,7
+67,2014-03-18,Sacramento Kings,L,111,117,L 1,35-32,-6
+68,2014-03-20,Portland Trail Blazers,L,103,116,L 2,35-33,-13
+69,2014-03-21,Los Angeles Lakers,W,117,107,W 1,36-33,10
+70,2014-03-23,Denver Nuggets,L,102,105,L 1,36-34,-3
+71,2014-03-26,Phoenix Suns,L,93,99,L 2,36-35,-6
+72,2014-03-28,Indiana Pacers,W,91,78,W 1,37-35,13
+73,2014-03-29,Atlanta Hawks,W,101,97,W 2,38-35,4
+74,2014-03-31,Charlotte Bobcats,L,94,100,L 1,38-36,-6
+75,2014-04-02,Boston Celtics,W,118,92,W 1,39-36,26
+76,2014-04-04,New York Knicks,W,90,89,W 2,40-36,1
+77,2014-04-05,Chicago Bulls,L,78,96,L 1,40-37,-18
+78,2014-04-09,Charlotte Bobcats,L,88,94,L 2,40-38,-6
+79,2014-04-11,Orlando Magic,W,96,86,W 1,41-38,10
+80,2014-04-12,Milwaukee Bucks,W,104,91,W 2,42-38,13
+81,2014-04-14,Miami Heat,W,114,93,W 3,43-38,21
+82,2014-04-16,Boston Celtics,W,118,102,W 4,44-38,16

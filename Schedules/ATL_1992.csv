@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1991-11-02,Detroit Pistons,L,87,89,L 1,0-1,-2
+2,1991-11-05,Utah Jazz,W,98,94,W 1,1-1,4
+3,1991-11-06,Charlotte Hornets,L,104,114,L 1,1-2,-10
+4,1991-11-08,Boston Celtics,W,100,95,W 1,2-2,5
+5,1991-11-09,Miami Heat,W,97,93,W 2,3-2,4
+6,1991-11-12,Charlotte Hornets,W,118,100,W 3,4-2,18
+7,1991-11-14,Sacramento Kings,L,96,98,L 1,4-3,-2
+8,1991-11-15,Phoenix Suns,W,119,115,W 1,5-3,4
+9,1991-11-17,Los Angeles Lakers,L,89,111,L 1,5-4,-22
+10,1991-11-20,Sacramento Kings,W,116,104,W 1,6-4,12
+11,1991-11-22,Philadelphia 76ers,W,99,92,W 2,7-4,7
+12,1991-11-23,Washington Bullets,L,115,126,L 1,7-5,-11
+13,1991-11-26,Detroit Pistons,L,93,103,L 2,7-6,-10
+14,1991-11-27,Detroit Pistons,L,91,100,L 3,7-7,-9
+15,1991-11-29,San Antonio Spurs,L,85,88,L 4,7-8,-3
+16,1991-11-30,Boston Celtics,W,129,102,W 1,8-8,27
+17,1991-12-03,Dallas Mavericks,W,103,99,W 2,9-8,4
+18,1991-12-05,Houston Rockets,W,109,97,W 3,10-8,12
+19,1991-12-07,New York Knicks,L,128,137,L 1,10-9,-9
+20,1991-12-10,Milwaukee Bucks,W,118,104,W 1,11-9,14
+21,1991-12-12,Cleveland Cavaliers,L,107,134,L 1,11-10,-27
+22,1991-12-14,Miami Heat,L,101,121,L 2,11-11,-20
+23,1991-12-17,Indiana Pacers,W,117,113,W 1,12-11,4
+24,1991-12-20,Cleveland Cavaliers,L,99,122,L 1,12-12,-23
+25,1991-12-21,Chicago Bulls,L,103,117,L 2,12-13,-14
+26,1991-12-23,New Jersey Nets,L,93,105,L 3,12-14,-12
+27,1991-12-26,Chicago Bulls,L,111,122,L 4,12-15,-11
+28,1991-12-28,Minnesota Timberwolves,W,125,122,W 1,13-15,3
+29,1992-01-02,Phoenix Suns,W,123,105,W 2,14-15,18
+30,1992-01-04,Los Angeles Clippers,W,97,95,W 3,15-15,2
+31,1992-01-06,Houston Rockets,W,109,97,W 4,16-15,12
+32,1992-01-07,New York Knicks,W,109,94,W 5,17-15,15
+33,1992-01-09,Dallas Mavericks,W,124,108,W 6,18-15,16
+34,1992-01-11,Indiana Pacers,L,115,138,L 1,18-16,-23
+35,1992-01-14,Milwaukee Bucks,W,93,88,W 1,19-16,5
+36,1992-01-16,Utah Jazz,L,111,116,L 1,19-17,-5
+37,1992-01-17,Los Angeles Clippers,L,107,111,L 2,19-18,-4
+38,1992-01-19,Denver Nuggets,W,119,93,W 1,20-18,26
+39,1992-01-21,Seattle SuperSonics,W,128,119,W 2,21-18,9
+40,1992-01-22,Golden State Warriors,L,124,136,L 1,21-19,-12
+41,1992-01-24,Portland Trail Blazers,L,117,125,L 2,21-20,-8
+42,1992-01-28,Philadelphia 76ers,W,110,109,W 1,22-20,1
+43,1992-01-29,Milwaukee Bucks,W,110,100,W 2,23-20,10
+44,1992-01-31,Indiana Pacers,L,106,115,L 1,23-21,-9
+45,1992-02-01,Detroit Pistons,L,80,89,L 2,23-22,-9
+46,1992-02-03,Seattle SuperSonics,L,110,112,L 3,23-23,-2
+47,1992-02-06,Orlando Magic,W,123,112,W 1,24-23,11
+48,1992-02-11,Charlotte Hornets,L,108,113,L 1,24-24,-5
+49,1992-02-13,Miami Heat,L,119,121,L 2,24-25,-2
+50,1992-02-14,Orlando Magic,W,112,107,W 1,25-25,5
+51,1992-02-17,Washington Bullets,W,117,110,W 2,26-25,7
+52,1992-02-19,Washington Bullets,L,102,103,L 1,26-26,-1
+53,1992-02-21,Chicago Bulls,L,88,103,L 2,26-27,-15
+54,1992-02-22,New Jersey Nets,W,119,107,W 1,27-27,12
+55,1992-02-24,Denver Nuggets,W,117,95,W 2,28-27,22
+56,1992-02-28,Boston Celtics,W,102,90,W 3,29-27,12
+57,1992-03-01,Milwaukee Bucks,L,106,109,L 1,29-28,-3
+58,1992-03-04,Philadelphia 76ers,L,102,107,L 2,29-29,-5
+59,1992-03-06,Indiana Pacers,L,113,115,L 3,29-30,-2
+60,1992-03-07,Cleveland Cavaliers,L,94,110,L 4,29-31,-16
+61,1992-03-10,San Antonio Spurs,L,92,103,L 5,29-32,-11
+62,1992-03-11,Los Angeles Lakers,L,98,109,L 6,29-33,-11
+63,1992-03-13,Portland Trail Blazers,L,95,106,L 7,29-34,-11
+64,1992-03-14,Miami Heat,W,115,102,W 1,30-34,13
+65,1992-03-16,Detroit Pistons,W,89,77,W 2,31-34,12
+66,1992-03-18,Orlando Magic,L,96,99,L 1,31-35,-3
+67,1992-03-20,Charlotte Hornets,W,112,110,W 1,32-35,2
+68,1992-03-22,Cleveland Cavaliers,L,80,123,L 1,32-36,-43
+69,1992-03-23,Golden State Warriors,W,126,125,W 1,33-36,1
+70,1992-03-26,Washington Bullets,W,107,95,W 2,34-36,12
+71,1992-03-27,Minnesota Timberwolves,W,105,103,W 3,35-36,2
+72,1992-03-29,Boston Celtics,L,93,117,L 1,35-37,-24
+73,1992-04-01,Indiana Pacers,L,117,137,L 2,35-38,-20
+74,1992-04-03,New York Knicks,L,94,115,L 3,35-39,-21
+75,1992-04-04,Philadelphia 76ers,L,121,126,L 4,35-40,-5
+76,1992-04-07,New Jersey Nets,W,104,97,W 1,36-40,7
+77,1992-04-09,Orlando Magic,L,94,96,L 1,36-41,-2
+78,1992-04-11,New Jersey Nets,W,118,98,W 1,37-41,20
+79,1992-04-13,Chicago Bulls,L,93,100,L 1,37-42,-7
+80,1992-04-15,New York Knicks,W,95,94,W 1,38-42,1
+81,1992-04-17,Chicago Bulls,L,95,121,L 1,38-43,-26
+82,1992-04-19,Cleveland Cavaliers,L,108,112,L 2,38-44,-4

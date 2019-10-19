@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2000-10-31,New Jersey Nets,W,86,82,W 1,1-0,4
+2,2000-11-01,Sacramento Kings,W,102,100,W 2,2-0,2
+3,2000-11-04,Boston Celtics,W,91,89,W 3,3-0,2
+4,2000-11-08,New York Knicks,W,99,97,W 4,4-0,2
+5,2000-11-10,Toronto Raptors,L,88,115,L 1,4-1,-27
+6,2000-11-11,Washington Wizards,W,86,73,W 1,5-1,13
+7,2000-11-14,Golden State Warriors,W,96,86,W 2,6-1,10
+8,2000-11-15,Philadelphia 76ers,L,98,107,L 1,6-2,-9
+9,2000-11-17,Milwaukee Bucks,L,76,89,L 2,6-3,-13
+10,2000-11-21,Detroit Pistons,W,117,98,W 1,7-3,19
+11,2000-11-22,Miami Heat,W,86,67,W 2,8-3,19
+12,2000-11-24,Miami Heat,W,85,80,W 3,9-3,5
+13,2000-11-25,Charlotte Hornets,L,98,109,L 1,9-4,-11
+14,2000-11-28,Boston Celtics,L,72,87,L 2,9-5,-15
+15,2000-12-01,Detroit Pistons,L,93,103,L 3,9-6,-10
+16,2000-12-02,Philadelphia 76ers,L,78,112,L 4,9-7,-34
+17,2000-12-05,Charlotte Hornets,W,71,66,W 1,10-7,5
+18,2000-12-06,Chicago Bulls,W,92,88,W 2,11-7,4
+19,2000-12-09,Atlanta Hawks,W,97,90,W 3,12-7,7
+20,2000-12-12,Dallas Mavericks,W,92,87,W 4,13-7,5
+21,2000-12-15,Indiana Pacers,W,103,95,W 5,14-7,8
+22,2000-12-16,Utah Jazz,W,99,92,W 6,15-7,7
+23,2000-12-20,San Antonio Spurs,L,77,94,L 1,15-8,-17
+24,2000-12-22,Miami Heat,L,95,103,L 2,15-9,-8
+25,2000-12-23,Orlando Magic,L,92,111,L 3,15-10,-19
+26,2000-12-26,Charlotte Hornets,L,110,115,L 4,15-11,-5
+27,2000-12-28,Milwaukee Bucks,L,89,107,L 5,15-12,-18
+28,2000-12-29,Atlanta Hawks,W,97,85,W 1,16-12,12
+29,2001-01-02,Houston Rockets,L,95,100,L 1,16-13,-5
+30,2001-01-03,Milwaukee Bucks,L,83,88,L 2,16-14,-5
+31,2001-01-06,Philadelphia 76ers,L,103,107,L 3,16-15,-4
+32,2001-01-08,New Jersey Nets,W,92,90,W 1,17-15,2
+33,2001-01-10,Sacramento Kings,L,103,108,L 1,17-16,-5
+34,2001-01-12,Los Angeles Lakers,L,98,101,L 2,17-17,-3
+35,2001-01-13,Vancouver Grizzlies,L,107,119,L 3,17-18,-12
+36,2001-01-15,Golden State Warriors,W,107,101,W 1,18-18,6
+37,2001-01-16,Portland Trail Blazers,L,83,103,L 1,18-19,-20
+38,2001-01-19,Denver Nuggets,L,88,91,L 2,18-20,-3
+39,2001-01-22,Portland Trail Blazers,W,84,58,W 1,19-20,26
+40,2001-01-24,Chicago Bulls,W,94,86,W 2,20-20,8
+41,2001-01-27,Atlanta Hawks,L,90,101,L 1,20-21,-11
+42,2001-01-29,Washington Wizards,L,89,95,L 2,20-22,-6
+43,2001-01-30,Los Angeles Lakers,L,96,102,L 3,20-23,-6
+44,2001-02-01,Minnesota Timberwolves,L,81,90,L 4,20-24,-9
+45,2001-02-03,Detroit Pistons,L,81,88,L 5,20-25,-7
+46,2001-02-04,Boston Celtics,L,82,103,L 6,20-26,-21
+47,2001-02-07,San Antonio Spurs,L,89,107,L 7,20-27,-18
+48,2001-02-13,Toronto Raptors,L,105,120,L 8,20-28,-15
+49,2001-02-15,Dallas Mavericks,L,81,102,L 9,20-29,-21
+50,2001-02-17,Houston Rockets,L,80,92,L 10,20-30,-12
+51,2001-02-19,Chicago Bulls,W,85,84,W 1,21-30,1
+52,2001-02-21,Los Angeles Clippers,L,94,100,L 1,21-31,-6
+53,2001-02-23,Indiana Pacers,L,90,92,L 2,21-32,-2
+54,2001-02-25,Detroit Pistons,W,101,94,W 1,22-32,7
+55,2001-02-27,Toronto Raptors,L,89,101,L 1,22-33,-12
+56,2001-03-01,Seattle SuperSonics,L,99,101,L 2,22-34,-2
+57,2001-03-02,Orlando Magic,L,94,120,L 3,22-35,-26
+58,2001-03-04,Miami Heat,L,79,91,L 4,22-36,-12
+59,2001-03-06,Chicago Bulls,L,74,87,L 5,22-37,-13
+60,2001-03-07,Washington Wizards,L,83,88,L 6,22-38,-5
+61,2001-03-09,Indiana Pacers,L,84,99,L 7,22-39,-15
+62,2001-03-11,Milwaukee Bucks,W,124,110,W 1,23-39,14
+63,2001-03-13,New York Knicks,L,79,98,L 1,23-40,-19
+64,2001-03-14,Orlando Magic,L,87,97,L 2,23-41,-10
+65,2001-03-16,Charlotte Hornets,W,114,109,W 1,24-41,5
+66,2001-03-18,Minnesota Timberwolves,L,76,91,L 1,24-42,-15
+67,2001-03-20,New York Knicks,L,75,110,L 2,24-43,-35
+68,2001-03-22,Vancouver Grizzlies,W,109,95,W 1,25-43,14
+69,2001-03-24,Denver Nuggets,W,117,105,W 2,26-43,12
+70,2001-03-26,Seattle SuperSonics,L,86,104,L 1,26-44,-18
+71,2001-03-28,Phoenix Suns,L,94,103,L 2,26-45,-9
+72,2001-03-30,Utah Jazz,L,88,95,L 3,26-46,-7
+73,2001-03-31,Los Angeles Clippers,L,97,104,L 4,26-47,-7
+74,2001-04-04,Toronto Raptors,L,94,97,L 5,26-48,-3
+75,2001-04-06,Philadelphia 76ers,L,88,96,L 6,26-49,-8
+76,2001-04-07,Phoenix Suns,L,98,102,L 7,26-50,-4
+77,2001-04-10,Orlando Magic,W,101,78,W 1,27-50,23
+78,2001-04-11,Atlanta Hawks,L,102,107,L 1,27-51,-5
+79,2001-04-13,New Jersey Nets,W,97,91,W 1,28-51,6
+80,2001-04-15,Washington Wizards,W,106,98,W 2,29-51,8
+81,2001-04-16,New York Knicks,W,80,78,W 3,30-51,2
+82,2001-04-18,Indiana Pacers,L,101,105,L 1,30-52,-4

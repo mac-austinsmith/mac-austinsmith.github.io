@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1979-10-12,Indiana Pacers,W,114,105,W 1,1-0,9
+2,1979-10-13,San Antonio Spurs,W,112,110,W 2,2-0,2
+3,1979-10-16,Cleveland Cavaliers,L,117,137,L 1,2-1,-20
+4,1979-10-18,New York Knicks,W,129,115,W 1,3-1,14
+5,1979-10-19,Philadelphia 76ers,L,104,112,L 1,3-2,-8
+6,1979-10-20,Washington Bullets,L,106,117,L 2,3-3,-11
+7,1979-10-24,Washington Bullets,W,104,103,W 1,4-3,1
+8,1979-10-26,San Antonio Spurs,L,113,129,L 1,4-4,-16
+9,1979-10-27,Milwaukee Bucks,L,118,132,L 2,4-5,-14
+10,1979-11-01,Cleveland Cavaliers,L,125,127,L 3,4-6,-2
+11,1979-11-03,Houston Rockets,L,111,114,L 4,4-7,-3
+12,1979-11-07,Atlanta Hawks,L,107,115,L 5,4-8,-8
+13,1979-11-09,Philadelphia 76ers,W,106,98,W 1,5-8,8
+14,1979-11-10,Houston Rockets,L,104,112,L 1,5-9,-8
+15,1979-11-14,Boston Celtics,L,111,115,L 2,5-10,-4
+16,1979-11-17,New Jersey Nets,L,93,98,L 3,5-11,-5
+17,1979-11-20,Atlanta Hawks,L,105,109,L 4,5-12,-4
+18,1979-11-21,Utah Jazz,W,98,93,W 1,6-12,5
+19,1979-11-23,Milwaukee Bucks,W,119,100,W 2,7-12,19
+20,1979-11-24,Indiana Pacers,L,97,115,L 1,7-13,-18
+21,1979-11-27,New York Knicks,L,114,116,L 2,7-14,-2
+22,1979-11-28,New Jersey Nets,L,89,98,L 3,7-15,-9
+23,1979-11-29,Kansas City Kings,L,95,105,L 4,7-16,-10
+24,1979-12-01,San Antonio Spurs,W,134,124,W 1,8-16,10
+25,1979-12-04,Boston Celtics,L,114,118,L 1,8-17,-4
+26,1979-12-05,Kansas City Kings,L,93,109,L 2,8-18,-16
+27,1979-12-07,Houston Rockets,L,109,124,L 3,8-19,-15
+28,1979-12-08,Indiana Pacers,L,102,103,L 4,8-20,-1
+29,1979-12-12,Golden State Warriors,W,114,96,W 1,9-20,18
+30,1979-12-14,Los Angeles Lakers,L,122,138,L 1,9-21,-16
+31,1979-12-15,Phoenix Suns,L,105,126,L 2,9-22,-21
+32,1979-12-16,San Diego Clippers,L,126,133,L 3,9-23,-7
+33,1979-12-18,Philadelphia 76ers,L,102,114,L 4,9-24,-12
+34,1979-12-20,Atlanta Hawks,L,103,122,L 5,9-25,-19
+35,1979-12-22,San Antonio Spurs,L,112,141,L 6,9-26,-29
+36,1979-12-25,Cleveland Cavaliers,L,101,111,L 7,9-27,-10
+37,1979-12-26,Indiana Pacers,L,97,98,L 8,9-28,-1
+38,1979-12-28,Denver Nuggets,W,114,98,W 1,10-28,16
+39,1979-12-29,Atlanta Hawks,L,104,115,L 1,10-29,-11
+40,1980-01-02,Denver Nuggets,L,116,135,L 2,10-30,-19
+41,1980-01-04,Seattle SuperSonics,L,105,123,L 3,10-31,-18
+42,1980-01-06,Portland Trail Blazers,L,102,119,L 4,10-32,-17
+43,1980-01-08,Utah Jazz,L,110,124,L 5,10-33,-14
+44,1980-01-11,Los Angeles Lakers,L,100,123,L 6,10-34,-23
+45,1980-01-12,Indiana Pacers,L,109,122,L 7,10-35,-13
+46,1980-01-13,Chicago Bulls,W,107,102,W 1,11-35,5
+47,1980-01-17,Washington Bullets,W,110,107,W 2,12-35,3
+48,1980-01-19,Houston Rockets,W,122,110,W 3,13-35,12
+49,1980-01-22,Chicago Bulls,L,131,145,L 1,13-36,-14
+50,1980-01-23,Boston Celtics,L,104,131,L 2,13-37,-27
+51,1980-01-25,New Jersey Nets,W,119,116,W 1,14-37,3
+52,1980-01-27,New York Knicks,L,93,98,L 1,14-38,-5
+53,1980-01-29,Golden State Warriors,L,100,111,L 2,14-39,-11
+54,1980-01-30,Philadelphia 76ers,L,108,121,L 3,14-40,-13
+55,1980-02-07,Seattle SuperSonics,L,102,119,L 4,14-41,-17
+56,1980-02-09,New York Knicks,L,107,114,L 5,14-42,-7
+57,1980-02-10,Boston Celtics,L,111,128,L 6,14-43,-17
+58,1980-02-13,Cleveland Cavaliers,L,102,107,L 7,14-44,-5
+59,1980-02-15,Philadelphia 76ers,L,104,114,L 8,14-45,-10
+60,1980-02-16,Cleveland Cavaliers,L,104,123,L 9,14-46,-19
+61,1980-02-17,Atlanta Hawks,L,99,108,L 10,14-47,-9
+62,1980-02-21,Phoenix Suns,L,116,125,L 11,14-48,-9
+63,1980-02-23,Portland Trail Blazers,L,107,130,L 12,14-49,-23
+64,1980-02-27,San Diego Clippers,L,113,129,L 13,14-50,-16
+65,1980-02-29,New Jersey Nets,W,137,128,W 1,15-50,9
+66,1980-03-02,Boston Celtics,L,115,118,L 1,15-51,-3
+67,1980-03-04,Washington Bullets,L,107,135,L 2,15-52,-28
+68,1980-03-05,New York Knicks,W,120,113,W 1,16-52,7
+69,1980-03-07,Washington Bullets,L,105,106,L 1,16-53,-1
+70,1980-03-08,New York Knicks,L,104,110,L 2,16-54,-6
+71,1980-03-09,New Jersey Nets,L,100,140,L 3,16-55,-40
+72,1980-03-12,New Jersey Nets,L,119,137,L 4,16-56,-18
+73,1980-03-14,San Antonio Spurs,L,102,113,L 5,16-57,-11
+74,1980-03-16,Houston Rockets,L,99,102,L 6,16-58,-3
+75,1980-03-17,Philadelphia 76ers,L,109,123,L 7,16-59,-14
+76,1980-03-18,Cleveland Cavaliers,L,107,108,L 8,16-60,-1
+77,1980-03-20,Boston Celtics,L,106,124,L 9,16-61,-18
+78,1980-03-21,Atlanta Hawks,L,95,108,L 10,16-62,-13
+79,1980-03-23,Washington Bullets,L,114,119,L 11,16-63,-5
+80,1980-03-26,Indiana Pacers,L,114,124,L 12,16-64,-10
+81,1980-03-28,Houston Rockets,L,112,128,L 13,16-65,-16
+82,1980-03-30,San Antonio Spurs,L,124,144,L 14,16-66,-20

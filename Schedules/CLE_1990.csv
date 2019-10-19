@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1989-11-03,Chicago Bulls,L,119,124,L 1,0-1,-5
+2,1989-11-04,Indiana Pacers,L,98,106,L 2,0-2,-8
+3,1989-11-08,Orlando Magic,L,110,117,L 3,0-3,-7
+4,1989-11-10,Washington Bullets,L,92,100,L 4,0-4,-8
+5,1989-11-11,Boston Celtics,W,104,101,W 1,1-4,3
+6,1989-11-14,New Jersey Nets,W,103,92,W 2,2-4,11
+7,1989-11-15,Golden State Warriors,W,129,104,W 3,3-4,25
+8,1989-11-17,Atlanta Hawks,W,131,125,W 4,4-4,6
+9,1989-11-22,New York Knicks,W,97,85,W 5,5-4,12
+10,1989-11-24,Detroit Pistons,L,82,101,L 1,5-5,-19
+11,1989-11-25,Houston Rockets,L,75,85,L 2,5-6,-10
+12,1989-11-28,Washington Bullets,W,92,91,W 1,6-6,1
+13,1989-11-29,Philadelphia 76ers,L,84,114,L 1,6-7,-30
+14,1989-12-01,Boston Celtics,L,89,102,L 2,6-8,-13
+15,1989-12-02,Minnesota Timberwolves,L,74,101,L 3,6-9,-27
+16,1989-12-05,Utah Jazz,L,80,94,L 4,6-10,-14
+17,1989-12-07,Los Angeles Clippers,L,88,105,L 5,6-11,-17
+18,1989-12-09,Sacramento Kings,W,108,101,W 1,7-11,7
+19,1989-12-11,Utah Jazz,W,113,110,W 2,8-11,3
+20,1989-12-13,Milwaukee Bucks,W,99,93,W 3,9-11,6
+21,1989-12-15,Seattle SuperSonics,W,120,101,W 4,10-11,19
+22,1989-12-20,Denver Nuggets,L,89,104,L 1,10-12,-15
+23,1989-12-22,Milwaukee Bucks,L,100,112,L 2,10-13,-12
+24,1989-12-25,Atlanta Hawks,L,104,115,L 3,10-14,-11
+25,1989-12-27,Detroit Pistons,L,82,99,L 4,10-15,-17
+26,1989-12-28,Charlotte Hornets,L,92,94,L 5,10-16,-2
+27,1989-12-30,Phoenix Suns,W,110,102,W 1,11-16,8
+28,1990-01-03,Chicago Bulls,L,87,93,L 1,11-17,-6
+29,1990-01-05,Washington Bullets,W,119,107,W 1,12-17,12
+30,1990-01-06,Orlando Magic,W,123,112,W 2,13-17,11
+31,1990-01-10,Milwaukee Bucks,L,100,116,L 1,13-18,-16
+32,1990-01-12,Philadelphia 76ers,W,113,102,W 1,14-18,11
+33,1990-01-13,New Jersey Nets,W,98,96,W 2,15-18,2
+34,1990-01-15,San Antonio Spurs,W,92,89,W 3,16-18,3
+35,1990-01-17,Houston Rockets,L,98,107,L 1,16-19,-9
+36,1990-01-19,San Antonio Spurs,L,101,104,L 2,16-20,-3
+37,1990-01-20,Dallas Mavericks,L,96,105,L 3,16-21,-9
+38,1990-01-23,Philadelphia 76ers,L,88,103,L 4,16-22,-15
+39,1990-01-24,Atlanta Hawks,L,86,103,L 5,16-23,-17
+40,1990-01-26,Minnesota Timberwolves,W,85,84,W 1,17-23,1
+41,1990-01-27,Indiana Pacers,W,91,84,W 2,18-23,7
+42,1990-01-30,Miami Heat,W,106,94,W 3,19-23,12
+43,1990-02-03,Detroit Pistons,L,100,105,L 1,19-24,-5
+44,1990-02-05,Los Angeles Clippers,W,100,84,W 1,20-24,16
+45,1990-02-06,Detroit Pistons,L,96,105,L 1,20-25,-9
+46,1990-02-08,Miami Heat,W,106,82,W 1,21-25,24
+47,1990-02-14,Indiana Pacers,L,131,133,L 1,21-26,-2
+48,1990-02-16,Atlanta Hawks,W,109,101,W 1,22-26,8
+49,1990-02-17,New York Knicks,L,108,119,L 1,22-27,-11
+50,1990-02-19,Dallas Mavericks,L,87,96,L 2,22-28,-9
+51,1990-02-21,Portland Trail Blazers,W,121,109,W 1,23-28,12
+52,1990-02-23,Orlando Magic,W,123,96,W 2,24-28,27
+53,1990-02-25,Charlotte Hornets,W,102,86,W 3,25-28,16
+54,1990-02-27,Portland Trail Blazers,L,105,118,L 1,25-29,-13
+55,1990-03-01,Denver Nuggets,L,125,131,L 2,25-30,-6
+56,1990-03-02,Los Angeles Lakers,L,93,124,L 3,25-31,-31
+57,1990-03-04,Phoenix Suns,L,96,108,L 4,25-32,-12
+58,1990-03-06,Seattle SuperSonics,L,90,95,L 5,25-33,-5
+59,1990-03-08,Golden State Warriors,L,105,145,L 6,25-34,-40
+60,1990-03-11,Milwaukee Bucks,W,107,96,W 1,26-34,11
+61,1990-03-13,Philadelphia 76ers,W,119,102,W 2,27-34,17
+62,1990-03-15,Los Angeles Lakers,W,112,96,W 3,28-34,16
+63,1990-03-17,Indiana Pacers,W,118,102,W 4,29-34,16
+64,1990-03-18,Orlando Magic,W,120,103,W 5,30-34,17
+65,1990-03-21,Boston Celtics,L,114,123,L 1,30-35,-9
+66,1990-03-23,Chicago Bulls,L,95,102,L 2,30-36,-7
+67,1990-03-24,New Jersey Nets,W,115,108,W 1,31-36,7
+68,1990-03-26,Sacramento Kings,W,116,95,W 2,32-36,21
+69,1990-03-28,Chicago Bulls,L,113,117,L 1,32-37,-4
+70,1990-03-30,Miami Heat,W,105,104,W 1,33-37,1
+71,1990-04-01,Indiana Pacers,W,121,91,W 2,34-37,30
+72,1990-04-03,New York Knicks,L,97,106,L 1,34-38,-9
+73,1990-04-04,Atlanta Hawks,W,101,95,W 1,35-38,6
+74,1990-04-06,Boston Celtics,L,104,109,L 1,35-39,-5
+75,1990-04-08,Detroit Pistons,W,100,97,W 1,36-39,3
+76,1990-04-11,Chicago Bulls,L,86,107,L 1,36-40,-21
+77,1990-04-12,Washington Bullets,W,102,100,W 1,37-40,2
+78,1990-04-14,Miami Heat,W,93,85,W 2,38-40,8
+79,1990-04-17,Milwaukee Bucks,W,96,88,W 3,39-40,8
+80,1990-04-18,New Jersey Nets,W,100,93,W 4,40-40,7
+81,1990-04-20,Orlando Magic,W,118,104,W 5,41-40,14
+82,1990-04-22,New York Knicks,W,115,99,W 6,42-40,16

@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1971-10-15,Boston Celtics,W,97,75,W 1,1-0,22
+2,1971-10-16,Baltimore Bullets,L,93,108,L 1,1-1,-15
+3,1971-10-19,New York Knicks,L,84,93,L 2,1-2,-9
+4,1971-10-20,Cleveland Cavaliers,W,115,98,W 1,2-2,17
+5,1971-10-23,Detroit Pistons,W,115,109,W 2,3-2,6
+6,1971-10-26,Buffalo Braves,L,89,91,L 1,3-3,-2
+7,1971-10-29,Chicago Bulls,W,99,83,W 1,4-3,16
+8,1971-10-30,Cincinnati Royals,W,116,112,W 2,5-3,4
+9,1971-10-31,Los Angeles Lakers,W,109,105,W 3,6-3,4
+10,1971-11-02,Baltimore Bullets,W,106,91,W 4,7-3,15
+11,1971-11-04,Seattle SuperSonics,W,98,96,W 5,8-3,2
+12,1971-11-06,Los Angeles Lakers,L,89,105,L 1,8-4,-16
+13,1971-11-07,Seattle SuperSonics,W,109,102,W 1,9-4,7
+14,1971-11-09,Houston Rockets,W,115,99,W 2,10-4,16
+15,1971-11-11,New York Knicks,W,112,103,W 3,11-4,9
+16,1971-11-12,Atlanta Hawks,L,104,106,L 1,11-5,-2
+17,1971-11-13,Cincinnati Royals,L,101,110,L 2,11-6,-9
+18,1971-11-16,Detroit Pistons,W,122,101,W 1,12-6,21
+19,1971-11-18,Portland Trail Blazers,W,115,105,W 2,13-6,10
+20,1971-11-20,Milwaukee Bucks,W,107,100,W 3,14-6,7
+21,1971-11-21,Houston Rockets,L,96,115,L 1,14-7,-19
+22,1971-11-25,Philadelphia 76ers,L,111,112,L 2,14-8,-1
+23,1971-11-26,Chicago Bulls,L,89,121,L 3,14-9,-32
+24,1971-11-27,Buffalo Braves,W,110,91,W 1,15-9,19
+25,1971-11-30,Milwaukee Bucks,W,106,103,W 2,16-9,3
+26,1971-12-03,Portland Trail Blazers,L,107,115,L 1,16-10,-8
+27,1971-12-04,Phoenix Suns,L,92,128,L 2,16-11,-36
+28,1971-12-05,Phoenix Suns,L,87,120,L 3,16-12,-33
+29,1971-12-07,Atlanta Hawks,L,113,116,L 4,16-13,-3
+30,1971-12-09,Los Angeles Lakers,L,111,124,L 5,16-14,-13
+31,1971-12-10,Seattle SuperSonics,L,94,105,L 6,16-15,-11
+32,1971-12-16,Philadelphia 76ers,W,113,93,W 1,17-15,20
+33,1971-12-17,Los Angeles Lakers,L,99,129,L 1,17-16,-30
+34,1971-12-18,Detroit Pistons,W,129,102,W 1,18-16,27
+35,1971-12-21,New York Knicks,L,87,113,L 1,18-17,-26
+36,1971-12-25,New York Knicks,L,89,114,L 2,18-18,-25
+37,1971-12-27,Boston Celtics,L,97,99,L 3,18-19,-2
+38,1971-12-29,Cincinnati Royals,W,107,102,W 1,19-19,5
+39,1971-12-30,Detroit Pistons,W,128,122,W 2,20-19,6
+40,1972-01-04,Buffalo Braves,W,112,86,W 3,21-19,26
+41,1972-01-06,Portland Trail Blazers,W,119,115,W 4,22-19,4
+42,1972-01-08,Boston Celtics,W,128,106,W 5,23-19,22
+43,1972-01-09,Houston Rockets,W,113,112,W 6,24-19,1
+44,1972-01-11,Cleveland Cavaliers,W,101,92,W 7,25-19,9
+45,1972-01-14,New York Knicks,W,115,111,W 8,26-19,4
+46,1972-01-15,Baltimore Bullets,W,105,95,W 9,27-19,10
+47,1972-01-21,Atlanta Hawks,W,113,111,W 10,28-19,2
+48,1972-01-22,Philadelphia 76ers,W,113,106,W 11,29-19,7
+49,1972-01-24,Chicago Bulls,L,105,110,L 1,29-20,-5
+50,1972-01-25,Cleveland Cavaliers,W,117,111,W 1,30-20,6
+51,1972-01-27,Chicago Bulls,W,108,107,W 2,31-20,1
+52,1972-01-28,Portland Trail Blazers,W,105,102,W 3,32-20,3
+53,1972-01-29,Phoenix Suns,W,111,100,W 4,33-20,11
+54,1972-02-01,Milwaukee Bucks,L,97,108,L 1,33-21,-11
+55,1972-02-03,Atlanta Hawks,W,132,115,W 1,34-21,17
+56,1972-02-04,Phoenix Suns,L,105,113,L 1,34-22,-8
+57,1972-02-05,Los Angeles Lakers,L,96,108,L 2,34-23,-12
+58,1972-02-08,Baltimore Bullets,W,111,107,W 1,35-23,4
+59,1972-02-10,Philadelphia 76ers,W,121,112,W 2,36-23,9
+60,1972-02-12,Milwaukee Bucks,L,100,123,L 1,36-24,-23
+61,1972-02-13,Chicago Bulls,W,107,88,W 1,37-24,19
+62,1972-02-15,Buffalo Braves,W,103,100,W 2,38-24,3
+63,1972-02-18,Seattle SuperSonics,L,108,110,L 1,38-25,-2
+64,1972-02-19,Boston Celtics,W,115,111,W 1,39-25,4
+65,1972-02-22,Seattle SuperSonics,W,120,104,W 2,40-25,16
+66,1972-02-24,Detroit Pistons,W,116,106,W 3,41-25,10
+67,1972-02-26,Chicago Bulls,L,106,107,L 1,41-26,-1
+68,1972-02-27,Houston Rockets,W,117,104,W 1,42-26,13
+69,1972-02-29,Cincinnati Royals,W,128,120,W 2,43-26,8
+70,1972-03-03,Houston Rockets,W,108,107,W 3,44-26,1
+71,1972-03-04,Seattle SuperSonics,W,114,96,W 4,45-26,18
+72,1972-03-07,Cleveland Cavaliers,W,119,112,W 5,46-26,7
+73,1972-03-10,Houston Rockets,W,119,116,W 6,47-26,3
+74,1972-03-12,Cincinnati Royals,L,106,117,L 1,47-27,-11
+75,1972-03-14,Boston Celtics,L,110,124,L 2,47-28,-14
+76,1972-03-16,Portland Trail Blazers,W,107,94,W 1,48-28,13
+77,1972-03-17,Portland Trail Blazers,L,109,114,L 1,48-29,-5
+78,1972-03-18,Phoenix Suns,W,134,116,W 1,49-29,18
+79,1972-03-19,Los Angeles Lakers,L,99,162,L 1,49-30,-63
+80,1972-03-22,Baltimore Bullets,W,121,101,W 1,50-30,20
+81,1972-03-24,Atlanta Hawks,L,102,118,L 1,50-31,-16
+82,1972-03-26,Philadelphia 76ers,W,116,115,W 1,51-31,1

@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2008-10-29,Miami Heat,W,120,115,W 1,1-0,5
+2,2008-10-31,Philadelphia 76ers,L,87,116,L 1,1-1,-29
+3,2008-11-02,Milwaukee Bucks,L,86,94,L 2,1-2,-8
+4,2008-11-05,Charlotte Bobcats,W,101,98,W 1,2-2,3
+5,2008-11-07,Washington Wizards,W,114,108,W 2,3-2,6
+6,2008-11-09,Utah Jazz,W,107,99,W 3,4-2,8
+7,2008-11-11,San Antonio Spurs,L,80,92,L 1,4-3,-12
+8,2008-11-12,Memphis Grizzlies,W,132,103,W 1,5-3,29
+9,2008-11-14,Oklahoma City Thunder,W,116,106,W 2,6-3,10
+10,2008-11-16,Dallas Mavericks,L,114,124,L 1,6-4,-10
+11,2008-11-18,Boston Celtics,L,101,110,L 2,6-5,-9
+12,2008-11-21,Milwaukee Bucks,L,87,104,L 3,6-6,-17
+13,2008-11-22,Washington Wizards,W,122,117,W 1,7-6,5
+14,2008-11-25,Cleveland Cavaliers,L,101,119,L 1,7-7,-18
+15,2008-11-26,Detroit Pistons,L,96,110,L 2,7-8,-14
+16,2008-11-29,Golden State Warriors,W,138,125,W 1,8-8,13
+17,2008-12-02,Portland Trail Blazers,L,97,104,L 1,8-9,-7
+18,2008-12-03,Cleveland Cavaliers,L,82,118,L 2,8-10,-36
+19,2008-12-05,Atlanta Hawks,L,95,98,L 3,8-11,-3
+20,2008-12-07,Detroit Pistons,W,104,92,W 1,9-11,12
+21,2008-12-09,Chicago Bulls,L,100,105,L 1,9-12,-5
+22,2008-12-10,New Jersey Nets,W,121,109,W 1,10-12,12
+23,2008-12-13,Sacramento Kings,W,114,90,W 2,11-12,24
+24,2008-12-15,Phoenix Suns,L,103,111,L 1,11-13,-8
+25,2008-12-16,Los Angeles Lakers,L,114,116,L 2,11-14,-2
+26,2008-12-19,Milwaukee Bucks,L,81,105,L 3,11-15,-24
+27,2008-12-21,Boston Celtics,L,105,124,L 4,11-16,-19
+28,2008-12-26,Minnesota Timberwolves,L,107,120,L 5,11-17,-13
+29,2008-12-28,Denver Nuggets,L,110,117,L 6,11-18,-7
+30,2008-12-30,Charlotte Bobcats,W,93,89,W 1,12-18,4
+31,2009-01-02,Indiana Pacers,L,103,105,L 1,12-19,-2
+32,2009-01-04,Boston Celtics,W,100,88,W 1,13-19,12
+33,2009-01-06,Oklahoma City Thunder,L,99,107,L 1,13-20,-8
+34,2009-01-08,Dallas Mavericks,L,94,99,L 2,13-21,-5
+35,2009-01-10,Houston Rockets,L,76,96,L 3,13-22,-20
+36,2009-01-12,New Orleans Hornets,W,101,95,W 1,14-22,6
+37,2009-01-14,Washington Wizards,W,128,122,W 2,15-22,6
+38,2009-01-16,Washington Wizards,L,89,96,L 1,15-23,-7
+39,2009-01-17,Philadelphia 76ers,L,97,107,L 2,15-24,-10
+40,2009-01-19,Chicago Bulls,W,102,98,W 1,16-24,4
+41,2009-01-21,Phoenix Suns,W,114,109,W 2,17-24,5
+42,2009-01-23,Memphis Grizzlies,W,108,88,W 3,18-24,20
+43,2009-01-24,Philadelphia 76ers,L,110,116,L 1,18-25,-6
+44,2009-01-26,Houston Rockets,W,104,98,W 1,19-25,6
+45,2009-01-28,Atlanta Hawks,W,112,104,W 2,20-25,8
+46,2009-01-31,Indiana Pacers,W,122,113,W 3,21-25,9
+47,2009-02-02,Los Angeles Lakers,L,117,126,L 1,21-26,-9
+48,2009-02-04,Cleveland Cavaliers,L,102,107,L 2,21-27,-5
+49,2009-02-06,Boston Celtics,L,100,110,L 3,21-28,-10
+50,2009-02-08,Portland Trail Blazers,L,108,109,L 4,21-29,-1
+51,2009-02-10,Golden State Warriors,L,127,144,L 5,21-30,-17
+52,2009-02-11,Los Angeles Clippers,L,124,128,L 6,21-31,-4
+53,2009-02-17,San Antonio Spurs,W,112,107,W 1,22-31,5
+54,2009-02-20,Toronto Raptors,W,127,97,W 2,23-31,30
+55,2009-02-22,Toronto Raptors,L,100,111,L 1,23-32,-11
+56,2009-02-23,Indiana Pacers,W,123,119,W 1,24-32,4
+57,2009-02-25,Orlando Magic,L,109,114,L 1,24-33,-5
+58,2009-02-27,Philadelphia 76ers,L,103,108,L 2,24-34,-5
+59,2009-02-28,Miami Heat,L,115,120,L 3,24-35,-5
+60,2009-03-04,Atlanta Hawks,W,109,105,W 1,25-35,4
+61,2009-03-07,Charlotte Bobcats,L,105,114,L 1,25-36,-9
+62,2009-03-08,New Jersey Nets,L,101,106,L 2,25-37,-5
+63,2009-03-10,Milwaukee Bucks,W,120,112,W 1,26-37,8
+64,2009-03-11,Detroit Pistons,W,116,111,W 2,27-37,5
+65,2009-03-13,Minnesota Timberwolves,W,102,94,W 3,28-37,8
+66,2009-03-15,Cleveland Cavaliers,L,93,98,L 1,28-38,-5
+67,2009-03-18,New Jersey Nets,L,89,115,L 2,28-39,-26
+68,2009-03-20,Sacramento Kings,L,94,121,L 3,28-40,-27
+69,2009-03-21,Orlando Magic,L,103,110,L 4,28-41,-7
+70,2009-03-23,Orlando Magic,L,102,106,L 5,28-42,-4
+71,2009-03-25,Los Angeles Clippers,L,135,140,L 6,28-43,-5
+72,2009-03-27,New Orleans Hornets,W,103,93,W 1,29-43,10
+73,2009-03-28,Charlotte Bobcats,L,85,96,L 1,29-44,-11
+74,2009-03-30,Utah Jazz,L,104,112,L 2,29-45,-8
+75,2009-03-31,Denver Nuggets,L,104,111,L 3,29-46,-7
+76,2009-04-04,Toronto Raptors,L,95,102,L 4,29-47,-7
+77,2009-04-05,Toronto Raptors,W,112,103,W 1,30-47,9
+78,2009-04-07,Chicago Bulls,L,103,110,L 1,30-48,-7
+79,2009-04-08,Detroit Pistons,L,86,113,L 2,30-49,-27
+80,2009-04-10,Orlando Magic,W,105,95,W 1,31-49,10
+81,2009-04-12,Miami Heat,L,105,122,L 1,31-50,-17
+82,2009-04-15,New Jersey Nets,W,102,73,W 1,32-50,29

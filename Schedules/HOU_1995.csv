@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1994-11-04,New Jersey Nets,W,90,86,W 1,1-0,4
+2,1994-11-05,Minnesota Timberwolves,W,115,85,W 2,2-0,30
+3,1994-11-08,Cleveland Cavaliers,W,100,98,W 3,3-0,2
+4,1994-11-09,Indiana Pacers,W,109,104,W 4,4-0,5
+5,1994-11-11,Boston Celtics,W,102,82,W 5,5-0,20
+6,1994-11-12,New Jersey Nets,W,100,84,W 6,6-0,16
+7,1994-11-15,Sacramento Kings,W,105,99,W 7,7-0,6
+8,1994-11-17,Chicago Bulls,W,106,83,W 8,8-0,23
+9,1994-11-19,Denver Nuggets,W,109,101,W 9,9-0,8
+10,1994-11-22,Portland Trail Blazers,L,94,102,L 1,9-1,-8
+11,1994-11-23,Orlando Magic,L,94,117,L 2,9-2,-23
+12,1994-11-26,Seattle SuperSonics,L,94,98,L 3,9-3,-4
+13,1994-11-29,Denver Nuggets,W,96,81,W 1,10-3,15
+14,1994-12-01,Golden State Warriors,W,113,109,W 2,11-3,4
+15,1994-12-02,Los Angeles Lakers,L,89,107,L 1,11-4,-18
+16,1994-12-06,Seattle SuperSonics,L,90,103,L 2,11-5,-13
+17,1994-12-08,Charlotte Hornets,W,101,95,W 1,12-5,6
+18,1994-12-10,San Antonio Spurs,L,96,108,L 1,12-6,-12
+19,1994-12-13,Washington Bullets,W,93,85,W 1,13-6,8
+20,1994-12-15,Los Angeles Lakers,L,94,97,L 1,13-7,-3
+21,1994-12-17,Boston Celtics,L,109,112,L 2,13-8,-3
+22,1994-12-22,Phoenix Suns,W,114,106,W 1,14-8,8
+23,1994-12-23,San Antonio Spurs,L,96,98,L 1,14-9,-2
+24,1994-12-26,Miami Heat,W,101,88,W 1,15-9,13
+25,1994-12-27,Atlanta Hawks,W,105,93,W 2,16-9,12
+26,1994-12-29,Golden State Warriors,W,126,124,W 3,17-9,2
+27,1994-12-30,Utah Jazz,W,111,103,W 4,18-9,8
+28,1995-01-03,Dallas Mavericks,W,110,98,W 5,19-9,12
+29,1995-01-05,Dallas Mavericks,W,108,99,W 6,20-9,9
+30,1995-01-07,Indiana Pacers,L,83,88,L 1,20-10,-5
+31,1995-01-11,Miami Heat,W,108,97,W 1,21-10,11
+32,1995-01-13,San Antonio Spurs,W,103,100,W 2,22-10,3
+33,1995-01-14,Denver Nuggets,L,104,118,L 1,22-11,-14
+34,1995-01-16,Minnesota Timberwolves,L,75,94,L 2,22-12,-19
+35,1995-01-19,New York Knicks,L,77,93,L 3,22-13,-16
+36,1995-01-20,Detroit Pistons,W,106,96,W 1,23-13,10
+37,1995-01-22,Chicago Bulls,L,81,100,L 1,23-14,-19
+38,1995-01-24,Milwaukee Bucks,W,115,99,W 1,24-14,16
+39,1995-01-26,San Antonio Spurs,L,100,103,L 1,24-15,-3
+40,1995-01-28,Minnesota Timberwolves,W,114,93,W 1,25-15,21
+41,1995-01-31,Denver Nuggets,W,86,74,W 2,26-15,12
+42,1995-02-02,Utah Jazz,W,121,101,W 3,27-15,20
+43,1995-02-05,Phoenix Suns,W,124,100,W 4,28-15,24
+44,1995-02-06,Portland Trail Blazers,L,82,120,L 1,28-16,-38
+45,1995-02-08,Sacramento Kings,W,97,86,W 1,29-16,11
+46,1995-02-09,Los Angeles Clippers,L,107,122,L 1,29-17,-15
+47,1995-02-14,Los Angeles Clippers,W,124,104,W 1,30-17,20
+48,1995-02-16,Charlotte Hornets,W,105,89,W 2,31-17,16
+49,1995-02-17,Washington Bullets,W,109,92,W 3,32-17,17
+50,1995-02-19,New York Knicks,L,117,122,L 1,32-18,-5
+51,1995-02-21,San Antonio Spurs,L,97,98,L 2,32-19,-1
+52,1995-02-23,Detroit Pistons,W,110,99,W 1,33-19,11
+53,1995-02-25,Golden State Warriors,W,112,105,W 2,34-19,7
+54,1995-02-27,Cleveland Cavaliers,W,86,78,W 3,35-19,8
+55,1995-02-28,Dallas Mavericks,L,101,102,L 1,35-20,-1
+56,1995-03-02,Orlando Magic,L,96,107,L 2,35-21,-11
+57,1995-03-03,Minnesota Timberwolves,L,105,108,L 3,35-22,-3
+58,1995-03-05,San Antonio Spurs,L,103,124,L 4,35-23,-21
+59,1995-03-07,Phoenix Suns,L,102,113,L 5,35-24,-11
+60,1995-03-11,Dallas Mavericks,W,109,102,W 1,36-24,7
+61,1995-03-13,Atlanta Hawks,W,97,86,W 2,37-24,11
+62,1995-03-14,Philadelphia 76ers,W,136,107,W 3,38-24,29
+63,1995-03-16,Minnesota Timberwolves,W,104,97,W 4,39-24,7
+64,1995-03-19,Philadelphia 76ers,W,114,103,W 5,40-24,11
+65,1995-03-21,Seattle SuperSonics,L,102,104,L 1,40-25,-2
+66,1995-03-23,Utah Jazz,L,104,112,L 2,40-26,-8
+67,1995-03-24,Phoenix Suns,W,99,97,W 1,41-26,2
+68,1995-03-26,Los Angeles Lakers,L,96,107,L 1,41-27,-11
+69,1995-03-28,Los Angeles Lakers,L,96,106,L 2,41-28,-10
+70,1995-03-30,Los Angeles Clippers,W,108,96,W 1,42-28,12
+71,1995-04-01,Milwaukee Bucks,L,87,93,L 1,42-29,-6
+72,1995-04-04,Sacramento Kings,L,105,109,L 2,42-30,-4
+73,1995-04-06,Golden State Warriors,W,110,102,W 1,43-30,8
+74,1995-04-07,Portland Trail Blazers,L,109,127,L 1,43-31,-18
+75,1995-04-09,Denver Nuggets,W,123,120,W 1,44-31,3
+76,1995-04-11,Dallas Mavericks,L,147,156,L 1,44-32,-9
+77,1995-04-13,Portland Trail Blazers,W,112,99,W 1,45-32,13
+78,1995-04-15,Sacramento Kings,W,98,84,W 2,46-32,14
+79,1995-04-17,Los Angeles Clippers,W,121,111,W 3,47-32,10
+80,1995-04-19,Utah Jazz,L,96,115,L 1,47-33,-19
+81,1995-04-20,Seattle SuperSonics,L,101,111,L 2,47-34,-10
+82,1995-04-23,Utah Jazz,L,97,103,L 3,47-35,-6

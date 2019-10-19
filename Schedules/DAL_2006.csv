@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2005-11-01,Phoenix Suns,W,111,108,W 1,1-0,3
+2,2005-11-02,Utah Jazz,L,82,93,L 1,1-1,-11
+3,2005-11-05,San Antonio Spurs,W,103,84,W 1,2-1,19
+4,2005-11-09,Philadelphia 76ers,L,97,112,L 1,2-2,-15
+5,2005-11-11,Charlotte Bobcats,W,98,88,W 1,3-2,10
+6,2005-11-12,New Orleans/Oklahoma City Hornets,W,109,103,W 2,4-2,6
+7,2005-11-15,Denver Nuggets,W,83,80,W 3,5-2,3
+8,2005-11-17,Atlanta Hawks,W,87,78,W 4,6-2,9
+9,2005-11-19,Detroit Pistons,W,119,82,W 5,7-2,37
+10,2005-11-22,Houston Rockets,W,102,93,W 6,8-2,9
+11,2005-11-25,Miami Heat,W,103,90,W 7,9-2,13
+12,2005-11-26,Memphis Grizzlies,L,92,112,L 1,9-3,-20
+13,2005-11-28,Toronto Raptors,W,93,91,W 1,10-3,2
+14,2005-11-29,Milwaukee Bucks,L,111,113,L 1,10-4,-2
+15,2005-12-01,San Antonio Spurs,L,90,92,L 2,10-5,-2
+16,2005-12-03,New Orleans/Oklahoma City Hornets,W,97,88,W 1,11-5,9
+17,2005-12-05,Chicago Bulls,W,102,94,W 2,12-5,8
+18,2005-12-06,Indiana Pacers,W,84,75,W 3,13-5,9
+19,2005-12-09,Memphis Grizzlies,W,90,83,W 4,14-5,7
+20,2005-12-10,Boston Celtics,W,103,94,W 5,15-5,9
+21,2005-12-12,Los Angeles Lakers,L,106,109,L 1,15-6,-3
+22,2005-12-14,Phoenix Suns,W,102,96,W 1,16-6,6
+23,2005-12-16,Orlando Magic,W,109,103,W 2,17-6,6
+24,2005-12-18,Minnesota Timberwolves,W,102,95,W 3,18-6,7
+25,2005-12-20,Los Angeles Lakers,L,90,112,L 1,18-7,-22
+26,2005-12-22,Sacramento Kings,W,105,95,W 1,19-7,10
+27,2005-12-23,Seattle SuperSonics,W,101,98,W 2,20-7,3
+28,2005-12-26,Indiana Pacers,W,102,80,W 3,21-7,22
+29,2005-12-30,Golden State Warriors,L,109,111,L 1,21-8,-2
+30,2005-12-31,New Orleans/Oklahoma City Hornets,W,95,90,W 1,22-8,5
+31,2006-01-03,Portland Trail Blazers,W,95,81,W 2,23-8,14
+32,2006-01-04,Minnesota Timberwolves,L,78,91,L 1,23-9,-13
+33,2006-01-06,Denver Nuggets,W,114,112,W 1,24-9,2
+34,2006-01-07,Minnesota Timberwolves,W,83,79,W 2,25-9,4
+35,2006-01-09,Boston Celtics,W,104,102,W 3,26-9,2
+36,2006-01-11,New York Knicks,L,115,117,L 1,26-10,-2
+37,2006-01-14,New Jersey Nets,W,110,77,W 1,27-10,33
+38,2006-01-16,Milwaukee Bucks,W,114,95,W 2,28-10,19
+39,2006-01-18,Houston Rockets,W,103,76,W 3,29-10,27
+40,2006-01-20,Los Angeles Clippers,W,101,81,W 4,30-10,20
+41,2006-01-22,Portland Trail Blazers,W,95,89,W 5,31-10,6
+42,2006-01-25,Golden State Warriors,W,102,93,W 6,32-10,9
+43,2006-01-26,Seattle SuperSonics,W,104,97,W 7,33-10,7
+44,2006-01-28,Utah Jazz,W,103,89,W 8,34-10,14
+45,2006-01-31,Chicago Bulls,W,98,94,W 9,35-10,4
+46,2006-02-01,Memphis Grizzlies,W,81,80,W 10,36-10,1
+47,2006-02-04,Seattle SuperSonics,W,110,91,W 11,37-10,19
+48,2006-02-07,Los Angeles Lakers,W,102,87,W 12,38-10,15
+49,2006-02-09,Miami Heat,W,112,76,W 13,39-10,36
+50,2006-02-10,Denver Nuggets,L,104,113,L 1,39-11,-9
+51,2006-02-13,New York Knicks,W,100,72,W 1,40-11,28
+52,2006-02-15,Washington Wizards,W,103,97,W 2,41-11,6
+53,2006-02-21,Los Angeles Clippers,W,93,91,W 3,42-11,2
+54,2006-02-23,Memphis Grizzlies,W,97,87,W 4,43-11,10
+55,2006-02-25,Toronto Raptors,W,115,113,W 5,44-11,2
+56,2006-02-27,Philadelphia 76ers,W,104,92,W 6,45-11,12
+57,2006-03-02,San Antonio Spurs,L,89,98,L 1,45-12,-9
+58,2006-03-03,Charlotte Bobcats,W,90,76,W 1,46-12,14
+59,2006-03-05,Phoenix Suns,L,107,115,L 1,46-13,-8
+60,2006-03-07,Portland Trail Blazers,W,93,87,W 1,47-13,6
+61,2006-03-09,Portland Trail Blazers,W,109,92,W 2,48-13,17
+62,2006-03-11,Utah Jazz,W,90,87,W 3,49-13,3
+63,2006-03-12,Sacramento Kings,L,80,85,L 1,49-14,-5
+64,2006-03-14,Cleveland Cavaliers,W,91,87,W 1,50-14,4
+65,2006-03-15,Houston Rockets,W,95,81,W 2,51-14,14
+66,2006-03-17,Washington Wizards,W,104,94,W 3,52-14,10
+67,2006-03-19,New Jersey Nets,L,89,100,L 1,52-15,-11
+68,2006-03-21,Houston Rockets,W,88,72,W 1,53-15,16
+69,2006-03-23,Golden State Warriors,L,121,122,L 1,53-16,-1
+70,2006-03-25,Atlanta Hawks,W,98,83,W 1,54-16,15
+71,2006-03-28,Detroit Pistons,L,90,97,L 1,54-17,-7
+72,2006-03-29,Cleveland Cavaliers,L,94,107,L 2,54-18,-13
+73,2006-03-31,Orlando Magic,L,99,108,L 3,54-19,-9
+74,2006-04-02,Denver Nuggets,W,103,79,W 1,55-19,24
+75,2006-04-04,Sacramento Kings,W,127,101,W 2,56-19,26
+76,2006-04-07,San Antonio Spurs,W,92,86,W 3,57-19,6
+77,2006-04-08,New Orleans/Oklahoma City Hornets,W,101,77,W 4,58-19,24
+78,2006-04-10,Los Angeles Clippers,W,75,73,W 5,59-19,2
+79,2006-04-12,Golden State Warriors,L,102,114,L 1,59-20,-12
+80,2006-04-13,Phoenix Suns,L,104,117,L 2,59-21,-13
+81,2006-04-16,Utah Jazz,W,111,95,W 1,60-21,16
+82,2006-04-19,Los Angeles Clippers,L,71,85,L 1,60-22,-14

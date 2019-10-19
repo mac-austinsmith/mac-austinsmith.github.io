@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1993-11-05,Minnesota Timberwolves,W,104,99,W 1,1-0,5
+2,1993-11-06,Indiana Pacers,W,113,107,W 2,2-0,6
+3,1993-11-09,Washington Bullets,L,112,118,L 1,2-1,-6
+4,1993-11-11,Los Angeles Clippers,L,99,111,L 2,2-2,-12
+5,1993-11-12,Utah Jazz,L,89,109,L 3,2-3,-20
+6,1993-11-14,Portland Trail Blazers,L,111,114,L 4,2-4,-3
+7,1993-11-17,Orlando Magic,W,98,92,W 1,3-4,6
+8,1993-11-19,San Antonio Spurs,W,95,86,W 2,4-4,9
+9,1993-11-21,Philadelphia 76ers,W,103,89,W 3,5-4,14
+10,1993-11-24,Boston Celtics,L,103,118,L 1,5-5,-15
+11,1993-11-27,New York Knicks,L,85,112,L 2,5-6,-27
+12,1993-11-28,Golden State Warriors,L,88,91,L 3,5-7,-3
+13,1993-11-30,Cleveland Cavaliers,L,74,92,L 4,5-8,-18
+14,1993-12-02,Phoenix Suns,L,101,102,L 5,5-9,-1
+15,1993-12-07,Orlando Magic,L,89,91,L 6,5-10,-2
+16,1993-12-08,Atlanta Hawks,L,97,105,L 7,5-11,-8
+17,1993-12-10,Milwaukee Bucks,L,88,90,L 8,5-12,-2
+18,1993-12-11,Minnesota Timberwolves,W,92,80,W 1,6-12,12
+19,1993-12-14,Los Angeles Lakers,L,93,99,L 1,6-13,-6
+20,1993-12-16,Washington Bullets,W,97,95,W 1,7-13,2
+21,1993-12-18,Cleveland Cavaliers,W,98,92,W 2,8-13,6
+22,1993-12-20,Philadelphia 76ers,L,92,121,L 1,8-14,-29
+23,1993-12-21,Charlotte Hornets,L,97,108,L 2,8-15,-11
+24,1993-12-23,Chicago Bulls,L,72,81,L 3,8-16,-9
+25,1993-12-27,Charlotte Hornets,L,94,109,L 4,8-17,-15
+26,1993-12-28,Atlanta Hawks,L,101,119,L 5,8-18,-18
+27,1993-12-30,Sacramento Kings,L,91,97,L 6,8-19,-6
+28,1994-01-02,Miami Heat,L,85,93,L 7,8-20,-8
+29,1994-01-04,Chicago Bulls,L,91,97,L 8,8-21,-6
+30,1994-01-08,Indiana Pacers,L,92,101,L 9,8-22,-9
+31,1994-01-11,Denver Nuggets,L,86,94,L 10,8-23,-8
+32,1994-01-13,New York Knicks,L,80,94,L 11,8-24,-14
+33,1994-01-15,New York Knicks,L,88,97,L 12,8-25,-9
+34,1994-01-17,Utah Jazz,L,94,109,L 13,8-26,-15
+35,1994-01-18,Milwaukee Bucks,L,91,123,L 14,8-27,-32
+36,1994-01-21,Miami Heat,W,118,98,W 1,9-27,20
+37,1994-01-22,Washington Bullets,L,93,98,L 1,9-28,-5
+38,1994-01-24,Chicago Bulls,L,86,92,L 2,9-29,-6
+39,1994-01-26,Golden State Warriors,L,92,108,L 3,9-30,-16
+40,1994-01-28,Los Angeles Lakers,L,97,105,L 4,9-31,-8
+41,1994-01-29,Denver Nuggets,L,110,128,L 5,9-32,-18
+42,1994-01-31,Cleveland Cavaliers,L,103,107,L 6,9-33,-4
+43,1994-02-02,Milwaukee Bucks,W,104,90,W 1,10-33,14
+44,1994-02-04,Seattle SuperSonics,L,84,108,L 1,10-34,-24
+45,1994-02-05,New Jersey Nets,L,100,107,L 2,10-35,-7
+46,1994-02-07,Atlanta Hawks,L,97,141,L 3,10-36,-44
+47,1994-02-09,Boston Celtics,W,102,95,W 1,11-36,7
+48,1994-02-10,Houston Rockets,L,81,104,L 1,11-37,-23
+49,1994-02-15,Washington Bullets,W,100,93,W 1,12-37,7
+50,1994-02-17,San Antonio Spurs,L,96,115,L 1,12-38,-19
+51,1994-02-19,Dallas Mavericks,W,105,96,W 1,13-38,9
+52,1994-02-21,Dallas Mavericks,L,88,98,L 1,13-39,-10
+53,1994-02-25,Indiana Pacers,L,90,110,L 2,13-40,-20
+54,1994-02-26,Miami Heat,L,100,105,L 3,13-41,-5
+55,1994-03-01,New Jersey Nets,L,98,108,L 4,13-42,-10
+56,1994-03-02,Portland Trail Blazers,L,107,131,L 5,13-43,-24
+57,1994-03-05,Milwaukee Bucks,L,108,117,L 6,13-44,-9
+58,1994-03-07,New York Knicks,L,85,99,L 7,13-45,-14
+59,1994-03-09,New Jersey Nets,W,114,97,W 1,14-45,17
+60,1994-03-11,Cleveland Cavaliers,W,98,96,W 2,15-45,2
+61,1994-03-12,Atlanta Hawks,L,92,104,L 1,15-46,-12
+62,1994-03-14,Sacramento Kings,W,108,102,W 1,16-46,6
+63,1994-03-15,Seattle SuperSonics,W,89,87,W 2,17-46,2
+64,1994-03-18,Phoenix Suns,W,114,113,W 3,18-46,1
+65,1994-03-19,Houston Rockets,L,88,106,L 1,18-47,-18
+66,1994-03-23,Los Angeles Clippers,W,111,107,W 1,19-47,4
+67,1994-03-25,Charlotte Hornets,L,92,106,L 1,19-48,-14
+68,1994-03-27,Cleveland Cavaliers,L,99,111,L 2,19-49,-12
+69,1994-03-29,Miami Heat,W,123,115,W 1,20-49,8
+70,1994-04-01,Chicago Bulls,L,95,102,L 1,20-50,-7
+71,1994-04-03,Chicago Bulls,L,93,96,L 2,20-51,-3
+72,1994-04-05,Indiana Pacers,L,89,105,L 3,20-52,-16
+73,1994-04-08,Orlando Magic,L,103,117,L 4,20-53,-14
+74,1994-04-10,Boston Celtics,L,111,116,L 5,20-54,-5
+75,1994-04-12,Philadelphia 76ers,L,107,134,L 6,20-55,-27
+76,1994-04-13,Boston Celtics,L,96,109,L 7,20-56,-13
+77,1994-04-15,New Jersey Nets,L,114,119,L 8,20-57,-5
+78,1994-04-17,Indiana Pacers,L,99,104,L 9,20-58,-5
+79,1994-04-19,Orlando Magic,L,104,132,L 10,20-59,-28
+80,1994-04-20,Milwaukee Bucks,L,78,103,L 11,20-60,-25
+81,1994-04-23,Charlotte Hornets,L,103,108,L 12,20-61,-5
+82,1994-04-24,Philadelphia 76ers,L,102,110,L 13,20-62,-8

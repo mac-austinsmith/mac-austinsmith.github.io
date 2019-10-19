@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1985-10-26,Seattle SuperSonics,W,101,95,W 1,1-0,6
+2,1985-10-29,Los Angeles Lakers,L,115,133,L 1,1-1,-18
+3,1985-11-01,San Antonio Spurs,L,107,116,L 2,1-2,-9
+4,1985-11-02,Sacramento Kings,W,119,113,W 1,2-2,6
+5,1985-11-06,Portland Trail Blazers,L,109,111,L 1,2-3,-2
+6,1985-11-07,Denver Nuggets,L,99,131,L 2,2-4,-32
+7,1985-11-09,Houston Rockets,L,110,115,L 3,2-5,-5
+8,1985-11-12,Seattle SuperSonics,L,90,109,L 4,2-6,-19
+9,1985-11-13,Utah Jazz,W,115,100,W 1,3-6,15
+10,1985-11-15,New Jersey Nets,W,110,98,W 2,4-6,12
+11,1985-11-16,Houston Rockets,L,117,122,L 1,4-7,-5
+12,1985-11-19,Phoenix Suns,W,123,119,W 1,5-7,4
+13,1985-11-23,Indiana Pacers,W,117,104,W 2,6-7,13
+14,1985-11-26,Washington Bullets,W,112,99,W 3,7-7,13
+15,1985-11-29,Sacramento Kings,W,133,111,W 4,8-7,22
+16,1985-11-30,Los Angeles Clippers,W,124,115,W 5,9-7,9
+17,1985-12-03,Golden State Warriors,W,107,100,W 6,10-7,7
+18,1985-12-05,San Antonio Spurs,L,116,120,L 1,10-8,-4
+19,1985-12-07,Golden State Warriors,W,120,110,W 1,11-8,10
+20,1985-12-08,Los Angeles Lakers,L,119,125,L 1,11-9,-6
+21,1985-12-10,Los Angeles Clippers,L,118,120,L 2,11-10,-2
+22,1985-12-12,Houston Rockets,L,120,123,L 3,11-11,-3
+23,1985-12-14,Denver Nuggets,W,127,100,W 1,12-11,27
+24,1985-12-18,Boston Celtics,L,117,137,L 1,12-12,-20
+25,1985-12-19,Atlanta Hawks,W,120,108,W 1,13-12,12
+26,1985-12-21,Milwaukee Bucks,L,107,132,L 1,13-13,-25
+27,1985-12-22,Cleveland Cavaliers,L,105,119,L 2,13-14,-14
+28,1985-12-26,Phoenix Suns,W,105,98,W 1,14-14,7
+29,1985-12-27,Portland Trail Blazers,L,133,142,L 1,14-15,-9
+30,1986-01-04,Utah Jazz,W,119,106,W 1,15-15,13
+31,1986-01-07,Denver Nuggets,L,110,132,L 1,15-16,-22
+32,1986-01-10,Phoenix Suns,W,117,104,W 1,16-16,13
+33,1986-01-11,Golden State Warriors,W,127,123,W 2,17-16,4
+34,1986-01-13,Seattle SuperSonics,W,90,89,W 3,18-16,1
+35,1986-01-15,New York Knicks,L,112,116,L 1,18-17,-4
+36,1986-01-17,Utah Jazz,L,112,139,L 2,18-18,-27
+37,1986-01-19,Houston Rockets,W,131,96,W 1,19-18,35
+38,1986-01-21,Sacramento Kings,L,110,119,L 1,19-19,-9
+39,1986-01-22,Los Angeles Clippers,L,118,131,L 2,19-20,-13
+40,1986-01-24,Detroit Pistons,L,120,129,L 3,19-21,-9
+41,1986-01-25,San Antonio Spurs,W,123,107,W 1,20-21,16
+42,1986-01-27,Chicago Bulls,W,124,116,W 2,21-21,8
+43,1986-01-29,San Antonio Spurs,W,126,114,W 3,22-21,12
+44,1986-01-31,Cleveland Cavaliers,W,107,91,W 4,23-21,16
+45,1986-02-02,Utah Jazz,W,100,97,W 5,24-21,3
+46,1986-02-04,Los Angeles Lakers,L,102,110,L 1,24-22,-8
+47,1986-02-06,Portland Trail Blazers,W,115,111,W 1,25-22,4
+48,1986-02-11,San Antonio Spurs,W,121,107,W 2,26-22,14
+49,1986-02-12,Denver Nuggets,W,117,110,W 3,27-22,7
+50,1986-02-14,Detroit Pistons,L,110,119,L 1,27-23,-9
+51,1986-02-16,Chicago Bulls,W,120,114,W 1,28-23,6
+52,1986-02-17,New Jersey Nets,W,126,124,W 2,29-23,2
+53,1986-02-19,Milwaukee Bucks,L,107,124,L 1,29-24,-17
+54,1986-02-21,Houston Rockets,L,104,111,L 2,29-25,-7
+55,1986-02-22,Denver Nuggets,L,106,113,L 3,29-26,-7
+56,1986-02-24,Houston Rockets,L,105,110,L 4,29-27,-5
+57,1986-02-26,Los Angeles Lakers,L,116,119,L 5,29-28,-3
+58,1986-02-28,Philadelphia 76ers,L,120,123,L 6,29-29,-3
+59,1986-03-01,Golden State Warriors,W,119,110,W 1,30-29,9
+60,1986-03-03,Phoenix Suns,W,139,138,W 2,31-29,1
+61,1986-03-06,Los Angeles Clippers,W,131,113,W 3,32-29,18
+62,1986-03-07,Portland Trail Blazers,L,114,125,L 1,32-30,-11
+63,1986-03-09,Sacramento Kings,W,117,102,W 1,33-30,15
+64,1986-03-10,Boston Celtics,W,116,115,W 2,34-30,1
+65,1986-03-12,Sacramento Kings,L,120,127,L 1,34-31,-7
+66,1986-03-14,Portland Trail Blazers,W,129,118,W 1,35-31,11
+67,1986-03-15,Utah Jazz,W,108,98,W 2,36-31,10
+68,1986-03-18,San Antonio Spurs,W,120,113,W 3,37-31,7
+69,1986-03-20,Utah Jazz,W,114,107,W 4,38-31,7
+70,1986-03-21,Atlanta Hawks,L,103,107,L 1,38-32,-4
+71,1986-03-24,Indiana Pacers,W,126,120,W 1,39-32,6
+72,1986-03-26,Washington Bullets,L,112,120,L 1,39-33,-8
+73,1986-03-27,New York Knicks,W,110,105,W 1,40-33,5
+74,1986-03-30,Philadelphia 76ers,L,113,114,L 1,40-34,-1
+75,1986-04-01,Phoenix Suns,W,128,98,W 1,41-34,30
+76,1986-04-03,Denver Nuggets,W,115,114,W 2,42-34,1
+77,1986-04-05,Seattle SuperSonics,L,109,111,L 1,42-35,-2
+78,1986-04-07,Sacramento Kings,L,115,122,L 2,42-36,-7
+79,1986-04-08,Golden State Warriors,L,115,129,L 3,42-37,-14
+80,1986-04-10,Seattle SuperSonics,W,115,109,W 1,43-37,6
+81,1986-04-12,Los Angeles Clippers,L,108,115,L 1,43-38,-7
+82,1986-04-13,Los Angeles Lakers,W,127,104,W 1,44-38,23

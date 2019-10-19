@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2014-10-29,Sacramento Kings,W,95,77,W 1,1-0,18
+2,2014-11-01,Los Angeles Lakers,W,127,104,W 2,2-0,23
+3,2014-11-02,Portland Trail Blazers,W,95,90,W 3,3-0,5
+4,2014-11-05,Los Angeles Clippers,W,121,104,W 4,4-0,17
+5,2014-11-08,Houston Rockets,W,98,87,W 5,5-0,11
+6,2014-11-09,Phoenix Suns,L,95,107,L 1,5-1,-12
+7,2014-11-11,San Antonio Spurs,L,100,113,L 2,5-2,-13
+8,2014-11-13,Brooklyn Nets,W,107,99,W 1,6-2,8
+9,2014-11-15,Charlotte Hornets,W,112,87,W 2,7-2,25
+10,2014-11-16,Los Angeles Lakers,W,136,115,W 3,8-2,21
+11,2014-11-21,Utah Jazz,W,101,88,W 4,9-2,13
+12,2014-11-23,Oklahoma City Thunder,W,91,86,W 5,10-2,5
+13,2014-11-25,Miami Heat,W,114,97,W 6,11-2,17
+14,2014-11-26,Orlando Magic,W,111,96,W 7,12-2,15
+15,2014-11-28,Charlotte Hornets,W,106,101,W 8,13-2,5
+16,2014-11-30,Detroit Pistons,W,104,93,W 9,14-2,11
+17,2014-12-02,Orlando Magic,W,98,97,W 10,15-2,1
+18,2014-12-04,New Orleans Pelicans,W,112,85,W 11,16-2,27
+19,2014-12-06,Chicago Bulls,W,112,102,W 12,17-2,10
+20,2014-12-08,Minnesota Timberwolves,W,102,86,W 13,18-2,16
+21,2014-12-10,Houston Rockets,W,105,93,W 14,19-2,12
+22,2014-12-13,Dallas Mavericks,W,105,98,W 15,20-2,7
+23,2014-12-14,New Orleans Pelicans,W,128,122,W 16,21-2,6
+24,2014-12-16,Memphis Grizzlies,L,98,105,L 1,21-3,-7
+25,2014-12-18,Oklahoma City Thunder,W,114,109,W 1,22-3,5
+26,2014-12-22,Sacramento Kings,W,128,108,W 2,23-3,20
+27,2014-12-23,Los Angeles Lakers,L,105,115,L 1,23-4,-10
+28,2014-12-25,Los Angeles Clippers,L,86,100,L 2,23-5,-14
+29,2014-12-27,Minnesota Timberwolves,W,110,97,W 1,24-5,13
+30,2014-12-30,Philadelphia 76ers,W,126,86,W 2,25-5,40
+31,2015-01-02,Toronto Raptors,W,126,105,W 3,26-5,21
+32,2015-01-05,Oklahoma City Thunder,W,117,91,W 4,27-5,26
+33,2015-01-07,Indiana Pacers,W,117,102,W 5,28-5,15
+34,2015-01-09,Cleveland Cavaliers,W,112,94,W 6,29-5,18
+35,2015-01-13,Utah Jazz,W,116,105,W 7,30-5,11
+36,2015-01-14,Miami Heat,W,104,89,W 8,31-5,15
+37,2015-01-16,Oklahoma City Thunder,L,115,127,L 1,31-6,-12
+38,2015-01-17,Houston Rockets,W,131,106,W 1,32-6,25
+39,2015-01-19,Denver Nuggets,W,122,79,W 2,33-6,43
+40,2015-01-21,Houston Rockets,W,126,113,W 3,34-6,13
+41,2015-01-23,Sacramento Kings,W,126,101,W 4,35-6,25
+42,2015-01-25,Boston Celtics,W,114,111,W 5,36-6,3
+43,2015-01-27,Chicago Bulls,L,111,113,L 1,36-7,-2
+44,2015-01-30,Utah Jazz,L,100,110,L 2,36-8,-10
+45,2015-01-31,Phoenix Suns,W,106,87,W 1,37-8,19
+46,2015-02-03,Sacramento Kings,W,121,96,W 2,38-8,25
+47,2015-02-04,Dallas Mavericks,W,128,114,W 3,39-8,14
+48,2015-02-06,Atlanta Hawks,L,116,124,L 1,39-9,-8
+49,2015-02-07,New York Knicks,W,106,92,W 1,40-9,14
+50,2015-02-09,Philadelphia 76ers,W,89,84,W 2,41-9,5
+51,2015-02-11,Minnesota Timberwolves,W,94,91,W 3,42-9,3
+52,2015-02-20,San Antonio Spurs,W,110,99,W 4,43-9,11
+53,2015-02-22,Indiana Pacers,L,98,104,L 1,43-10,-6
+54,2015-02-24,Washington Wizards,W,114,107,W 1,44-10,7
+55,2015-02-26,Cleveland Cavaliers,L,99,110,L 1,44-11,-11
+56,2015-02-27,Toronto Raptors,W,113,89,W 1,45-11,24
+57,2015-03-01,Boston Celtics,W,106,101,W 2,46-11,5
+58,2015-03-02,Brooklyn Nets,L,108,110,L 1,46-12,-2
+59,2015-03-04,Milwaukee Bucks,W,102,93,W 1,47-12,9
+60,2015-03-06,Dallas Mavericks,W,104,89,W 2,48-12,15
+61,2015-03-08,Los Angeles Clippers,W,106,98,W 3,49-12,8
+62,2015-03-09,Phoenix Suns,W,98,80,W 4,50-12,18
+63,2015-03-11,Detroit Pistons,W,105,98,W 5,51-12,7
+64,2015-03-13,Denver Nuggets,L,103,114,L 1,51-13,-11
+65,2015-03-14,New York Knicks,W,125,94,W 1,52-13,31
+66,2015-03-16,Los Angeles Lakers,W,108,105,W 2,53-13,3
+67,2015-03-18,Atlanta Hawks,W,114,95,W 3,54-13,19
+68,2015-03-20,New Orleans Pelicans,W,112,96,W 4,55-13,16
+69,2015-03-21,Utah Jazz,W,106,91,W 5,56-13,15
+70,2015-03-23,Washington Wizards,W,107,76,W 6,57-13,31
+71,2015-03-24,Portland Trail Blazers,W,122,108,W 7,58-13,14
+72,2015-03-27,Memphis Grizzlies,W,107,84,W 8,59-13,23
+73,2015-03-28,Milwaukee Bucks,W,108,95,W 9,60-13,13
+74,2015-03-31,Los Angeles Clippers,W,110,106,W 10,61-13,4
+75,2015-04-02,Phoenix Suns,W,107,106,W 11,62-13,1
+76,2015-04-04,Dallas Mavericks,W,123,110,W 12,63-13,13
+77,2015-04-05,San Antonio Spurs,L,92,107,L 1,63-14,-15
+78,2015-04-07,New Orleans Pelicans,L,100,103,L 2,63-15,-3
+79,2015-04-09,Portland Trail Blazers,W,116,105,W 1,64-15,11
+80,2015-04-11,Minnesota Timberwolves,W,110,101,W 2,65-15,9
+81,2015-04-13,Memphis Grizzlies,W,111,107,W 3,66-15,4
+82,2015-04-15,Denver Nuggets,W,133,126,W 4,67-15,7

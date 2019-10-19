@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1986-10-31,Seattle SuperSonics,L,110,127,L 1,0-1,-17
+2,1986-11-01,Utah Jazz,L,110,119,L 2,0-2,-9
+3,1986-11-04,Phoenix Suns,L,120,126,L 3,0-3,-6
+4,1986-11-05,Golden State Warriors,L,92,102,L 4,0-4,-10
+5,1986-11-07,Dallas Mavericks,W,120,113,W 1,1-4,7
+6,1986-11-09,Philadelphia 76ers,L,119,125,L 1,1-5,-6
+7,1986-11-11,Golden State Warriors,W,126,108,W 1,2-5,18
+8,1986-11-14,Los Angeles Clippers,W,119,109,W 2,3-5,10
+9,1986-11-16,Utah Jazz,W,124,103,W 3,4-5,21
+10,1986-11-18,Houston Rockets,W,115,111,W 4,5-5,4
+11,1986-11-20,Denver Nuggets,L,128,142,L 1,5-6,-14
+12,1986-11-21,San Antonio Spurs,W,127,114,W 1,6-6,13
+13,1986-11-23,Indiana Pacers,W,108,95,W 2,7-6,13
+14,1986-11-25,Washington Bullets,L,99,111,L 1,7-7,-12
+15,1986-11-26,Cleveland Cavaliers,L,114,118,L 2,7-8,-4
+16,1986-11-28,Philadelphia 76ers,L,112,116,L 3,7-9,-4
+17,1986-11-30,Indiana Pacers,W,118,101,W 1,8-9,17
+18,1986-12-02,Los Angeles Clippers,W,134,99,W 2,9-9,35
+19,1986-12-04,Sacramento Kings,W,106,102,W 3,10-9,4
+20,1986-12-07,New York Knicks,W,107,104,W 4,11-9,3
+21,1986-12-09,San Antonio Spurs,W,120,104,W 5,12-9,16
+22,1986-12-10,Dallas Mavericks,L,129,130,L 1,12-10,-1
+23,1986-12-12,Los Angeles Clippers,W,113,112,W 1,13-10,1
+24,1986-12-14,Dallas Mavericks,W,134,100,W 2,14-10,34
+25,1986-12-16,Seattle SuperSonics,W,126,118,W 3,15-10,8
+26,1986-12-18,Los Angeles Lakers,L,115,131,L 1,15-11,-16
+27,1986-12-19,Houston Rockets,W,115,112,W 1,16-11,3
+28,1986-12-21,Washington Bullets,W,128,101,W 2,17-11,27
+29,1986-12-23,Golden State Warriors,L,111,112,L 1,17-12,-1
+30,1986-12-28,Seattle SuperSonics,W,127,118,W 1,18-12,9
+31,1986-12-30,Phoenix Suns,W,120,105,W 2,19-12,15
+32,1987-01-01,Los Angeles Lakers,L,104,140,L 1,19-13,-36
+33,1987-01-03,Denver Nuggets,W,116,108,W 1,20-13,8
+34,1987-01-04,Sacramento Kings,W,128,111,W 2,21-13,17
+35,1987-01-08,Chicago Bulls,L,117,121,L 1,21-14,-4
+36,1987-01-09,New Jersey Nets,W,127,120,W 1,22-14,7
+37,1987-01-11,Milwaukee Bucks,W,103,91,W 2,23-14,12
+38,1987-01-13,Utah Jazz,W,121,113,W 3,24-14,8
+39,1987-01-15,Sacramento Kings,L,118,120,L 1,24-15,-2
+40,1987-01-18,Golden State Warriors,L,103,116,L 2,24-16,-13
+41,1987-01-19,Denver Nuggets,L,116,118,L 3,24-17,-2
+42,1987-01-23,Sacramento Kings,W,109,89,W 1,25-17,20
+43,1987-01-26,Denver Nuggets,W,145,141,W 2,26-17,4
+44,1987-01-27,Los Angeles Lakers,L,100,107,L 1,26-18,-7
+45,1987-01-29,Utah Jazz,L,114,120,L 2,26-19,-6
+46,1987-01-30,New Jersey Nets,W,125,107,W 1,27-19,18
+47,1987-02-01,Dallas Mavericks,W,133,117,W 2,28-19,16
+48,1987-02-03,Phoenix Suns,W,117,103,W 3,29-19,14
+49,1987-02-05,Los Angeles Lakers,W,105,104,W 4,30-19,1
+50,1987-02-10,Dallas Mavericks,L,115,135,L 1,30-20,-20
+51,1987-02-13,Boston Celtics,L,116,131,L 2,30-21,-15
+52,1987-02-15,Atlanta Hawks,W,98,93,W 1,31-21,5
+53,1987-02-16,Los Angeles Clippers,W,110,105,W 2,32-21,5
+54,1987-02-19,Phoenix Suns,W,124,108,W 3,33-21,16
+55,1987-02-22,Milwaukee Bucks,W,124,120,W 4,34-21,4
+56,1987-02-24,New York Knicks,W,122,109,W 5,35-21,13
+57,1987-02-25,Boston Celtics,L,116,122,L 1,35-22,-6
+58,1987-02-27,Detroit Pistons,W,123,111,W 1,36-22,12
+59,1987-02-28,Atlanta Hawks,L,102,123,L 1,36-23,-21
+60,1987-03-03,Cleveland Cavaliers,W,127,122,W 1,37-23,5
+61,1987-03-05,Seattle SuperSonics,L,122,127,L 1,37-24,-5
+62,1987-03-08,Houston Rockets,W,119,93,W 1,38-24,26
+63,1987-03-12,Los Angeles Lakers,L,116,125,L 1,38-25,-9
+64,1987-03-15,Golden State Warriors,W,119,108,W 1,39-25,11
+65,1987-03-17,Los Angeles Clippers,W,134,123,W 2,40-25,11
+66,1987-03-19,Golden State Warriors,L,124,125,L 1,40-26,-1
+67,1987-03-20,Phoenix Suns,W,134,105,W 1,41-26,29
+68,1987-03-22,Chicago Bulls,W,115,113,W 2,42-26,2
+69,1987-03-24,Sacramento Kings,L,116,128,L 1,42-27,-12
+70,1987-03-26,Houston Rockets,L,104,119,L 2,42-28,-15
+71,1987-03-29,San Antonio Spurs,W,135,113,W 1,43-28,22
+72,1987-03-31,Detroit Pistons,W,113,111,W 2,44-28,2
+73,1987-04-03,Los Angeles Lakers,L,121,127,L 1,44-29,-6
+74,1987-04-04,Seattle SuperSonics,W,126,123,W 1,45-29,3
+75,1987-04-06,Houston Rockets,L,108,114,L 1,45-30,-6
+76,1987-04-09,Phoenix Suns,L,122,128,L 2,45-31,-6
+77,1987-04-10,Seattle SuperSonics,W,121,115,W 1,46-31,6
+78,1987-04-12,Los Angeles Clippers,W,113,100,W 2,47-31,13
+79,1987-04-14,Denver Nuggets,L,114,142,L 1,47-32,-28
+80,1987-04-15,San Antonio Spurs,L,112,123,L 2,47-33,-11
+81,1987-04-17,Utah Jazz,W,111,101,W 1,48-33,10
+82,1987-04-19,San Antonio Spurs,W,144,134,W 2,49-33,10

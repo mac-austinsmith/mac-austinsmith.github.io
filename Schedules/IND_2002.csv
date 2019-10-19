@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2001-10-30,New Jersey Nets,L,97,103,L 1,0-1,-6
+2,2001-10-31,Chicago Bulls,W,98,73,W 1,1-1,25
+3,2001-11-02,Orlando Magic,W,117,107,W 2,2-1,10
+4,2001-11-04,Toronto Raptors,L,100,113,L 1,2-2,-13
+5,2001-11-06,Philadelphia 76ers,W,87,77,W 1,3-2,10
+6,2001-11-07,Sacramento Kings,W,116,104,W 2,4-2,12
+7,2001-11-09,New York Knicks,W,103,95,W 3,5-2,8
+8,2001-11-10,Portland Trail Blazers,W,105,96,W 4,6-2,9
+9,2001-11-13,New Jersey Nets,L,82,91,L 1,6-3,-9
+10,2001-11-14,Boston Celtics,L,93,101,L 2,6-4,-8
+11,2001-11-16,Minnesota Timberwolves,L,113,120,L 3,6-5,-7
+12,2001-11-17,Detroit Pistons,L,98,104,L 4,6-6,-6
+13,2001-11-20,Atlanta Hawks,W,106,102,W 1,7-6,4
+14,2001-11-22,Washington Wizards,W,110,103,W 2,8-6,7
+15,2001-11-23,San Antonio Spurs,L,79,97,L 1,8-7,-18
+16,2001-11-25,Seattle SuperSonics,L,88,99,L 2,8-8,-11
+17,2001-11-27,Portland Trail Blazers,L,90,96,L 3,8-9,-6
+18,2001-11-28,Denver Nuggets,W,99,85,W 1,9-9,14
+19,2001-12-01,Utah Jazz,W,100,97,W 2,10-9,3
+20,2001-12-02,Los Angeles Clippers,L,72,103,L 1,10-10,-31
+21,2001-12-04,Denver Nuggets,W,104,96,W 1,11-10,8
+22,2001-12-07,Chicago Bulls,W,98,83,W 2,12-10,15
+23,2001-12-08,New York Knicks,L,99,101,L 1,12-11,-2
+24,2001-12-13,Houston Rockets,W,108,106,W 1,13-11,2
+25,2001-12-15,Milwaukee Bucks,L,95,115,L 1,13-12,-20
+26,2001-12-18,Atlanta Hawks,W,103,100,W 1,14-12,3
+27,2001-12-19,Toronto Raptors,L,90,102,L 1,14-13,-12
+28,2001-12-21,New Jersey Nets,W,100,94,W 1,15-13,6
+29,2001-12-22,Cleveland Cavaliers,W,109,103,W 2,16-13,6
+30,2001-12-26,Orlando Magic,W,89,82,W 3,17-13,7
+31,2001-12-27,Washington Wizards,W,108,81,W 4,18-13,27
+32,2001-12-29,New Jersey Nets,L,93,98,L 1,18-14,-5
+33,2001-12-31,Miami Heat,L,87,89,L 2,18-15,-2
+34,2002-01-04,San Antonio Spurs,W,92,82,W 1,19-15,10
+35,2002-01-05,Houston Rockets,W,81,79,W 2,20-15,2
+36,2002-01-09,Los Angeles Lakers,L,90,109,L 1,20-16,-19
+37,2002-01-11,Chicago Bulls,W,97,90,W 1,21-16,7
+38,2002-01-12,Dallas Mavericks,L,102,111,L 1,21-17,-9
+39,2002-01-15,Milwaukee Bucks,L,102,106,L 2,21-18,-4
+40,2002-01-16,Milwaukee Bucks,L,100,105,L 3,21-19,-5
+41,2002-01-18,Detroit Pistons,L,93,96,L 4,21-20,-3
+42,2002-01-19,Miami Heat,L,88,100,L 5,21-21,-12
+43,2002-01-21,Chicago Bulls,W,93,81,W 1,22-21,12
+44,2002-01-23,Boston Celtics,L,94,98,L 1,22-22,-4
+45,2002-01-25,Charlotte Hornets,W,90,81,W 1,23-22,9
+46,2002-01-26,Seattle SuperSonics,L,86,95,L 1,23-23,-9
+47,2002-01-30,Memphis Grizzlies,W,83,82,W 1,24-23,1
+48,2002-02-01,New York Knicks,W,92,87,W 2,25-23,5
+49,2002-02-03,Washington Wizards,L,89,109,L 1,25-24,-20
+50,2002-02-05,Dallas Mavericks,L,140,141,L 2,25-25,-1
+51,2002-02-12,Utah Jazz,L,82,98,L 3,25-26,-16
+52,2002-02-15,Charlotte Hornets,L,106,116,L 4,25-27,-10
+53,2002-02-17,Philadelphia 76ers,W,86,76,W 1,26-27,10
+54,2002-02-22,Cleveland Cavaliers,L,93,103,L 1,26-28,-10
+55,2002-02-23,Los Angeles Clippers,W,106,88,W 1,27-28,18
+56,2002-02-25,Golden State Warriors,W,102,97,W 2,28-28,5
+57,2002-02-28,Phoenix Suns,L,100,107,L 1,28-29,-7
+58,2002-03-01,Los Angeles Lakers,L,84,96,L 2,28-30,-12
+59,2002-03-03,Sacramento Kings,W,97,86,W 1,29-30,11
+60,2002-03-05,Orlando Magic,W,111,98,W 2,30-30,13
+61,2002-03-07,Memphis Grizzlies,L,111,122,L 1,30-31,-11
+62,2002-03-08,Philadelphia 76ers,L,100,109,L 2,30-32,-9
+63,2002-03-10,Detroit Pistons,W,89,84,W 1,31-32,5
+64,2002-03-12,Golden State Warriors,W,115,101,W 2,32-32,14
+65,2002-03-15,Minnesota Timberwolves,W,98,85,W 3,33-32,13
+66,2002-03-17,Atlanta Hawks,W,85,68,W 4,34-32,17
+67,2002-03-20,Charlotte Hornets,L,88,94,L 1,34-33,-6
+68,2002-03-22,Miami Heat,W,104,94,W 1,35-33,10
+69,2002-03-24,Charlotte Hornets,L,84,99,L 1,35-34,-15
+70,2002-03-26,Detroit Pistons,L,77,96,L 2,35-35,-19
+71,2002-03-29,Orlando Magic,L,106,114,L 3,35-36,-8
+72,2002-03-31,Miami Heat,W,100,81,W 1,36-36,19
+73,2002-04-02,Boston Celtics,L,94,105,L 1,36-37,-11
+74,2002-04-04,Atlanta Hawks,L,94,95,L 2,36-38,-1
+75,2002-04-05,Phoenix Suns,W,97,87,W 1,37-38,10
+76,2002-04-07,Toronto Raptors,L,84,94,L 1,37-39,-10
+77,2002-04-08,Cleveland Cavaliers,L,99,111,L 2,37-40,-12
+78,2002-04-10,Toronto Raptors,W,98,82,W 1,38-40,16
+79,2002-04-12,Milwaukee Bucks,W,112,107,W 2,39-40,5
+80,2002-04-14,Washington Wizards,W,86,80,W 3,40-40,6
+81,2002-04-16,Cleveland Cavaliers,W,99,95,W 4,41-40,4
+82,2002-04-17,Philadelphia 76ers,W,103,80,W 5,42-40,23

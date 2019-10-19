@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1982-10-29,San Diego Clippers,W,113,99,W 1,1-0,14
+2,1982-10-31,Denver Nuggets,L,110,114,L 1,1-1,-4
+3,1982-11-02,Portland Trail Blazers,W,92,87,W 1,2-1,5
+4,1982-11-04,Utah Jazz,W,119,104,W 2,3-1,15
+5,1982-11-06,Dallas Mavericks,W,112,100,W 3,4-1,12
+6,1982-11-07,San Antonio Spurs,L,100,101,L 1,4-2,-1
+7,1982-11-09,Houston Rockets,W,119,91,W 1,5-2,28
+8,1982-11-10,Kansas City Kings,W,106,100,W 2,6-2,6
+9,1982-11-12,Cleveland Cavaliers,W,94,81,W 3,7-2,13
+10,1982-11-14,Portland Trail Blazers,W,102,94,W 4,8-2,8
+11,1982-11-16,Los Angeles Lakers,W,113,105,W 5,9-2,8
+12,1982-11-18,Denver Nuggets,L,107,118,L 1,9-3,-11
+13,1982-11-20,Atlanta Hawks,W,91,80,W 1,10-3,11
+14,1982-11-24,Washington Bullets,L,93,106,L 1,10-4,-13
+15,1982-11-26,New Jersey Nets,W,110,99,W 1,11-4,11
+16,1982-11-27,Kansas City Kings,L,99,105,L 1,11-5,-6
+17,1982-11-30,Golden State Warriors,L,98,110,L 2,11-6,-12
+18,1982-12-02,Philadelphia 76ers,L,108,116,L 3,11-7,-8
+19,1982-12-04,San Diego Clippers,L,103,113,L 4,11-8,-10
+20,1982-12-08,Los Angeles Lakers,L,86,89,L 5,11-9,-3
+21,1982-12-10,Houston Rockets,W,97,83,W 1,12-9,14
+22,1982-12-12,Portland Trail Blazers,L,94,99,L 1,12-10,-5
+23,1982-12-14,Seattle SuperSonics,W,114,109,W 1,13-10,5
+24,1982-12-16,Golden State Warriors,L,94,98,L 1,13-11,-4
+25,1982-12-18,Los Angeles Lakers,W,126,100,W 1,14-11,26
+26,1982-12-21,San Antonio Spurs,W,114,113,W 2,15-11,1
+27,1982-12-23,Dallas Mavericks,W,125,106,W 3,16-11,19
+28,1982-12-25,Utah Jazz,W,111,101,W 4,17-11,10
+29,1982-12-26,Seattle SuperSonics,L,87,88,L 1,17-12,-1
+30,1982-12-28,Portland Trail Blazers,W,116,94,W 1,18-12,22
+31,1982-12-30,Detroit Pistons,W,115,98,W 2,19-12,17
+32,1983-01-01,Denver Nuggets,L,125,127,L 1,19-13,-2
+33,1983-01-02,Seattle SuperSonics,W,116,99,W 1,20-13,17
+34,1983-01-04,New York Knicks,W,97,85,W 2,21-13,12
+35,1983-01-06,New Jersey Nets,L,93,94,L 1,21-14,-1
+36,1983-01-07,Indiana Pacers,W,108,101,W 1,22-14,7
+37,1983-01-09,Milwaukee Bucks,L,96,106,L 1,22-15,-10
+38,1983-01-11,Chicago Bulls,W,109,96,W 1,23-15,13
+39,1983-01-13,Seattle SuperSonics,W,102,99,W 2,24-15,3
+40,1983-01-15,San Diego Clippers,W,114,101,W 3,25-15,13
+41,1983-01-19,San Antonio Spurs,W,118,113,W 4,26-15,5
+42,1983-01-21,Indiana Pacers,L,117,118,L 1,26-16,-1
+43,1983-01-23,Kansas City Kings,W,102,92,W 1,27-16,10
+44,1983-01-25,Atlanta Hawks,L,94,96,L 1,27-17,-2
+45,1983-01-26,Philadelphia 76ers,L,102,113,L 2,27-18,-11
+46,1983-01-28,Boston Celtics,L,104,111,L 3,27-19,-7
+47,1983-01-29,Washington Bullets,L,82,88,L 4,27-20,-6
+48,1983-02-02,Utah Jazz,W,112,96,W 1,28-20,16
+49,1983-02-04,Houston Rockets,W,115,99,W 2,29-20,16
+50,1983-02-06,Golden State Warriors,W,109,92,W 3,30-20,17
+51,1983-02-08,Dallas Mavericks,L,100,112,L 1,30-21,-12
+52,1983-02-10,San Diego Clippers,L,100,101,L 2,30-22,-1
+53,1983-02-16,Kansas City Kings,W,111,102,W 1,31-22,9
+54,1983-02-19,Detroit Pistons,L,101,112,L 1,31-23,-11
+55,1983-02-20,Cleveland Cavaliers,W,103,81,W 1,32-23,22
+56,1983-02-22,Milwaukee Bucks,W,112,105,W 2,33-23,7
+57,1983-02-24,Utah Jazz,W,110,103,W 3,34-23,7
+58,1983-02-25,Seattle SuperSonics,W,106,101,W 4,35-23,5
+59,1983-02-26,Boston Celtics,L,101,103,L 1,35-24,-2
+60,1983-03-02,San Antonio Spurs,W,110,106,W 1,36-24,4
+61,1983-03-04,Golden State Warriors,W,109,102,W 2,37-24,7
+62,1983-03-08,Dallas Mavericks,L,99,120,L 1,37-25,-21
+63,1983-03-09,San Antonio Spurs,L,105,108,L 2,37-26,-3
+64,1983-03-12,Houston Rockets,W,105,94,W 1,38-26,11
+65,1983-03-15,Chicago Bulls,W,116,108,W 2,39-26,8
+66,1983-03-16,Los Angeles Lakers,L,95,104,L 1,39-27,-9
+67,1983-03-17,Houston Rockets,W,125,99,W 1,40-27,26
+68,1983-03-19,Dallas Mavericks,W,115,112,W 2,41-27,3
+69,1983-03-22,Denver Nuggets,L,117,130,L 1,41-28,-13
+70,1983-03-24,Kansas City Kings,W,112,95,W 1,42-28,17
+71,1983-03-26,Denver Nuggets,W,124,110,W 2,43-28,14
+72,1983-03-29,Utah Jazz,W,115,107,W 3,44-28,8
+73,1983-03-31,Portland Trail Blazers,W,106,89,W 4,45-28,17
+74,1983-04-02,New York Knicks,W,115,108,W 5,46-28,7
+75,1983-04-05,Golden State Warriors,W,126,106,W 6,47-28,20
+76,1983-04-07,Los Angeles Lakers,L,108,117,L 1,47-29,-9
+77,1983-04-08,Portland Trail Blazers,W,99,98,W 1,48-29,1
+78,1983-04-10,Los Angeles Lakers,W,101,95,W 2,49-29,6
+79,1983-04-12,Golden State Warriors,W,115,108,W 3,50-29,7
+80,1983-04-13,Seattle SuperSonics,W,109,96,W 4,51-29,13
+81,1983-04-15,San Diego Clippers,W,113,101,W 5,52-29,12
+82,1983-04-17,San Diego Clippers,W,110,101,W 6,53-29,9

@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1977-10-18,Golden State Warriors,W,100,83,W 1,1-0,17
+2,1977-10-23,Los Angeles Lakers,W,104,101,W 2,2-0,3
+3,1977-10-25,Seattle SuperSonics,W,93,86,W 3,3-0,7
+4,1977-10-28,New Orleans Jazz,L,107,114,L 1,3-1,-7
+5,1977-10-29,Houston Rockets,L,112,125,L 2,3-2,-13
+6,1977-10-31,San Antonio Spurs,L,143,145,L 3,3-3,-2
+7,1977-11-03,San Antonio Spurs,W,110,89,W 1,4-3,21
+8,1977-11-04,Washington Bullets,L,96,113,L 1,4-4,-17
+9,1977-11-05,Chicago Bulls,L,94,111,L 2,4-5,-17
+10,1977-11-10,New Orleans Jazz,W,127,111,W 1,5-5,16
+11,1977-11-13,Indiana Pacers,W,116,107,W 2,6-5,9
+12,1977-11-18,Chicago Bulls,W,103,101,W 3,7-5,2
+13,1977-11-20,San Antonio Spurs,W,134,112,W 4,8-5,22
+14,1977-11-22,Los Angeles Lakers,W,118,107,W 5,9-5,11
+15,1977-11-24,Cleveland Cavaliers,L,82,97,L 1,9-6,-15
+16,1977-11-25,Indiana Pacers,W,118,110,W 1,10-6,8
+17,1977-11-27,Denver Nuggets,W,115,97,W 2,11-6,18
+18,1977-11-29,Portland Trail Blazers,L,96,108,L 1,11-7,-12
+19,1977-12-02,Portland Trail Blazers,L,103,106,L 2,11-8,-3
+20,1977-12-04,Atlanta Hawks,L,89,96,L 3,11-9,-7
+21,1977-12-06,Kansas City Kings,W,103,92,W 1,12-9,11
+22,1977-12-07,Detroit Pistons,W,113,107,W 2,13-9,6
+23,1977-12-10,Houston Rockets,W,110,93,W 3,14-9,17
+24,1977-12-14,Buffalo Braves,W,113,103,W 4,15-9,10
+25,1977-12-16,New Orleans Jazz,W,126,113,W 5,16-9,13
+26,1977-12-17,Houston Rockets,W,101,97,W 6,17-9,4
+27,1977-12-18,Atlanta Hawks,L,129,134,L 1,17-10,-5
+28,1977-12-20,New York Knicks,W,110,99,W 1,18-10,11
+29,1977-12-21,Philadelphia 76ers,L,119,125,L 1,18-11,-6
+30,1977-12-23,Boston Celtics,W,129,110,W 1,19-11,19
+31,1977-12-26,Denver Nuggets,L,108,127,L 1,19-12,-19
+32,1977-12-27,Seattle SuperSonics,W,131,105,W 1,20-12,26
+33,1977-12-29,Kansas City Kings,W,110,104,W 2,21-12,6
+34,1977-12-30,Seattle SuperSonics,L,110,121,L 1,21-13,-11
+35,1978-01-03,Milwaukee Bucks,W,125,103,W 1,22-13,22
+36,1978-01-04,New Jersey Nets,L,83,115,L 1,22-14,-32
+37,1978-01-05,Boston Celtics,W,121,111,W 1,23-14,10
+38,1978-01-07,Buffalo Braves,W,107,97,W 2,24-14,10
+39,1978-01-11,New Orleans Jazz,W,142,99,W 3,25-14,43
+40,1978-01-13,Detroit Pistons,W,111,100,W 4,26-14,11
+41,1978-01-15,Cleveland Cavaliers,W,113,104,W 5,27-14,9
+42,1978-01-19,New York Knicks,W,134,114,W 6,28-14,20
+43,1978-01-20,Golden State Warriors,L,104,119,L 1,28-15,-15
+44,1978-01-22,Washington Bullets,W,114,101,W 1,29-15,13
+45,1978-01-25,Houston Rockets,W,118,96,W 2,30-15,22
+46,1978-01-27,Philadelphia 76ers,W,110,101,W 3,31-15,9
+47,1978-01-29,New Jersey Nets,W,131,100,W 4,32-15,31
+48,1978-01-31,Kansas City Kings,W,112,102,W 5,33-15,10
+49,1978-02-01,Detroit Pistons,L,120,127,L 1,33-16,-7
+50,1978-02-03,Milwaukee Bucks,W,115,105,W 1,34-16,10
+51,1978-02-09,Atlanta Hawks,W,125,98,W 2,35-16,27
+52,1978-02-12,Washington Bullets,W,121,109,W 3,36-16,12
+53,1978-02-14,Portland Trail Blazers,L,100,113,L 1,36-17,-13
+54,1978-02-16,Boston Celtics,L,95,98,L 2,36-18,-3
+55,1978-02-17,Golden State Warriors,L,92,111,L 3,36-19,-19
+56,1978-02-18,Indiana Pacers,W,114,101,W 1,37-19,13
+57,1978-02-21,Buffalo Braves,W,114,111,W 2,38-19,3
+58,1978-02-22,Atlanta Hawks,L,95,107,L 1,38-20,-12
+59,1978-02-24,Washington Bullets,L,120,121,L 2,38-21,-1
+60,1978-02-25,New York Knicks,L,115,122,L 3,38-22,-7
+61,1978-02-28,Chicago Bulls,L,115,126,L 4,38-23,-11
+62,1978-03-01,Detroit Pistons,L,102,115,L 5,38-24,-13
+63,1978-03-03,Milwaukee Bucks,W,132,126,W 1,39-24,6
+64,1978-03-05,Philadelphia 76ers,L,92,104,L 1,39-25,-12
+65,1978-03-07,Denver Nuggets,W,126,112,W 1,40-25,14
+66,1978-03-09,Chicago Bulls,W,112,103,W 2,41-25,9
+67,1978-03-11,Los Angeles Lakers,W,120,114,W 3,42-25,6
+68,1978-03-12,Los Angeles Lakers,L,112,128,L 1,42-26,-16
+69,1978-03-14,Milwaukee Bucks,L,106,121,L 2,42-27,-15
+70,1978-03-15,New Jersey Nets,L,98,117,L 3,42-28,-19
+71,1978-03-17,Boston Celtics,L,108,115,L 4,42-29,-7
+72,1978-03-19,Cleveland Cavaliers,W,123,112,W 1,43-29,11
+73,1978-03-21,Indiana Pacers,L,115,119,L 1,43-30,-4
+74,1978-03-23,New York Knicks,W,120,108,W 1,44-30,12
+75,1978-03-25,Buffalo Braves,W,112,106,W 2,45-30,6
+76,1978-03-29,Portland Trail Blazers,W,127,94,W 3,46-30,33
+77,1978-03-31,Kansas City Kings,W,136,112,W 4,47-30,24
+78,1978-04-02,Golden State Warriors,W,105,99,W 5,48-30,6
+79,1978-04-04,San Antonio Spurs,L,119,125,L 1,48-31,-6
+80,1978-04-06,Denver Nuggets,L,105,111,L 2,48-32,-6
+81,1978-04-07,Seattle SuperSonics,L,83,95,L 3,48-33,-12
+82,1978-04-08,New Jersey Nets,W,120,109,W 1,49-33,11

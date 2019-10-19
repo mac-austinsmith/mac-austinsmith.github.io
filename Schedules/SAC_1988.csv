@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1987-11-06,Golden State Warriors,W,134,106,W 1,1-0,28
+2,1987-11-07,Utah Jazz,L,100,121,L 1,1-1,-21
+3,1987-11-10,Denver Nuggets,W,134,123,W 1,2-1,11
+4,1987-11-12,Houston Rockets,L,114,116,L 1,2-2,-2
+5,1987-11-14,Denver Nuggets,L,109,130,L 2,2-3,-21
+6,1987-11-17,Indiana Pacers,L,111,126,L 3,2-4,-15
+7,1987-11-19,Milwaukee Bucks,L,113,117,L 4,2-5,-4
+8,1987-11-21,Dallas Mavericks,L,96,103,L 5,2-6,-7
+9,1987-11-24,Portland Trail Blazers,L,94,98,L 6,2-7,-4
+10,1987-11-26,New Jersey Nets,W,110,102,W 1,3-7,8
+11,1987-11-28,Philadelphia 76ers,W,115,114,W 2,4-7,1
+12,1987-12-01,Los Angeles Lakers,L,120,125,L 1,4-8,-5
+13,1987-12-02,Denver Nuggets,L,120,147,L 2,4-9,-27
+14,1987-12-04,Los Angeles Clippers,L,84,98,L 3,4-10,-14
+15,1987-12-05,Utah Jazz,L,117,126,L 4,4-11,-9
+16,1987-12-08,Houston Rockets,L,97,106,L 5,4-12,-9
+17,1987-12-09,Dallas Mavericks,L,98,125,L 6,4-13,-27
+18,1987-12-11,Cleveland Cavaliers,L,113,115,L 7,4-14,-2
+19,1987-12-13,Atlanta Hawks,L,100,106,L 8,4-15,-6
+20,1987-12-15,Los Angeles Clippers,W,128,108,W 1,5-15,20
+21,1987-12-17,Seattle SuperSonics,L,109,114,L 1,5-16,-5
+22,1987-12-20,Phoenix Suns,L,109,120,L 2,5-17,-11
+23,1987-12-22,San Antonio Spurs,W,120,96,W 1,6-17,24
+24,1987-12-23,Los Angeles Lakers,L,103,117,L 1,6-18,-14
+25,1987-12-26,Phoenix Suns,W,112,110,W 1,7-18,2
+26,1987-12-27,Boston Celtics,L,102,114,L 1,7-19,-12
+27,1987-12-29,Dallas Mavericks,L,117,126,L 2,7-20,-9
+28,1987-12-30,San Antonio Spurs,L,108,140,L 3,7-21,-32
+29,1988-01-02,Utah Jazz,W,107,105,W 1,8-21,2
+30,1988-01-07,San Antonio Spurs,L,119,124,L 1,8-22,-5
+31,1988-01-08,Portland Trail Blazers,L,91,98,L 2,8-23,-7
+32,1988-01-10,Seattle SuperSonics,W,109,108,W 1,9-23,1
+33,1988-01-14,New Jersey Nets,L,87,90,L 1,9-24,-3
+34,1988-01-15,Boston Celtics,L,86,122,L 2,9-25,-36
+35,1988-01-17,Washington Bullets,L,113,130,L 3,9-26,-17
+36,1988-01-19,Houston Rockets,W,107,104,W 1,10-26,3
+37,1988-01-23,New York Knicks,W,97,94,W 2,11-26,3
+38,1988-01-26,Seattle SuperSonics,L,100,116,L 1,11-27,-16
+39,1988-01-28,Los Angeles Lakers,L,94,115,L 2,11-28,-21
+40,1988-01-30,Phoenix Suns,W,126,120,W 1,12-28,6
+41,1988-02-01,Chicago Bulls,W,97,95,W 2,13-28,2
+42,1988-02-03,Utah Jazz,L,91,123,L 1,13-29,-32
+43,1988-02-04,Dallas Mavericks,W,118,101,W 1,14-29,17
+44,1988-02-09,Golden State Warriors,L,99,117,L 1,14-30,-18
+45,1988-02-11,Portland Trail Blazers,W,123,113,W 1,15-30,10
+46,1988-02-13,Phoenix Suns,L,114,116,L 1,15-31,-2
+47,1988-02-15,Cleveland Cavaliers,L,95,104,L 2,15-32,-9
+48,1988-02-16,Atlanta Hawks,W,118,115,W 1,16-32,3
+49,1988-02-18,New York Knicks,L,104,108,L 1,16-33,-4
+50,1988-02-19,Chicago Bulls,L,90,111,L 2,16-34,-21
+51,1988-02-21,Indiana Pacers,L,112,130,L 3,16-35,-18
+52,1988-02-23,Detroit Pistons,L,105,121,L 4,16-36,-16
+53,1988-02-25,Washington Bullets,L,110,129,L 5,16-37,-19
+54,1988-02-26,Seattle SuperSonics,L,130,133,L 6,16-38,-3
+55,1988-02-29,Utah Jazz,L,110,115,L 7,16-39,-5
+56,1988-03-02,Dallas Mavericks,L,90,115,L 8,16-40,-25
+57,1988-03-04,San Antonio Spurs,W,134,132,W 1,17-40,2
+58,1988-03-05,Houston Rockets,L,94,105,L 1,17-41,-11
+59,1988-03-07,Denver Nuggets,W,116,114,W 1,18-41,2
+60,1988-03-09,Seattle SuperSonics,L,97,106,L 1,18-42,-9
+61,1988-03-11,Philadelphia 76ers,L,118,124,L 2,18-43,-6
+62,1988-03-14,Detroit Pistons,L,97,109,L 3,18-44,-12
+63,1988-03-15,Milwaukee Bucks,L,97,108,L 4,18-45,-11
+64,1988-03-19,Houston Rockets,W,121,104,W 1,19-45,17
+65,1988-03-20,Los Angeles Clippers,L,112,116,L 1,19-46,-4
+66,1988-03-23,Golden State Warriors,L,118,126,L 2,19-47,-8
+67,1988-03-24,Utah Jazz,L,97,117,L 3,19-48,-20
+68,1988-03-26,Los Angeles Lakers,W,114,92,W 1,20-48,22
+69,1988-03-29,Denver Nuggets,L,103,107,L 1,20-49,-4
+70,1988-03-31,Denver Nuggets,L,111,121,L 2,20-50,-10
+71,1988-04-02,Los Angeles Clippers,L,103,105,L 3,20-51,-2
+72,1988-04-03,Los Angeles Lakers,L,104,108,L 4,20-52,-4
+73,1988-04-06,San Antonio Spurs,W,115,109,W 1,21-52,6
+74,1988-04-09,Phoenix Suns,L,92,95,L 1,21-53,-3
+75,1988-04-10,Golden State Warriors,W,121,115,W 1,22-53,6
+76,1988-04-12,Dallas Mavericks,L,96,104,L 1,22-54,-8
+77,1988-04-14,Houston Rockets,L,105,123,L 2,22-55,-18
+78,1988-04-15,San Antonio Spurs,L,112,116,L 3,22-56,-4
+79,1988-04-17,Portland Trail Blazers,L,102,112,L 4,22-57,-10
+80,1988-04-19,Los Angeles Clippers,W,120,105,W 1,23-57,15
+81,1988-04-22,Golden State Warriors,W,117,109,W 2,24-57,8
+82,1988-04-23,Portland Trail Blazers,L,110,124,L 1,24-58,-14

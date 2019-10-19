@@ -1,0 +1,51 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1999-02-05,Dallas Mavericks,W,92,86,W 1,1-0,6
+2,1999-02-07,Portland Trail Blazers,W,91,88,W 2,2-0,3
+3,1999-02-09,Golden State Warriors,W,90,71,W 3,3-0,19
+4,1999-02-10,Golden State Warriors,W,89,82,W 4,4-0,7
+5,1999-02-13,Denver Nuggets,W,105,92,W 5,5-0,13
+6,1999-02-16,Utah Jazz,W,71,56,W 6,6-0,15
+7,1999-02-17,Sacramento Kings,L,106,109,L 1,6-1,-3
+8,1999-02-20,Utah Jazz,L,80,110,L 2,6-2,-30
+9,1999-02-21,Los Angeles Lakers,W,92,89,W 1,7-2,3
+10,1999-02-23,Houston Rockets,L,86,98,L 1,7-3,-12
+11,1999-02-24,San Antonio Spurs,L,81,99,L 2,7-4,-18
+12,1999-02-26,San Antonio Spurs,W,92,82,W 1,8-4,10
+13,1999-03-01,Sacramento Kings,W,105,102,W 2,9-4,3
+14,1999-03-04,Phoenix Suns,L,93,101,L 1,9-5,-8
+15,1999-03-05,Los Angeles Lakers,L,100,103,L 2,9-6,-3
+16,1999-03-07,Minnesota Timberwolves,L,77,88,L 3,9-7,-11
+17,1999-03-09,Minnesota Timberwolves,L,84,85,L 4,9-8,-1
+18,1999-03-10,Milwaukee Bucks,L,97,101,L 5,9-9,-4
+19,1999-03-11,Chicago Bulls,W,92,83,W 1,10-9,9
+20,1999-03-14,Los Angeles Clippers,W,108,89,W 2,11-9,19
+21,1999-03-16,Vancouver Grizzlies,W,87,85,W 3,12-9,2
+22,1999-03-19,Golden State Warriors,L,78,90,L 1,12-10,-12
+23,1999-03-21,Denver Nuggets,L,98,102,L 2,12-11,-4
+24,1999-03-22,Philadelphia 76ers,W,92,76,W 1,13-11,16
+25,1999-03-24,Washington Wizards,L,92,96,L 1,13-12,-4
+26,1999-03-26,Los Angeles Clippers,W,104,98,W 1,14-12,6
+27,1999-03-28,Detroit Pistons,L,87,104,L 1,14-13,-17
+28,1999-03-29,Dallas Mavericks,W,109,101,W 1,15-13,8
+29,1999-03-30,San Antonio Spurs,L,87,95,L 1,15-14,-8
+30,1999-04-01,Denver Nuggets,L,110,113,L 2,15-15,-3
+31,1999-04-02,Portland Trail Blazers,L,95,107,L 3,15-16,-12
+32,1999-04-04,Houston Rockets,W,101,84,W 1,16-16,17
+33,1999-04-06,Sacramento Kings,L,106,112,L 1,16-17,-6
+34,1999-04-08,Portland Trail Blazers,W,87,86,W 1,17-17,1
+35,1999-04-09,Vancouver Grizzlies,L,93,98,L 1,17-18,-5
+36,1999-04-11,Los Angeles Lakers,W,113,109,W 1,18-18,4
+37,1999-04-14,Phoenix Suns,L,94,101,L 1,18-19,-7
+38,1999-04-15,Sacramento Kings,W,99,98,W 1,19-19,1
+39,1999-04-16,New Jersey Nets,L,91,121,L 1,19-20,-30
+40,1999-04-18,Phoenix Suns,L,93,99,L 2,19-21,-6
+41,1999-04-19,Houston Rockets,L,113,120,L 3,19-22,-7
+42,1999-04-21,Minnesota Timberwolves,W,119,105,W 1,20-22,14
+43,1999-04-23,Vancouver Grizzlies,W,97,84,W 2,21-22,13
+44,1999-04-25,Utah Jazz,L,81,98,L 1,21-23,-17
+45,1999-04-27,Utah Jazz,W,90,85,W 1,22-23,5
+46,1999-04-28,Portland Trail Blazers,L,84,119,L 1,22-24,-35
+47,1999-04-30,Denver Nuggets,W,111,101,W 1,23-24,10
+48,1999-05-02,Los Angeles Lakers,L,84,91,L 1,23-25,-7
+49,1999-05-04,Dallas Mavericks,W,110,100,W 1,24-25,10
+50,1999-05-05,Los Angeles Clippers,W,107,105,W 2,25-25,2

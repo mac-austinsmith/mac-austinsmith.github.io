@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2017-10-18,Detroit Pistons,L,90,102,L 1,0-1,-12
+2,2017-10-20,Atlanta Hawks,W,109,91,W 1,1-1,18
+3,2017-10-23,Milwaukee Bucks,L,94,103,L 1,1-2,-9
+4,2017-10-25,Denver Nuggets,W,110,93,W 1,2-2,17
+5,2017-10-27,Houston Rockets,L,93,109,L 1,2-3,-16
+6,2017-10-29,Orlando Magic,W,120,113,W 1,3-3,7
+7,2017-10-30,Memphis Grizzlies,W,104,99,W 2,4-3,5
+8,2017-11-01,Milwaukee Bucks,W,126,121,W 3,5-3,5
+9,2017-11-03,San Antonio Spurs,L,101,108,L 1,5-4,-7
+10,2017-11-05,Minnesota Timberwolves,L,94,112,L 2,5-5,-18
+11,2017-11-07,New York Knicks,L,113,118,L 3,5-6,-5
+12,2017-11-10,Boston Celtics,L,87,90,L 4,5-7,-3
+13,2017-11-15,Cleveland Cavaliers,L,107,115,L 5,5-8,-8
+14,2017-11-17,Chicago Bulls,L,120,123,L 6,5-9,-3
+15,2017-11-18,Los Angeles Clippers,W,102,87,W 1,6-9,15
+16,2017-11-20,Minnesota Timberwolves,W,118,102,W 2,7-9,16
+17,2017-11-22,Washington Wizards,W,129,124,W 3,8-9,5
+18,2017-11-24,Cleveland Cavaliers,L,99,100,L 1,8-10,-1
+19,2017-11-25,San Antonio Spurs,L,86,106,L 2,8-11,-20
+20,2017-11-29,Toronto Raptors,L,113,126,L 3,8-12,-13
+21,2017-12-01,Miami Heat,L,100,105,L 4,8-13,-5
+22,2017-12-04,Orlando Magic,W,104,94,W 1,9-13,10
+23,2017-12-06,Golden State Warriors,L,87,101,L 1,9-14,-14
+24,2017-12-08,Chicago Bulls,L,111,119,L 2,9-15,-8
+25,2017-12-09,Los Angeles Lakers,L,99,110,L 3,9-16,-11
+26,2017-12-11,Oklahoma City Thunder,W,116,103,W 1,10-16,13
+27,2017-12-13,Houston Rockets,L,96,108,L 1,10-17,-12
+28,2017-12-15,Miami Heat,L,98,104,L 2,10-18,-6
+29,2017-12-16,Portland Trail Blazers,L,91,93,L 3,10-19,-2
+30,2017-12-18,New York Knicks,W,109,91,W 1,11-19,18
+31,2017-12-20,Toronto Raptors,L,111,129,L 1,11-20,-18
+32,2017-12-22,Milwaukee Bucks,L,104,109,L 2,11-21,-5
+33,2017-12-23,Milwaukee Bucks,W,111,106,W 1,12-21,5
+34,2017-12-27,Boston Celtics,L,91,102,L 1,12-22,-11
+35,2017-12-29,Golden State Warriors,W,111,100,W 1,13-22,11
+36,2017-12-31,Los Angeles Clippers,L,98,106,L 1,13-23,-8
+37,2018-01-02,Sacramento Kings,W,131,111,W 1,14-23,20
+38,2018-01-05,Los Angeles Lakers,W,108,94,W 2,15-23,14
+39,2018-01-10,Dallas Mavericks,L,111,115,L 1,15-24,-4
+40,2018-01-12,Utah Jazz,W,99,88,W 1,16-24,11
+41,2018-01-13,Oklahoma City Thunder,L,91,101,L 1,16-25,-10
+42,2018-01-15,Detroit Pistons,W,118,107,W 1,17-25,11
+43,2018-01-17,Washington Wizards,W,133,109,W 2,18-25,24
+44,2018-01-20,Miami Heat,L,105,106,L 1,18-26,-1
+45,2018-01-22,Sacramento Kings,W,112,107,W 1,19-26,5
+46,2018-01-24,New Orleans Pelicans,L,96,101,L 1,19-27,-5
+47,2018-01-26,Atlanta Hawks,W,121,110,W 1,20-27,11
+48,2018-01-27,Miami Heat,L,91,95,L 1,20-28,-4
+49,2018-01-29,Indiana Pacers,L,96,105,L 2,20-29,-9
+50,2018-01-31,Atlanta Hawks,W,123,110,W 1,21-29,13
+51,2018-02-02,Indiana Pacers,W,133,126,W 2,22-29,7
+52,2018-02-04,Phoenix Suns,W,115,110,W 3,23-29,5
+53,2018-02-05,Denver Nuggets,L,104,121,L 1,23-30,-17
+54,2018-02-08,Portland Trail Blazers,L,103,109,L 2,23-31,-6
+55,2018-02-09,Utah Jazz,L,94,106,L 3,23-32,-12
+56,2018-02-11,Toronto Raptors,L,103,123,L 4,23-33,-20
+57,2018-02-14,Orlando Magic,W,104,102,W 1,24-33,2
+58,2018-02-22,Brooklyn Nets,W,111,96,W 2,25-33,15
+59,2018-02-23,Washington Wizards,W,122,105,W 3,26-33,17
+60,2018-02-25,Detroit Pistons,W,114,98,W 4,27-33,16
+61,2018-02-27,Chicago Bulls,W,118,103,W 5,28-33,15
+62,2018-02-28,Boston Celtics,L,106,134,L 1,28-34,-28
+63,2018-03-02,Philadelphia 76ers,L,99,110,L 2,28-35,-11
+64,2018-03-04,Toronto Raptors,L,98,103,L 3,28-36,-5
+65,2018-03-06,Philadelphia 76ers,L,114,128,L 4,28-37,-14
+66,2018-03-08,Brooklyn Nets,L,111,125,L 5,28-38,-14
+67,2018-03-10,Phoenix Suns,W,122,115,W 1,29-38,7
+68,2018-03-13,New Orleans Pelicans,L,115,119,L 1,29-39,-4
+69,2018-03-15,Atlanta Hawks,W,129,117,W 1,30-39,12
+70,2018-03-17,New York Knicks,L,101,124,L 1,30-40,-23
+71,2018-03-19,Philadelphia 76ers,L,94,108,L 2,30-41,-14
+72,2018-03-21,Brooklyn Nets,W,111,105,W 1,31-41,6
+73,2018-03-22,Memphis Grizzlies,W,140,79,W 2,32-41,61
+74,2018-03-24,Dallas Mavericks,W,102,98,W 3,33-41,4
+75,2018-03-26,New York Knicks,W,137,128,W 4,34-41,9
+76,2018-03-28,Cleveland Cavaliers,L,105,118,L 1,34-42,-13
+77,2018-03-31,Washington Wizards,L,93,107,L 2,34-43,-14
+78,2018-04-01,Philadelphia 76ers,L,102,119,L 3,34-44,-17
+79,2018-04-03,Chicago Bulls,L,114,120,L 4,34-45,-6
+80,2018-04-06,Orlando Magic,W,137,100,W 1,35-45,37
+81,2018-04-08,Indiana Pacers,L,117,123,L 1,35-46,-6
+82,2018-04-10,Indiana Pacers,W,119,93,W 1,36-46,26

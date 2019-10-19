@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2018-10-16,Boston Celtics,L,87,105,L 1,0-1,-18
+2,2018-10-18,Chicago Bulls,W,127,108,W 1,1-1,19
+3,2018-10-20,Orlando Magic,W,116,115,W 2,2-1,1
+4,2018-10-23,Detroit Pistons,L,132,133,L 1,2-2,-1
+5,2018-10-24,Milwaukee Bucks,L,108,123,L 2,2-3,-15
+6,2018-10-27,Charlotte Hornets,W,105,103,W 1,3-3,2
+7,2018-10-29,Atlanta Hawks,W,113,92,W 2,4-3,21
+8,2018-10-30,Toronto Raptors,L,112,129,L 1,4-4,-17
+9,2018-11-01,Los Angeles Clippers,W,122,113,W 1,5-4,9
+10,2018-11-03,Detroit Pistons,W,109,99,W 2,6-4,10
+11,2018-11-04,Brooklyn Nets,L,97,122,L 1,6-5,-25
+12,2018-11-07,Indiana Pacers,W,100,94,W 1,7-5,6
+13,2018-11-09,Charlotte Hornets,W,133,132,W 2,8-5,1
+14,2018-11-10,Memphis Grizzlies,L,106,112,L 1,8-6,-6
+15,2018-11-12,Miami Heat,W,124,114,W 1,9-6,10
+16,2018-11-14,Orlando Magic,L,106,111,L 1,9-7,-5
+17,2018-11-16,Utah Jazz,W,113,107,W 1,10-7,6
+18,2018-11-17,Charlotte Hornets,W,122,119,W 2,11-7,3
+19,2018-11-19,Phoenix Suns,W,119,114,W 3,12-7,5
+20,2018-11-21,New Orleans Pelicans,W,121,120,W 4,13-7,1
+21,2018-11-23,Cleveland Cavaliers,L,112,121,L 1,13-8,-9
+22,2018-11-25,Brooklyn Nets,W,127,125,W 1,14-8,2
+23,2018-11-28,New York Knicks,W,117,91,W 2,15-8,26
+24,2018-11-30,Washington Wizards,W,123,98,W 3,16-8,25
+25,2018-12-02,Memphis Grizzlies,W,103,95,W 4,17-8,8
+26,2018-12-05,Toronto Raptors,L,102,113,L 1,17-9,-11
+27,2018-12-07,Detroit Pistons,W,117,111,W 1,18-9,6
+28,2018-12-10,Detroit Pistons,W,116,102,W 2,19-9,14
+29,2018-12-12,Brooklyn Nets,L,124,127,L 1,19-10,-3
+30,2018-12-14,Indiana Pacers,L,101,113,L 2,19-11,-12
+31,2018-12-16,Cleveland Cavaliers,W,128,105,W 1,20-11,23
+32,2018-12-17,San Antonio Spurs,L,96,123,L 1,20-12,-27
+33,2018-12-19,New York Knicks,W,131,109,W 1,21-12,22
+34,2018-12-22,Toronto Raptors,W,126,101,W 2,22-12,25
+35,2018-12-25,Boston Celtics,L,114,121,L 1,22-13,-7
+36,2018-12-27,Utah Jazz,W,114,97,W 1,23-13,17
+37,2018-12-30,Portland Trail Blazers,L,95,129,L 1,23-14,-34
+38,2019-01-01,Los Angeles Clippers,W,119,113,W 1,24-14,6
+39,2019-01-02,Phoenix Suns,W,132,127,W 2,25-14,5
+40,2019-01-05,Dallas Mavericks,W,106,100,W 3,26-14,6
+41,2019-01-08,Washington Wizards,W,132,115,W 4,27-14,17
+42,2019-01-09,Washington Wizards,L,106,123,L 1,27-15,-17
+43,2019-01-11,Atlanta Hawks,L,121,123,L 2,27-16,-2
+44,2019-01-13,New York Knicks,W,108,105,W 1,28-16,3
+45,2019-01-15,Minnesota Timberwolves,W,149,107,W 2,29-16,42
+46,2019-01-17,Indiana Pacers,W,120,96,W 3,30-16,24
+47,2019-01-19,Oklahoma City Thunder,L,115,117,L 1,30-17,-2
+48,2019-01-21,Houston Rockets,W,121,93,W 1,31-17,28
+49,2019-01-23,San Antonio Spurs,W,122,120,W 2,32-17,2
+50,2019-01-26,Denver Nuggets,L,110,126,L 1,32-18,-16
+51,2019-01-29,Los Angeles Lakers,W,121,105,W 1,33-18,16
+52,2019-01-31,Golden State Warriors,W,113,104,W 2,34-18,9
+53,2019-02-02,Sacramento Kings,L,108,115,L 1,34-19,-7
+54,2019-02-05,Toronto Raptors,L,107,119,L 2,34-20,-12
+55,2019-02-08,Denver Nuggets,W,117,110,W 1,35-20,7
+56,2019-02-10,Los Angeles Lakers,W,143,120,W 2,36-20,23
+57,2019-02-12,Boston Celtics,L,109,112,L 1,36-21,-3
+58,2019-02-13,New York Knicks,W,126,111,W 1,37-21,15
+59,2019-02-21,Miami Heat,W,106,102,W 2,38-21,4
+60,2019-02-23,Portland Trail Blazers,L,115,130,L 1,38-22,-15
+61,2019-02-25,New Orleans Pelicans,W,111,110,W 1,39-22,1
+62,2019-02-28,Oklahoma City Thunder,W,108,104,W 2,40-22,4
+63,2019-03-02,Golden State Warriors,L,117,120,L 1,40-23,-3
+64,2019-03-05,Orlando Magic,W,114,106,W 1,41-23,8
+65,2019-03-06,Chicago Bulls,L,107,108,L 1,41-24,-1
+66,2019-03-08,Houston Rockets,L,91,107,L 2,41-25,-16
+67,2019-03-10,Indiana Pacers,W,106,89,W 1,42-25,17
+68,2019-03-12,Cleveland Cavaliers,W,106,99,W 2,43-25,7
+69,2019-03-15,Sacramento Kings,W,123,114,W 3,44-25,9
+70,2019-03-17,Milwaukee Bucks,W,130,125,W 4,45-25,5
+71,2019-03-19,Charlotte Hornets,W,118,114,W 5,46-25,4
+72,2019-03-20,Boston Celtics,W,118,115,W 6,47-25,3
+73,2019-03-23,Atlanta Hawks,L,127,129,L 1,47-26,-2
+74,2019-03-25,Orlando Magic,L,98,119,L 2,47-27,-21
+75,2019-03-28,Brooklyn Nets,W,123,110,W 1,48-27,13
+76,2019-03-30,Minnesota Timberwolves,W,118,109,W 2,49-27,9
+77,2019-04-01,Dallas Mavericks,L,102,122,L 1,49-28,-20
+78,2019-04-03,Atlanta Hawks,L,122,130,L 2,49-29,-8
+79,2019-04-04,Milwaukee Bucks,L,122,128,L 3,49-30,-6
+80,2019-04-06,Chicago Bulls,W,116,96,W 1,50-30,20
+81,2019-04-09,Miami Heat,L,99,122,L 1,50-31,-23
+82,2019-04-10,Chicago Bulls,W,125,109,W 1,51-31,16

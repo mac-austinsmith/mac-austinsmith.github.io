@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1995-11-03,Los Angeles Lakers,L,96,98,L 1,0-1,-2
+2,1995-11-04,San Antonio Spurs,L,108,116,L 2,0-2,-8
+3,1995-11-07,Golden State Warriors,L,93,98,L 3,0-3,-5
+4,1995-11-08,Seattle SuperSonics,L,117,122,L 4,0-4,-5
+5,1995-11-10,Utah Jazz,L,86,109,L 5,0-5,-23
+6,1995-11-12,Los Angeles Clippers,L,103,108,L 6,0-6,-5
+7,1995-11-15,Phoenix Suns,W,137,127,W 1,1-6,10
+8,1995-11-17,New York Knicks,L,94,103,L 1,1-7,-9
+9,1995-11-18,Houston Rockets,L,97,101,L 2,1-8,-4
+10,1995-11-21,Atlanta Hawks,W,107,99,W 1,2-8,8
+11,1995-11-24,Dallas Mavericks,W,112,109,W 2,3-8,3
+12,1995-11-25,Utah Jazz,W,94,91,W 3,4-8,3
+13,1995-11-28,Sacramento Kings,L,85,91,L 1,4-9,-6
+14,1995-12-02,Minnesota Timberwolves,W,109,105,W 1,5-9,4
+15,1995-12-04,Detroit Pistons,W,85,82,W 2,6-9,3
+16,1995-12-07,Utah Jazz,W,124,119,W 3,7-9,5
+17,1995-12-08,Phoenix Suns,W,103,98,W 4,8-9,5
+18,1995-12-11,Philadelphia 76ers,W,104,91,W 5,9-9,13
+19,1995-12-12,Indiana Pacers,L,92,125,L 1,9-10,-33
+20,1995-12-14,New York Knicks,W,103,94,W 1,10-10,9
+21,1995-12-16,Atlanta Hawks,L,86,95,L 1,10-11,-9
+22,1995-12-17,Cleveland Cavaliers,L,79,92,L 2,10-12,-13
+23,1995-12-20,Golden State Warriors,W,109,104,W 1,11-12,5
+24,1995-12-21,San Antonio Spurs,L,96,114,L 1,11-13,-18
+25,1995-12-23,Los Angeles Clippers,L,92,107,L 2,11-14,-15
+26,1995-12-26,Dallas Mavericks,W,114,102,W 1,12-14,12
+27,1995-12-27,Seattle SuperSonics,L,83,99,L 1,12-15,-16
+28,1995-12-29,Phoenix Suns,L,92,103,L 2,12-16,-11
+29,1995-12-30,Philadelphia 76ers,W,108,100,W 1,13-16,8
+30,1996-01-02,Indiana Pacers,L,87,102,L 1,13-17,-15
+31,1996-01-04,Sacramento Kings,L,96,126,L 2,13-18,-30
+32,1996-01-06,Miami Heat,L,86,88,L 3,13-19,-2
+33,1996-01-07,Los Angeles Lakers,W,96,93,W 1,14-19,3
+34,1996-01-10,Vancouver Grizzlies,W,91,85,W 2,15-19,6
+35,1996-01-12,Cleveland Cavaliers,W,90,83,W 3,16-19,7
+36,1996-01-13,Portland Trail Blazers,L,117,118,L 1,16-20,-1
+37,1996-01-16,Portland Trail Blazers,L,69,87,L 2,16-21,-18
+38,1996-01-17,Houston Rockets,L,112,120,L 3,16-22,-8
+39,1996-01-20,Sacramento Kings,L,110,115,L 4,16-23,-5
+40,1996-01-24,Seattle SuperSonics,L,79,86,L 5,16-24,-7
+41,1996-01-25,Los Angeles Clippers,L,93,94,L 6,16-25,-1
+42,1996-01-27,Toronto Raptors,W,93,82,W 1,17-25,11
+43,1996-01-30,Minnesota Timberwolves,W,88,86,W 2,18-25,2
+44,1996-02-01,Milwaukee Bucks,L,102,108,L 1,18-26,-6
+45,1996-02-04,Chicago Bulls,W,105,99,W 1,19-26,6
+46,1996-02-06,Los Angeles Lakers,L,78,99,L 1,19-27,-21
+47,1996-02-08,Los Angeles Clippers,W,115,95,W 1,20-27,20
+48,1996-02-13,Orlando Magic,L,93,121,L 1,20-28,-28
+49,1996-02-15,Miami Heat,L,91,97,L 2,20-29,-6
+50,1996-02-16,Charlotte Hornets,L,100,107,L 3,20-30,-7
+51,1996-02-18,Boston Celtics,W,117,93,W 1,21-30,24
+52,1996-02-22,Portland Trail Blazers,L,78,107,L 1,21-31,-29
+53,1996-02-24,Utah Jazz,W,99,90,W 1,22-31,9
+54,1996-02-27,Washington Bullets,W,96,92,W 2,23-31,4
+55,1996-02-29,Dallas Mavericks,L,120,137,L 1,23-32,-17
+56,1996-03-02,Vancouver Grizzlies,W,108,82,W 1,24-32,26
+57,1996-03-04,San Antonio Spurs,L,90,101,L 1,24-33,-11
+58,1996-03-06,San Antonio Spurs,L,90,100,L 2,24-34,-10
+59,1996-03-07,Phoenix Suns,W,103,92,W 1,25-34,11
+60,1996-03-09,Golden State Warriors,W,102,88,W 2,26-34,14
+61,1996-03-10,New Jersey Nets,L,88,99,L 1,26-35,-11
+62,1996-03-12,Orlando Magic,W,110,93,W 1,27-35,17
+63,1996-03-15,Chicago Bulls,L,87,108,L 1,27-36,-21
+64,1996-03-17,Detroit Pistons,L,81,91,L 2,27-37,-10
+65,1996-03-18,Toronto Raptors,W,122,114,W 1,28-37,8
+66,1996-03-21,New Jersey Nets,L,89,97,L 1,28-38,-8
+67,1996-03-22,Boston Celtics,L,98,99,L 2,28-39,-1
+68,1996-03-24,Washington Bullets,L,90,92,L 3,28-40,-2
+69,1996-03-26,Charlotte Hornets,L,112,119,L 4,28-41,-7
+70,1996-03-28,Vancouver Grizzlies,W,92,88,W 1,29-41,4
+71,1996-03-30,Milwaukee Bucks,W,98,85,W 2,30-41,13
+72,1996-04-02,Minnesota Timberwolves,W,86,78,W 3,31-41,8
+73,1996-04-04,Golden State Warriors,L,90,98,L 1,31-42,-8
+74,1996-04-05,Portland Trail Blazers,L,91,97,L 2,31-43,-6
+75,1996-04-07,Houston Rockets,W,111,105,W 1,32-43,6
+76,1996-04-09,Los Angeles Lakers,W,98,91,W 2,33-43,7
+77,1996-04-11,Houston Rockets,L,109,113,L 1,33-44,-4
+78,1996-04-14,Minnesota Timberwolves,W,98,91,W 1,34-44,7
+79,1996-04-15,Sacramento Kings,L,86,90,L 1,34-45,-4
+80,1996-04-18,Dallas Mavericks,L,98,132,L 2,34-46,-34
+81,1996-04-19,Vancouver Grizzlies,L,78,92,L 3,34-47,-14
+82,1996-04-21,Seattle SuperSonics,W,99,88,W 1,35-47,11

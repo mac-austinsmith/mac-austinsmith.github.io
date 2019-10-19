@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1991-11-01,Los Angeles Clippers,W,94,90,W 1,1-0,4
+2,1991-11-02,Golden State Warriors,L,91,153,L 1,1-1,-62
+3,1991-11-05,Seattle SuperSonics,L,87,98,L 2,1-2,-11
+4,1991-11-06,Indiana Pacers,W,112,102,W 1,2-2,10
+5,1991-11-09,Minnesota Timberwolves,L,80,84,L 1,2-3,-4
+6,1991-11-11,Utah Jazz,L,90,106,L 2,2-4,-16
+7,1991-11-12,Boston Celtics,L,103,126,L 3,2-5,-23
+8,1991-11-14,Atlanta Hawks,W,98,96,W 1,3-5,2
+9,1991-11-16,Houston Rockets,L,93,102,L 1,3-6,-9
+10,1991-11-19,New Jersey Nets,L,118,122,L 2,3-7,-4
+11,1991-11-20,Atlanta Hawks,L,104,116,L 3,3-8,-12
+12,1991-11-22,Miami Heat,L,112,118,L 4,3-9,-6
+13,1991-11-23,Orlando Magic,W,95,93,W 1,4-9,2
+14,1991-11-26,Phoenix Suns,W,104,89,W 2,5-9,15
+15,1991-11-27,Phoenix Suns,L,100,141,L 1,5-10,-41
+16,1991-11-30,Chicago Bulls,L,102,118,L 2,5-11,-16
+17,1991-12-03,San Antonio Spurs,W,99,94,W 1,6-11,5
+18,1991-12-07,Golden State Warriors,L,120,124,L 1,6-12,-4
+19,1991-12-10,Los Angeles Lakers,L,90,92,L 2,6-13,-2
+20,1991-12-12,Orlando Magic,W,106,100,W 1,7-13,6
+21,1991-12-14,Portland Trail Blazers,L,110,115,L 1,7-14,-5
+22,1991-12-15,Los Angeles Lakers,L,94,110,L 2,7-15,-16
+23,1991-12-19,Houston Rockets,L,102,109,L 3,7-16,-7
+24,1991-12-21,Dallas Mavericks,L,85,109,L 4,7-17,-24
+25,1991-12-23,San Antonio Spurs,L,90,101,L 5,7-18,-11
+26,1991-12-26,Seattle SuperSonics,L,106,115,L 6,7-19,-9
+27,1991-12-28,Chicago Bulls,L,118,127,L 7,7-20,-9
+28,1991-12-30,Minnesota Timberwolves,W,117,109,W 1,8-20,8
+29,1992-01-02,Philadelphia 76ers,W,114,110,W 2,9-20,4
+30,1992-01-04,Miami Heat,L,97,110,L 1,9-21,-13
+31,1992-01-06,Boston Celtics,L,108,110,L 2,9-22,-2
+32,1992-01-08,Detroit Pistons,L,95,114,L 3,9-23,-19
+33,1992-01-09,Charlotte Hornets,L,96,109,L 4,9-24,-13
+34,1992-01-11,Milwaukee Bucks,W,106,105,W 1,10-24,1
+35,1992-01-13,Denver Nuggets,L,109,111,L 1,10-25,-2
+36,1992-01-15,Phoenix Suns,L,111,128,L 2,10-26,-17
+37,1992-01-17,Phoenix Suns,L,94,134,L 3,10-27,-40
+38,1992-01-18,Charlotte Hornets,W,119,113,W 1,11-27,6
+39,1992-01-21,Denver Nuggets,W,94,85,W 2,12-27,9
+40,1992-01-23,Los Angeles Lakers,L,105,108,L 1,12-28,-3
+41,1992-01-24,Los Angeles Lakers,L,92,95,L 2,12-29,-3
+42,1992-01-28,New Jersey Nets,W,124,118,W 1,13-29,6
+43,1992-01-29,Utah Jazz,L,105,124,L 1,13-30,-19
+44,1992-01-31,Los Angeles Clippers,W,112,109,W 1,14-30,3
+45,1992-02-02,Portland Trail Blazers,L,107,147,L 1,14-31,-40
+46,1992-02-03,Dallas Mavericks,W,99,95,W 1,15-31,4
+47,1992-02-05,Utah Jazz,W,100,98,W 2,16-31,2
+48,1992-02-12,Washington Bullets,W,98,97,W 3,17-31,1
+49,1992-02-14,Portland Trail Blazers,L,106,107,L 1,17-32,-1
+50,1992-02-16,San Antonio Spurs,L,106,112,L 2,17-33,-6
+51,1992-02-18,New York Knicks,L,97,110,L 3,17-34,-13
+52,1992-02-19,Indiana Pacers,L,115,129,L 4,17-35,-14
+53,1992-02-21,Cleveland Cavaliers,L,102,119,L 5,17-36,-17
+54,1992-02-23,Washington Bullets,W,124,117,W 1,18-36,7
+55,1992-02-24,Philadelphia 76ers,L,96,108,L 1,18-37,-12
+56,1992-02-27,New York Knicks,W,110,109,W 1,19-37,1
+57,1992-02-29,Seattle SuperSonics,W,115,110,W 2,20-37,5
+58,1992-03-02,Golden State Warriors,L,98,118,L 1,20-38,-20
+59,1992-03-04,Cleveland Cavaliers,L,108,109,L 2,20-39,-1
+60,1992-03-06,Portland Trail Blazers,L,106,114,L 3,20-40,-8
+61,1992-03-08,Houston Rockets,L,108,109,L 4,20-41,-1
+62,1992-03-10,Los Angeles Clippers,L,109,120,L 5,20-42,-11
+63,1992-03-12,Utah Jazz,L,103,114,L 6,20-43,-11
+64,1992-03-14,Detroit Pistons,L,83,89,L 7,20-44,-6
+65,1992-03-15,Los Angeles Clippers,L,105,131,L 8,20-45,-26
+66,1992-03-17,Denver Nuggets,L,100,118,L 9,20-46,-18
+67,1992-03-18,San Antonio Spurs,L,89,118,L 10,20-47,-29
+68,1992-03-20,Dallas Mavericks,W,125,96,W 1,21-47,29
+69,1992-03-21,Houston Rockets,W,100,97,W 2,22-47,3
+70,1992-03-24,Milwaukee Bucks,W,113,102,W 3,23-47,11
+71,1992-03-26,Portland Trail Blazers,L,106,128,L 1,23-48,-22
+72,1992-03-29,Minnesota Timberwolves,W,112,86,W 1,24-48,26
+73,1992-03-31,Golden State Warriors,L,136,148,L 1,24-49,-12
+74,1992-04-02,Seattle SuperSonics,L,103,111,L 2,24-50,-8
+75,1992-04-03,Golden State Warriors,L,116,124,L 3,24-51,-8
+76,1992-04-05,Dallas Mavericks,W,103,89,W 1,25-51,14
+77,1992-04-07,Phoenix Suns,L,101,103,L 1,25-52,-2
+78,1992-04-09,Denver Nuggets,W,124,107,W 1,26-52,17
+79,1992-04-11,Minnesota Timberwolves,W,114,94,W 2,27-52,20
+80,1992-04-14,Los Angeles Clippers,W,103,97,W 3,28-52,6
+81,1992-04-16,Los Angeles Lakers,W,102,94,W 4,29-52,8
+82,1992-04-17,Seattle SuperSonics,L,106,130,L 1,29-53,-24

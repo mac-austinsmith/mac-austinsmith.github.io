@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2015-10-28,Philadelphia 76ers,W,112,95,W 1,1-0,17
+2,2015-10-30,Toronto Raptors,L,103,113,L 1,1-1,-10
+3,2015-11-01,San Antonio Spurs,L,87,95,L 2,1-2,-8
+4,2015-11-04,Indiana Pacers,L,98,100,L 3,1-3,-2
+5,2015-11-06,Washington Wizards,W,118,98,W 1,2-3,20
+6,2015-11-10,Milwaukee Bucks,W,99,83,W 2,3-3,16
+7,2015-11-11,Indiana Pacers,L,91,102,L 1,3-4,-11
+8,2015-11-13,Atlanta Hawks,W,106,93,W 1,4-4,13
+9,2015-11-15,Oklahoma City Thunder,W,100,85,W 2,5-4,15
+10,2015-11-16,Houston Rockets,W,111,95,W 3,6-4,16
+11,2015-11-18,Dallas Mavericks,L,102,106,L 1,6-5,-4
+12,2015-11-20,Brooklyn Nets,W,120,95,W 1,7-5,25
+13,2015-11-22,Brooklyn Nets,L,101,111,L 1,7-6,-10
+14,2015-11-24,Atlanta Hawks,L,97,121,L 2,7-7,-24
+15,2015-11-25,Philadelphia 76ers,W,84,80,W 1,8-7,4
+16,2015-11-27,Washington Wizards,W,111,78,W 2,9-7,33
+17,2015-11-29,Orlando Magic,L,91,110,L 1,9-8,-19
+18,2015-11-30,Miami Heat,W,105,95,W 1,10-8,10
+19,2015-12-03,Sacramento Kings,W,114,97,W 2,11-8,17
+20,2015-12-05,San Antonio Spurs,L,105,108,L 1,11-9,-3
+21,2015-12-07,New Orleans Pelicans,W,111,93,W 1,12-9,18
+22,2015-12-09,Chicago Bulls,W,105,100,W 2,13-9,5
+23,2015-12-11,Golden State Warriors,L,119,124,L 1,13-10,-5
+24,2015-12-12,Charlotte Hornets,W,98,93,W 1,14-10,5
+25,2015-12-15,Cleveland Cavaliers,L,77,89,L 1,14-11,-12
+26,2015-12-16,Detroit Pistons,L,116,119,L 2,14-12,-3
+27,2015-12-18,Atlanta Hawks,L,101,109,L 3,14-13,-8
+28,2015-12-21,Minnesota Timberwolves,W,113,99,W 1,15-13,14
+29,2015-12-23,Charlotte Hornets,W,102,89,W 2,16-13,13
+30,2015-12-26,Detroit Pistons,W,99,93,W 3,17-13,6
+31,2015-12-27,New York Knicks,W,100,91,W 4,18-13,9
+32,2015-12-30,Los Angeles Lakers,L,104,112,L 1,18-14,-8
+33,2016-01-02,Brooklyn Nets,L,97,100,L 2,18-15,-3
+34,2016-01-04,Brooklyn Nets,W,103,94,W 1,19-15,9
+35,2016-01-06,Detroit Pistons,L,94,99,L 1,19-16,-5
+36,2016-01-07,Chicago Bulls,L,92,101,L 2,19-17,-9
+37,2016-01-10,Memphis Grizzlies,L,98,101,L 3,19-18,-3
+38,2016-01-12,New York Knicks,L,114,120,L 4,19-19,-6
+39,2016-01-13,Indiana Pacers,W,103,94,W 1,20-19,9
+40,2016-01-15,Phoenix Suns,W,117,103,W 2,21-19,14
+41,2016-01-16,Washington Wizards,W,119,117,W 3,22-19,2
+42,2016-01-18,Dallas Mavericks,L,113,118,L 1,22-20,-5
+43,2016-01-20,Toronto Raptors,L,109,115,L 2,22-21,-6
+44,2016-01-22,Chicago Bulls,W,110,101,W 1,23-21,9
+45,2016-01-24,Philadelphia 76ers,W,112,92,W 2,24-21,20
+46,2016-01-25,Washington Wizards,W,116,91,W 3,25-21,25
+47,2016-01-27,Denver Nuggets,W,111,103,W 4,26-21,8
+48,2016-01-29,Orlando Magic,W,113,94,W 5,27-21,19
+49,2016-01-31,Orlando Magic,L,114,119,L 1,27-22,-5
+50,2016-02-02,New York Knicks,W,97,89,W 1,28-22,8
+51,2016-02-03,Detroit Pistons,W,102,95,W 2,29-22,7
+52,2016-02-05,Cleveland Cavaliers,W,104,103,W 3,30-22,1
+53,2016-02-07,Sacramento Kings,W,128,119,W 4,31-22,9
+54,2016-02-09,Milwaukee Bucks,L,111,112,L 1,31-23,-1
+55,2016-02-10,Los Angeles Clippers,W,139,134,W 1,32-23,5
+56,2016-02-19,Utah Jazz,L,93,111,L 1,32-24,-18
+57,2016-02-21,Denver Nuggets,W,121,101,W 1,33-24,20
+58,2016-02-22,Minnesota Timberwolves,L,122,124,L 1,33-25,-2
+59,2016-02-25,Milwaukee Bucks,W,112,107,W 1,34-25,5
+60,2016-02-27,Miami Heat,W,101,89,W 2,35-25,12
+61,2016-02-29,Utah Jazz,W,100,95,W 3,36-25,5
+62,2016-03-02,Portland Trail Blazers,W,116,93,W 4,37-25,23
+63,2016-03-04,New York Knicks,W,105,104,W 5,38-25,1
+64,2016-03-05,Cleveland Cavaliers,L,103,120,L 1,38-26,-17
+65,2016-03-09,Memphis Grizzlies,W,116,96,W 1,39-26,20
+66,2016-03-11,Houston Rockets,L,98,102,L 1,39-27,-4
+67,2016-03-15,Indiana Pacers,L,98,103,L 2,39-28,-5
+68,2016-03-16,Oklahoma City Thunder,L,109,130,L 3,39-29,-21
+69,2016-03-18,Toronto Raptors,L,91,105,L 4,39-30,-14
+70,2016-03-20,Philadelphia 76ers,W,120,105,W 1,40-30,15
+71,2016-03-21,Orlando Magic,W,107,96,W 2,41-30,11
+72,2016-03-23,Toronto Raptors,W,91,79,W 3,42-30,12
+73,2016-03-26,Phoenix Suns,W,102,99,W 4,43-30,3
+74,2016-03-28,Los Angeles Clippers,L,90,114,L 1,43-31,-24
+75,2016-03-31,Portland Trail Blazers,L,109,116,L 2,43-32,-7
+76,2016-04-01,Golden State Warriors,W,109,106,W 1,44-32,3
+77,2016-04-03,Los Angeles Lakers,W,107,100,W 2,45-32,7
+78,2016-04-06,New Orleans Pelicans,W,104,97,W 3,46-32,7
+79,2016-04-08,Milwaukee Bucks,W,124,109,W 4,47-32,15
+80,2016-04-09,Atlanta Hawks,L,107,118,L 1,47-33,-11
+81,2016-04-11,Charlotte Hornets,L,100,114,L 2,47-34,-14
+82,2016-04-13,Miami Heat,W,98,88,W 1,48-34,10

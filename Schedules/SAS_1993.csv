@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1992-11-06,Sacramento Kings,L,106,114,L 1,0-1,-8
+2,1992-11-07,Denver Nuggets,L,121,125,L 2,0-2,-4
+3,1992-11-10,Milwaukee Bucks,W,104,98,W 1,1-2,6
+4,1992-11-12,Atlanta Hawks,L,97,104,L 1,1-3,-7
+5,1992-11-14,Houston Rockets,L,87,93,L 2,1-4,-6
+6,1992-11-17,Cleveland Cavaliers,W,106,95,W 1,2-4,11
+7,1992-11-19,Dallas Mavericks,W,123,95,W 2,3-4,28
+8,1992-11-21,Houston Rockets,L,100,103,L 1,3-5,-3
+9,1992-11-24,Portland Trail Blazers,L,91,95,L 2,3-6,-4
+10,1992-11-25,Utah Jazz,W,128,102,W 1,4-6,26
+11,1992-11-28,Seattle SuperSonics,W,104,97,W 2,5-6,7
+12,1992-12-01,Washington Bullets,L,106,119,L 1,5-7,-13
+13,1992-12-02,Philadelphia 76ers,W,98,82,W 1,6-7,16
+14,1992-12-04,New Jersey Nets,L,103,108,L 1,6-8,-5
+15,1992-12-05,Atlanta Hawks,L,105,113,L 2,6-9,-8
+16,1992-12-08,Utah Jazz,W,121,103,W 1,7-9,18
+17,1992-12-10,Miami Heat,W,101,91,W 2,8-9,10
+18,1992-12-12,Dallas Mavericks,W,113,91,W 3,9-9,22
+19,1992-12-15,Los Angeles Lakers,L,101,107,L 1,9-10,-6
+20,1992-12-17,Houston Rockets,L,109,121,L 2,9-11,-12
+21,1992-12-18,Dallas Mavericks,W,122,101,W 1,10-11,21
+22,1992-12-22,Denver Nuggets,W,113,108,W 2,11-11,5
+23,1992-12-25,Los Angeles Clippers,W,103,94,W 3,12-11,9
+24,1992-12-26,Los Angeles Lakers,W,104,92,W 4,13-11,12
+25,1992-12-28,Golden State Warriors,L,105,106,L 1,13-12,-1
+26,1992-12-30,Denver Nuggets,W,114,94,W 1,14-12,20
+27,1993-01-03,Phoenix Suns,W,114,113,W 2,15-12,1
+28,1993-01-05,Utah Jazz,L,87,113,L 1,15-13,-26
+29,1993-01-07,Utah Jazz,W,109,99,W 1,16-13,10
+30,1993-01-09,Portland Trail Blazers,W,109,93,W 2,17-13,16
+31,1993-01-11,Detroit Pistons,W,109,91,W 3,18-13,18
+32,1993-01-13,Minnesota Timberwolves,W,89,81,W 4,19-13,8
+33,1993-01-14,Milwaukee Bucks,W,108,93,W 5,20-13,15
+34,1993-01-16,Charlotte Hornets,W,124,111,W 6,21-13,13
+35,1993-01-19,Denver Nuggets,W,121,110,W 7,22-13,11
+36,1993-01-22,Detroit Pistons,W,123,109,W 8,23-13,14
+37,1993-01-24,Chicago Bulls,W,103,99,W 9,24-13,4
+38,1993-01-27,Seattle SuperSonics,W,119,99,W 10,25-13,20
+39,1993-01-29,Phoenix Suns,L,110,125,L 1,25-14,-15
+40,1993-01-30,Sacramento Kings,W,129,124,W 1,26-14,5
+41,1993-02-02,New Jersey Nets,W,111,93,W 2,27-14,18
+42,1993-02-04,Indiana Pacers,W,133,115,W 3,28-14,18
+43,1993-02-06,Minnesota Timberwolves,W,104,95,W 4,29-14,9
+44,1993-02-09,Los Angeles Clippers,W,112,97,W 5,30-14,15
+45,1993-02-11,Washington Bullets,W,105,95,W 6,31-14,10
+46,1993-02-13,Boston Celtics,W,90,85,W 7,32-14,5
+47,1993-02-15,Los Angeles Clippers,W,102,99,W 8,33-14,3
+48,1993-02-16,Golden State Warriors,L,112,133,L 1,33-15,-21
+49,1993-02-18,Philadelphia 76ers,W,103,98,W 1,34-15,5
+50,1993-02-23,Phoenix Suns,L,103,105,L 1,34-16,-2
+51,1993-02-25,Charlotte Hornets,L,104,111,L 2,34-17,-7
+52,1993-02-26,Miami Heat,L,86,93,L 3,34-18,-7
+53,1993-02-28,Orlando Magic,W,94,90,W 1,35-18,4
+54,1993-03-02,Indiana Pacers,L,95,109,L 1,35-19,-14
+55,1993-03-03,Boston Celtics,L,91,132,L 2,35-20,-41
+56,1993-03-05,Chicago Bulls,W,107,102,W 1,36-20,5
+57,1993-03-06,Minnesota Timberwolves,L,105,106,L 1,36-21,-1
+58,1993-03-09,Dallas Mavericks,W,119,84,W 1,37-21,35
+59,1993-03-13,Portland Trail Blazers,W,108,99,W 2,38-21,9
+60,1993-03-15,Los Angeles Lakers,L,87,92,L 1,38-22,-5
+61,1993-03-17,Los Angeles Lakers,W,101,100,W 1,39-22,1
+62,1993-03-19,Orlando Magic,W,96,93,W 2,40-22,3
+63,1993-03-21,New York Knicks,L,96,115,L 1,40-23,-19
+64,1993-03-23,Cleveland Cavaliers,L,90,127,L 2,40-24,-37
+65,1993-03-24,Minnesota Timberwolves,W,105,92,W 1,41-24,13
+66,1993-03-26,Utah Jazz,L,98,104,L 1,41-25,-6
+67,1993-03-28,Dallas Mavericks,W,114,107,W 1,42-25,7
+68,1993-03-30,Seattle SuperSonics,W,99,97,W 2,43-25,2
+69,1993-03-31,Utah Jazz,L,85,93,L 1,43-26,-8
+70,1993-04-02,Minnesota Timberwolves,W,108,101,W 1,44-26,7
+71,1993-04-04,New York Knicks,L,103,108,L 1,44-27,-5
+72,1993-04-06,Golden State Warriors,L,111,125,L 2,44-28,-14
+73,1993-04-08,Los Angeles Clippers,W,112,108,W 1,45-28,4
+74,1993-04-10,Houston Rockets,L,88,98,L 1,45-29,-10
+75,1993-04-13,Sacramento Kings,W,110,100,W 1,46-29,10
+76,1993-04-14,Golden State Warriors,W,96,93,W 2,47-29,3
+77,1993-04-16,Sacramento Kings,L,93,100,L 1,47-30,-7
+78,1993-04-18,Portland Trail Blazers,L,101,105,L 2,47-31,-4
+79,1993-04-19,Seattle SuperSonics,L,89,96,L 3,47-32,-7
+80,1993-04-22,Denver Nuggets,W,131,111,W 1,48-32,20
+81,1993-04-24,Phoenix Suns,L,97,99,L 1,48-33,-2
+82,1993-04-25,Houston Rockets,W,119,117,W 1,49-33,2

@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2007-11-02,Washington Wizards,W,103,83,W 1,1-0,20
+2,2007-11-04,Toronto Raptors,W,98,95,W 2,2-0,3
+3,2007-11-07,Denver Nuggets,W,119,93,W 3,3-0,26
+4,2007-11-09,Atlanta Hawks,W,106,83,W 4,4-0,23
+5,2007-11-10,New Jersey Nets,W,112,101,W 5,5-0,11
+6,2007-11-13,Indiana Pacers,W,101,86,W 6,6-0,15
+7,2007-11-14,New Jersey Nets,W,91,69,W 7,7-0,22
+8,2007-11-16,Miami Heat,W,92,91,W 8,8-0,1
+9,2007-11-18,Orlando Magic,L,102,104,L 1,8-1,-2
+10,2007-11-21,Golden State Warriors,W,105,82,W 1,9-1,23
+11,2007-11-23,Los Angeles Lakers,W,107,94,W 2,10-1,13
+12,2007-11-24,Charlotte Bobcats,W,96,95,W 3,11-1,1
+13,2007-11-27,Cleveland Cavaliers,L,104,109,L 1,11-2,-5
+14,2007-11-29,New York Knicks,W,104,59,W 1,12-2,45
+15,2007-11-30,Miami Heat,W,95,85,W 2,13-2,10
+16,2007-12-02,Cleveland Cavaliers,W,80,70,W 3,14-2,10
+17,2007-12-05,Philadelphia 76ers,W,113,103,W 4,15-2,10
+18,2007-12-07,Toronto Raptors,W,112,84,W 5,16-2,28
+19,2007-12-08,Chicago Bulls,W,92,81,W 6,17-2,11
+20,2007-12-12,Sacramento Kings,W,90,78,W 7,18-2,12
+21,2007-12-14,Milwaukee Bucks,W,104,82,W 8,19-2,22
+22,2007-12-16,Toronto Raptors,W,90,77,W 9,20-2,13
+23,2007-12-19,Detroit Pistons,L,85,87,L 1,20-3,-2
+24,2007-12-21,Chicago Bulls,W,107,82,W 1,21-3,25
+25,2007-12-23,Orlando Magic,W,103,91,W 2,22-3,12
+26,2007-12-26,Sacramento Kings,W,89,69,W 3,23-3,20
+27,2007-12-27,Seattle SuperSonics,W,104,96,W 4,24-3,8
+28,2007-12-29,Utah Jazz,W,104,98,W 5,25-3,6
+29,2007-12-30,Los Angeles Lakers,W,110,91,W 6,26-3,19
+30,2008-01-02,Houston Rockets,W,97,93,W 7,27-3,4
+31,2008-01-04,Memphis Grizzlies,W,100,96,W 8,28-3,4
+32,2008-01-05,Detroit Pistons,W,92,85,W 9,29-3,7
+33,2008-01-09,Charlotte Bobcats,L,83,95,L 1,29-4,-12
+34,2008-01-11,New Jersey Nets,W,86,77,W 1,30-4,9
+35,2008-01-12,Washington Wizards,L,78,85,L 1,30-5,-7
+36,2008-01-14,Washington Wizards,L,83,88,L 2,30-6,-5
+37,2008-01-16,Portland Trail Blazers,W,100,90,W 1,31-6,10
+38,2008-01-18,Philadelphia 76ers,W,116,89,W 2,32-6,27
+39,2008-01-21,New York Knicks,W,109,93,W 3,33-6,16
+40,2008-01-23,Toronto Raptors,L,112,114,L 1,33-7,-2
+41,2008-01-25,Minnesota Timberwolves,W,87,86,W 1,34-7,1
+42,2008-01-27,Orlando Magic,L,93,96,L 1,34-8,-3
+43,2008-01-29,Miami Heat,W,117,87,W 1,35-8,30
+44,2008-01-31,Dallas Mavericks,W,96,90,W 2,36-8,6
+45,2008-02-05,Cleveland Cavaliers,L,113,114,L 1,36-9,-1
+46,2008-02-06,Los Angeles Clippers,W,111,100,W 1,37-9,11
+47,2008-02-08,Minnesota Timberwolves,W,88,86,W 2,38-9,2
+48,2008-02-10,San Antonio Spurs,W,98,90,W 3,39-9,8
+49,2008-02-12,Indiana Pacers,W,104,97,W 4,40-9,7
+50,2008-02-13,New York Knicks,W,111,103,W 5,41-9,8
+51,2008-02-19,Denver Nuggets,L,118,124,L 1,41-10,-6
+52,2008-02-20,Golden State Warriors,L,117,119,L 2,41-11,-2
+53,2008-02-22,Phoenix Suns,L,77,85,L 3,41-12,-8
+54,2008-02-24,Portland Trail Blazers,W,112,102,W 1,42-12,10
+55,2008-02-25,Los Angeles Clippers,W,104,76,W 2,43-12,28
+56,2008-02-27,Cleveland Cavaliers,W,92,87,W 3,44-12,5
+57,2008-02-29,Charlotte Bobcats,W,108,100,W 4,45-12,8
+58,2008-03-02,Atlanta Hawks,W,98,88,W 5,46-12,10
+59,2008-03-05,Detroit Pistons,W,90,78,W 6,47-12,12
+60,2008-03-07,Chicago Bulls,W,116,93,W 7,48-12,23
+61,2008-03-08,Memphis Grizzlies,W,119,89,W 8,49-12,30
+62,2008-03-10,Philadelphia 76ers,W,100,86,W 9,50-12,14
+63,2008-03-12,Seattle SuperSonics,W,111,82,W 10,51-12,29
+64,2008-03-14,Utah Jazz,L,92,110,L 1,51-13,-18
+65,2008-03-15,Milwaukee Bucks,W,99,77,W 1,52-13,22
+66,2008-03-17,San Antonio Spurs,W,93,91,W 2,53-13,2
+67,2008-03-18,Houston Rockets,W,94,74,W 3,54-13,20
+68,2008-03-20,Dallas Mavericks,W,94,90,W 4,55-13,4
+69,2008-03-22,New Orleans Hornets,L,106,113,L 1,55-14,-7
+70,2008-03-24,Philadelphia 76ers,L,90,95,L 2,55-15,-5
+71,2008-03-26,Phoenix Suns,W,117,97,W 1,56-15,20
+72,2008-03-28,New Orleans Hornets,W,112,92,W 2,57-15,20
+73,2008-03-30,Miami Heat,W,88,62,W 3,58-15,26
+74,2008-04-01,Chicago Bulls,W,106,92,W 4,59-15,14
+75,2008-04-02,Indiana Pacers,W,92,77,W 5,60-15,15
+76,2008-04-05,Charlotte Bobcats,W,101,78,W 6,61-15,23
+77,2008-04-08,Milwaukee Bucks,W,107,104,W 7,62-15,3
+78,2008-04-09,Washington Wizards,L,95,109,L 1,62-16,-14
+79,2008-04-11,Milwaukee Bucks,W,102,86,W 1,63-16,16
+80,2008-04-12,Atlanta Hawks,W,99,89,W 2,64-16,10
+81,2008-04-14,New York Knicks,W,99,93,W 3,65-16,6
+82,2008-04-16,New Jersey Nets,W,105,94,W 4,66-16,11

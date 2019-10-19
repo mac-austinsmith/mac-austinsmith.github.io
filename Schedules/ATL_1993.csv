@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1992-11-06,New York Knicks,L,94,106,L 1,0-1,-12
+2,1992-11-07,Chicago Bulls,W,100,99,W 1,1-1,1
+3,1992-11-11,Houston Rockets,L,82,101,L 1,1-2,-19
+4,1992-11-12,San Antonio Spurs,W,104,97,W 1,2-2,7
+5,1992-11-14,Dallas Mavericks,L,105,113,L 1,2-3,-8
+6,1992-11-17,Milwaukee Bucks,L,106,114,L 2,2-4,-8
+7,1992-11-19,New Jersey Nets,L,101,108,L 3,2-5,-7
+8,1992-11-21,Boston Celtics,W,116,107,W 1,3-5,9
+9,1992-11-23,Boston Celtics,W,101,97,W 2,4-5,4
+10,1992-11-25,Philadelphia 76ers,W,111,105,W 3,5-5,6
+11,1992-11-27,Cleveland Cavaliers,L,101,122,L 1,5-6,-21
+12,1992-11-28,Miami Heat,W,112,100,W 1,6-6,12
+13,1992-12-01,Indiana Pacers,W,119,107,W 2,7-6,12
+14,1992-12-02,New Jersey Nets,L,115,122,L 1,7-7,-7
+15,1992-12-04,Indiana Pacers,L,106,122,L 2,7-8,-16
+16,1992-12-05,San Antonio Spurs,W,113,105,W 1,8-8,8
+17,1992-12-08,Chicago Bulls,W,123,114,W 2,9-8,9
+18,1992-12-11,Denver Nuggets,W,112,107,W 3,10-8,5
+19,1992-12-12,Philadelphia 76ers,L,96,103,L 1,10-9,-7
+20,1992-12-15,Detroit Pistons,L,94,107,L 2,10-10,-13
+21,1992-12-16,Detroit Pistons,L,88,89,L 3,10-11,-1
+22,1992-12-18,Miami Heat,W,108,100,W 1,11-11,8
+23,1992-12-19,Orlando Magic,L,84,125,L 1,11-12,-41
+24,1992-12-22,Charlotte Hornets,L,114,130,L 2,11-13,-16
+25,1992-12-26,Minnesota Timberwolves,W,113,105,W 1,12-13,8
+26,1992-12-28,Washington Bullets,L,96,97,L 1,12-14,-1
+27,1992-12-29,Cleveland Cavaliers,L,96,114,L 2,12-15,-18
+28,1993-01-02,Milwaukee Bucks,L,93,106,L 3,12-16,-13
+29,1993-01-05,Washington Bullets,L,100,107,L 4,12-17,-7
+30,1993-01-07,Milwaukee Bucks,W,100,94,W 1,13-17,6
+31,1993-01-08,Detroit Pistons,W,101,92,W 2,14-17,9
+32,1993-01-12,Golden State Warriors,W,126,118,W 3,15-17,8
+33,1993-01-14,Detroit Pistons,W,108,91,W 4,16-17,17
+34,1993-01-16,Cleveland Cavaliers,L,99,127,L 1,16-18,-28
+35,1993-01-19,Charlotte Hornets,W,102,100,W 1,17-18,2
+36,1993-01-20,Boston Celtics,L,106,121,L 1,17-19,-15
+37,1993-01-22,New Jersey Nets,W,102,91,W 1,18-19,11
+38,1993-01-23,Phoenix Suns,L,91,110,L 1,18-20,-19
+39,1993-01-25,Sacramento Kings,W,117,106,W 1,19-20,11
+40,1993-01-26,Orlando Magic,L,106,120,L 1,19-21,-14
+41,1993-01-28,New York Knicks,W,110,105,W 1,20-21,5
+42,1993-01-30,Philadelphia 76ers,W,149,123,W 2,21-21,26
+43,1993-02-02,Seattle SuperSonics,W,118,109,W 3,22-21,9
+44,1993-02-03,Miami Heat,L,96,116,L 1,22-22,-20
+45,1993-02-06,Cleveland Cavaliers,L,109,120,L 2,22-23,-11
+46,1993-02-09,Golden State Warriors,W,125,114,W 1,23-23,11
+47,1993-02-11,Sacramento Kings,L,105,116,L 1,23-24,-11
+48,1993-02-13,Utah Jazz,W,121,112,W 1,24-24,9
+49,1993-02-14,Los Angeles Lakers,L,96,135,L 1,24-25,-39
+50,1993-02-16,Portland Trail Blazers,L,90,105,L 2,24-26,-15
+51,1993-02-18,Phoenix Suns,L,119,131,L 3,24-27,-12
+52,1993-02-23,Washington Bullets,W,109,94,W 1,25-27,15
+53,1993-02-24,Philadelphia 76ers,W,132,107,W 2,26-27,25
+54,1993-02-26,Boston Celtics,L,99,110,L 1,26-28,-11
+55,1993-02-27,Chicago Bulls,L,92,112,L 2,26-29,-20
+56,1993-03-02,New York Knicks,L,98,107,L 3,26-30,-9
+57,1993-03-04,Indiana Pacers,L,111,136,L 4,26-31,-25
+58,1993-03-06,Utah Jazz,W,139,118,W 1,27-31,21
+59,1993-03-08,Los Angeles Clippers,W,121,113,W 2,28-31,8
+60,1993-03-09,Milwaukee Bucks,W,117,103,W 3,29-31,14
+61,1993-03-12,Orlando Magic,W,110,92,W 4,30-31,18
+62,1993-03-14,Los Angeles Lakers,W,117,107,W 5,31-31,10
+63,1993-03-16,Charlotte Hornets,W,122,107,W 6,32-31,15
+64,1993-03-17,New Jersey Nets,L,93,114,L 1,32-32,-21
+65,1993-03-19,Minnesota Timberwolves,W,121,103,W 1,33-32,18
+66,1993-03-23,Dallas Mavericks,W,125,107,W 2,34-32,18
+67,1993-03-25,Houston Rockets,W,106,96,W 3,35-32,10
+68,1993-03-27,Miami Heat,W,118,106,W 4,36-32,12
+69,1993-03-29,Portland Trail Blazers,W,127,118,W 5,37-32,9
+70,1993-03-31,Denver Nuggets,W,103,94,W 6,38-32,9
+71,1993-04-02,Los Angeles Clippers,L,99,111,L 1,38-33,-12
+72,1993-04-03,Seattle SuperSonics,L,105,129,L 2,38-34,-24
+73,1993-04-06,New York Knicks,W,109,104,W 1,39-34,5
+74,1993-04-09,Chicago Bulls,L,87,88,L 1,39-35,-1
+75,1993-04-10,Charlotte Hornets,W,118,105,W 1,40-35,13
+76,1993-04-13,Cleveland Cavaliers,L,109,112,L 1,40-36,-3
+77,1993-04-14,Detroit Pistons,L,84,87,L 2,40-37,-3
+78,1993-04-17,Charlotte Hornets,L,107,110,L 3,40-38,-3
+79,1993-04-20,Indiana Pacers,W,111,102,W 1,41-38,9
+80,1993-04-21,Washington Bullets,W,119,98,W 2,42-38,21
+81,1993-04-23,Milwaukee Bucks,W,122,106,W 3,43-38,16
+82,1993-04-24,Orlando Magic,L,85,104,L 1,43-39,-19

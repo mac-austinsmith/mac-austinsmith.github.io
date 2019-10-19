@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1970-10-14,New York Knicks,L,104,128,L 1,0-1,-24
+2,1970-10-17,Philadelphia 76ers,L,105,123,L 2,0-2,-18
+3,1970-10-21,Baltimore Bullets,L,105,117,L 3,0-3,-12
+4,1970-10-23,Boston Celtics,L,126,131,L 4,0-4,-5
+5,1970-10-24,New York Knicks,L,103,115,L 5,0-5,-12
+6,1970-10-26,Atlanta Hawks,W,126,107,W 1,1-5,19
+7,1970-10-28,Seattle SuperSonics,W,131,118,W 2,2-5,13
+8,1970-10-30,Cleveland Cavaliers,W,125,110,W 3,3-5,15
+9,1970-10-31,Milwaukee Bucks,L,100,121,L 1,3-6,-21
+10,1970-11-03,Detroit Pistons,L,112,115,L 2,3-7,-3
+11,1970-11-04,Phoenix Suns,L,115,133,L 3,3-8,-18
+12,1970-11-07,Boston Celtics,L,122,140,L 4,3-9,-18
+13,1970-11-10,Portland Trail Blazers,W,138,121,W 1,4-9,17
+14,1970-11-11,San Diego Rockets,L,120,127,L 1,4-10,-7
+15,1970-11-12,San Francisco Warriors,W,121,107,W 1,5-10,14
+16,1970-11-13,Phoenix Suns,L,109,115,L 1,5-11,-6
+17,1970-11-18,Chicago Bulls,L,107,128,L 2,5-12,-21
+18,1970-11-19,New York Knicks,W,106,98,W 1,6-12,8
+19,1970-11-21,Detroit Pistons,W,114,102,W 2,7-12,12
+20,1970-11-25,San Diego Rockets,L,120,138,L 1,7-13,-18
+21,1970-11-27,Philadelphia 76ers,W,113,109,W 1,8-13,4
+22,1970-11-28,Cleveland Cavaliers,W,105,86,W 2,9-13,19
+23,1970-12-02,Seattle SuperSonics,L,111,119,L 1,9-14,-8
+24,1970-12-05,Philadelphia 76ers,L,106,131,L 2,9-15,-25
+25,1970-12-06,Baltimore Bullets,L,118,126,L 3,9-16,-8
+26,1970-12-07,San Francisco Warriors,W,124,113,W 1,10-16,11
+27,1970-12-09,Atlanta Hawks,W,118,106,W 2,11-16,12
+28,1970-12-12,Cleveland Cavaliers,W,114,95,W 3,12-16,19
+29,1970-12-16,Los Angeles Lakers,L,102,118,L 1,12-17,-16
+30,1970-12-18,Chicago Bulls,L,122,137,L 2,12-18,-15
+31,1970-12-19,Milwaukee Bucks,W,119,110,W 1,13-18,9
+32,1970-12-20,Detroit Pistons,L,135,136,L 1,13-19,-1
+33,1970-12-23,Baltimore Bullets,W,120,115,W 1,14-19,5
+34,1970-12-25,Cleveland Cavaliers,W,117,100,W 2,15-19,17
+35,1970-12-26,Atlanta Hawks,W,130,118,W 3,16-19,12
+36,1970-12-28,Milwaukee Bucks,L,114,137,L 1,16-20,-23
+37,1970-12-30,Detroit Pistons,L,115,119,L 2,16-21,-4
+38,1971-01-02,Buffalo Braves,W,115,103,W 1,17-21,12
+39,1971-01-05,Los Angeles Lakers,W,146,112,W 2,18-21,34
+40,1971-01-06,Portland Trail Blazers,W,133,128,W 3,19-21,5
+41,1971-01-08,Detroit Pistons,L,109,115,L 1,19-22,-6
+42,1971-01-09,Seattle SuperSonics,L,110,114,L 2,19-23,-4
+43,1971-01-14,Los Angeles Lakers,L,120,126,L 3,19-24,-6
+44,1971-01-15,Milwaukee Bucks,L,116,135,L 4,19-25,-19
+45,1971-01-16,Buffalo Braves,W,114,113,W 1,20-25,1
+46,1971-01-18,Phoenix Suns,L,99,118,L 1,20-26,-19
+47,1971-01-19,San Francisco Warriors,L,108,116,L 2,20-27,-8
+48,1971-01-20,Phoenix Suns,W,126,114,W 1,21-27,12
+49,1971-01-22,Seattle SuperSonics,L,131,132,L 1,21-28,-1
+50,1971-01-24,Los Angeles Lakers,L,131,142,L 2,21-29,-11
+51,1971-01-27,Baltimore Bullets,W,115,113,W 1,22-29,2
+52,1971-01-29,Baltimore Bullets,L,118,145,L 1,22-30,-27
+53,1971-01-30,San Diego Rockets,W,116,110,W 1,23-30,6
+54,1971-01-31,Chicago Bulls,L,99,131,L 1,23-31,-32
+55,1971-02-02,New York Knicks,L,108,115,L 2,23-32,-7
+56,1971-02-03,Boston Celtics,W,134,115,W 1,24-32,19
+57,1971-02-05,Boston Celtics,L,110,114,L 1,24-33,-4
+58,1971-02-06,Philadelphia 76ers,L,109,118,L 2,24-34,-9
+59,1971-02-07,Atlanta Hawks,L,118,121,L 3,24-35,-3
+60,1971-02-11,Seattle SuperSonics,L,101,119,L 4,24-36,-18
+61,1971-02-12,San Francisco Warriors,L,119,133,L 5,24-37,-14
+62,1971-02-13,San Diego Rockets,L,116,120,L 6,24-38,-4
+63,1971-02-14,Los Angeles Lakers,L,113,125,L 7,24-39,-12
+64,1971-02-16,Portland Trail Blazers,W,109,102,W 1,25-39,7
+65,1971-02-17,Phoenix Suns,L,117,133,L 1,25-40,-16
+66,1971-02-19,Cleveland Cavaliers,L,109,125,L 2,25-41,-16
+67,1971-02-20,Buffalo Braves,W,120,94,W 1,26-41,26
+68,1971-02-24,New York Knicks,L,105,125,L 1,26-42,-20
+69,1971-02-26,Milwaukee Bucks,L,111,135,L 2,26-43,-24
+70,1971-02-28,Philadelphia 76ers,L,121,131,L 3,26-44,-10
+71,1971-03-01,Chicago Bulls,L,94,98,L 4,26-45,-4
+72,1971-03-03,Baltimore Bullets,W,133,132,W 1,27-45,1
+73,1971-03-05,Portland Trail Blazers,W,117,111,W 2,28-45,6
+74,1971-03-07,Atlanta Hawks,L,112,122,L 1,28-46,-10
+75,1971-03-10,New York Knicks,W,120,118,W 1,29-46,2
+76,1971-03-12,Boston Celtics,W,124,108,W 2,30-46,16
+77,1971-03-13,Atlanta Hawks,W,136,127,W 3,31-46,9
+78,1971-03-14,Cleveland Cavaliers,W,115,103,W 4,32-46,12
+79,1971-03-16,Buffalo Braves,W,113,102,W 5,33-46,11
+80,1971-03-17,San Francisco Warriors,L,92,110,L 1,33-47,-18
+81,1971-03-19,Philadelphia 76ers,L,127,147,L 2,33-48,-20
+82,1971-03-21,Boston Celtics,L,110,135,L 3,33-49,-25

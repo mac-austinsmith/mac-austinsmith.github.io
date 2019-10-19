@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2016-10-26,Indiana Pacers,L,121,130,L 1,0-1,-9
+2,2016-10-28,Houston Rockets,L,98,106,L 2,0-2,-8
+3,2016-10-30,Houston Rockets,L,92,93,L 3,0-3,-1
+4,2016-11-02,Utah Jazz,L,81,97,L 4,0-4,-16
+5,2016-11-04,Portland Trail Blazers,L,95,105,L 5,0-5,-10
+6,2016-11-06,Milwaukee Bucks,W,86,75,W 1,1-5,11
+7,2016-11-08,Los Angeles Lakers,W,109,97,W 2,2-5,12
+8,2016-11-09,Golden State Warriors,L,95,116,L 1,2-6,-21
+9,2016-11-14,New York Knicks,L,77,93,L 2,2-7,-16
+10,2016-11-16,Boston Celtics,L,83,90,L 3,2-8,-7
+11,2016-11-18,Memphis Grizzlies,L,64,80,L 4,2-9,-16
+12,2016-11-19,Orlando Magic,L,87,95,L 5,2-10,-8
+13,2016-11-21,San Antonio Spurs,L,91,96,L 6,2-11,-5
+14,2016-11-23,Los Angeles Clippers,L,104,124,L 7,2-12,-20
+15,2016-11-25,Cleveland Cavaliers,L,90,128,L 8,2-13,-38
+16,2016-11-27,New Orleans Pelicans,W,91,81,W 1,3-13,10
+17,2016-11-30,San Antonio Spurs,L,87,94,L 1,3-14,-7
+18,2016-12-01,Charlotte Hornets,L,87,97,L 2,3-15,-10
+19,2016-12-03,Chicago Bulls,W,107,82,W 1,4-15,25
+20,2016-12-05,Charlotte Hornets,L,101,109,L 1,4-16,-8
+21,2016-12-07,Sacramento Kings,L,89,120,L 2,4-17,-31
+22,2016-12-09,Indiana Pacers,W,111,103,W 1,5-17,8
+23,2016-12-10,Houston Rockets,L,87,109,L 1,5-18,-22
+24,2016-12-12,Denver Nuggets,W,112,92,W 1,6-18,20
+25,2016-12-14,Detroit Pistons,L,85,95,L 1,6-19,-10
+26,2016-12-16,Utah Jazz,L,100,103,L 2,6-20,-3
+27,2016-12-18,Sacramento Kings,W,99,79,W 1,7-20,20
+28,2016-12-19,Denver Nuggets,L,107,117,L 1,7-21,-10
+29,2016-12-21,Portland Trail Blazers,W,96,95,W 1,8-21,1
+30,2016-12-23,Los Angeles Clippers,W,90,88,W 2,9-21,2
+31,2016-12-26,New Orleans Pelicans,L,104,111,L 1,9-22,-7
+32,2016-12-27,Houston Rockets,L,107,123,L 2,9-23,-16
+33,2016-12-29,Los Angeles Lakers,W,101,89,W 1,10-23,12
+34,2016-12-30,Golden State Warriors,L,99,108,L 1,10-24,-9
+35,2017-01-03,Washington Wizards,W,113,105,W 1,11-24,8
+36,2017-01-05,Phoenix Suns,L,95,102,L 1,11-25,-7
+37,2017-01-07,Atlanta Hawks,L,82,97,L 2,11-26,-15
+38,2017-01-09,Minnesota Timberwolves,L,92,101,L 3,11-27,-9
+39,2017-01-12,Phoenix Suns,W,113,108,W 1,12-27,5
+40,2017-01-15,Minnesota Timberwolves,W,98,87,W 2,13-27,11
+41,2017-01-17,Chicago Bulls,W,99,98,W 3,14-27,1
+42,2017-01-19,Miami Heat,L,95,99,L 1,14-28,-4
+43,2017-01-20,Utah Jazz,L,107,112,L 2,14-29,-5
+44,2017-01-22,Los Angeles Lakers,W,122,73,W 1,15-29,49
+45,2017-01-25,New York Knicks,W,103,95,W 2,16-29,8
+46,2017-01-26,Oklahoma City Thunder,L,98,109,L 1,16-30,-11
+47,2017-01-29,San Antonio Spurs,W,105,101,W 1,17-30,4
+48,2017-01-30,Cleveland Cavaliers,W,104,97,W 2,18-30,7
+49,2017-02-01,Philadelphia 76ers,W,113,95,W 3,19-30,18
+50,2017-02-03,Portland Trail Blazers,W,108,104,W 4,20-30,4
+51,2017-02-06,Denver Nuggets,L,87,110,L 1,20-31,-23
+52,2017-02-07,Portland Trail Blazers,L,113,114,L 2,20-32,-1
+53,2017-02-09,Utah Jazz,W,112,105,W 1,21-32,7
+54,2017-02-11,Orlando Magic,W,112,80,W 2,22-32,32
+55,2017-02-13,Boston Celtics,L,98,111,L 1,22-33,-13
+56,2017-02-15,Detroit Pistons,L,91,98,L 2,22-34,-7
+57,2017-02-24,Minnesota Timberwolves,L,84,97,L 3,22-35,-13
+58,2017-02-25,New Orleans Pelicans,W,96,83,W 1,23-35,13
+59,2017-02-27,Miami Heat,W,96,89,W 2,24-35,7
+60,2017-03-01,Atlanta Hawks,L,95,100,L 1,24-36,-5
+61,2017-03-03,Memphis Grizzlies,W,104,100,W 1,25-36,4
+62,2017-03-05,Oklahoma City Thunder,W,104,89,W 2,26-36,15
+63,2017-03-07,Los Angeles Lakers,W,122,111,W 3,27-36,11
+64,2017-03-10,Brooklyn Nets,W,105,96,W 4,28-36,9
+65,2017-03-11,Phoenix Suns,L,98,100,L 1,28-37,-2
+66,2017-03-13,Toronto Raptors,L,78,100,L 2,28-38,-22
+67,2017-03-15,Washington Wizards,W,112,107,W 1,29-38,5
+68,2017-03-17,Philadelphia 76ers,L,74,116,L 1,29-39,-42
+69,2017-03-19,Brooklyn Nets,W,111,104,W 1,30-39,7
+70,2017-03-21,Golden State Warriors,L,87,112,L 1,30-40,-25
+71,2017-03-23,Los Angeles Clippers,W,97,95,W 1,31-40,2
+72,2017-03-25,Toronto Raptors,L,86,94,L 1,31-41,-8
+73,2017-03-27,Oklahoma City Thunder,L,91,92,L 2,31-42,-1
+74,2017-03-29,New Orleans Pelicans,L,118,121,L 3,31-43,-3
+75,2017-03-31,Memphis Grizzlies,L,90,99,L 4,31-44,-9
+76,2017-04-02,Milwaukee Bucks,W,109,105,W 1,32-44,4
+77,2017-04-04,Sacramento Kings,L,87,98,L 1,32-45,-11
+78,2017-04-05,Los Angeles Clippers,L,101,112,L 2,32-46,-11
+79,2017-04-07,San Antonio Spurs,L,89,102,L 3,32-47,-13
+80,2017-04-09,Phoenix Suns,L,111,124,L 4,32-48,-13
+81,2017-04-11,Denver Nuggets,L,91,109,L 5,32-49,-18
+82,2017-04-12,Memphis Grizzlies,W,100,93,W 1,33-49,7

@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1976-10-21,Boston Celtics,L,122,129,L 1,0-1,-7
+2,1976-10-22,Denver Nuggets,L,110,123,L 2,0-2,-13
+3,1976-10-23,Chicago Bulls,L,97,102,L 3,0-3,-5
+4,1976-10-26,Seattle SuperSonics,W,120,90,W 1,1-3,30
+5,1976-10-29,New York Nets,W,90,89,W 2,2-3,1
+6,1976-10-30,Kansas City Kings,W,112,102,W 3,3-3,10
+7,1976-11-03,San Antonio Spurs,W,113,97,W 4,4-3,16
+8,1976-11-05,Kansas City Kings,L,103,112,L 1,4-4,-9
+9,1976-11-06,San Antonio Spurs,L,94,113,L 2,4-5,-19
+10,1976-11-11,Phoenix Suns,L,98,108,L 3,4-6,-10
+11,1976-11-12,Los Angeles Lakers,L,106,117,L 4,4-7,-11
+12,1976-11-13,Golden State Warriors,L,112,120,L 5,4-8,-8
+13,1976-11-14,Seattle SuperSonics,L,118,121,L 6,4-9,-3
+14,1976-11-17,Philadelphia 76ers,W,123,117,W 1,5-9,6
+15,1976-11-18,Detroit Pistons,W,104,99,W 2,6-9,5
+16,1976-11-24,Atlanta Hawks,W,115,93,W 3,7-9,22
+17,1976-11-26,Milwaukee Bucks,W,109,98,W 4,8-9,11
+18,1976-11-27,Denver Nuggets,L,113,122,L 1,8-10,-9
+19,1976-11-28,Portland Trail Blazers,L,115,145,L 2,8-11,-30
+20,1976-11-30,Phoenix Suns,W,103,97,W 1,9-11,6
+21,1976-12-01,Portland Trail Blazers,L,100,101,L 1,9-12,-1
+22,1976-12-03,Cleveland Cavaliers,W,112,109,W 1,10-12,3
+23,1976-12-04,Houston Rockets,L,108,120,L 1,10-13,-12
+24,1976-12-07,Buffalo Braves,W,107,103,W 1,11-13,4
+25,1976-12-08,Los Angeles Lakers,W,111,98,W 2,12-13,13
+26,1976-12-10,Washington Bullets,L,88,98,L 1,12-14,-10
+27,1976-12-11,Buffalo Braves,W,109,101,W 1,13-14,8
+28,1976-12-15,San Antonio Spurs,W,116,102,W 2,14-14,14
+29,1976-12-16,Cleveland Cavaliers,L,105,111,L 1,14-15,-6
+30,1976-12-17,Detroit Pistons,L,104,113,L 2,14-16,-9
+31,1976-12-18,Philadelphia 76ers,L,93,97,L 3,14-17,-4
+32,1976-12-21,New Orleans Jazz,L,113,123,L 4,14-18,-10
+33,1976-12-23,New York Nets,W,96,94,W 1,15-18,2
+34,1976-12-26,Houston Rockets,L,79,93,L 1,15-19,-14
+35,1976-12-28,Washington Bullets,L,111,117,L 2,15-20,-6
+36,1976-12-30,New Orleans Jazz,W,104,97,W 1,16-20,7
+37,1977-01-02,Milwaukee Bucks,W,116,109,W 2,17-20,7
+38,1977-01-05,Chicago Bulls,W,109,94,W 3,18-20,15
+39,1977-01-06,Atlanta Hawks,W,103,95,W 4,19-20,8
+40,1977-01-08,New York Nets,W,80,73,W 5,20-20,7
+41,1977-01-12,Boston Celtics,W,112,101,W 6,21-20,11
+42,1977-01-14,Golden State Warriors,L,109,113,L 1,21-21,-4
+43,1977-01-16,San Antonio Spurs,L,115,122,L 2,21-22,-7
+44,1977-01-19,Seattle SuperSonics,L,102,109,L 3,21-23,-7
+45,1977-01-21,Phoenix Suns,L,96,125,L 4,21-24,-29
+46,1977-01-23,Los Angeles Lakers,L,104,121,L 5,21-25,-17
+47,1977-01-26,Boston Celtics,W,121,101,W 1,22-25,20
+48,1977-01-29,Washington Bullets,L,107,108,L 1,22-26,-1
+49,1977-01-30,Detroit Pistons,L,120,127,L 2,22-27,-7
+50,1977-02-01,Philadelphia 76ers,W,110,109,W 1,23-27,1
+51,1977-02-03,Portland Trail Blazers,L,98,107,L 1,23-28,-9
+52,1977-02-06,Chicago Bulls,W,111,99,W 1,24-28,12
+53,1977-02-09,New York Knicks,W,110,109,W 2,25-28,1
+54,1977-02-10,Cleveland Cavaliers,L,101,116,L 1,25-29,-15
+55,1977-02-11,Philadelphia 76ers,L,109,118,L 2,25-30,-9
+56,1977-02-16,Phoenix Suns,W,111,93,W 1,26-30,18
+57,1977-02-18,Golden State Warriors,L,111,116,L 1,26-31,-5
+58,1977-02-20,Seattle SuperSonics,W,135,115,W 1,27-31,20
+59,1977-02-21,Buffalo Braves,L,106,117,L 1,27-32,-11
+60,1977-02-23,Washington Bullets,L,101,109,L 2,27-33,-8
+61,1977-02-26,New York Knicks,L,115,129,L 3,27-34,-14
+62,1977-03-01,Chicago Bulls,L,85,102,L 4,27-35,-17
+63,1977-03-02,Buffalo Braves,W,116,108,W 1,28-35,8
+64,1977-03-05,Detroit Pistons,W,118,96,W 2,29-35,22
+65,1977-03-06,New Orleans Jazz,W,110,106,W 3,30-35,4
+66,1977-03-11,Houston Rockets,L,109,124,L 1,30-36,-15
+67,1977-03-12,Milwaukee Bucks,L,106,108,L 2,30-37,-2
+68,1977-03-13,Kansas City Kings,L,98,103,L 3,30-38,-5
+69,1977-03-16,Denver Nuggets,W,109,98,W 1,31-38,11
+70,1977-03-18,Portland Trail Blazers,L,110,134,L 1,31-39,-24
+71,1977-03-19,Golden State Warriors,L,91,150,L 2,31-40,-59
+72,1977-03-22,Houston Rockets,L,99,106,L 3,31-41,-7
+73,1977-03-23,Los Angeles Lakers,L,97,105,L 4,31-42,-8
+74,1977-03-25,Atlanta Hawks,W,103,95,W 1,32-42,8
+75,1977-03-27,New Orleans Jazz,L,118,119,L 1,32-43,-1
+76,1977-03-29,Denver Nuggets,L,105,119,L 2,32-44,-14
+77,1977-03-31,New York Knicks,L,131,135,L 3,32-45,-4
+78,1977-04-01,New York Nets,W,89,88,W 1,33-45,1
+79,1977-04-02,Atlanta Hawks,W,106,99,W 2,34-45,7
+80,1977-04-03,Milwaukee Bucks,L,112,120,L 1,34-46,-8
+81,1977-04-05,Kansas City Kings,W,87,82,W 1,35-46,5
+82,1977-04-07,New York Knicks,W,114,100,W 2,36-46,14

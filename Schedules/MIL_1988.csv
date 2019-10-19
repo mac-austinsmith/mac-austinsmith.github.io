@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1987-11-06,Boston Celtics,L,108,125,L 1,0-1,-17
+2,1987-11-07,Detroit Pistons,W,119,105,W 1,1-1,14
+3,1987-11-10,Washington Bullets,W,115,100,W 2,2-1,15
+4,1987-11-11,Cleveland Cavaliers,W,109,101,W 3,3-1,8
+5,1987-11-14,New York Knicks,L,89,93,L 1,3-2,-4
+6,1987-11-15,Atlanta Hawks,W,112,103,W 1,4-2,9
+7,1987-11-17,Golden State Warriors,W,120,108,W 2,5-2,12
+8,1987-11-19,Sacramento Kings,W,117,113,W 3,6-2,4
+9,1987-11-20,Seattle SuperSonics,L,97,99,L 1,6-3,-2
+10,1987-11-22,Los Angeles Lakers,W,124,116,W 1,7-3,8
+11,1987-11-25,Chicago Bulls,L,101,103,L 1,7-4,-2
+12,1987-11-28,Boston Celtics,W,112,97,W 1,8-4,15
+13,1987-11-30,Indiana Pacers,W,104,94,W 2,9-4,10
+14,1987-12-02,Detroit Pistons,L,105,115,L 1,9-5,-10
+15,1987-12-04,Los Angeles Lakers,W,85,83,W 1,10-5,2
+16,1987-12-08,Indiana Pacers,L,101,103,L 1,10-6,-2
+17,1987-12-10,Chicago Bulls,L,105,111,L 2,10-7,-6
+18,1987-12-11,Portland Trail Blazers,W,125,112,W 1,11-7,13
+19,1987-12-13,Dallas Mavericks,L,99,113,L 1,11-8,-14
+20,1987-12-15,New York Knicks,W,103,98,W 1,12-8,5
+21,1987-12-18,Atlanta Hawks,L,87,94,L 1,12-9,-7
+22,1987-12-22,New York Knicks,W,122,105,W 1,13-9,17
+23,1987-12-26,Washington Bullets,W,102,97,W 2,14-9,5
+24,1987-12-29,New Jersey Nets,W,106,88,W 3,15-9,18
+25,1987-12-30,Houston Rockets,L,93,102,L 1,15-10,-9
+26,1988-01-02,Indiana Pacers,L,97,99,L 2,15-11,-2
+27,1988-01-05,Los Angeles Clippers,W,98,82,W 1,16-11,16
+28,1988-01-07,Indiana Pacers,L,108,114,L 1,16-12,-6
+29,1988-01-08,Utah Jazz,L,107,111,L 2,16-13,-4
+30,1988-01-10,New Jersey Nets,W,105,87,W 1,17-13,18
+31,1988-01-12,Philadelphia 76ers,W,106,103,W 2,18-13,3
+32,1988-01-14,Washington Bullets,L,107,136,L 1,18-14,-29
+33,1988-01-17,Cleveland Cavaliers,W,111,93,W 1,19-14,18
+34,1988-01-19,San Antonio Spurs,L,104,110,L 1,19-15,-6
+35,1988-01-21,Houston Rockets,L,103,116,L 2,19-16,-13
+36,1988-01-23,Dallas Mavericks,L,97,113,L 3,19-17,-16
+37,1988-01-25,Golden State Warriors,W,108,105,W 1,20-17,3
+38,1988-01-26,Portland Trail Blazers,L,106,112,L 1,20-18,-6
+39,1988-01-28,Denver Nuggets,L,113,122,L 2,20-19,-9
+40,1988-01-29,Los Angeles Clippers,W,97,88,W 1,21-19,9
+41,1988-02-02,Detroit Pistons,L,97,99,L 1,21-20,-2
+42,1988-02-04,Boston Celtics,W,111,101,W 1,22-20,10
+43,1988-02-09,Cleveland Cavaliers,W,112,104,W 2,23-20,8
+44,1988-02-11,Philadelphia 76ers,L,113,119,L 1,23-21,-6
+45,1988-02-12,Chicago Bulls,L,93,95,L 2,23-22,-2
+46,1988-02-15,Washington Bullets,W,114,110,W 1,24-22,4
+47,1988-02-17,Seattle SuperSonics,W,115,93,W 2,25-22,22
+48,1988-02-19,Detroit Pistons,W,119,108,W 3,26-22,11
+49,1988-02-21,Philadelphia 76ers,W,120,115,W 4,27-22,5
+50,1988-02-23,New York Knicks,L,87,89,L 1,27-23,-2
+51,1988-02-24,Indiana Pacers,W,97,94,W 1,28-23,3
+52,1988-02-26,Boston Celtics,L,96,132,L 1,28-24,-36
+53,1988-02-27,Chicago Bulls,W,94,91,W 1,29-24,3
+54,1988-03-01,Boston Celtics,W,117,116,W 2,30-24,1
+55,1988-03-05,Atlanta Hawks,W,104,101,W 3,31-24,3
+56,1988-03-06,Detroit Pistons,L,99,109,L 1,31-25,-10
+57,1988-03-08,San Antonio Spurs,W,119,101,W 1,32-25,18
+58,1988-03-09,Cleveland Cavaliers,L,91,117,L 1,32-26,-26
+59,1988-03-11,Denver Nuggets,W,132,93,W 1,33-26,39
+60,1988-03-13,Phoenix Suns,W,117,107,W 2,34-26,10
+61,1988-03-15,Sacramento Kings,W,108,97,W 3,35-26,11
+62,1988-03-16,New Jersey Nets,L,79,83,L 1,35-27,-4
+63,1988-03-19,Cleveland Cavaliers,W,101,100,W 1,36-27,1
+64,1988-03-21,Atlanta Hawks,L,105,115,L 1,36-28,-10
+65,1988-03-22,Atlanta Hawks,W,111,98,W 1,37-28,13
+66,1988-03-24,Phoenix Suns,L,114,119,L 1,37-29,-5
+67,1988-03-26,Utah Jazz,W,107,105,W 1,38-29,2
+68,1988-03-30,Philadelphia 76ers,L,109,134,L 1,38-30,-25
+69,1988-03-31,New York Knicks,L,103,113,L 2,38-31,-10
+70,1988-04-02,New Jersey Nets,W,125,111,W 1,39-31,14
+71,1988-04-05,Atlanta Hawks,L,110,121,L 1,39-32,-11
+72,1988-04-06,Chicago Bulls,L,110,119,L 2,39-33,-9
+73,1988-04-08,Cleveland Cavaliers,L,85,104,L 3,39-34,-19
+74,1988-04-09,Indiana Pacers,W,105,100,W 1,40-34,5
+75,1988-04-11,Philadelphia 76ers,L,102,115,L 1,40-35,-13
+76,1988-04-13,Boston Celtics,L,104,123,L 2,40-36,-19
+77,1988-04-15,Detroit Pistons,L,91,92,L 3,40-37,-1
+78,1988-04-17,Chicago Bulls,L,97,105,L 4,40-38,-8
+79,1988-04-19,Philadelphia 76ers,L,102,115,L 5,40-39,-13
+80,1988-04-20,Washington Bullets,W,132,94,W 1,41-39,38
+81,1988-04-22,New York Knicks,W,118,109,W 2,42-39,9
+82,1988-04-23,New Jersey Nets,L,105,118,L 1,42-40,-13

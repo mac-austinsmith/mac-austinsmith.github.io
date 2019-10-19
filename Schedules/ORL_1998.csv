@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1997-10-31,Atlanta Hawks,L,99,105,L 1,0-1,-6
+2,1997-11-02,Boston Celtics,W,107,96,W 1,1-1,11
+3,1997-11-04,Milwaukee Bucks,L,76,110,L 1,1-2,-34
+4,1997-11-05,Chicago Bulls,L,81,94,L 2,1-3,-13
+5,1997-11-07,Detroit Pistons,W,89,84,W 1,2-3,5
+6,1997-11-08,Toronto Raptors,W,96,87,W 2,3-3,9
+7,1997-11-12,Sacramento Kings,L,89,115,L 1,3-4,-26
+8,1997-11-14,Denver Nuggets,W,103,85,W 1,4-4,18
+9,1997-11-15,Washington Wizards,W,102,91,W 2,5-4,11
+10,1997-11-18,Los Angeles Clippers,W,112,94,W 3,6-4,18
+11,1997-11-19,Cleveland Cavaliers,W,96,93,W 4,7-4,3
+12,1997-11-22,Philadelphia 76ers,W,108,94,W 5,8-4,14
+13,1997-11-24,Washington Wizards,W,95,87,W 6,9-4,8
+14,1997-11-26,Miami Heat,L,60,84,L 1,9-5,-24
+15,1997-11-28,Milwaukee Bucks,W,94,90,W 1,10-5,4
+16,1997-11-30,Seattle SuperSonics,L,81,103,L 1,10-6,-22
+17,1997-12-02,Portland Trail Blazers,W,89,88,W 1,11-6,1
+18,1997-12-03,Vancouver Grizzlies,W,101,97,W 2,12-6,4
+19,1997-12-05,Golden State Warriors,L,89,104,L 1,12-7,-15
+20,1997-12-06,Los Angeles Clippers,W,83,79,W 1,13-7,4
+21,1997-12-08,Philadelphia 76ers,W,95,86,W 2,14-7,9
+22,1997-12-10,Chicago Bulls,W,106,98,W 3,15-7,8
+23,1997-12-11,Dallas Mavericks,W,100,90,W 4,16-7,10
+24,1997-12-13,San Antonio Spurs,L,78,107,L 1,16-8,-29
+25,1997-12-18,Utah Jazz,L,73,85,L 2,16-9,-12
+26,1997-12-20,Indiana Pacers,L,92,95,L 3,16-10,-3
+27,1997-12-22,New Jersey Nets,L,88,99,L 4,16-11,-11
+28,1997-12-26,Indiana Pacers,L,81,107,L 5,16-12,-26
+29,1997-12-27,Charlotte Hornets,W,96,87,W 1,17-12,9
+30,1997-12-30,New York Knicks,L,79,84,L 1,17-13,-5
+31,1998-01-02,Cleveland Cavaliers,L,71,81,L 2,17-14,-10
+32,1998-01-03,New York Knicks,L,84,88,L 3,17-15,-4
+33,1998-01-05,San Antonio Spurs,L,69,74,L 4,17-16,-5
+34,1998-01-07,Toronto Raptors,W,83,81,W 1,18-16,2
+35,1998-01-08,New Jersey Nets,L,87,89,L 1,18-17,-2
+36,1998-01-10,Boston Celtics,W,90,82,W 1,19-17,8
+37,1998-01-13,Denver Nuggets,W,98,84,W 2,20-17,14
+38,1998-01-14,Sacramento Kings,L,96,108,L 1,20-18,-12
+39,1998-01-16,Phoenix Suns,L,86,111,L 2,20-19,-25
+40,1998-01-17,Utah Jazz,L,93,107,L 3,20-20,-14
+41,1998-01-19,Los Angeles Lakers,L,89,92,L 4,20-21,-3
+42,1998-01-21,Milwaukee Bucks,L,84,91,L 5,20-22,-7
+43,1998-01-23,Miami Heat,L,90,102,L 6,20-23,-12
+44,1998-01-28,Detroit Pistons,L,86,91,L 7,20-24,-5
+45,1998-01-29,Houston Rockets,W,95,88,W 1,21-24,7
+46,1998-01-31,Phoenix Suns,L,94,96,L 1,21-25,-2
+47,1998-02-03,Atlanta Hawks,W,91,90,W 1,22-25,1
+48,1998-02-05,Washington Wizards,W,93,83,W 2,23-25,10
+49,1998-02-10,Indiana Pacers,L,66,85,L 1,23-26,-19
+50,1998-02-11,Minnesota Timberwolves,W,96,89,W 1,24-26,7
+51,1998-02-13,New York Knicks,L,83,99,L 1,24-27,-16
+52,1998-02-16,Atlanta Hawks,W,85,81,W 1,25-27,4
+53,1998-02-18,Minnesota Timberwolves,W,115,102,W 2,26-27,13
+54,1998-02-20,Indiana Pacers,W,93,91,W 3,27-27,2
+55,1998-02-22,Los Angeles Lakers,W,96,94,W 4,28-27,2
+56,1998-02-25,Dallas Mavericks,W,100,79,W 5,29-27,21
+57,1998-02-27,Toronto Raptors,L,107,115,L 1,29-28,-8
+58,1998-02-28,Charlotte Hornets,L,80,90,L 2,29-29,-10
+59,1998-03-04,Seattle SuperSonics,W,96,83,W 1,30-29,13
+60,1998-03-06,Cleveland Cavaliers,W,91,89,W 2,31-29,2
+61,1998-03-09,Philadelphia 76ers,W,88,78,W 3,32-29,10
+62,1998-03-10,New York Knicks,L,78,85,L 1,32-30,-7
+63,1998-03-13,Charlotte Hornets,L,82,100,L 2,32-31,-18
+64,1998-03-15,Miami Heat,L,76,79,L 3,32-32,-3
+65,1998-03-17,Vancouver Grizzlies,W,99,92,W 1,33-32,7
+66,1998-03-19,New Jersey Nets,L,87,93,L 1,33-33,-6
+67,1998-03-20,Portland Trail Blazers,W,102,87,W 1,34-33,15
+68,1998-03-22,Golden State Warriors,W,92,83,W 2,35-33,9
+69,1998-03-24,Atlanta Hawks,L,73,85,L 1,35-34,-12
+70,1998-03-25,Chicago Bulls,L,70,85,L 2,35-35,-15
+71,1998-03-27,Houston Rockets,W,100,75,W 1,36-35,25
+72,1998-03-29,Toronto Raptors,W,95,68,W 2,37-35,27
+73,1998-03-31,Cleveland Cavaliers,L,86,93,L 1,37-36,-7
+74,1998-04-01,Boston Celtics,L,87,98,L 2,37-37,-11
+75,1998-04-05,Washington Wizards,L,85,88,L 3,37-38,-3
+76,1998-04-06,Philadelphia 76ers,W,113,92,W 1,38-38,21
+77,1998-04-08,Detroit Pistons,W,95,87,W 2,39-38,8
+78,1998-04-10,Boston Celtics,L,80,82,L 1,39-39,-2
+79,1998-04-11,Chicago Bulls,L,78,87,L 2,39-40,-9
+80,1998-04-15,Miami Heat,W,99,87,W 1,40-40,12
+81,1998-04-17,New Jersey Nets,W,121,109,W 2,41-40,12
+82,1998-04-19,Charlotte Hornets,L,76,89,L 1,41-41,-13

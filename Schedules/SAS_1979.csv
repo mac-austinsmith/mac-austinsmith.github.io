@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1978-10-13,Denver Nuggets,L,117,118,L 1,0-1,-1
+2,1978-10-14,Milwaukee Bucks,W,153,111,W 1,1-1,42
+3,1978-10-17,Phoenix Suns,W,110,107,W 2,2-1,3
+4,1978-10-18,San Diego Clippers,W,127,125,W 3,3-1,2
+5,1978-10-20,Seattle SuperSonics,L,117,133,L 1,3-2,-16
+6,1978-10-22,Los Angeles Lakers,L,121,134,L 2,3-3,-13
+7,1978-10-24,Boston Celtics,W,132,109,W 1,4-3,23
+8,1978-10-28,Detroit Pistons,W,150,126,W 2,5-3,24
+9,1978-10-31,Golden State Warriors,L,138,139,L 1,5-4,-1
+10,1978-11-01,Philadelphia 76ers,L,115,116,L 2,5-5,-1
+11,1978-11-03,Boston Celtics,W,110,103,W 1,6-5,7
+12,1978-11-04,Washington Bullets,L,119,124,L 1,6-6,-5
+13,1978-11-08,San Diego Clippers,W,163,125,W 1,7-6,38
+14,1978-11-10,New Orleans Jazz,L,102,113,L 1,7-7,-11
+15,1978-11-11,Washington Bullets,W,143,124,W 1,8-7,19
+16,1978-11-15,Phoenix Suns,L,119,125,L 1,8-8,-6
+17,1978-11-18,Houston Rockets,L,120,126,L 2,8-9,-6
+18,1978-11-21,Indiana Pacers,L,103,108,L 3,8-10,-5
+19,1978-11-23,Milwaukee Bucks,W,116,114,W 1,9-10,2
+20,1978-11-25,New Jersey Nets,W,151,110,W 2,10-10,41
+21,1978-11-29,Philadelphia 76ers,L,114,120,L 1,10-11,-6
+22,1978-12-02,Denver Nuggets,L,93,104,L 2,10-12,-11
+23,1978-12-06,Los Angeles Lakers,W,112,111,W 1,11-12,1
+24,1978-12-08,Golden State Warriors,W,123,105,W 2,12-12,18
+25,1978-12-10,Seattle SuperSonics,L,99,112,L 1,12-13,-13
+26,1978-12-12,Denver Nuggets,L,103,107,L 2,12-14,-4
+27,1978-12-13,New York Knicks,W,139,109,W 1,13-14,30
+28,1978-12-15,Indiana Pacers,W,125,113,W 2,14-14,12
+29,1978-12-16,Golden State Warriors,W,104,96,W 3,15-14,8
+30,1978-12-19,Cleveland Cavaliers,W,113,106,W 4,16-14,7
+31,1978-12-20,Chicago Bulls,W,131,102,W 5,17-14,29
+32,1978-12-22,Chicago Bulls,W,103,92,W 6,18-14,11
+33,1978-12-23,Detroit Pistons,W,130,126,W 7,19-14,4
+34,1978-12-26,Atlanta Hawks,W,124,111,W 8,20-14,13
+35,1978-12-27,Atlanta Hawks,L,107,115,L 1,20-15,-8
+36,1978-12-28,Milwaukee Bucks,W,112,103,W 1,21-15,9
+37,1978-12-30,Philadelphia 76ers,W,100,94,W 2,22-15,6
+38,1979-01-03,New Orleans Jazz,W,123,97,W 3,23-15,26
+39,1979-01-05,New Jersey Nets,W,110,104,W 4,24-15,6
+40,1979-01-06,New York Knicks,L,105,108,L 1,24-16,-3
+41,1979-01-09,Detroit Pistons,W,116,114,W 1,25-16,2
+42,1979-01-11,San Diego Clippers,W,140,111,W 2,26-16,29
+43,1979-01-13,Cleveland Cavaliers,W,117,103,W 3,27-16,14
+44,1979-01-17,Denver Nuggets,W,119,101,W 4,28-16,18
+45,1979-01-19,Kansas City Kings,L,113,115,L 1,28-17,-2
+46,1979-01-20,Portland Trail Blazers,L,113,118,L 2,28-18,-5
+47,1979-01-24,Kansas City Kings,W,124,95,W 1,29-18,29
+48,1979-01-26,Seattle SuperSonics,W,125,108,W 2,30-18,17
+49,1979-01-27,Atlanta Hawks,L,113,120,L 1,30-19,-7
+50,1979-01-28,Indiana Pacers,L,110,123,L 2,30-20,-13
+51,1979-01-30,Chicago Bulls,W,112,108,W 1,31-20,4
+52,1979-02-01,Washington Bullets,L,122,123,L 1,31-21,-1
+53,1979-02-02,Phoenix Suns,L,108,133,L 2,31-22,-25
+54,1979-02-06,Los Angeles Lakers,L,111,119,L 3,31-23,-8
+55,1979-02-07,San Diego Clippers,W,126,113,W 1,32-23,13
+56,1979-02-09,Portland Trail Blazers,L,106,125,L 1,32-24,-19
+57,1979-02-11,Golden State Warriors,W,125,107,W 1,33-24,18
+58,1979-02-14,Boston Celtics,W,149,119,W 2,34-24,30
+59,1979-02-16,Portland Trail Blazers,W,121,120,W 3,35-24,1
+60,1979-02-18,Detroit Pistons,L,104,124,L 1,35-25,-20
+61,1979-02-20,Seattle SuperSonics,W,118,102,W 1,36-25,16
+62,1979-02-25,Houston Rockets,W,127,107,W 2,37-25,20
+63,1979-02-28,New York Knicks,W,135,112,W 3,38-25,23
+64,1979-03-02,Kansas City Kings,W,129,125,W 4,39-25,4
+65,1979-03-04,Washington Bullets,L,128,129,L 1,39-26,-1
+66,1979-03-06,New Jersey Nets,W,103,99,W 1,40-26,4
+67,1979-03-10,New York Knicks,W,111,110,W 2,41-26,1
+68,1979-03-14,Los Angeles Lakers,W,125,112,W 3,42-26,13
+69,1979-03-15,New Orleans Jazz,L,122,124,L 1,42-27,-2
+70,1979-03-16,Phoenix Suns,L,122,128,L 2,42-28,-6
+71,1979-03-18,Milwaukee Bucks,L,127,147,L 3,42-29,-20
+72,1979-03-20,Philadelphia 76ers,L,120,124,L 4,42-30,-4
+73,1979-03-21,Kansas City Kings,W,123,116,W 1,43-30,7
+74,1979-03-23,Atlanta Hawks,L,108,115,L 1,43-31,-7
+75,1979-03-25,Indiana Pacers,L,113,121,L 2,43-32,-8
+76,1979-03-28,New Orleans Jazz,W,122,94,W 1,44-32,28
+77,1979-03-30,Houston Rockets,L,116,117,L 1,44-33,-1
+78,1979-04-01,Boston Celtics,W,112,110,W 1,45-33,2
+79,1979-04-03,Cleveland Cavaliers,W,116,112,W 2,46-33,4
+80,1979-04-04,New Jersey Nets,W,110,103,W 3,47-33,7
+81,1979-04-07,Houston Rockets,L,106,123,L 1,47-34,-17
+82,1979-04-08,Cleveland Cavaliers,W,117,101,W 1,48-34,16

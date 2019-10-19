@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1972-10-11,Los Angeles Lakers,L,94,129,L 1,0-1,-35
+2,1972-10-14,Detroit Pistons,W,113,101,W 1,1-1,12
+3,1972-10-19,Baltimore Bullets,L,83,94,L 1,1-2,-11
+4,1972-10-21,Atlanta Hawks,W,108,101,W 1,2-2,7
+5,1972-10-24,Los Angeles Lakers,L,94,114,L 1,2-3,-20
+6,1972-10-26,Milwaukee Bucks,L,107,114,L 2,2-4,-7
+7,1972-10-28,Buffalo Braves,W,113,102,W 1,3-4,11
+8,1972-10-29,Cleveland Cavaliers,L,97,115,L 1,3-5,-18
+9,1972-10-31,Chicago Bulls,L,95,104,L 2,3-6,-9
+10,1972-11-01,New York Knicks,L,85,122,L 3,3-7,-37
+11,1972-11-03,Philadelphia 76ers,W,114,101,W 1,4-7,13
+12,1972-11-04,Boston Celtics,W,118,107,W 2,5-7,11
+13,1972-11-08,Philadelphia 76ers,W,125,107,W 3,6-7,18
+14,1972-11-10,Seattle SuperSonics,W,111,106,W 4,7-7,5
+15,1972-11-12,Portland Trail Blazers,L,100,102,L 1,7-8,-2
+16,1972-11-14,Buffalo Braves,W,106,100,W 1,8-8,6
+17,1972-11-15,Seattle SuperSonics,W,106,97,W 2,9-8,9
+18,1972-11-17,Cleveland Cavaliers,W,115,96,W 3,10-8,19
+19,1972-11-18,Houston Rockets,W,127,117,W 4,11-8,10
+20,1972-11-21,Phoenix Suns,W,101,96,W 5,12-8,5
+21,1972-11-24,Milwaukee Bucks,L,106,115,L 1,12-9,-9
+22,1972-11-25,Golden State Warriors,L,114,133,L 2,12-10,-19
+23,1972-11-28,Chicago Bulls,W,92,91,W 1,13-10,1
+24,1972-11-29,Portland Trail Blazers,W,110,102,W 2,14-10,8
+25,1972-12-01,Chicago Bulls,L,97,106,L 1,14-11,-9
+26,1972-12-02,Houston Rockets,W,114,109,W 1,15-11,5
+27,1972-12-05,New York Knicks,L,103,125,L 1,15-12,-22
+28,1972-12-06,Philadelphia 76ers,L,117,122,L 2,15-13,-5
+29,1972-12-08,Detroit Pistons,L,100,113,L 3,15-14,-13
+30,1972-12-09,Baltimore Bullets,L,112,120,L 4,15-15,-8
+31,1972-12-10,Atlanta Hawks,W,130,115,W 1,16-15,15
+32,1972-12-12,Cleveland Cavaliers,W,100,99,W 2,17-15,1
+33,1972-12-15,Detroit Pistons,W,140,132,W 3,18-15,8
+34,1972-12-17,Phoenix Suns,L,102,112,L 1,18-16,-10
+35,1972-12-18,Portland Trail Blazers,W,113,95,W 1,19-16,18
+36,1972-12-19,Atlanta Hawks,L,102,119,L 1,19-17,-17
+37,1972-12-20,Seattle SuperSonics,W,121,110,W 1,20-17,11
+38,1972-12-22,Boston Celtics,L,90,118,L 1,20-18,-28
+39,1972-12-25,Milwaukee Bucks,L,99,104,L 2,20-19,-5
+40,1972-12-26,Chicago Bulls,L,103,117,L 3,20-20,-14
+41,1972-12-29,Los Angeles Lakers,L,92,121,L 4,20-21,-29
+42,1972-12-30,Golden State Warriors,L,107,113,L 5,20-22,-6
+43,1973-01-02,Portland Trail Blazers,L,87,104,L 6,20-23,-17
+44,1973-01-03,Seattle SuperSonics,L,100,107,L 7,20-24,-7
+45,1973-01-05,Detroit Pistons,W,103,100,W 1,21-24,3
+46,1973-01-06,Phoenix Suns,L,112,118,L 1,21-25,-6
+47,1973-01-09,New York Knicks,L,115,116,L 2,21-26,-1
+48,1973-01-10,Chicago Bulls,W,102,100,W 1,22-26,2
+49,1973-01-11,Golden State Warriors,W,109,108,W 2,23-26,1
+50,1973-01-12,Milwaukee Bucks,L,98,117,L 1,23-27,-19
+51,1973-01-15,Philadelphia 76ers,W,135,108,W 1,24-27,27
+52,1973-01-16,Seattle SuperSonics,L,122,125,L 1,24-28,-3
+53,1973-01-18,Phoenix Suns,W,119,96,W 1,25-28,23
+54,1973-01-21,Los Angeles Lakers,L,102,123,L 1,25-29,-21
+55,1973-01-25,Golden State Warriors,L,115,129,L 2,25-30,-14
+56,1973-01-27,Atlanta Hawks,L,126,129,L 3,25-31,-3
+57,1973-02-01,Golden State Warriors,W,98,96,W 1,26-31,2
+58,1973-02-03,Portland Trail Blazers,W,105,97,W 2,27-31,8
+59,1973-02-04,Seattle SuperSonics,W,120,98,W 3,28-31,22
+60,1973-02-06,Chicago Bulls,L,107,114,L 1,28-32,-7
+61,1973-02-07,Milwaukee Bucks,W,105,98,W 1,29-32,7
+62,1973-02-09,Houston Rockets,W,121,116,W 2,30-32,5
+63,1973-02-10,Chicago Bulls,L,101,102,L 1,30-33,-1
+64,1973-02-13,Houston Rockets,W,132,118,W 1,31-33,14
+65,1973-02-14,Boston Celtics,L,101,104,L 1,31-34,-3
+66,1973-02-17,Milwaukee Bucks,L,104,111,L 2,31-35,-7
+67,1973-02-18,Detroit Pistons,L,100,144,L 3,31-36,-44
+68,1973-02-20,Buffalo Braves,L,106,113,L 4,31-37,-7
+69,1973-02-22,Milwaukee Bucks,L,113,116,L 5,31-38,-3
+70,1973-02-25,Phoenix Suns,L,109,111,L 6,31-39,-2
+71,1973-02-27,Los Angeles Lakers,W,107,103,W 1,32-39,4
+72,1973-02-28,Phoenix Suns,W,109,107,W 2,33-39,2
+73,1973-03-02,Golden State Warriors,L,112,117,L 1,33-40,-5
+74,1973-03-08,Baltimore Bullets,W,105,93,W 1,34-40,12
+75,1973-03-10,New York Knicks,L,102,125,L 1,34-41,-23
+76,1973-03-13,Baltimore Bullets,L,99,103,L 2,34-42,-4
+77,1973-03-16,Cleveland Cavaliers,L,99,114,L 3,34-43,-15
+78,1973-03-18,Boston Celtics,L,105,109,L 4,34-44,-4
+79,1973-03-19,Portland Trail Blazers,W,106,105,W 1,35-44,1
+80,1973-03-20,Buffalo Braves,W,119,115,W 2,36-44,4
+81,1973-03-21,Los Angeles Lakers,L,118,124,L 1,36-45,-6
+82,1973-03-24,Detroit Pistons,L,98,110,L 2,36-46,-12

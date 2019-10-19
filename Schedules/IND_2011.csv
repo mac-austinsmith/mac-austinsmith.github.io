@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2010-10-27,San Antonio Spurs,L,109,122,L 1,0-1,-13
+2,2010-10-29,Charlotte Bobcats,W,104,101,W 1,1-1,3
+3,2010-10-30,Philadelphia 76ers,W,99,86,W 2,2-1,13
+4,2010-11-03,Philadelphia 76ers,L,75,101,L 1,2-2,-26
+5,2010-11-05,Milwaukee Bucks,L,90,94,L 2,2-3,-4
+6,2010-11-09,Denver Nuggets,W,144,113,W 1,3-3,31
+7,2010-11-12,Houston Rockets,L,99,102,L 1,3-4,-3
+8,2010-11-13,Cleveland Cavaliers,W,99,85,W 1,4-4,14
+9,2010-11-16,Atlanta Hawks,L,92,102,L 1,4-5,-10
+10,2010-11-18,Los Angeles Clippers,W,107,80,W 1,5-5,27
+11,2010-11-20,Orlando Magic,L,86,90,L 1,5-6,-4
+12,2010-11-22,Miami Heat,W,93,77,W 1,6-6,16
+13,2010-11-23,Cleveland Cavaliers,W,100,89,W 2,7-6,11
+14,2010-11-26,Oklahoma City Thunder,L,106,110,L 1,7-7,-4
+15,2010-11-28,Los Angeles Lakers,W,95,92,W 1,8-7,3
+16,2010-11-30,Sacramento Kings,W,107,98,W 2,9-7,9
+17,2010-12-01,Utah Jazz,L,88,110,L 1,9-8,-22
+18,2010-12-03,Phoenix Suns,L,97,105,L 2,9-9,-8
+19,2010-12-06,Toronto Raptors,W,124,100,W 1,10-9,24
+20,2010-12-08,Milwaukee Bucks,L,95,97,L 1,10-10,-2
+21,2010-12-10,Charlotte Bobcats,W,100,92,W 1,11-10,8
+22,2010-12-11,Atlanta Hawks,L,83,97,L 1,11-11,-14
+23,2010-12-13,Chicago Bulls,L,73,92,L 2,11-12,-19
+24,2010-12-15,Los Angeles Lakers,L,94,109,L 3,11-13,-15
+25,2010-12-17,Cleveland Cavaliers,W,108,99,W 1,12-13,9
+26,2010-12-19,Boston Celtics,L,88,99,L 1,12-14,-11
+27,2010-12-20,New Orleans Hornets,W,94,93,W 1,13-14,1
+28,2010-12-26,Memphis Grizzlies,L,90,104,L 1,13-15,-14
+29,2010-12-28,Boston Celtics,L,83,95,L 2,13-16,-12
+30,2010-12-29,Washington Wizards,L,90,104,L 3,13-17,-14
+31,2010-12-31,Washington Wizards,W,95,86,W 1,14-17,9
+32,2011-01-02,New York Knicks,L,92,98,L 1,14-18,-6
+33,2011-01-07,San Antonio Spurs,L,87,90,L 2,14-19,-3
+34,2011-01-08,Atlanta Hawks,L,93,108,L 3,14-20,-15
+35,2011-01-11,Philadelphia 76ers,W,111,103,W 1,15-20,8
+36,2011-01-12,Dallas Mavericks,W,102,89,W 2,16-20,13
+37,2011-01-14,Chicago Bulls,L,86,99,L 1,16-21,-13
+38,2011-01-17,Los Angeles Clippers,L,107,114,L 2,16-22,-7
+39,2011-01-19,Golden State Warriors,L,108,110,L 3,16-23,-2
+40,2011-01-22,Portland Trail Blazers,L,92,97,L 4,16-24,-5
+41,2011-01-23,Denver Nuggets,L,107,121,L 5,16-25,-14
+42,2011-01-26,Orlando Magic,L,96,111,L 6,16-26,-15
+43,2011-01-28,New Jersey Nets,W,124,92,W 1,17-26,32
+44,2011-01-29,Chicago Bulls,L,89,110,L 1,17-27,-21
+45,2011-01-31,Toronto Raptors,W,104,93,W 1,18-27,11
+46,2011-02-02,Cleveland Cavaliers,W,117,112,W 2,19-27,5
+47,2011-02-04,Portland Trail Blazers,W,100,87,W 3,20-27,13
+48,2011-02-06,New Jersey Nets,W,105,86,W 4,21-27,19
+49,2011-02-08,Miami Heat,L,112,117,L 1,21-28,-5
+50,2011-02-09,Charlotte Bobcats,W,104,103,W 1,22-28,1
+51,2011-02-11,Minnesota Timberwolves,W,116,105,W 2,23-28,11
+52,2011-02-12,Milwaukee Bucks,W,103,97,W 3,24-28,6
+53,2011-02-15,Miami Heat,L,103,110,L 1,24-29,-7
+54,2011-02-16,Detroit Pistons,L,109,115,L 2,24-30,-6
+55,2011-02-22,Washington Wizards,W,113,96,W 1,25-30,17
+56,2011-02-23,Detroit Pistons,W,102,101,W 2,26-30,1
+57,2011-02-25,Utah Jazz,L,84,95,L 1,26-31,-11
+58,2011-02-27,Phoenix Suns,L,108,110,L 2,26-32,-2
+59,2011-03-01,Golden State Warriors,W,109,100,W 1,27-32,9
+60,2011-03-02,Oklahoma City Thunder,L,89,113,L 1,27-33,-24
+61,2011-03-04,Dallas Mavericks,L,108,116,L 2,27-34,-8
+62,2011-03-05,Houston Rockets,L,95,112,L 3,27-35,-17
+63,2011-03-08,Philadelphia 76ers,L,100,110,L 4,27-36,-10
+64,2011-03-09,Minnesota Timberwolves,L,75,101,L 5,27-37,-26
+65,2011-03-11,Toronto Raptors,L,98,108,L 6,27-38,-10
+66,2011-03-13,New York Knicks,W,106,93,W 1,28-38,13
+67,2011-03-15,New York Knicks,W,119,117,W 2,29-38,2
+68,2011-03-16,Boston Celtics,L,80,92,L 1,29-39,-12
+69,2011-03-18,Chicago Bulls,W,115,108,W 1,30-39,7
+70,2011-03-19,Memphis Grizzlies,L,78,99,L 1,30-40,-21
+71,2011-03-21,New Jersey Nets,W,102,98,W 1,31-40,4
+72,2011-03-23,Charlotte Bobcats,W,111,88,W 2,32-40,23
+73,2011-03-25,Sacramento Kings,L,93,110,L 1,32-41,-17
+74,2011-03-26,Detroit Pistons,L,88,100,L 2,32-42,-12
+75,2011-03-28,Boston Celtics,W,107,100,W 1,33-42,7
+76,2011-03-30,Detroit Pistons,W,111,101,W 2,34-42,10
+77,2011-04-01,Milwaukee Bucks,W,89,88,W 3,35-42,1
+78,2011-04-03,New Orleans Hornets,L,96,108,L 1,35-43,-12
+79,2011-04-06,Washington Wizards,W,136,112,W 1,36-43,24
+80,2011-04-08,Atlanta Hawks,W,114,102,W 2,37-43,12
+81,2011-04-10,New York Knicks,L,109,110,L 1,37-44,-1
+82,2011-04-13,Orlando Magic,L,74,92,L 2,37-45,-18

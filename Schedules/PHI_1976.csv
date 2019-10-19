@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1975-10-24,Chicago Bulls,W,110,103,W 1,1-0,7
+2,1975-10-27,Los Angeles Lakers,W,117,104,W 2,2-0,13
+3,1975-10-31,Buffalo Braves,L,87,92,L 1,2-1,-5
+4,1975-11-01,New York Knicks,L,98,110,L 2,2-2,-12
+5,1975-11-04,Buffalo Braves,W,121,114,W 1,3-2,7
+6,1975-11-05,Chicago Bulls,W,115,82,W 2,4-2,33
+7,1975-11-07,Phoenix Suns,W,103,99,W 3,5-2,4
+8,1975-11-11,Milwaukee Bucks,L,81,108,L 1,5-3,-27
+9,1975-11-12,Milwaukee Bucks,L,84,107,L 2,5-4,-23
+10,1975-11-14,Boston Celtics,W,119,109,W 1,6-4,10
+11,1975-11-15,Washington Bullets,W,110,109,W 2,7-4,1
+12,1975-11-19,Kansas City Kings,W,113,103,W 3,8-4,10
+13,1975-11-21,Portland Trail Blazers,W,131,111,W 4,9-4,20
+14,1975-11-23,Atlanta Hawks,L,111,115,L 1,9-5,-4
+15,1975-11-25,Golden State Warriors,W,109,108,W 1,10-5,1
+16,1975-11-28,Seattle SuperSonics,W,113,94,W 2,11-5,19
+17,1975-11-29,Houston Rockets,L,98,99,L 1,11-6,-1
+18,1975-11-30,New Orleans Jazz,W,113,96,W 1,12-6,17
+19,1975-12-03,New Orleans Jazz,W,102,94,W 2,13-6,8
+20,1975-12-05,New York Knicks,W,99,97,W 3,14-6,2
+21,1975-12-06,Kansas City Kings,W,98,84,W 4,15-6,14
+22,1975-12-09,Cleveland Cavaliers,W,100,85,W 5,16-6,15
+23,1975-12-11,Phoenix Suns,W,110,106,W 6,17-6,4
+24,1975-12-12,Los Angeles Lakers,L,102,114,L 1,17-7,-12
+25,1975-12-14,Seattle SuperSonics,L,105,114,L 2,17-8,-9
+26,1975-12-16,Portland Trail Blazers,W,105,98,W 1,18-8,7
+27,1975-12-19,Detroit Pistons,W,115,114,W 2,19-8,1
+28,1975-12-20,Boston Celtics,L,97,111,L 1,19-9,-14
+29,1975-12-25,New York Knicks,L,103,111,L 2,19-10,-8
+30,1975-12-26,Buffalo Braves,W,96,95,W 1,20-10,1
+31,1975-12-27,Buffalo Braves,L,105,130,L 1,20-11,-25
+32,1975-12-30,Detroit Pistons,W,114,108,W 1,21-11,6
+33,1976-01-02,Cleveland Cavaliers,W,112,101,W 2,22-11,11
+34,1976-01-03,Washington Bullets,L,104,119,L 1,22-12,-15
+35,1976-01-07,Milwaukee Bucks,W,112,102,W 1,23-12,10
+36,1976-01-08,Cleveland Cavaliers,L,105,115,L 1,23-13,-10
+37,1976-01-09,Los Angeles Lakers,W,109,106,W 1,24-13,3
+38,1976-01-11,Boston Celtics,W,118,107,W 2,25-13,11
+39,1976-01-14,New Orleans Jazz,W,100,95,W 3,26-13,5
+40,1976-01-16,Boston Celtics,L,110,118,L 1,26-14,-8
+41,1976-01-17,Washington Bullets,L,103,105,L 2,26-15,-2
+42,1976-01-20,Milwaukee Bucks,W,111,108,W 1,27-15,3
+43,1976-01-23,New York Knicks,L,92,104,L 1,27-16,-12
+44,1976-01-24,Atlanta Hawks,W,130,116,W 1,28-16,14
+45,1976-01-25,Atlanta Hawks,W,112,109,W 2,29-16,3
+46,1976-01-27,Houston Rockets,L,116,127,L 1,29-17,-11
+47,1976-01-29,Golden State Warriors,L,114,123,L 2,29-18,-9
+48,1976-01-31,Phoenix Suns,L,105,119,L 3,29-19,-14
+49,1976-02-01,Los Angeles Lakers,L,82,103,L 4,29-20,-21
+50,1976-02-06,Cleveland Cavaliers,L,87,92,L 5,29-21,-5
+51,1976-02-08,Buffalo Braves,W,100,97,W 1,30-21,3
+52,1976-02-10,Chicago Bulls,W,85,84,W 2,31-21,1
+53,1976-02-11,Portland Trail Blazers,W,118,106,W 3,32-21,12
+54,1976-02-13,Houston Rockets,W,134,109,W 4,33-21,25
+55,1976-02-14,New York Knicks,L,97,101,L 1,33-22,-4
+56,1976-02-15,New York Knicks,L,82,88,L 2,33-23,-6
+57,1976-02-17,Kansas City Kings,L,107,125,L 3,33-24,-18
+58,1976-02-20,Seattle SuperSonics,L,92,111,L 4,33-25,-19
+59,1976-02-22,Golden State Warriors,L,93,94,L 5,33-26,-1
+60,1976-02-24,Portland Trail Blazers,W,106,102,W 1,34-26,4
+61,1976-02-27,Golden State Warriors,L,114,121,L 1,34-27,-7
+62,1976-02-29,Seattle SuperSonics,W,130,115,W 1,35-27,15
+63,1976-03-02,Washington Bullets,L,111,128,L 1,35-28,-17
+64,1976-03-03,Boston Celtics,W,123,110,W 1,36-28,13
+65,1976-03-05,Detroit Pistons,W,123,112,W 2,37-28,11
+66,1976-03-06,Buffalo Braves,L,99,105,L 1,37-29,-6
+67,1976-03-10,Phoenix Suns,W,125,108,W 1,38-29,17
+68,1976-03-12,Atlanta Hawks,W,109,107,W 2,39-29,2
+69,1976-03-17,Chicago Bulls,W,108,101,W 3,40-29,7
+70,1976-03-18,Cleveland Cavaliers,L,104,110,L 1,40-30,-6
+71,1976-03-20,Boston Celtics,L,96,103,L 2,40-31,-7
+72,1976-03-21,Boston Celtics,L,100,108,L 3,40-32,-8
+73,1976-03-24,New York Knicks,W,118,100,W 1,41-32,18
+74,1976-03-27,Houston Rockets,L,95,109,L 1,41-33,-14
+75,1976-03-28,New Orleans Jazz,L,107,110,L 2,41-34,-3
+76,1976-03-31,Buffalo Braves,W,107,103,W 1,42-34,4
+77,1976-04-02,Washington Bullets,W,96,94,W 2,43-34,2
+78,1976-04-04,Detroit Pistons,L,97,101,L 1,43-35,-4
+79,1976-04-05,Houston Rockets,W,130,129,W 1,44-35,1
+80,1976-04-07,New Orleans Jazz,W,102,99,W 2,45-35,3
+81,1976-04-09,Kansas City Kings,W,112,108,W 3,46-35,4
+82,1976-04-10,Atlanta Hawks,L,109,123,L 1,46-36,-14

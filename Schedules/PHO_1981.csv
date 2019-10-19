@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1980-10-10,Golden State Warriors,W,121,101,W 1,1-0,20
+2,1980-10-12,Kansas City Kings,W,109,100,W 2,2-0,9
+3,1980-10-15,Utah Jazz,W,107,93,W 3,3-0,14
+4,1980-10-17,Los Angeles Lakers,L,109,116,L 1,3-1,-7
+5,1980-10-19,San Diego Clippers,W,102,84,W 1,4-1,18
+6,1980-10-21,Dallas Mavericks,W,111,99,W 2,5-1,12
+7,1980-10-24,Denver Nuggets,W,117,94,W 3,6-1,23
+8,1980-10-25,Seattle SuperSonics,W,100,75,W 4,7-1,25
+9,1980-10-29,San Diego Clippers,W,105,89,W 5,8-1,16
+10,1980-10-31,Detroit Pistons,W,103,98,W 6,9-1,5
+11,1980-11-01,Kansas City Kings,W,127,100,W 7,10-1,27
+12,1980-11-04,Indiana Pacers,W,109,108,W 8,11-1,1
+13,1980-11-05,San Antonio Spurs,L,84,114,L 1,11-2,-30
+14,1980-11-08,Houston Rockets,W,116,115,W 1,12-2,1
+15,1980-11-11,San Diego Clippers,W,109,107,W 2,13-2,2
+16,1980-11-12,San Antonio Spurs,W,130,127,W 3,14-2,3
+17,1980-11-15,Golden State Warriors,L,108,119,L 1,14-3,-11
+18,1980-11-16,Portland Trail Blazers,W,119,107,W 1,15-3,12
+19,1980-11-18,Dallas Mavericks,W,102,91,W 2,16-3,11
+20,1980-11-20,Los Angeles Lakers,W,102,99,W 3,17-3,3
+21,1980-11-21,Los Angeles Lakers,L,88,116,L 1,17-4,-28
+22,1980-11-23,Denver Nuggets,W,131,113,W 1,18-4,18
+23,1980-11-26,Seattle SuperSonics,W,113,103,W 2,19-4,10
+24,1980-11-28,Chicago Bulls,W,102,101,W 3,20-4,1
+25,1980-11-29,Golden State Warriors,W,113,108,W 4,21-4,5
+26,1980-11-30,Houston Rockets,W,117,114,W 5,22-4,3
+27,1980-12-02,San Antonio Spurs,W,122,107,W 6,23-4,15
+28,1980-12-03,Kansas City Kings,L,100,103,L 1,23-5,-3
+29,1980-12-05,New Jersey Nets,L,88,90,L 2,23-6,-2
+30,1980-12-07,Golden State Warriors,W,106,88,W 1,24-6,18
+31,1980-12-09,Chicago Bulls,W,123,108,W 2,25-6,15
+32,1980-12-10,Indiana Pacers,L,90,102,L 1,25-7,-12
+33,1980-12-14,Portland Trail Blazers,L,110,116,L 2,25-8,-6
+34,1980-12-17,Dallas Mavericks,W,115,102,W 1,26-8,13
+35,1980-12-19,Utah Jazz,W,108,90,W 2,27-8,18
+36,1980-12-21,Portland Trail Blazers,W,111,100,W 3,28-8,11
+37,1980-12-22,Seattle SuperSonics,W,109,98,W 4,29-8,11
+38,1980-12-23,Detroit Pistons,W,113,104,W 5,30-8,9
+39,1980-12-25,San Antonio Spurs,W,131,111,W 6,31-8,20
+40,1980-12-27,Los Angeles Lakers,W,116,106,W 7,32-8,10
+41,1980-12-30,Boston Celtics,L,97,116,L 1,32-9,-19
+42,1981-01-02,Denver Nuggets,W,133,132,W 1,33-9,1
+43,1981-01-06,Atlanta Hawks,W,113,106,W 2,34-9,7
+44,1981-01-07,Boston Celtics,L,90,108,L 1,34-10,-18
+45,1981-01-09,New Jersey Nets,W,112,95,W 1,35-10,17
+46,1981-01-11,Milwaukee Bucks,L,109,123,L 1,35-11,-14
+47,1981-01-13,Seattle SuperSonics,W,104,99,W 1,36-11,5
+48,1981-01-14,Denver Nuggets,W,128,102,W 2,37-11,26
+49,1981-01-16,Houston Rockets,W,92,89,W 3,38-11,3
+50,1981-01-18,Atlanta Hawks,W,120,86,W 4,39-11,34
+51,1981-01-20,San Antonio Spurs,L,112,119,L 1,39-12,-7
+52,1981-01-21,Houston Rockets,L,100,106,L 2,39-13,-6
+53,1981-01-23,Milwaukee Bucks,W,131,122,W 1,40-13,9
+54,1981-01-25,Philadelphia 76ers,L,93,98,L 1,40-14,-5
+55,1981-01-26,New York Knicks,W,99,94,W 1,41-14,5
+56,1981-01-28,Washington Bullets,L,98,108,L 1,41-15,-10
+57,1981-01-29,Cleveland Cavaliers,L,111,115,L 2,41-16,-4
+58,1981-02-04,Utah Jazz,W,114,89,W 1,42-16,25
+59,1981-02-06,Houston Rockets,W,112,99,W 2,43-16,13
+60,1981-02-08,Washington Bullets,W,113,107,W 3,44-16,6
+61,1981-02-10,San Diego Clippers,W,107,93,W 4,45-16,14
+62,1981-02-11,Dallas Mavericks,W,119,97,W 5,46-16,22
+63,1981-02-13,San Diego Clippers,W,110,94,W 6,47-16,16
+64,1981-02-15,New York Knicks,L,101,115,L 1,47-17,-14
+65,1981-02-17,Golden State Warriors,W,118,109,W 1,48-17,9
+66,1981-02-19,Denver Nuggets,L,126,127,L 1,48-18,-1
+67,1981-02-20,Seattle SuperSonics,L,111,112,L 2,48-19,-1
+68,1981-02-22,Philadelphia 76ers,W,116,110,W 1,49-19,6
+69,1981-02-27,Portland Trail Blazers,L,117,121,L 1,49-20,-4
+70,1981-03-01,Los Angeles Lakers,W,101,96,W 1,50-20,5
+71,1981-03-04,Cleveland Cavaliers,W,126,106,W 2,51-20,20
+72,1981-03-05,Utah Jazz,W,112,100,W 3,52-20,12
+73,1981-03-06,Portland Trail Blazers,W,128,107,W 4,53-20,21
+74,1981-03-08,Kansas City Kings,L,68,105,L 1,53-21,-37
+75,1981-03-10,Dallas Mavericks,L,103,107,L 2,53-22,-4
+76,1981-03-18,Los Angeles Lakers,W,126,114,W 1,54-22,12
+77,1981-03-21,Golden State Warriors,L,105,114,L 1,54-23,-9
+78,1981-03-22,Seattle SuperSonics,W,107,91,W 1,55-23,16
+79,1981-03-24,Portland Trail Blazers,L,111,120,L 1,55-24,-9
+80,1981-03-25,Kansas City Kings,L,101,110,L 2,55-25,-9
+81,1981-03-27,San Diego Clippers,W,124,100,W 1,56-25,24
+82,1981-03-29,Utah Jazz,W,105,90,W 2,57-25,15

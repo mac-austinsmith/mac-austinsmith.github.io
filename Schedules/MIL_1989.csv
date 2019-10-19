@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1988-11-04,Indiana Pacers,W,117,103,W 1,1-0,14
+2,1988-11-05,Atlanta Hawks,L,94,107,L 1,1-1,-13
+3,1988-11-09,Philadelphia 76ers,W,114,103,W 1,2-1,11
+4,1988-11-12,Boston Celtics,W,108,100,W 2,3-1,8
+5,1988-11-17,New Jersey Nets,L,96,105,L 1,3-2,-9
+6,1988-11-19,Cleveland Cavaliers,L,99,106,L 2,3-3,-7
+7,1988-11-22,Indiana Pacers,L,91,105,L 3,3-4,-14
+8,1988-11-23,Washington Bullets,W,124,102,W 1,4-4,22
+9,1988-11-25,Boston Celtics,L,96,115,L 1,4-5,-19
+10,1988-11-26,Miami Heat,W,103,93,W 1,5-5,10
+11,1988-11-29,Portland Trail Blazers,W,119,114,W 2,6-5,5
+12,1988-12-01,Cleveland Cavaliers,L,96,99,L 1,6-6,-3
+13,1988-12-02,New Jersey Nets,W,103,92,W 1,7-6,11
+14,1988-12-06,Detroit Pistons,W,109,84,W 2,8-6,25
+15,1988-12-08,New York Knicks,L,109,113,L 1,8-7,-4
+16,1988-12-09,Chicago Bulls,L,100,118,L 2,8-8,-18
+17,1988-12-11,Los Angeles Lakers,W,95,94,W 1,9-8,1
+18,1988-12-13,Philadelphia 76ers,W,109,91,W 2,10-8,18
+19,1988-12-14,Detroit Pistons,W,119,110,W 3,11-8,9
+20,1988-12-16,Atlanta Hawks,L,112,115,L 1,11-9,-3
+21,1988-12-17,Chicago Bulls,L,93,112,L 2,11-10,-19
+22,1988-12-20,Charlotte Hornets,W,125,115,W 1,12-10,10
+23,1988-12-21,Charlotte Hornets,W,112,100,W 2,13-10,12
+24,1988-12-23,Dallas Mavericks,W,113,101,W 3,14-10,12
+25,1988-12-27,Indiana Pacers,W,120,107,W 4,15-10,13
+26,1988-12-30,Atlanta Hawks,L,113,117,L 1,15-11,-4
+27,1989-01-04,Los Angeles Clippers,W,110,102,W 1,16-11,8
+28,1989-01-06,Washington Bullets,W,128,121,W 2,17-11,7
+29,1989-01-07,Utah Jazz,W,107,89,W 3,18-11,18
+30,1989-01-11,Denver Nuggets,W,123,106,W 4,19-11,17
+31,1989-01-13,Miami Heat,W,107,101,W 5,20-11,6
+32,1989-01-15,Detroit Pistons,W,120,112,W 6,21-11,8
+33,1989-01-17,Atlanta Hawks,L,98,111,L 1,21-12,-13
+34,1989-01-18,Charlotte Hornets,W,118,106,W 1,22-12,12
+35,1989-01-20,Utah Jazz,L,96,98,L 1,22-13,-2
+36,1989-01-21,Denver Nuggets,W,116,107,W 1,23-13,9
+37,1989-01-24,Sacramento Kings,W,114,110,W 2,24-13,4
+38,1989-01-26,Portland Trail Blazers,W,127,109,W 3,25-13,18
+39,1989-01-28,Los Angeles Clippers,W,105,84,W 4,26-13,21
+40,1989-01-29,Seattle SuperSonics,L,106,112,L 1,26-14,-6
+41,1989-01-31,Sacramento Kings,W,117,104,W 1,27-14,13
+42,1989-02-03,Indiana Pacers,W,109,91,W 2,28-14,18
+43,1989-02-04,Washington Bullets,W,113,102,W 3,29-14,11
+44,1989-02-07,Cleveland Cavaliers,W,115,106,W 4,30-14,9
+45,1989-02-08,Detroit Pistons,L,96,107,L 1,30-15,-11
+46,1989-02-14,New Jersey Nets,W,132,91,W 1,31-15,41
+47,1989-02-16,Chicago Bulls,L,116,117,L 1,31-16,-1
+48,1989-02-19,Chicago Bulls,L,106,108,L 2,31-17,-2
+49,1989-02-21,Indiana Pacers,W,116,90,W 1,32-17,26
+50,1989-02-24,Boston Celtics,L,112,125,L 1,32-18,-13
+51,1989-02-25,Houston Rockets,W,121,105,W 1,33-18,16
+52,1989-02-27,San Antonio Spurs,W,105,96,W 2,34-18,9
+53,1989-03-01,New York Knicks,W,121,111,W 3,35-18,10
+54,1989-03-03,Chicago Bulls,L,96,102,L 1,35-19,-6
+55,1989-03-05,Cleveland Cavaliers,W,103,98,W 1,36-19,5
+56,1989-03-07,Washington Bullets,W,121,101,W 2,37-19,20
+57,1989-03-10,Seattle SuperSonics,W,102,90,W 3,38-19,12
+58,1989-03-11,Phoenix Suns,W,100,93,W 4,39-19,7
+59,1989-03-13,Dallas Mavericks,W,111,95,W 5,40-19,16
+60,1989-03-15,San Antonio Spurs,L,108,110,L 1,40-20,-2
+61,1989-03-16,Houston Rockets,L,104,120,L 2,40-21,-16
+62,1989-03-18,Detroit Pistons,W,117,100,W 1,41-21,17
+63,1989-03-19,New York Knicks,L,104,128,L 1,41-22,-24
+64,1989-03-21,Boston Celtics,W,98,86,W 1,42-22,12
+65,1989-03-23,Cleveland Cavaliers,L,88,102,L 1,42-23,-14
+66,1989-03-25,Cleveland Cavaliers,W,113,105,W 1,43-23,8
+67,1989-03-27,Golden State Warriors,W,121,109,W 2,44-23,12
+68,1989-03-29,Chicago Bulls,L,102,106,L 1,44-24,-4
+69,1989-03-31,Phoenix Suns,L,104,122,L 2,44-25,-18
+70,1989-04-02,Los Angeles Lakers,L,117,118,L 3,44-26,-1
+71,1989-04-04,Golden State Warriors,W,124,118,W 1,45-26,6
+72,1989-04-06,New York Knicks,L,99,112,L 1,45-27,-13
+73,1989-04-08,Philadelphia 76ers,W,113,103,W 1,46-27,10
+74,1989-04-09,Detroit Pistons,L,91,100,L 1,46-28,-9
+75,1989-04-11,New Jersey Nets,W,125,93,W 1,47-28,32
+76,1989-04-12,Washington Bullets,L,107,111,L 1,47-29,-4
+77,1989-04-15,Atlanta Hawks,L,100,125,L 2,47-30,-25
+78,1989-04-16,New Jersey Nets,W,100,96,W 1,48-30,4
+79,1989-04-18,Philadelphia 76ers,L,102,124,L 1,48-31,-22
+80,1989-04-19,Atlanta Hawks,L,92,100,L 2,48-32,-8
+81,1989-04-21,Charlotte Hornets,W,117,110,W 1,49-32,7
+82,1989-04-22,Indiana Pacers,L,110,117,L 1,49-33,-7

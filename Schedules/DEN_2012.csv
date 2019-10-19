@@ -1,0 +1,67 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2011-12-26,Dallas Mavericks,W,115,93,W 1,1-0,22
+2,2011-12-28,Utah Jazz,W,117,100,W 2,2-0,17
+3,2011-12-29,Portland Trail Blazers,L,102,111,L 1,2-1,-9
+4,2011-12-31,Los Angeles Lakers,L,89,92,L 2,2-2,-3
+5,2012-01-01,Los Angeles Lakers,W,99,90,W 1,3-2,9
+6,2012-01-02,Milwaukee Bucks,W,91,86,W 2,4-2,5
+7,2012-01-04,Sacramento Kings,W,110,83,W 3,5-2,27
+8,2012-01-06,New Orleans Hornets,W,96,88,W 4,6-2,8
+9,2012-01-07,San Antonio Spurs,L,117,121,L 1,6-3,-4
+10,2012-01-09,New Orleans Hornets,L,81,94,L 2,6-4,-13
+11,2012-01-11,New Jersey Nets,W,123,115,W 1,7-4,8
+12,2012-01-13,Miami Heat,W,117,104,W 2,8-4,13
+13,2012-01-15,Utah Jazz,L,96,106,L 1,8-5,-10
+14,2012-01-17,Milwaukee Bucks,W,105,95,W 1,9-5,10
+15,2012-01-18,Philadelphia 76ers,W,108,104,W 2,10-5,4
+16,2012-01-20,Washington Wizards,W,108,104,W 3,11-5,4
+17,2012-01-21,New York Knicks,W,119,114,W 4,12-5,5
+18,2012-01-25,Sacramento Kings,W,122,93,W 5,13-5,29
+19,2012-01-27,Toronto Raptors,W,96,81,W 6,14-5,15
+20,2012-01-29,Los Angeles Clippers,L,105,109,L 1,14-6,-4
+21,2012-01-31,Memphis Grizzlies,L,97,100,L 2,14-7,-3
+22,2012-02-02,Los Angeles Clippers,W,112,91,W 1,15-7,21
+23,2012-02-03,Los Angeles Lakers,L,89,93,L 1,15-8,-4
+24,2012-02-04,Portland Trail Blazers,L,97,117,L 2,15-9,-20
+25,2012-02-06,Houston Rockets,L,90,99,L 3,15-10,-9
+26,2012-02-08,Dallas Mavericks,L,95,105,L 4,15-11,-10
+27,2012-02-09,Golden State Warriors,L,101,109,L 5,15-12,-8
+28,2012-02-11,Indiana Pacers,W,113,109,W 1,16-12,4
+29,2012-02-14,Phoenix Suns,W,109,92,W 2,17-12,17
+30,2012-02-15,Dallas Mavericks,L,84,102,L 1,17-13,-18
+31,2012-02-17,Memphis Grizzlies,L,102,103,L 2,17-14,-1
+32,2012-02-19,Oklahoma City Thunder,L,118,124,L 3,17-15,-6
+33,2012-02-20,Minnesota Timberwolves,W,103,101,W 1,18-15,2
+34,2012-02-22,Los Angeles Clippers,L,95,103,L 1,18-16,-8
+35,2012-02-23,San Antonio Spurs,L,99,114,L 2,18-17,-15
+36,2012-02-29,Portland Trail Blazers,W,104,95,W 1,19-17,9
+37,2012-03-02,Houston Rockets,W,117,105,W 2,20-17,12
+38,2012-03-04,San Antonio Spurs,W,99,94,W 3,21-17,5
+39,2012-03-05,Sacramento Kings,W,119,116,W 4,22-17,3
+40,2012-03-07,Cleveland Cavaliers,L,99,100,L 1,22-18,-1
+41,2012-03-09,New Orleans Hornets,W,110,97,W 1,23-18,13
+42,2012-03-11,Memphis Grizzlies,L,91,94,L 1,23-19,-3
+43,2012-03-13,Atlanta Hawks,W,118,117,W 1,24-19,1
+44,2012-03-15,Oklahoma City Thunder,L,90,103,L 1,24-20,-13
+45,2012-03-17,Boston Celtics,W,98,91,W 1,25-20,7
+46,2012-03-19,Dallas Mavericks,L,95,112,L 1,25-21,-17
+47,2012-03-21,Detroit Pistons,W,116,115,W 1,26-21,1
+48,2012-03-23,Utah Jazz,L,102,121,L 1,26-22,-19
+49,2012-03-25,Minnesota Timberwolves,L,100,117,L 2,26-23,-17
+50,2012-03-26,Chicago Bulls,W,108,91,W 1,27-23,17
+51,2012-03-28,Toronto Raptors,L,96,105,L 1,27-24,-9
+52,2012-03-30,Charlotte Bobcats,W,99,88,W 1,28-24,11
+53,2012-04-01,Orlando Magic,W,104,101,W 2,29-24,3
+54,2012-04-04,New Orleans Hornets,L,92,94,L 1,29-25,-2
+55,2012-04-06,Phoenix Suns,W,105,99,W 1,30-25,6
+56,2012-04-07,Golden State Warriors,L,97,112,L 1,30-26,-15
+57,2012-04-09,Golden State Warriors,W,123,84,W 1,31-26,39
+58,2012-04-11,Minnesota Timberwolves,W,113,107,W 2,32-26,6
+59,2012-04-13,Los Angeles Lakers,L,97,103,L 1,32-27,-6
+60,2012-04-15,Houston Rockets,W,101,86,W 1,33-27,15
+61,2012-04-16,Houston Rockets,W,105,102,W 2,34-27,3
+62,2012-04-18,Los Angeles Clippers,L,98,104,L 1,34-28,-6
+63,2012-04-21,Phoenix Suns,W,118,107,W 1,35-28,11
+64,2012-04-22,Orlando Magic,W,101,74,W 2,36-28,27
+65,2012-04-25,Oklahoma City Thunder,W,106,101,W 3,37-28,5
+66,2012-04-26,Minnesota Timberwolves,W,131,102,W 4,38-28,29

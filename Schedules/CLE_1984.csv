@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1983-10-28,New York Knicks,L,106,113,L 1,0-1,-7
+2,1983-10-29,Boston Celtics,L,89,108,L 2,0-2,-19
+3,1983-11-01,New Jersey Nets,L,113,125,L 3,0-3,-12
+4,1983-11-02,Houston Rockets,W,103,94,W 1,1-3,9
+5,1983-11-04,Dallas Mavericks,W,105,84,W 2,2-3,21
+6,1983-11-05,Indiana Pacers,L,87,99,L 1,2-4,-12
+7,1983-11-09,Seattle SuperSonics,L,101,113,L 2,2-5,-12
+8,1983-11-10,Portland Trail Blazers,L,110,115,L 3,2-6,-5
+9,1983-11-12,Golden State Warriors,L,102,109,L 4,2-7,-7
+10,1983-11-16,Phoenix Suns,L,104,115,L 5,2-8,-11
+11,1983-11-17,Los Angeles Lakers,L,114,127,L 6,2-9,-13
+12,1983-11-20,San Diego Clippers,L,97,99,L 7,2-10,-2
+13,1983-11-23,Washington Bullets,W,107,98,W 1,3-10,9
+14,1983-11-26,New York Knicks,L,84,96,L 1,3-11,-12
+15,1983-11-27,San Antonio Spurs,W,114,106,W 1,4-11,8
+16,1983-11-29,Detroit Pistons,L,93,103,L 1,4-12,-10
+17,1983-11-30,Portland Trail Blazers,W,112,105,W 1,5-12,7
+18,1983-12-02,Indiana Pacers,W,108,99,W 2,6-12,9
+19,1983-12-03,Atlanta Hawks,L,91,102,L 1,6-13,-11
+20,1983-12-06,New Jersey Nets,L,105,114,L 2,6-14,-9
+21,1983-12-07,Atlanta Hawks,W,106,92,W 1,7-14,14
+22,1983-12-09,Milwaukee Bucks,L,83,96,L 1,7-15,-13
+23,1983-12-10,Chicago Bulls,W,101,95,W 1,8-15,6
+24,1983-12-13,Utah Jazz,L,105,107,L 1,8-16,-2
+25,1983-12-14,Boston Celtics,L,108,110,L 2,8-17,-2
+26,1983-12-16,Philadelphia 76ers,L,105,115,L 3,8-18,-10
+27,1983-12-17,Washington Bullets,L,95,119,L 4,8-19,-24
+28,1983-12-21,Detroit Pistons,L,112,119,L 5,8-20,-7
+29,1983-12-23,Milwaukee Bucks,L,83,89,L 6,8-21,-6
+30,1983-12-29,Atlanta Hawks,W,88,77,W 1,9-21,11
+31,1983-12-30,Atlanta Hawks,L,98,109,L 1,9-22,-11
+32,1984-01-03,Milwaukee Bucks,L,92,104,L 2,9-23,-12
+33,1984-01-04,Los Angeles Lakers,L,99,106,L 3,9-24,-7
+34,1984-01-06,Boston Celtics,L,97,115,L 4,9-25,-18
+35,1984-01-07,Philadelphia 76ers,W,106,98,W 1,10-25,8
+36,1984-01-10,Milwaukee Bucks,W,116,104,W 2,11-25,12
+37,1984-01-14,Detroit Pistons,L,131,132,L 1,11-26,-1
+38,1984-01-17,Chicago Bulls,W,105,103,W 1,12-26,2
+39,1984-01-18,Philadelphia 76ers,L,107,109,L 1,12-27,-2
+40,1984-01-20,Philadelphia 76ers,L,106,109,L 2,12-28,-3
+41,1984-01-21,Chicago Bulls,L,94,111,L 3,12-29,-17
+42,1984-01-24,Boston Celtics,L,97,118,L 4,12-30,-21
+43,1984-01-31,Detroit Pistons,W,114,112,W 1,13-30,2
+44,1984-02-03,Chicago Bulls,W,106,76,W 2,14-30,30
+45,1984-02-04,San Diego Clippers,W,108,100,W 3,15-30,8
+46,1984-02-07,Detroit Pistons,L,99,130,L 1,15-31,-31
+47,1984-02-08,Golden State Warriors,W,119,108,W 1,16-31,11
+48,1984-02-10,Seattle SuperSonics,W,95,90,W 2,17-31,5
+49,1984-02-11,Indiana Pacers,W,86,83,W 3,18-31,3
+50,1984-02-14,New Jersey Nets,W,103,93,W 4,19-31,10
+51,1984-02-15,Phoenix Suns,W,104,90,W 5,20-31,14
+52,1984-02-18,Indiana Pacers,L,93,118,L 1,20-32,-25
+53,1984-02-21,Atlanta Hawks,L,84,102,L 2,20-33,-18
+54,1984-02-23,Philadelphia 76ers,W,116,109,W 1,21-33,7
+55,1984-02-25,Washington Bullets,W,94,83,W 2,22-33,11
+56,1984-02-26,Detroit Pistons,L,109,121,L 1,22-34,-12
+57,1984-02-28,Kansas City Kings,L,137,142,L 2,22-35,-5
+58,1984-03-01,Denver Nuggets,L,113,119,L 3,22-36,-6
+59,1984-03-02,Utah Jazz,L,104,110,L 4,22-37,-6
+60,1984-03-06,San Antonio Spurs,L,122,129,L 5,22-38,-7
+61,1984-03-07,Dallas Mavericks,L,103,115,L 6,22-39,-12
+62,1984-03-11,Houston Rockets,L,101,108,L 7,22-40,-7
+63,1984-03-13,Atlanta Hawks,W,92,83,W 1,23-40,9
+64,1984-03-15,New York Knicks,L,82,105,L 1,23-41,-23
+65,1984-03-16,Denver Nuggets,L,102,118,L 2,23-42,-16
+66,1984-03-18,Kansas City Kings,L,97,108,L 3,23-43,-11
+67,1984-03-20,Chicago Bulls,L,104,108,L 4,23-44,-4
+68,1984-03-21,New York Knicks,W,100,99,W 1,24-44,1
+69,1984-03-23,Philadelphia 76ers,L,95,100,L 1,24-45,-5
+70,1984-03-25,Washington Bullets,W,101,96,W 1,25-45,5
+71,1984-03-27,New Jersey Nets,W,106,103,W 2,26-45,3
+72,1984-03-28,Milwaukee Bucks,L,98,130,L 1,26-46,-32
+73,1984-03-30,Indiana Pacers,L,87,90,L 2,26-47,-3
+74,1984-03-31,Indiana Pacers,L,119,120,L 3,26-48,-1
+75,1984-04-03,Boston Celtics,L,86,98,L 4,26-49,-12
+76,1984-04-05,Chicago Bulls,W,114,99,W 1,27-49,15
+77,1984-04-06,Boston Celtics,L,94,113,L 1,27-50,-19
+78,1984-04-08,New Jersey Nets,L,97,124,L 2,27-51,-27
+79,1984-04-09,New York Knicks,L,113,118,L 3,27-52,-5
+80,1984-04-11,Milwaukee Bucks,L,95,108,L 4,27-53,-13
+81,1984-04-13,New York Knicks,L,98,107,L 5,27-54,-9
+82,1984-04-14,Washington Bullets,W,117,109,W 1,28-54,8

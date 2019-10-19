@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,2004-11-03,Milwaukee Bucks,W,93,92,W 1,1-0,1
+2,2004-11-05,New Orleans Hornets,W,90,89,W 2,2-0,1
+3,2004-11-06,Charlotte Bobcats,L,100,111,L 1,2-1,-11
+4,2004-11-09,Dallas Mavericks,W,94,84,W 1,3-1,10
+5,2004-11-10,Washington Wizards,L,96,106,L 1,3-2,-10
+6,2004-11-12,Los Angeles Lakers,W,122,113,W 1,4-2,9
+7,2004-11-14,Philadelphia 76ers,L,87,96,L 1,4-3,-9
+8,2004-11-17,Utah Jazz,W,107,92,W 1,5-3,15
+9,2004-11-20,Indiana Pacers,W,86,83,W 2,6-3,3
+10,2004-11-24,Portland Trail Blazers,L,83,89,L 1,6-4,-6
+11,2004-11-26,Atlanta Hawks,W,117,99,W 1,7-4,18
+12,2004-11-27,Philadelphia 76ers,W,105,99,W 2,8-4,6
+13,2004-11-29,Boston Celtics,L,101,117,L 1,8-5,-16
+14,2004-12-01,Toronto Raptors,W,129,108,W 1,9-5,21
+15,2004-12-03,New York Knicks,W,104,98,W 2,10-5,6
+16,2004-12-04,Memphis Grizzlies,W,96,91,W 3,11-5,5
+17,2004-12-06,Denver Nuggets,L,102,115,L 1,11-6,-13
+18,2004-12-08,Utah Jazz,W,106,100,W 1,12-6,6
+19,2004-12-10,Golden State Warriors,W,113,109,W 2,13-6,4
+20,2004-12-12,Los Angeles Lakers,L,98,105,L 1,13-7,-7
+21,2004-12-13,Phoenix Suns,L,100,121,L 2,13-8,-21
+22,2004-12-15,San Antonio Spurs,L,91,94,L 3,13-9,-3
+23,2004-12-18,Denver Nuggets,W,117,95,W 1,14-9,22
+24,2004-12-19,Miami Heat,L,107,117,L 1,14-10,-10
+25,2004-12-22,San Antonio Spurs,W,93,87,W 1,15-10,6
+26,2004-12-27,New York Knicks,L,111,119,L 1,15-11,-8
+27,2004-12-29,Milwaukee Bucks,L,105,111,L 2,15-12,-6
+28,2005-01-01,Chicago Bulls,L,90,105,L 3,15-13,-15
+29,2005-01-03,Toronto Raptors,L,94,105,L 4,15-14,-11
+30,2005-01-05,Seattle SuperSonics,W,105,87,W 1,16-14,18
+31,2005-01-07,Charlotte Bobcats,W,111,91,W 2,17-14,20
+32,2005-01-08,New Jersey Nets,W,104,101,W 3,18-14,3
+33,2005-01-10,Boston Celtics,L,101,119,L 1,18-15,-18
+34,2005-01-12,Minnesota Timberwolves,W,87,80,W 1,19-15,7
+35,2005-01-14,Detroit Pistons,L,94,101,L 1,19-16,-7
+36,2005-01-15,Indiana Pacers,W,85,84,W 1,20-16,1
+37,2005-01-18,Detroit Pistons,W,103,101,W 2,21-16,2
+38,2005-01-20,Houston Rockets,L,99,108,L 1,21-17,-9
+39,2005-01-22,Philadelphia 76ers,W,115,111,W 1,22-17,4
+40,2005-01-24,Houston Rockets,L,78,89,L 1,22-18,-11
+41,2005-01-25,Memphis Grizzlies,L,83,95,L 2,22-19,-12
+42,2005-01-28,Washington Wizards,W,108,101,W 1,23-19,7
+43,2005-01-29,Washington Wizards,W,103,97,W 2,24-19,6
+44,2005-01-31,Atlanta Hawks,L,79,80,L 1,24-20,-1
+45,2005-02-01,Cleveland Cavaliers,W,105,102,W 1,25-20,3
+46,2005-02-04,Boston Celtics,L,100,112,L 1,25-21,-12
+47,2005-02-05,Cleveland Cavaliers,L,92,101,L 2,25-22,-9
+48,2005-02-08,Golden State Warriors,L,109,113,L 3,25-23,-4
+49,2005-02-10,Atlanta Hawks,W,101,96,W 1,26-23,5
+50,2005-02-12,Philadelphia 76ers,L,99,112,L 1,26-24,-13
+51,2005-02-13,New Orleans Hornets,W,97,94,W 1,27-24,3
+52,2005-02-15,Los Angeles Clippers,W,99,94,W 2,28-24,5
+53,2005-02-22,Indiana Pacers,L,84,108,L 1,28-25,-24
+54,2005-02-26,Miami Heat,L,98,101,L 2,28-26,-3
+55,2005-02-27,Miami Heat,L,103,112,L 3,28-27,-9
+56,2005-03-02,Sacramento Kings,W,114,111,W 1,29-27,3
+57,2005-03-04,New York Knicks,W,111,89,W 2,30-27,22
+58,2005-03-05,New Jersey Nets,W,105,81,W 3,31-27,24
+59,2005-03-08,Cleveland Cavaliers,L,92,111,L 1,31-28,-19
+60,2005-03-09,Toronto Raptors,L,96,106,L 2,31-29,-10
+61,2005-03-11,Minnesota Timberwolves,L,96,101,L 3,31-30,-5
+62,2005-03-13,New Jersey Nets,L,82,98,L 4,31-31,-16
+63,2005-03-15,Sacramento Kings,L,94,105,L 5,31-32,-11
+64,2005-03-16,Los Angeles Clippers,L,102,110,L 6,31-33,-8
+65,2005-03-18,Seattle SuperSonics,L,90,98,L 7,31-34,-8
+66,2005-03-19,Portland Trail Blazers,W,97,92,W 1,32-34,5
+67,2005-03-21,Charlotte Bobcats,L,97,102,L 1,32-35,-5
+68,2005-03-24,Charlotte Bobcats,L,94,108,L 2,32-36,-14
+69,2005-03-26,Phoenix Suns,L,116,118,L 3,32-37,-2
+70,2005-03-28,Atlanta Hawks,W,109,102,W 1,33-37,7
+71,2005-03-30,Toronto Raptors,W,108,96,W 2,34-37,12
+72,2005-04-01,Washington Wizards,L,102,111,L 1,34-38,-9
+73,2005-04-02,New Jersey Nets,W,103,102,W 1,35-38,1
+74,2005-04-05,Dallas Mavericks,L,105,114,L 1,35-39,-9
+75,2005-04-06,Chicago Bulls,L,101,102,L 2,35-40,-1
+76,2005-04-08,Detroit Pistons,L,102,114,L 3,35-41,-12
+77,2005-04-11,Cleveland Cavaliers,L,106,114,L 4,35-42,-8
+78,2005-04-13,Detroit Pistons,L,94,103,L 5,35-43,-9
+79,2005-04-15,Chicago Bulls,L,77,117,L 6,35-44,-40
+80,2005-04-16,Milwaukee Bucks,L,103,113,L 7,35-45,-10
+81,2005-04-18,Indiana Pacers,W,92,88,W 1,36-45,4
+82,2005-04-20,Miami Heat,L,93,98,L 1,36-46,-5

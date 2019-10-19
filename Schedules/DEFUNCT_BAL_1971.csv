@@ -1,0 +1,83 @@
+G,Date,Opponent,Result,Tm,Opp,Streak,Record,Margin
+1,1970-10-14,San Diego Rockets,W,123,105,W 1,1-0,18
+2,1970-10-17,Los Angeles Lakers,W,118,116,W 2,2-0,2
+3,1970-10-20,San Francisco Warriors,L,105,125,L 1,2-1,-20
+4,1970-10-21,Cincinnati Royals,W,117,105,W 1,3-1,12
+5,1970-10-23,New York Knicks,W,98,92,W 2,4-1,6
+6,1970-10-24,Milwaukee Bucks,L,120,122,L 1,4-2,-2
+7,1970-10-28,Detroit Pistons,L,103,109,L 2,4-3,-6
+8,1970-10-30,Philadelphia 76ers,W,123,110,W 1,5-3,13
+9,1970-10-31,Phoenix Suns,W,106,103,W 2,6-3,3
+10,1970-11-04,San Francisco Warriors,L,100,111,L 1,6-4,-11
+11,1970-11-05,Portland Trail Blazers,L,131,135,L 2,6-5,-4
+12,1970-11-06,San Diego Rockets,W,125,118,W 1,7-5,7
+13,1970-11-08,Los Angeles Lakers,L,105,124,L 1,7-6,-19
+14,1970-11-11,Philadelphia 76ers,L,107,119,L 2,7-7,-12
+15,1970-11-12,New York Knicks,W,110,108,W 1,8-7,2
+16,1970-11-14,Boston Celtics,W,122,101,W 2,9-7,21
+17,1970-11-15,Milwaukee Bucks,L,90,105,L 1,9-8,-15
+18,1970-11-16,Cleveland Cavaliers,W,98,86,W 1,10-8,12
+19,1970-11-18,Cleveland Cavaliers,W,111,98,W 2,11-8,13
+20,1970-11-20,Phoenix Suns,W,121,110,W 3,12-8,11
+21,1970-11-21,Atlanta Hawks,L,103,130,L 1,12-9,-27
+22,1970-11-24,Portland Trail Blazers,W,156,104,W 1,13-9,52
+23,1970-11-27,Boston Celtics,L,107,153,L 1,13-10,-46
+24,1970-11-28,Chicago Bulls,W,99,91,W 1,14-10,8
+25,1970-11-30,Philadelphia 76ers,L,98,104,L 1,14-11,-6
+26,1970-12-01,Los Angeles Lakers,L,93,97,L 2,14-12,-4
+27,1970-12-04,Seattle SuperSonics,W,131,116,W 1,15-12,15
+28,1970-12-06,Cincinnati Royals,W,126,118,W 2,16-12,8
+29,1970-12-09,Milwaukee Bucks,W,127,97,W 3,17-12,30
+30,1970-12-12,San Francisco Warriors,W,119,96,W 4,18-12,23
+31,1970-12-15,Chicago Bulls,L,97,115,L 1,18-13,-18
+32,1970-12-18,Atlanta Hawks,L,112,116,L 2,18-14,-4
+33,1970-12-19,Boston Celtics,W,134,128,W 1,19-14,6
+34,1970-12-23,Cincinnati Royals,L,115,120,L 1,19-15,-5
+35,1970-12-25,Chicago Bulls,W,128,112,W 1,20-15,16
+36,1970-12-27,New York Knicks,L,105,110,L 1,20-16,-5
+37,1970-12-30,Buffalo Braves,W,106,90,W 1,21-16,16
+38,1971-01-01,Cleveland Cavaliers,W,128,105,W 2,22-16,23
+39,1971-01-02,Detroit Pistons,W,108,99,W 3,23-16,9
+40,1971-01-05,Seattle SuperSonics,W,109,101,W 4,24-16,8
+41,1971-01-07,Atlanta Hawks,W,110,102,W 5,25-16,8
+42,1971-01-08,Atlanta Hawks,W,115,104,W 6,26-16,11
+43,1971-01-10,Milwaukee Bucks,L,99,151,L 1,26-17,-52
+44,1971-01-14,Seattle SuperSonics,L,110,114,L 2,26-18,-4
+45,1971-01-15,San Diego Rockets,W,124,117,W 1,27-18,7
+46,1971-01-16,Phoenix Suns,L,100,117,L 1,27-19,-17
+47,1971-01-17,Seattle SuperSonics,W,111,96,W 1,28-19,15
+48,1971-01-20,Milwaukee Bucks,L,116,120,L 1,28-20,-4
+49,1971-01-22,Boston Celtics,W,136,117,W 1,29-20,19
+50,1971-01-23,San Diego Rockets,W,127,120,W 2,30-20,7
+51,1971-01-26,San Francisco Warriors,W,103,98,W 3,31-20,5
+52,1971-01-27,Cincinnati Royals,L,113,115,L 1,31-21,-2
+53,1971-01-29,Cincinnati Royals,W,145,118,W 1,32-21,27
+54,1971-01-31,New York Knicks,L,95,125,L 1,32-22,-30
+55,1971-02-02,Detroit Pistons,L,113,116,L 2,32-23,-3
+56,1971-02-03,Chicago Bulls,L,102,124,L 3,32-24,-22
+57,1971-02-05,Buffalo Braves,W,98,90,W 1,33-24,8
+58,1971-02-07,Detroit Pistons,W,108,105,W 2,34-24,3
+59,1971-02-09,Phoenix Suns,L,115,120,L 1,34-25,-5
+60,1971-02-12,Boston Celtics,L,109,113,L 2,34-26,-4
+61,1971-02-14,Philadelphia 76ers,W,112,103,W 1,35-26,9
+62,1971-02-16,Detroit Pistons,L,95,110,L 1,35-27,-15
+63,1971-02-17,Buffalo Braves,L,114,118,L 2,35-28,-4
+64,1971-02-19,Buffalo Braves,W,120,113,W 1,36-28,7
+65,1971-02-20,Atlanta Hawks,L,115,122,L 1,36-29,-7
+66,1971-02-21,Atlanta Hawks,W,121,119,W 1,37-29,2
+67,1971-02-23,Los Angeles Lakers,L,107,114,L 1,37-30,-7
+68,1971-02-26,Portland Trail Blazers,W,114,97,W 1,38-30,17
+69,1971-02-28,New York Knicks,L,104,110,L 1,38-31,-6
+70,1971-03-02,New York Knicks,L,95,109,L 2,38-32,-14
+71,1971-03-03,Cincinnati Royals,L,132,133,L 3,38-33,-1
+72,1971-03-06,San Francisco Warriors,L,103,109,L 4,38-34,-6
+73,1971-03-07,Phoenix Suns,W,117,108,W 1,39-34,9
+74,1971-03-09,Los Angeles Lakers,W,107,95,W 2,40-34,12
+75,1971-03-11,Portland Trail Blazers,L,118,136,L 1,40-35,-18
+76,1971-03-13,San Diego Rockets,L,115,121,L 2,40-36,-6
+77,1971-03-14,Seattle SuperSonics,L,121,124,L 3,40-37,-3
+78,1971-03-16,Chicago Bulls,L,99,113,L 4,40-38,-14
+79,1971-03-17,Cleveland Cavaliers,W,113,109,W 1,41-38,4
+80,1971-03-19,Boston Celtics,L,117,125,L 1,41-39,-8
+81,1971-03-20,Philadelphia 76ers,W,124,112,W 1,42-39,12
+82,1971-03-21,Philadelphia 76ers,L,108,120,L 1,42-40,-12
