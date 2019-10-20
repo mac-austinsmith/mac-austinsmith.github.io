@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Schedule Builder</title>
+<title>index</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13087,10 +13087,13 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Enter into terminal to update website: jupyter nbconvert --to html index.ipynb</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">import</span> <span class="nn">selenium.webdriver</span> <span class="k">as</span> <span class="nn">webdriver</span>
+<span class="kn">import</span> <span class="nn">contextlib2</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">&quot;darkgrid&quot;</span><span class="p">)</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline
 <span class="c1"># Get list of team initials to create nested for loop for schedules</span>
@@ -13163,7 +13166,7 @@ for t in defunct:
         games[i].drop(columns=['W','L'], inplace=True)
         games[i]['Margin'] = [int(x) - int(y) for x,y in zip(games[i]['Tm'],games[i]['Opp'])]
          print("Checking: " + t + " " + str(i+1969))
-        games[i].to_csv("Schedules/" + "DEFUNCT_"+ t + "_" + str(i + 1969) + '.csv')</code></pre>
+        games[i].to_csv("Schedules/DEFUNCT_"+ t + "_" + str(i + 1969) + '.csv')</code></pre>
 
 </div>
 </div>
@@ -13581,7 +13584,7 @@ for t in defunct:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">seasons</span> <span class="o">=</span> <span class="p">{}</span>
@@ -13614,7 +13617,7 @@ for t in defunct:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -14099,12 +14102,1469 @@ for t in defunct:
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Nash-Stats">Nash Stats<a class="anchor-link" href="#Nash-Stats">&#182;</a></h2><hr>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Nash-Database-Builder:">Nash Database Builder:<a class="anchor-link" href="#Nash-Database-Builder:">&#182;</a></h2>
+<pre><code>@contextlib2.contextmanager
+def quitting(thing):
+    yield thing
+    thing.quit()
+
+with quitting(webdriver.Firefox()) as driver:
+    link = 'https://www.basketball-reference.com/players/n/nashst01.html' 
+    driver.get(link)
+    content = driver.page_source
+    with open('/tmp/out.html', 'wb') as f:
+        f.write(content.encode('utf-8'))
+    data = pd.read_html(content)
+
+i = 1
+for d in data[8:13]:
+    d.to_csv('Nash/Table' + str(i) + '.csv')
+    i += 1</code></pre>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html <span class="s1">&#39;Schedule Builder&#39;</span>.ipynb
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">per_game</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Nash/Table1.csv&#39;</span><span class="p">)</span>
+<span class="n">per_game</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]]</span>
+<span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;G&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;G&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;GS&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;GS&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">per_game</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">2004</span><span class="p">]</span>
+<span class="n">per_game</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">2011</span><span class="p">]</span>
+<span class="n">per_game</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">per_game</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;index&#39;</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">per_game</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[31]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>Season</th>
+      <th>Age</th>
+      <th>Tm</th>
+      <th>Lg</th>
+      <th>Pos</th>
+      <th>G</th>
+      <th>GS</th>
+      <th>MP</th>
+      <th>FG</th>
+      <th>...</th>
+      <th>FT%</th>
+      <th>ORB</th>
+      <th>DRB</th>
+      <th>TRB</th>
+      <th>AST</th>
+      <th>STL</th>
+      <th>BLK</th>
+      <th>TOV</th>
+      <th>PF</th>
+      <th>PTS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>8</td>
+      <td>2004</td>
+      <td>30</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>75</td>
+      <td>75</td>
+      <td>34.3</td>
+      <td>5.7</td>
+      <td>...</td>
+      <td>0.887</td>
+      <td>0.8</td>
+      <td>2.6</td>
+      <td>3.3</td>
+      <td>11.5</td>
+      <td>1.0</td>
+      <td>0.1</td>
+      <td>3.3</td>
+      <td>1.8</td>
+      <td>15.5</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>9</td>
+      <td>2005</td>
+      <td>31</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>79</td>
+      <td>79</td>
+      <td>35.4</td>
+      <td>6.8</td>
+      <td>...</td>
+      <td>0.921</td>
+      <td>0.6</td>
+      <td>3.6</td>
+      <td>4.2</td>
+      <td>10.5</td>
+      <td>0.8</td>
+      <td>0.2</td>
+      <td>3.5</td>
+      <td>1.5</td>
+      <td>18.8</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>10</td>
+      <td>2006</td>
+      <td>32</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>76</td>
+      <td>76</td>
+      <td>35.3</td>
+      <td>6.8</td>
+      <td>...</td>
+      <td>0.899</td>
+      <td>0.4</td>
+      <td>3.1</td>
+      <td>3.5</td>
+      <td>11.6</td>
+      <td>0.8</td>
+      <td>0.1</td>
+      <td>3.8</td>
+      <td>1.5</td>
+      <td>18.6</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>11</td>
+      <td>2007</td>
+      <td>33</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>81</td>
+      <td>81</td>
+      <td>34.3</td>
+      <td>6.0</td>
+      <td>...</td>
+      <td>0.906</td>
+      <td>0.3</td>
+      <td>3.1</td>
+      <td>3.5</td>
+      <td>11.1</td>
+      <td>0.7</td>
+      <td>0.1</td>
+      <td>3.6</td>
+      <td>1.4</td>
+      <td>16.9</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>12</td>
+      <td>2008</td>
+      <td>34</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>74</td>
+      <td>74</td>
+      <td>33.6</td>
+      <td>5.8</td>
+      <td>...</td>
+      <td>0.933</td>
+      <td>0.3</td>
+      <td>2.8</td>
+      <td>3.0</td>
+      <td>9.7</td>
+      <td>0.7</td>
+      <td>0.1</td>
+      <td>3.4</td>
+      <td>1.5</td>
+      <td>15.7</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>13</td>
+      <td>2009</td>
+      <td>35</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>81</td>
+      <td>81</td>
+      <td>32.8</td>
+      <td>6.2</td>
+      <td>...</td>
+      <td>0.938</td>
+      <td>0.4</td>
+      <td>2.9</td>
+      <td>3.3</td>
+      <td>11.0</td>
+      <td>0.5</td>
+      <td>0.1</td>
+      <td>3.6</td>
+      <td>1.3</td>
+      <td>16.5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>14</td>
+      <td>2010</td>
+      <td>36</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>75</td>
+      <td>75</td>
+      <td>33.3</td>
+      <td>5.3</td>
+      <td>...</td>
+      <td>0.912</td>
+      <td>0.5</td>
+      <td>2.9</td>
+      <td>3.5</td>
+      <td>11.4</td>
+      <td>0.6</td>
+      <td>0.1</td>
+      <td>3.5</td>
+      <td>1.2</td>
+      <td>14.7</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>15</td>
+      <td>2011</td>
+      <td>37</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>62</td>
+      <td>62</td>
+      <td>31.6</td>
+      <td>4.8</td>
+      <td>...</td>
+      <td>0.894</td>
+      <td>0.4</td>
+      <td>2.6</td>
+      <td>3.0</td>
+      <td>10.7</td>
+      <td>0.6</td>
+      <td>0.1</td>
+      <td>3.7</td>
+      <td>0.9</td>
+      <td>12.5</td>
+    </tr>
+  </tbody>
+</table>
+<p>8 rows × 31 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">per_36</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Nash/Table3.csv&#39;</span><span class="p">)</span>
+<span class="n">per_36</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]]</span>
+<span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;G&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;G&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;GS&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;GS&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;MP&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;MP&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">per_36</span> <span class="o">=</span> <span class="n">per_36</span><span class="p">[</span><span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">2004</span><span class="p">]</span>
+<span class="n">per_36</span> <span class="o">=</span> <span class="n">per_36</span><span class="p">[</span><span class="n">per_36</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">2011</span><span class="p">]</span>
+<span class="n">per_36</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">per_36</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Unnamed: 0&#39;</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">per_36</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[32]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Season</th>
+      <th>Age</th>
+      <th>Tm</th>
+      <th>Lg</th>
+      <th>Pos</th>
+      <th>G</th>
+      <th>GS</th>
+      <th>MP</th>
+      <th>FG</th>
+      <th>FGA</th>
+      <th>...</th>
+      <th>FT%</th>
+      <th>ORB</th>
+      <th>DRB</th>
+      <th>TRB</th>
+      <th>AST</th>
+      <th>STL</th>
+      <th>BLK</th>
+      <th>TOV</th>
+      <th>PF</th>
+      <th>PTS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>2004</td>
+      <td>30</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>75</td>
+      <td>75</td>
+      <td>2573</td>
+      <td>6.0</td>
+      <td>12.0</td>
+      <td>...</td>
+      <td>0.887</td>
+      <td>0.8</td>
+      <td>2.7</td>
+      <td>3.5</td>
+      <td>12.0</td>
+      <td>1.0</td>
+      <td>0.1</td>
+      <td>3.4</td>
+      <td>1.9</td>
+      <td>16.3</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2005</td>
+      <td>31</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>79</td>
+      <td>79</td>
+      <td>2796</td>
+      <td>7.0</td>
+      <td>13.6</td>
+      <td>...</td>
+      <td>0.921</td>
+      <td>0.6</td>
+      <td>3.7</td>
+      <td>4.3</td>
+      <td>10.6</td>
+      <td>0.8</td>
+      <td>0.2</td>
+      <td>3.6</td>
+      <td>1.5</td>
+      <td>19.2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2006</td>
+      <td>32</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>76</td>
+      <td>76</td>
+      <td>2682</td>
+      <td>6.9</td>
+      <td>13.0</td>
+      <td>...</td>
+      <td>0.899</td>
+      <td>0.4</td>
+      <td>3.2</td>
+      <td>3.6</td>
+      <td>11.9</td>
+      <td>0.8</td>
+      <td>0.1</td>
+      <td>3.9</td>
+      <td>1.6</td>
+      <td>19.0</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2007</td>
+      <td>33</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>81</td>
+      <td>81</td>
+      <td>2780</td>
+      <td>6.3</td>
+      <td>12.5</td>
+      <td>...</td>
+      <td>0.906</td>
+      <td>0.4</td>
+      <td>3.3</td>
+      <td>3.7</td>
+      <td>11.6</td>
+      <td>0.7</td>
+      <td>0.1</td>
+      <td>3.8</td>
+      <td>1.5</td>
+      <td>17.8</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2008</td>
+      <td>34</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>74</td>
+      <td>74</td>
+      <td>2484</td>
+      <td>6.2</td>
+      <td>12.3</td>
+      <td>...</td>
+      <td>0.933</td>
+      <td>0.3</td>
+      <td>3.0</td>
+      <td>3.2</td>
+      <td>10.4</td>
+      <td>0.8</td>
+      <td>0.1</td>
+      <td>3.6</td>
+      <td>1.6</td>
+      <td>16.8</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2009</td>
+      <td>35</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>81</td>
+      <td>81</td>
+      <td>2660</td>
+      <td>6.8</td>
+      <td>13.3</td>
+      <td>...</td>
+      <td>0.938</td>
+      <td>0.5</td>
+      <td>3.2</td>
+      <td>3.6</td>
+      <td>12.1</td>
+      <td>0.6</td>
+      <td>0.2</td>
+      <td>4.0</td>
+      <td>1.5</td>
+      <td>18.0</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>2010</td>
+      <td>36</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>75</td>
+      <td>75</td>
+      <td>2497</td>
+      <td>5.8</td>
+      <td>11.7</td>
+      <td>...</td>
+      <td>0.912</td>
+      <td>0.6</td>
+      <td>3.2</td>
+      <td>3.7</td>
+      <td>12.3</td>
+      <td>0.7</td>
+      <td>0.1</td>
+      <td>3.8</td>
+      <td>1.3</td>
+      <td>15.9</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2011</td>
+      <td>37</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>62</td>
+      <td>62</td>
+      <td>1961</td>
+      <td>5.4</td>
+      <td>10.2</td>
+      <td>...</td>
+      <td>0.894</td>
+      <td>0.5</td>
+      <td>2.9</td>
+      <td>3.4</td>
+      <td>12.2</td>
+      <td>0.7</td>
+      <td>0.1</td>
+      <td>4.2</td>
+      <td>1.0</td>
+      <td>14.2</td>
+    </tr>
+  </tbody>
+</table>
+<p>8 rows × 29 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">totals</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Nash/Table2.csv&#39;</span><span class="p">)</span>
+<span class="n">totals</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">totals</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">totals</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]]</span>
+<span class="n">totals</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">totals</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">totals</span><span class="p">[</span><span class="s1">&#39;G&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">totals</span><span class="p">[</span><span class="s1">&#39;G&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">totals</span><span class="p">[</span><span class="s1">&#39;GS&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">totals</span><span class="p">[</span><span class="s1">&#39;GS&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">totals</span> <span class="o">=</span> <span class="n">totals</span><span class="p">[</span><span class="n">totals</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">2004</span><span class="p">]</span>
+<span class="n">totals</span> <span class="o">=</span> <span class="n">totals</span><span class="p">[</span><span class="n">totals</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">2011</span><span class="p">]</span>
+<span class="n">totals</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">totals</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Unnamed: 0&#39;</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">totals</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[33]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Season</th>
+      <th>Age</th>
+      <th>Tm</th>
+      <th>Lg</th>
+      <th>Pos</th>
+      <th>G</th>
+      <th>GS</th>
+      <th>MP</th>
+      <th>FG</th>
+      <th>FGA</th>
+      <th>...</th>
+      <th>FT%</th>
+      <th>ORB</th>
+      <th>DRB</th>
+      <th>TRB</th>
+      <th>AST</th>
+      <th>STL</th>
+      <th>BLK</th>
+      <th>TOV</th>
+      <th>PF</th>
+      <th>PTS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>2004</td>
+      <td>30</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>75</td>
+      <td>75</td>
+      <td>2573.0</td>
+      <td>430.0</td>
+      <td>857.0</td>
+      <td>...</td>
+      <td>0.887</td>
+      <td>57.0</td>
+      <td>192.0</td>
+      <td>249.0</td>
+      <td>861.0</td>
+      <td>74.0</td>
+      <td>6.0</td>
+      <td>245.0</td>
+      <td>136.0</td>
+      <td>1165.0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2005</td>
+      <td>31</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>79</td>
+      <td>79</td>
+      <td>2796.0</td>
+      <td>541.0</td>
+      <td>1056.0</td>
+      <td>...</td>
+      <td>0.921</td>
+      <td>47.0</td>
+      <td>286.0</td>
+      <td>333.0</td>
+      <td>826.0</td>
+      <td>61.0</td>
+      <td>12.0</td>
+      <td>276.0</td>
+      <td>120.0</td>
+      <td>1489.0</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2006</td>
+      <td>32</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>76</td>
+      <td>76</td>
+      <td>2682.0</td>
+      <td>517.0</td>
+      <td>971.0</td>
+      <td>...</td>
+      <td>0.899</td>
+      <td>30.0</td>
+      <td>239.0</td>
+      <td>269.0</td>
+      <td>884.0</td>
+      <td>57.0</td>
+      <td>6.0</td>
+      <td>287.0</td>
+      <td>117.0</td>
+      <td>1412.0</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2007</td>
+      <td>33</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>81</td>
+      <td>81</td>
+      <td>2780.0</td>
+      <td>485.0</td>
+      <td>962.0</td>
+      <td>...</td>
+      <td>0.906</td>
+      <td>28.0</td>
+      <td>254.0</td>
+      <td>282.0</td>
+      <td>898.0</td>
+      <td>53.0</td>
+      <td>5.0</td>
+      <td>295.0</td>
+      <td>113.0</td>
+      <td>1371.0</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2008</td>
+      <td>34</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>74</td>
+      <td>74</td>
+      <td>2484.0</td>
+      <td>428.0</td>
+      <td>851.0</td>
+      <td>...</td>
+      <td>0.933</td>
+      <td>19.0</td>
+      <td>204.0</td>
+      <td>223.0</td>
+      <td>717.0</td>
+      <td>55.0</td>
+      <td>10.0</td>
+      <td>248.0</td>
+      <td>108.0</td>
+      <td>1160.0</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2009</td>
+      <td>35</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>81</td>
+      <td>81</td>
+      <td>2660.0</td>
+      <td>499.0</td>
+      <td>985.0</td>
+      <td>...</td>
+      <td>0.938</td>
+      <td>34.0</td>
+      <td>234.0</td>
+      <td>268.0</td>
+      <td>892.0</td>
+      <td>42.0</td>
+      <td>12.0</td>
+      <td>295.0</td>
+      <td>108.0</td>
+      <td>1333.0</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>2010</td>
+      <td>36</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>75</td>
+      <td>75</td>
+      <td>2497.0</td>
+      <td>399.0</td>
+      <td>811.0</td>
+      <td>...</td>
+      <td>0.912</td>
+      <td>40.0</td>
+      <td>220.0</td>
+      <td>260.0</td>
+      <td>855.0</td>
+      <td>48.0</td>
+      <td>4.0</td>
+      <td>265.0</td>
+      <td>87.0</td>
+      <td>1106.0</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2011</td>
+      <td>37</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>62</td>
+      <td>62</td>
+      <td>1961.0</td>
+      <td>295.0</td>
+      <td>555.0</td>
+      <td>...</td>
+      <td>0.894</td>
+      <td>26.0</td>
+      <td>160.0</td>
+      <td>186.0</td>
+      <td>664.0</td>
+      <td>38.0</td>
+      <td>8.0</td>
+      <td>229.0</td>
+      <td>53.0</td>
+      <td>772.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>8 rows × 30 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">per_100</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Nash/Table4.csv&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Unnamed: 29&#39;</span><span class="p">])</span>
+<span class="n">per_100</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">per_100</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">per_100</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]]</span>
+<span class="n">per_100</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_100</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">per_100</span><span class="p">[</span><span class="s1">&#39;G&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_100</span><span class="p">[</span><span class="s1">&#39;G&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">per_100</span><span class="p">[</span><span class="s1">&#39;GS&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_100</span><span class="p">[</span><span class="s1">&#39;GS&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">per_100</span> <span class="o">=</span> <span class="n">per_100</span><span class="p">[</span><span class="n">per_100</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">2004</span><span class="p">]</span>
+<span class="n">per_100</span> <span class="o">=</span> <span class="n">per_100</span><span class="p">[</span><span class="n">per_100</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">2011</span><span class="p">]</span>
+<span class="n">per_100</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">per_100</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Unnamed: 0&#39;</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">per_100</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[38]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Season</th>
+      <th>Age</th>
+      <th>Tm</th>
+      <th>Lg</th>
+      <th>Pos</th>
+      <th>G</th>
+      <th>GS</th>
+      <th>MP</th>
+      <th>FG</th>
+      <th>FGA</th>
+      <th>...</th>
+      <th>DRB</th>
+      <th>TRB</th>
+      <th>AST</th>
+      <th>STL</th>
+      <th>BLK</th>
+      <th>TOV</th>
+      <th>PF</th>
+      <th>PTS</th>
+      <th>ORtg</th>
+      <th>DRtg</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>2004</td>
+      <td>30</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>75</td>
+      <td>75</td>
+      <td>2573.0</td>
+      <td>8.4</td>
+      <td>16.7</td>
+      <td>...</td>
+      <td>3.7</td>
+      <td>4.8</td>
+      <td>16.7</td>
+      <td>1.4</td>
+      <td>0.1</td>
+      <td>4.8</td>
+      <td>2.6</td>
+      <td>22.7</td>
+      <td>123.0</td>
+      <td>111.0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2005</td>
+      <td>31</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>79</td>
+      <td>79</td>
+      <td>2796.0</td>
+      <td>9.7</td>
+      <td>18.9</td>
+      <td>...</td>
+      <td>5.1</td>
+      <td>6.0</td>
+      <td>14.8</td>
+      <td>1.1</td>
+      <td>0.2</td>
+      <td>4.9</td>
+      <td>2.1</td>
+      <td>26.7</td>
+      <td>121.0</td>
+      <td>109.0</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2006</td>
+      <td>32</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>76</td>
+      <td>76</td>
+      <td>2682.0</td>
+      <td>9.7</td>
+      <td>18.2</td>
+      <td>...</td>
+      <td>4.5</td>
+      <td>5.0</td>
+      <td>16.5</td>
+      <td>1.1</td>
+      <td>0.1</td>
+      <td>5.4</td>
+      <td>2.2</td>
+      <td>26.4</td>
+      <td>124.0</td>
+      <td>110.0</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2007</td>
+      <td>33</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>81</td>
+      <td>81</td>
+      <td>2780.0</td>
+      <td>8.7</td>
+      <td>17.2</td>
+      <td>...</td>
+      <td>4.5</td>
+      <td>5.0</td>
+      <td>16.0</td>
+      <td>0.9</td>
+      <td>0.1</td>
+      <td>5.3</td>
+      <td>2.0</td>
+      <td>24.5</td>
+      <td>121.0</td>
+      <td>112.0</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2008</td>
+      <td>34</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>74</td>
+      <td>74</td>
+      <td>2484.0</td>
+      <td>8.6</td>
+      <td>17.1</td>
+      <td>...</td>
+      <td>4.1</td>
+      <td>4.5</td>
+      <td>14.4</td>
+      <td>1.1</td>
+      <td>0.2</td>
+      <td>5.0</td>
+      <td>2.2</td>
+      <td>23.4</td>
+      <td>119.0</td>
+      <td>115.0</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2009</td>
+      <td>35</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>81</td>
+      <td>81</td>
+      <td>2660.0</td>
+      <td>9.4</td>
+      <td>18.6</td>
+      <td>...</td>
+      <td>4.4</td>
+      <td>5.1</td>
+      <td>16.9</td>
+      <td>0.8</td>
+      <td>0.2</td>
+      <td>5.6</td>
+      <td>2.0</td>
+      <td>25.2</td>
+      <td>121.0</td>
+      <td>114.0</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>2010</td>
+      <td>36</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>75</td>
+      <td>75</td>
+      <td>2497.0</td>
+      <td>8.1</td>
+      <td>16.5</td>
+      <td>...</td>
+      <td>4.5</td>
+      <td>5.3</td>
+      <td>17.4</td>
+      <td>1.0</td>
+      <td>0.1</td>
+      <td>5.4</td>
+      <td>1.8</td>
+      <td>22.5</td>
+      <td>118.0</td>
+      <td>114.0</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2011</td>
+      <td>37</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>62</td>
+      <td>62</td>
+      <td>1961.0</td>
+      <td>7.8</td>
+      <td>14.7</td>
+      <td>...</td>
+      <td>4.2</td>
+      <td>4.9</td>
+      <td>17.5</td>
+      <td>1.0</td>
+      <td>0.2</td>
+      <td>6.1</td>
+      <td>1.4</td>
+      <td>20.4</td>
+      <td>115.0</td>
+      <td>110.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>8 rows × 31 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">advanced</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Nash/Table5.csv&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Unnamed: 19&#39;</span><span class="p">,</span> <span class="s1">&#39;Unnamed: 24&#39;</span><span class="p">])</span>
+<span class="n">advanced</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">advanced</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">advanced</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]]</span>
+<span class="n">advanced</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">advanced</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">advanced</span><span class="p">[</span><span class="s1">&#39;G&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">advanced</span><span class="p">[</span><span class="s1">&#39;G&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">advanced</span><span class="p">[</span><span class="s1">&#39;MP&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">advanced</span><span class="p">[</span><span class="s1">&#39;MP&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">advanced</span> <span class="o">=</span> <span class="n">advanced</span><span class="p">[</span><span class="n">advanced</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">2004</span><span class="p">]</span>
+<span class="n">advanced</span> <span class="o">=</span> <span class="n">advanced</span><span class="p">[</span><span class="n">advanced</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">2011</span><span class="p">]</span>
+<span class="n">advanced</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">advanced</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Unnamed: 0&#39;</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">advanced</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[44]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Season</th>
+      <th>Age</th>
+      <th>Tm</th>
+      <th>Lg</th>
+      <th>Pos</th>
+      <th>G</th>
+      <th>MP</th>
+      <th>PER</th>
+      <th>TS%</th>
+      <th>3PAr</th>
+      <th>...</th>
+      <th>TOV%</th>
+      <th>USG%</th>
+      <th>OWS</th>
+      <th>DWS</th>
+      <th>WS</th>
+      <th>WS/48</th>
+      <th>OBPM</th>
+      <th>DBPM</th>
+      <th>BPM</th>
+      <th>VORP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>2004</td>
+      <td>30</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>75</td>
+      <td>2573</td>
+      <td>22.0</td>
+      <td>0.606</td>
+      <td>0.254</td>
+      <td>...</td>
+      <td>20.3</td>
+      <td>20.5</td>
+      <td>9.7</td>
+      <td>1.2</td>
+      <td>10.9</td>
+      <td>0.203</td>
+      <td>4.5</td>
+      <td>-2.9</td>
+      <td>1.7</td>
+      <td>2.4</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2005</td>
+      <td>31</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>79</td>
+      <td>2796</td>
+      <td>23.3</td>
+      <td>0.632</td>
+      <td>0.324</td>
+      <td>...</td>
+      <td>19.0</td>
+      <td>23.3</td>
+      <td>10.3</td>
+      <td>2.1</td>
+      <td>12.4</td>
+      <td>0.212</td>
+      <td>5.4</td>
+      <td>-1.6</td>
+      <td>3.7</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2006</td>
+      <td>32</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>76</td>
+      <td>2682</td>
+      <td>23.8</td>
+      <td>0.654</td>
+      <td>0.353</td>
+      <td>...</td>
+      <td>21.0</td>
+      <td>22.9</td>
+      <td>10.8</td>
+      <td>1.7</td>
+      <td>12.6</td>
+      <td>0.225</td>
+      <td>6.1</td>
+      <td>-2.3</td>
+      <td>3.8</td>
+      <td>3.9</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2007</td>
+      <td>33</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>81</td>
+      <td>2780</td>
+      <td>21.1</td>
+      <td>0.641</td>
+      <td>0.396</td>
+      <td>...</td>
+      <td>21.6</td>
+      <td>22.0</td>
+      <td>9.0</td>
+      <td>1.4</td>
+      <td>10.5</td>
+      <td>0.181</td>
+      <td>4.8</td>
+      <td>-3.2</td>
+      <td>1.6</td>
+      <td>2.6</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2008</td>
+      <td>34</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>74</td>
+      <td>2484</td>
+      <td>19.5</td>
+      <td>0.615</td>
+      <td>0.289</td>
+      <td>...</td>
+      <td>20.8</td>
+      <td>21.1</td>
+      <td>6.7</td>
+      <td>0.5</td>
+      <td>7.3</td>
+      <td>0.140</td>
+      <td>3.5</td>
+      <td>-3.4</td>
+      <td>0.0</td>
+      <td>1.3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2009</td>
+      <td>35</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>81</td>
+      <td>2660</td>
+      <td>21.6</td>
+      <td>0.615</td>
+      <td>0.295</td>
+      <td>...</td>
+      <td>21.4</td>
+      <td>22.9</td>
+      <td>9.1</td>
+      <td>0.8</td>
+      <td>9.9</td>
+      <td>0.178</td>
+      <td>4.9</td>
+      <td>-3.1</td>
+      <td>1.8</td>
+      <td>2.6</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>2010</td>
+      <td>36</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>75</td>
+      <td>2497</td>
+      <td>20.8</td>
+      <td>0.601</td>
+      <td>0.253</td>
+      <td>...</td>
+      <td>22.4</td>
+      <td>21.4</td>
+      <td>7.3</td>
+      <td>0.7</td>
+      <td>7.9</td>
+      <td>0.153</td>
+      <td>3.6</td>
+      <td>-3.0</td>
+      <td>0.6</td>
+      <td>1.6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2011</td>
+      <td>37</td>
+      <td>PHO</td>
+      <td>NBA</td>
+      <td>PG</td>
+      <td>62</td>
+      <td>1961</td>
+      <td>20.3</td>
+      <td>0.625</td>
+      <td>0.254</td>
+      <td>...</td>
+      <td>27.1</td>
+      <td>19.6</td>
+      <td>5.2</td>
+      <td>0.6</td>
+      <td>5.9</td>
+      <td>0.144</td>
+      <td>2.9</td>
+      <td>-3.5</td>
+      <td>-0.5</td>
+      <td>0.7</td>
+    </tr>
+  </tbody>
+</table>
+<p>8 rows × 27 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[102]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">team</span> <span class="o">=</span> <span class="p">[</span><span class="kc">None</span><span class="p">]</span><span class="o">*</span><span class="mi">8</span>
+<span class="n">opp</span> <span class="o">=</span> <span class="p">[</span><span class="kc">None</span><span class="p">]</span><span class="o">*</span><span class="mi">8</span>
+<span class="n">diff</span> <span class="o">=</span> <span class="p">[</span><span class="kc">None</span><span class="p">]</span><span class="o">*</span><span class="mi">8</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">8</span><span class="p">):</span>
+    <span class="n">onoff</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="s1">&#39;https://www.basketball-reference.com/players/n/nashst01/on-off/&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="mi">2005</span><span class="o">+</span><span class="n">i</span><span class="p">))[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">team</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">onoff</span><span class="p">[</span><span class="s1">&#39;Team&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">team</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">&#39;Split&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;On Court&#39;</span><span class="p">,</span> <span class="s1">&#39;Off Court&#39;</span><span class="p">,</span> <span class="s1">&#39;On-Off&#39;</span><span class="p">}</span>
+    <span class="n">team</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;Split&#39;</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">opp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">onoff</span><span class="p">[</span><span class="s1">&#39;Opponent&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">opp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">&#39;Split&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;On Court&#39;</span><span class="p">,</span> <span class="s1">&#39;Off Court&#39;</span><span class="p">,</span> <span class="s1">&#39;On-Off&#39;</span><span class="p">}</span>
+    <span class="n">opp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;Split&#39;</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">diff</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">onoff</span><span class="p">[</span><span class="s1">&#39;Opponent&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">diff</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">&#39;Split&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;On Court&#39;</span><span class="p">,</span> <span class="s1">&#39;Off Court&#39;</span><span class="p">,</span> <span class="s1">&#39;On-Off&#39;</span><span class="p">}</span>
+    <span class="n">diff</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;Split&#39;</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[103]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">8</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="mi">2004</span><span class="o">+</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;-&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="mi">2005</span><span class="o">+</span><span class="n">i</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">team</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
 </pre></div>
 
     </div>
@@ -14121,8 +15581,214 @@ for t in defunct:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[NbConvertApp] Converting notebook Schedule Builder.ipynb to html
-[NbConvertApp] Writing 502904 bytes to Schedule Builder.html
+<pre>2004-2005
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.555  27.9  67.6  48.7  60.8   7.7   7.1  12.6  120.3
+On Court   0.494  26.7  69.4  49.3  50.3   6.2   8.4  17.1  102.9
+Off Court  0.061   1.2  -1.8  -0.6  10.5   1.5  -1.3  -4.5   17.4
+2005-2006
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.545  22.1  72.4  48.0  64.6   7.1   7.0  13.3  114.2
+On Court   0.518  22.2  71.2  47.0  61.0   6.4   7.6  14.6  106.2
+Off Court  0.027  -0.1   1.2   1.0   3.6   0.7  -0.6  -1.3    8.0
+2006-2007
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.576  23.0  71.3  49.2  64.5   7.0   7.2  15.0  118.6
+On Court   0.500  22.3  73.4  47.4  58.1   7.0   6.3  15.2  105.6
+Off Court  0.076   0.7  -2.1   1.8   6.4   0.0   0.9  -0.2   13.0
+2007-2008
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.575  23.1  71.7  49.7  65.8   7.1   8.1  14.9  118.2
+On Court   0.494  20.8  69.1  46.1  61.0   5.6   9.7  14.9  102.8
+Off Court  0.081   2.3   2.6   3.6   4.8   1.5  -1.6   0.0   15.4
+2008-2009
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.568  25.4  71.9  50.4  58.7   6.5   7.5  15.6  116.7
+On Court   0.507  31.2  71.5  50.8  52.2   9.1   8.3  17.6  108.6
+Off Court  0.061  -5.8   0.4  -0.4   6.5  -2.6  -0.8  -2.0    8.1
+2009-2010
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.559  26.0  70.9  50.2  57.8   5.4   6.6  14.7  117.7
+On Court   0.517  30.6  70.5  50.8  55.9   7.7   9.5  17.2  111.3
+Off Court  0.042  -4.6   0.4  -0.6   1.9  -2.3  -2.9  -2.5    6.4
+2010-2011
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.541  23.4  71.5  47.9  63.5   6.4   6.3  14.2  114.3
+On Court   0.488  24.1  71.7  47.1  54.5   7.9   7.1  16.2  102.3
+Off Court  0.053  -0.7  -0.2   0.8   9.0  -1.5  -0.8  -2.0   12.0
+2011-2012
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.524  24.7  72.5  49.6  64.0   6.7   7.8  15.2  109.3
+On Court   0.456  27.4  70.3  48.0  51.0   7.7   9.4  15.2  101.6
+Off Court  0.068  -2.7   2.2   1.6  13.0  -1.0  -1.6   0.0    7.7
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[104]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">8</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="mi">2004</span><span class="o">+</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;-&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="mi">2005</span><span class="o">+</span><span class="n">i</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">opp</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>2004-2005
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.487  32.4  72.1  51.3  52.9   7.2   6.6  14.9  107.6
+On Court   0.460  30.6  73.3  50.7  51.2   9.3   7.3  13.0  105.1
+Off Court  0.027   1.8  -1.2   0.6   1.7  -2.1  -0.7   1.9    2.5
+2005-2006
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.496  27.6  77.9  52.0  49.1   7.5   5.1  15.9  105.5
+On Court   0.476  28.8  77.8  53.0  44.4   7.3   6.5  13.9  106.6
+Off Court  0.020  -1.2   0.1  -1.0   4.7   0.2  -1.4   2.0   -1.1
+2006-2007
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.494  28.7  77.0  50.8  48.0   7.3   6.1  15.7  107.1
+On Court   0.488  26.6  77.7  52.6  47.4   7.0   6.5  15.7  105.8
+Off Court  0.006   2.1  -0.7  -1.8   0.6   0.3  -0.4   0.0    1.3
+2007-2008
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.493  28.3  76.9  50.3  49.2   7.8   5.7  13.9  108.3
+On Court   0.477  30.9  79.2  53.9  44.2   7.1   7.4  13.5  107.3
+Off Court  0.016  -2.6  -2.3  -3.6   5.0   0.7  -1.7   0.4    1.0
+2008-2009
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.509  28.1  74.6  49.6  53.5   8.9   6.4  13.8  112.1
+On Court   0.515  28.5  68.8  49.2  52.4   9.1   8.1  16.4  111.0
+Off Court -0.006  -0.4   5.8   0.4   1.1  -0.2  -1.7  -2.6    1.1
+2009-2010
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.492  29.1  74.0  49.8  51.7   8.5   6.3  12.6  111.0
+On Court   0.488  29.5  69.4  49.2  54.8   7.8   9.5  15.7  108.6
+Off Court  0.004  -0.4   4.6   0.6  -3.1   0.7  -3.2  -3.1    2.4
+2010-2011
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.505  28.5  76.6  52.1  57.0   8.1   6.9  15.0  109.7
+On Court   0.527  28.3  75.9  52.9  57.3   8.5   7.5  15.5  112.5
+Off Court -0.022   0.2   0.7  -0.8  -0.3  -0.4  -0.6  -0.5   -2.8
+2011-2012
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.484  27.5  75.3  50.4  57.3   9.1   6.3  14.3  105.8
+On Court   0.503  29.7  72.6  52.0  55.2   7.8   8.1  16.8  108.6
+Off Court -0.019  -2.2   2.7  -1.6   2.1   1.3  -1.8  -2.5   -2.8
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[105]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">8</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="mi">2004</span><span class="o">+</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;-&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="mi">2005</span><span class="o">+</span><span class="n">i</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">diff</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>2004-2005
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.487  32.4  72.1  51.3  52.9   7.2   6.6  14.9  107.6
+On Court   0.460  30.6  73.3  50.7  51.2   9.3   7.3  13.0  105.1
+Off Court  0.027   1.8  -1.2   0.6   1.7  -2.1  -0.7   1.9    2.5
+2005-2006
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.496  27.6  77.9  52.0  49.1   7.5   5.1  15.9  105.5
+On Court   0.476  28.8  77.8  53.0  44.4   7.3   6.5  13.9  106.6
+Off Court  0.020  -1.2   0.1  -1.0   4.7   0.2  -1.4   2.0   -1.1
+2006-2007
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.494  28.7  77.0  50.8  48.0   7.3   6.1  15.7  107.1
+On Court   0.488  26.6  77.7  52.6  47.4   7.0   6.5  15.7  105.8
+Off Court  0.006   2.1  -0.7  -1.8   0.6   0.3  -0.4   0.0    1.3
+2007-2008
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.493  28.3  76.9  50.3  49.2   7.8   5.7  13.9  108.3
+On Court   0.477  30.9  79.2  53.9  44.2   7.1   7.4  13.5  107.3
+Off Court  0.016  -2.6  -2.3  -3.6   5.0   0.7  -1.7   0.4    1.0
+2008-2009
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.509  28.1  74.6  49.6  53.5   8.9   6.4  13.8  112.1
+On Court   0.515  28.5  68.8  49.2  52.4   9.1   8.1  16.4  111.0
+Off Court -0.006  -0.4   5.8   0.4   1.1  -0.2  -1.7  -2.6    1.1
+2009-2010
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.492  29.1  74.0  49.8  51.7   8.5   6.3  12.6  111.0
+On Court   0.488  29.5  69.4  49.2  54.8   7.8   9.5  15.7  108.6
+Off Court  0.004  -0.4   4.6   0.6  -3.1   0.7  -3.2  -3.1    2.4
+2010-2011
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.505  28.5  76.6  52.1  57.0   8.1   6.9  15.0  109.7
+On Court   0.527  28.3  75.9  52.9  57.3   8.5   7.5  15.5  112.5
+Off Court -0.022   0.2   0.7  -0.8  -0.3  -0.4  -0.6  -0.5   -2.8
+2011-2012
+            eFG%  ORB%  DRB%  TRB%  AST%  STL%  BLK%  TOV%   ORtg
+Split                                                            
+On-Off     0.484  27.5  75.3  50.4  57.3   9.1   6.3  14.3  105.8
+On Court   0.503  29.7  72.6  52.0  55.2   7.8   8.1  16.8  108.6
+Off Court -0.019  -2.2   2.7  -1.6   2.1   1.3  -1.8  -2.5   -2.8
 </pre>
 </div>
 </div>
