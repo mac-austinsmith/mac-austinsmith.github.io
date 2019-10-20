@@ -13084,10 +13084,11 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Enter into terminal to update website: jupyter nbconvert --to html index.ipynb</span>
+<span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -13103,6 +13104,14 @@ div#notebook {
            <span class="s1">&#39;BAL&#39;</span><span class="p">]</span>
 <span class="n">associated</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;BRK&#39;</span><span class="p">:[</span><span class="s1">&#39;NJN&#39;</span><span class="p">],</span><span class="s1">&#39;CHO&#39;</span><span class="p">:[</span><span class="s1">&#39;CHA&#39;</span><span class="p">,</span><span class="s1">&#39;CHH&#39;</span><span class="p">],</span><span class="s1">&#39;GSW&#39;</span><span class="p">:[</span><span class="s1">&#39;SFW&#39;</span><span class="p">],</span><span class="s1">&#39;HOU&#39;</span><span class="p">:[</span><span class="s1">&#39;SDR&#39;</span><span class="p">],</span><span class="s1">&#39;LAC&#39;</span><span class="p">:[</span><span class="s1">&#39;SDC&#39;</span><span class="p">,</span><span class="s1">&#39;BUF&#39;</span><span class="p">],</span><span class="s1">&#39;MEM&#39;</span><span class="p">:[</span><span class="s1">&#39;VAN&#39;</span><span class="p">],</span>
              <span class="s1">&#39;NOP&#39;</span><span class="p">:[</span><span class="s1">&#39;NOK&#39;</span><span class="p">,</span><span class="s1">&#39;NOH&#39;</span><span class="p">],</span><span class="s1">&#39;OKC&#39;</span><span class="p">:[</span><span class="s1">&#39;SEA&#39;</span><span class="p">],</span><span class="s1">&#39;SAC&#39;</span><span class="p">:[</span><span class="s1">&#39;KCK&#39;</span><span class="p">,</span><span class="s1">&#39;KCO&#39;</span><span class="p">,</span><span class="s1">&#39;CIN&#39;</span><span class="p">],</span><span class="s1">&#39;UTA&#39;</span><span class="p">:[</span><span class="s1">&#39;NOJ&#39;</span><span class="p">],</span><span class="s1">&#39;WAS&#39;</span><span class="p">:[</span><span class="s1">&#39;WSB&#39;</span><span class="p">,</span><span class="s1">&#39;CAP&#39;</span><span class="p">,</span><span class="s1">&#39;BAL&#39;</span><span class="p">]}</span>
+<span class="n">mvp</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;i/iversal01&#39;</span><span class="p">,</span> <span class="s1">&#39;d/duncati01&#39;</span><span class="p">,</span> <span class="s1">&#39;d/duncati01&#39;</span><span class="p">,</span> <span class="s1">&#39;g/garneke01&#39;</span><span class="p">,</span> <span class="s1">&#39;n/nashst01&#39;</span><span class="p">,</span> <span class="s1">&#39;n/nashst01&#39;</span><span class="p">,</span> <span class="s1">&#39;n/nowitdi01&#39;</span><span class="p">,</span> 
+       <span class="s1">&#39;b/bryanko01&#39;</span><span class="p">,</span> <span class="s1">&#39;j/jamesle01&#39;</span><span class="p">,</span> <span class="s1">&#39;j/jamesle01&#39;</span><span class="p">,</span> <span class="s1">&#39;r/rosede01&#39;</span><span class="p">,</span> <span class="s1">&#39;j/jamesle01&#39;</span><span class="p">,</span> <span class="s1">&#39;j/jamesle01&#39;</span><span class="p">,</span> <span class="s1">&#39;d/duranke01&#39;</span><span class="p">,</span> 
+       <span class="s1">&#39;c/curryst01&#39;</span><span class="p">,</span> <span class="s1">&#39;c/curryst01&#39;</span><span class="p">,</span> <span class="s1">&#39;w/westbru01&#39;</span><span class="p">,</span> <span class="s1">&#39;h/hardeja01&#39;</span><span class="p">,</span> <span class="s1">&#39;a/antetgi01&#39;</span><span class="p">]</span>
+<span class="n">mvp_names</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;i/iversal01&#39;</span><span class="p">:</span> <span class="s1">&#39;Allen Iverson&#39;</span><span class="p">,</span> <span class="s1">&#39;d/duncati01&#39;</span><span class="p">:</span> <span class="s1">&#39;Tim Duncan&#39;</span><span class="p">,</span> <span class="s1">&#39;g/garneke01&#39;</span><span class="p">:</span> <span class="s1">&#39;Kevin Garnett&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;n/nashst01&#39;</span><span class="p">:</span> <span class="s1">&#39;Steve Nash&#39;</span><span class="p">,</span> <span class="s1">&#39;n/nowitdi01&#39;</span><span class="p">:</span> <span class="s1">&#39;Dirk Nowitzki&#39;</span><span class="p">,</span> <span class="s1">&#39;b/bryanko01&#39;</span><span class="p">:</span> <span class="s1">&#39;Kobe Bryant&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;j/jamesle01&#39;</span><span class="p">:</span> <span class="s1">&#39;LeBron James&#39;</span><span class="p">,</span> <span class="s1">&#39;r/rosede01&#39;</span><span class="p">:</span> <span class="s1">&#39;Derrick Rose&#39;</span><span class="p">,</span> <span class="s1">&#39;d/duranke01&#39;</span><span class="p">:</span> <span class="s1">&#39;Kevin Durant&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;c/curryst01&#39;</span><span class="p">:</span> <span class="s1">&#39;Stephen Curry&#39;</span><span class="p">,</span> <span class="s1">&#39;w/westbru01&#39;</span><span class="p">:</span> <span class="s1">&#39;Russell Westbrook&#39;</span><span class="p">,</span> <span class="s1">&#39;h/hardeja01&#39;</span><span class="p">:</span> <span class="s1">&#39;James Harden&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;a/antetgi01&#39;</span><span class="p">:</span> <span class="s1">&#39;Giannis Antetokounmpo&#39;</span><span class="p">}</span>
 </pre></div>
 
     </div>
@@ -14137,7 +14146,7 @@ for d in data[8:13]:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[106]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">per_game</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Nash/Table1.csv&#39;</span><span class="p">)</span>
@@ -14149,7 +14158,7 @@ for d in data[8:13]:
 <span class="n">per_game</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">2004</span><span class="p">]</span>
 <span class="n">per_game</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">2011</span><span class="p">]</span>
 <span class="n">per_game</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">per_game</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;index&#39;</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">per_game</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Unnamed: 0&#39;</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">per_game</span>
 </pre></div>
 
@@ -14163,7 +14172,7 @@ for d in data[8:13]:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[31]:</div>
+    <div class="prompt output_prompt">Out[106]:</div>
 
 
 
@@ -14186,7 +14195,6 @@ for d in data[8:13]:
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Unnamed: 0</th>
       <th>Season</th>
       <th>Age</th>
       <th>Tm</th>
@@ -14196,6 +14204,7 @@ for d in data[8:13]:
       <th>GS</th>
       <th>MP</th>
       <th>FG</th>
+      <th>FGA</th>
       <th>...</th>
       <th>FT%</th>
       <th>ORB</th>
@@ -14212,7 +14221,6 @@ for d in data[8:13]:
   <tbody>
     <tr>
       <td>0</td>
-      <td>8</td>
       <td>2004</td>
       <td>30</td>
       <td>PHO</td>
@@ -14222,6 +14230,7 @@ for d in data[8:13]:
       <td>75</td>
       <td>34.3</td>
       <td>5.7</td>
+      <td>11.4</td>
       <td>...</td>
       <td>0.887</td>
       <td>0.8</td>
@@ -14236,7 +14245,6 @@ for d in data[8:13]:
     </tr>
     <tr>
       <td>1</td>
-      <td>9</td>
       <td>2005</td>
       <td>31</td>
       <td>PHO</td>
@@ -14246,6 +14254,7 @@ for d in data[8:13]:
       <td>79</td>
       <td>35.4</td>
       <td>6.8</td>
+      <td>13.4</td>
       <td>...</td>
       <td>0.921</td>
       <td>0.6</td>
@@ -14260,7 +14269,6 @@ for d in data[8:13]:
     </tr>
     <tr>
       <td>2</td>
-      <td>10</td>
       <td>2006</td>
       <td>32</td>
       <td>PHO</td>
@@ -14270,6 +14278,7 @@ for d in data[8:13]:
       <td>76</td>
       <td>35.3</td>
       <td>6.8</td>
+      <td>12.8</td>
       <td>...</td>
       <td>0.899</td>
       <td>0.4</td>
@@ -14284,7 +14293,6 @@ for d in data[8:13]:
     </tr>
     <tr>
       <td>3</td>
-      <td>11</td>
       <td>2007</td>
       <td>33</td>
       <td>PHO</td>
@@ -14294,6 +14302,7 @@ for d in data[8:13]:
       <td>81</td>
       <td>34.3</td>
       <td>6.0</td>
+      <td>11.9</td>
       <td>...</td>
       <td>0.906</td>
       <td>0.3</td>
@@ -14308,7 +14317,6 @@ for d in data[8:13]:
     </tr>
     <tr>
       <td>4</td>
-      <td>12</td>
       <td>2008</td>
       <td>34</td>
       <td>PHO</td>
@@ -14318,6 +14326,7 @@ for d in data[8:13]:
       <td>74</td>
       <td>33.6</td>
       <td>5.8</td>
+      <td>11.5</td>
       <td>...</td>
       <td>0.933</td>
       <td>0.3</td>
@@ -14332,7 +14341,6 @@ for d in data[8:13]:
     </tr>
     <tr>
       <td>5</td>
-      <td>13</td>
       <td>2009</td>
       <td>35</td>
       <td>PHO</td>
@@ -14342,6 +14350,7 @@ for d in data[8:13]:
       <td>81</td>
       <td>32.8</td>
       <td>6.2</td>
+      <td>12.2</td>
       <td>...</td>
       <td>0.938</td>
       <td>0.4</td>
@@ -14356,7 +14365,6 @@ for d in data[8:13]:
     </tr>
     <tr>
       <td>6</td>
-      <td>14</td>
       <td>2010</td>
       <td>36</td>
       <td>PHO</td>
@@ -14366,6 +14374,7 @@ for d in data[8:13]:
       <td>75</td>
       <td>33.3</td>
       <td>5.3</td>
+      <td>10.8</td>
       <td>...</td>
       <td>0.912</td>
       <td>0.5</td>
@@ -14380,7 +14389,6 @@ for d in data[8:13]:
     </tr>
     <tr>
       <td>7</td>
-      <td>15</td>
       <td>2011</td>
       <td>37</td>
       <td>PHO</td>
@@ -14390,6 +14398,7 @@ for d in data[8:13]:
       <td>62</td>
       <td>31.6</td>
       <td>4.8</td>
+      <td>9.0</td>
       <td>...</td>
       <td>0.894</td>
       <td>0.4</td>
@@ -14404,7 +14413,7 @@ for d in data[8:13]:
     </tr>
   </tbody>
 </table>
-<p>8 rows × 31 columns</p>
+<p>8 rows × 30 columns</p>
 </div>
 </div>
 
@@ -15790,6 +15799,164 @@ On-Off     0.484  27.5  75.3  50.4  57.3   9.1   6.3  14.3  105.8
 On Court   0.503  29.7  72.6  52.0  55.2   7.8   8.1  16.8  108.6
 Off Court -0.019  -2.2   2.7  -1.6   2.1   1.3  -1.8  -2.5   -2.8
 </pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="MVP-Stats">MVP Stats<a class="anchor-link" href="#MVP-Stats">&#182;</a></h2><hr>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">mvp</span><span class="p">:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="s1">&#39;MVP/&#39;</span> <span class="o">+</span> <span class="n">m</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="s1">&#39;Table&#39;</span> <span class="o">+</span> <span class="s1">&#39;_1.csv&#39;</span><span class="p">)):</span>
+        <span class="nd">@contextlib2</span><span class="o">.</span><span class="n">contextmanager</span>
+        <span class="k">def</span> <span class="nf">quitting</span><span class="p">(</span><span class="n">thing</span><span class="p">):</span>
+            <span class="k">yield</span> <span class="n">thing</span>
+            <span class="n">thing</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+
+        <span class="k">with</span> <span class="n">quitting</span><span class="p">(</span><span class="n">webdriver</span><span class="o">.</span><span class="n">Firefox</span><span class="p">())</span> <span class="k">as</span> <span class="n">driver</span><span class="p">:</span>
+            <span class="n">link</span> <span class="o">=</span> <span class="s1">&#39;https://www.basketball-reference.com/players/&#39;</span> <span class="o">+</span> <span class="n">m</span> <span class="o">+</span> <span class="s1">&#39;.html&#39;</span> 
+            <span class="n">driver</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
+            <span class="n">content</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">page_source</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/tmp/out.html&#39;</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+                <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">content</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">))</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="n">m</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;i/iversal01&#39;</span><span class="p">,</span> <span class="s1">&#39;d/duncati01&#39;</span><span class="p">,</span> <span class="s1">&#39;g/garneke01&#39;</span><span class="p">,</span> <span class="s1">&#39;n/nashst01&#39;</span><span class="p">]):</span>
+            <span class="n">j</span> <span class="o">=</span> <span class="mi">1</span>
+            <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="mi">8</span><span class="p">:</span><span class="mi">13</span><span class="p">]:</span>
+                <span class="n">d</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;MVP/&#39;</span> <span class="o">+</span> <span class="n">m</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="s1">&#39;Table&#39;</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">j</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;.csv&#39;</span><span class="p">)</span>
+                <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">j</span> <span class="o">=</span> <span class="mi">1</span>
+            <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="mi">9</span><span class="p">:</span><span class="mi">14</span><span class="p">]:</span>
+                <span class="n">d</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;MVP/&#39;</span> <span class="o">+</span> <span class="n">m</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="s1">&#39;Table&#39;</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">j</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;.csv&#39;</span><span class="p">)</span>
+                <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+        
+    <span class="n">onoff</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="s1">&#39;https://www.basketball-reference.com/players/&#39;</span> <span class="o">+</span> <span class="n">m</span> <span class="o">+</span> <span class="s1">&#39;/on-off/&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">2001</span><span class="p">))[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">team</span> <span class="o">=</span> <span class="n">onoff</span><span class="p">[</span><span class="s1">&#39;Team&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">team</span><span class="p">[</span><span class="s1">&#39;Split&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;On Court&#39;</span><span class="p">,</span> <span class="s1">&#39;Off Court&#39;</span><span class="p">,</span> <span class="s1">&#39;On-Off&#39;</span><span class="p">}</span>
+    <span class="n">team</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;Split&#39;</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">team</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;MVP/&#39;</span> <span class="o">+</span> <span class="n">m</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">2000</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="s1">&#39;OnOff[Team]&#39;</span> <span class="o">+</span> <span class="s1">&#39;.csv&#39;</span><span class="p">)</span>
+    <span class="n">opp</span> <span class="o">=</span> <span class="n">onoff</span><span class="p">[</span><span class="s1">&#39;Opponent&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">opp</span><span class="p">[</span><span class="s1">&#39;Split&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;On Court&#39;</span><span class="p">,</span> <span class="s1">&#39;Off Court&#39;</span><span class="p">,</span> <span class="s1">&#39;On-Off&#39;</span><span class="p">}</span>
+    <span class="n">opp</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;Split&#39;</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">opp</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;MVP/&#39;</span> <span class="o">+</span> <span class="n">m</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">2000</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="s1">&#39;OnOff[Opp]&#39;</span> <span class="o">+</span> <span class="s1">&#39;.csv&#39;</span><span class="p">)</span>
+    <span class="n">diff</span> <span class="o">=</span> <span class="n">onoff</span><span class="p">[</span><span class="s1">&#39;Opponent&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">diff</span><span class="p">[</span><span class="s1">&#39;Split&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;On Court&#39;</span><span class="p">,</span> <span class="s1">&#39;Off Court&#39;</span><span class="p">,</span> <span class="s1">&#39;On-Off&#39;</span><span class="p">}</span>
+    <span class="n">diff</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;Split&#39;</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">diff</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;MVP/&#39;</span> <span class="o">+</span> <span class="n">m</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">2000</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="s1">&#39;OnOff[Diff]&#39;</span> <span class="o">+</span> <span class="s1">&#39;.csv&#39;</span><span class="p">)</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">per_game</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">mvp</span><span class="p">:</span>
+    <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;MVP/&#39;</span> <span class="o">+</span> <span class="n">m</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="s1">&#39;Table&#39;</span> <span class="o">+</span> <span class="s1">&#39;_1.csv&#39;</span><span class="p">)</span>
+    <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">]</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="s1">&#39;Season&#39;</span><span class="p">]]</span>
+    <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+    <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="s1">&#39;G&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="s1">&#39;G&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+    <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="s1">&#39;GS&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="s1">&#39;GS&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+    <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">2004</span><span class="p">]</span>
+    <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">]</span> <span class="o">=</span> <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="s1">&#39;Season&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">2011</span><span class="p">]</span>
+    <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">per_game</span><span class="p">[</span><span class="n">m</span><span class="p">]</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Unnamed: 0&#39;</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">per_game</span><span class="p">[</span><span class="s1">&#39;n/nashst01&#39;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">ValueError</span>                                Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-5-895f1b2a953b&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">      6</span>     per_game<span class="ansi-blue-fg">[</span>m<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;Season&#39;</span><span class="ansi-blue-fg">]</span> <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">[</span>int<span class="ansi-blue-fg">(</span>str<span class="ansi-blue-fg">(</span>x<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>split<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;-&#39;</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">[</span><span class="ansi-cyan-fg">0</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">)</span> <span class="ansi-green-fg">for</span> x <span class="ansi-green-fg">in</span> per_game<span class="ansi-blue-fg">[</span>m<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;Season&#39;</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">]</span>
+<span class="ansi-green-intense-fg ansi-bold">      7</span>     per_game<span class="ansi-blue-fg">[</span>m<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;Age&#39;</span><span class="ansi-blue-fg">]</span> <span class="ansi-blue-fg">=</span> per_game<span class="ansi-blue-fg">[</span>m<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;Age&#39;</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">.</span>astype<span class="ansi-blue-fg">(</span>int<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">----&gt; 8</span><span class="ansi-red-fg">     </span>per_game<span class="ansi-blue-fg">[</span>m<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;G&#39;</span><span class="ansi-blue-fg">]</span> <span class="ansi-blue-fg">=</span> per_game<span class="ansi-blue-fg">[</span>m<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;G&#39;</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">.</span>astype<span class="ansi-blue-fg">(</span>int<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">      9</span>     per_game<span class="ansi-blue-fg">[</span>m<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;GS&#39;</span><span class="ansi-blue-fg">]</span> <span class="ansi-blue-fg">=</span> per_game<span class="ansi-blue-fg">[</span>m<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;GS&#39;</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">.</span>astype<span class="ansi-blue-fg">(</span>int<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     10</span>     per_game<span class="ansi-blue-fg">[</span>m<span class="ansi-blue-fg">]</span> <span class="ansi-blue-fg">=</span> per_game<span class="ansi-blue-fg">[</span>m<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">[</span>per_game<span class="ansi-blue-fg">[</span>m<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;Season&#39;</span><span class="ansi-blue-fg">]</span> <span class="ansi-blue-fg">&gt;=</span> <span class="ansi-cyan-fg">2004</span><span class="ansi-blue-fg">]</span>
+
+<span class="ansi-green-fg">~/miniconda3/lib/python3.7/site-packages/pandas/core/generic.py</span> in <span class="ansi-cyan-fg">astype</span><span class="ansi-blue-fg">(self, dtype, copy, errors, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">   5880</span>             <span class="ansi-red-fg"># else, only a single dtype is given</span>
+<span class="ansi-green-intense-fg ansi-bold">   5881</span>             new_data = self._data.astype(
+<span class="ansi-green-fg">-&gt; 5882</span><span class="ansi-red-fg">                 </span>dtype<span class="ansi-blue-fg">=</span>dtype<span class="ansi-blue-fg">,</span> copy<span class="ansi-blue-fg">=</span>copy<span class="ansi-blue-fg">,</span> errors<span class="ansi-blue-fg">=</span>errors<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs
+<span class="ansi-green-intense-fg ansi-bold">   5883</span>             )
+<span class="ansi-green-intense-fg ansi-bold">   5884</span>             <span class="ansi-green-fg">return</span> self<span class="ansi-blue-fg">.</span>_constructor<span class="ansi-blue-fg">(</span>new_data<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>__finalize__<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">~/miniconda3/lib/python3.7/site-packages/pandas/core/internals/managers.py</span> in <span class="ansi-cyan-fg">astype</span><span class="ansi-blue-fg">(self, dtype, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">    579</span> 
+<span class="ansi-green-intense-fg ansi-bold">    580</span>     <span class="ansi-green-fg">def</span> astype<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">,</span> dtype<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">--&gt; 581</span><span class="ansi-red-fg">         </span><span class="ansi-green-fg">return</span> self<span class="ansi-blue-fg">.</span>apply<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;astype&#34;</span><span class="ansi-blue-fg">,</span> dtype<span class="ansi-blue-fg">=</span>dtype<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    582</span> 
+<span class="ansi-green-intense-fg ansi-bold">    583</span>     <span class="ansi-green-fg">def</span> convert<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">~/miniconda3/lib/python3.7/site-packages/pandas/core/internals/managers.py</span> in <span class="ansi-cyan-fg">apply</span><span class="ansi-blue-fg">(self, f, axes, filter, do_integrity_check, consolidate, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">    436</span>                     kwargs<span class="ansi-blue-fg">[</span>k<span class="ansi-blue-fg">]</span> <span class="ansi-blue-fg">=</span> obj<span class="ansi-blue-fg">.</span>reindex<span class="ansi-blue-fg">(</span>b_items<span class="ansi-blue-fg">,</span> axis<span class="ansi-blue-fg">=</span>axis<span class="ansi-blue-fg">,</span> copy<span class="ansi-blue-fg">=</span>align_copy<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    437</span> 
+<span class="ansi-green-fg">--&gt; 438</span><span class="ansi-red-fg">             </span>applied <span class="ansi-blue-fg">=</span> getattr<span class="ansi-blue-fg">(</span>b<span class="ansi-blue-fg">,</span> f<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    439</span>             result_blocks <span class="ansi-blue-fg">=</span> _extend_blocks<span class="ansi-blue-fg">(</span>applied<span class="ansi-blue-fg">,</span> result_blocks<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    440</span> 
+
+<span class="ansi-green-fg">~/miniconda3/lib/python3.7/site-packages/pandas/core/internals/blocks.py</span> in <span class="ansi-cyan-fg">astype</span><span class="ansi-blue-fg">(self, dtype, copy, errors, values, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">    557</span> 
+<span class="ansi-green-intense-fg ansi-bold">    558</span>     <span class="ansi-green-fg">def</span> astype<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">,</span> dtype<span class="ansi-blue-fg">,</span> copy<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">False</span><span class="ansi-blue-fg">,</span> errors<span class="ansi-blue-fg">=</span><span class="ansi-blue-fg">&#34;raise&#34;</span><span class="ansi-blue-fg">,</span> values<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">None</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">--&gt; 559</span><span class="ansi-red-fg">         </span><span class="ansi-green-fg">return</span> self<span class="ansi-blue-fg">.</span>_astype<span class="ansi-blue-fg">(</span>dtype<span class="ansi-blue-fg">,</span> copy<span class="ansi-blue-fg">=</span>copy<span class="ansi-blue-fg">,</span> errors<span class="ansi-blue-fg">=</span>errors<span class="ansi-blue-fg">,</span> values<span class="ansi-blue-fg">=</span>values<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    560</span> 
+<span class="ansi-green-intense-fg ansi-bold">    561</span>     <span class="ansi-green-fg">def</span> _astype<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">,</span> dtype<span class="ansi-blue-fg">,</span> copy<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">False</span><span class="ansi-blue-fg">,</span> errors<span class="ansi-blue-fg">=</span><span class="ansi-blue-fg">&#34;raise&#34;</span><span class="ansi-blue-fg">,</span> values<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">None</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">~/miniconda3/lib/python3.7/site-packages/pandas/core/internals/blocks.py</span> in <span class="ansi-cyan-fg">_astype</span><span class="ansi-blue-fg">(self, dtype, copy, errors, values, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">    641</span>                     <span class="ansi-red-fg"># _astype_nansafe works fine with 1-d only</span>
+<span class="ansi-green-intense-fg ansi-bold">    642</span>                     vals1d <span class="ansi-blue-fg">=</span> values<span class="ansi-blue-fg">.</span>ravel<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">--&gt; 643</span><span class="ansi-red-fg">                     </span>values <span class="ansi-blue-fg">=</span> astype_nansafe<span class="ansi-blue-fg">(</span>vals1d<span class="ansi-blue-fg">,</span> dtype<span class="ansi-blue-fg">,</span> copy<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">True</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    644</span> 
+<span class="ansi-green-intense-fg ansi-bold">    645</span>                 <span class="ansi-red-fg"># TODO(extension)</span>
+
+<span class="ansi-green-fg">~/miniconda3/lib/python3.7/site-packages/pandas/core/dtypes/cast.py</span> in <span class="ansi-cyan-fg">astype_nansafe</span><span class="ansi-blue-fg">(arr, dtype, copy, skipna)</span>
+<span class="ansi-green-intense-fg ansi-bold">    705</span>         <span class="ansi-red-fg"># work around NumPy brokenness, #1987</span>
+<span class="ansi-green-intense-fg ansi-bold">    706</span>         <span class="ansi-green-fg">if</span> np<span class="ansi-blue-fg">.</span>issubdtype<span class="ansi-blue-fg">(</span>dtype<span class="ansi-blue-fg">.</span>type<span class="ansi-blue-fg">,</span> np<span class="ansi-blue-fg">.</span>integer<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">--&gt; 707</span><span class="ansi-red-fg">             </span><span class="ansi-green-fg">return</span> lib<span class="ansi-blue-fg">.</span>astype_intsafe<span class="ansi-blue-fg">(</span>arr<span class="ansi-blue-fg">.</span>ravel<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">,</span> dtype<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>reshape<span class="ansi-blue-fg">(</span>arr<span class="ansi-blue-fg">.</span>shape<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    708</span> 
+<span class="ansi-green-intense-fg ansi-bold">    709</span>         <span class="ansi-red-fg"># if we have a datetime/timedelta array of objects</span>
+
+<span class="ansi-green-fg">pandas/_libs/lib.pyx</span> in <span class="ansi-cyan-fg">pandas._libs.lib.astype_intsafe</span><span class="ansi-blue-fg">()</span>
+
+<span class="ansi-red-fg">ValueError</span>: invalid literal for int() with base 10: &#39;Did Not Play\xa0(injury—ACL)&#39;</pre>
 </div>
 </div>
 
