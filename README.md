@@ -1,2 +1,2 @@
 # mac-austinsmith.github.io
-CMSC320 Final Project
+Hosts links to several different projects.
