@@ -1,10 +1,10 @@
 /*Your CSS Should go here*/
 body {
-    background-color: rgb(40, 29, 46);
+    /* background-color: rgb(40, 29, 46);
     background-image: url("img/phx.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: center top; */
     color: white;
     margin: 2em 6em;
     font-size: 1.5em;
@@ -13,7 +13,7 @@ body {
 }
 h1#title {
     display: block;
-    text-shadow: 2px 2px rgb(255, 115, 0);
+    /* text-shadow: 2px 2px rgb(255, 115, 0); */
     background-color: rgba(105, 67, 124, .85);
     width: 50%;
     margin: 1em auto;
@@ -114,6 +114,21 @@ div#books p > span#spaced {
     text-shadow: 2px 2px rgb(255, 115, 0);
     font-size: 2em;
 }
+div#projects {
+    width: 75%;
+    margin: 0 auto;
+}
+div#projects p > span#spaced {
+    /* letter-spacing: 0px;
+    animation-name: spacing;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out; */
+    font-weight: bold;
+    /* text-shadow: 2px 2px rgb(255, 115, 0); */
+    font-size: 2em;
+}
 div#gallery {
     border-top: 2px solid rgb(255, 115, 0);
     border-bottom: 2px solid rgb(255, 115, 0);
@@ -126,6 +141,13 @@ div#gallery > img.cover {
     height: 10em;
     border: 2px solid rgb(255, 115, 0);
     border-radius: 1em;
+    margin: 1em 0;
+}
+img.logo {
+    width: 7em;
+    height: 10em;
+    /* border: 2px solid rgb(255, 115, 0);
+    border-radius: 1em; */
     margin: 1em 0;
 }
 div.sr_share_wrap {
@@ -169,7 +191,7 @@ div.wrapper {
     border: 2px solid rgb(5, 5, 5);
     border-radius: 2em;
 }
-div#video {
+/* div#video {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
@@ -182,7 +204,7 @@ div#video > iframe[title="Bubble Book Highlights"] {
     height: 100%;
     border: 0;
     border-radius: 2em;
-}
+} */
 a:link {
     color: rgb(255, 115, 0);
 }
