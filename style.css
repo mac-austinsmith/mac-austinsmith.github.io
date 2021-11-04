@@ -1,9 +1,8 @@
 body {
     background-color: rgb(49, 49, 49);
-    /* font-size: 1.5em; */
     color: rgb(221, 221, 221);
     font-family: 'Exo', sans-serif;
-    /* text-align: center; */
+    overflow-x: hidden;
 }
 .card {
     background-color: rgb(49, 49, 49);
@@ -19,7 +18,7 @@ span#name {
 }
 div#projects {
     margin-top: 5em;
-    border: 0.5em solid rgb(221, 221, 221);
+    border-top: 0.5em solid rgb(221, 221, 221);
 }
 img#pic {
     width: 7em;
@@ -37,8 +36,6 @@ img#pic {
   } 
 img#logo {
     width: 5em;
-    /* border: .2em solid rgb(255, 115, 0); */
-    /* border-radius: 1em; */
 }
 .card > a {
     width: 15em;
