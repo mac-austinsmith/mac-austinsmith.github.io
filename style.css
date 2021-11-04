@@ -7,7 +7,7 @@ body {
 }
 .card {
     background-color: rgb(49, 49, 49);
-    border: none;
+    /* border: 0.2em solid rgb(221, 221, 221) */
 }
 @keyframes name {
     from {opacity: 0;}
@@ -19,6 +19,7 @@ span#name {
 }
 div#projects {
     margin-top: 5em;
+    border: 0.5em solid rgb(221, 221, 221);
 }
 img#pic {
     width: 7em;
@@ -39,7 +40,7 @@ img#logo {
     /* border: .2em solid rgb(255, 115, 0); */
     /* border-radius: 1em; */
 }
-.card > img {
+.card > a {
     width: 15em;
     margin: 0 auto;
 }
